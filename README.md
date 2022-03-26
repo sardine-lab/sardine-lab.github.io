@@ -1,2 +1,20 @@
-# SARDINE Lab
-This is the website of the SARDINE (Structure AwaRe moDelIng for Natural LanguagE) research group at [Instituto de Telecomunicações](https://it.pt) and [Instituto Superior Técnico](https://tecnico.ulisboa.pt).
+# Code for generating the DeepSPIN website.
+
+1. Install dependencies
+
+```
+pip install pelican markdown
+```
+
+2. To update and regenerate the website, update `content/pages` and run
+```
+>> pelican content
+>> cd output
+>> python -m pelican.server
+```
+You can preview the website in `http://localhost:8000`.
+
+3. To publish, run
+```
+>> make github
+```
