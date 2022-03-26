@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Andr\xe9 F. T. Martins'
-SITENAME = u'SARDINE: Structure AwaRe moDelIng for Natural LanguagE'
+SITENAME = u'SARDINE Lab'
 SITEURL = ''
 
 THEME = 'themes/sardine'
