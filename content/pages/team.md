@@ -7,10 +7,10 @@ Title: Team
 - **[Chryssa Zerva](https://www.linkedin.com/in/chryssa-zerva-7bb4a966)**, Post-doc researcher (2021-)
 - **Chunchuan Lyu**, Post-doc researcher (2021-)
 - **[Haau-Sing Li](https://www.linkedin.com/in/haau-sing-li-152177142/)**, ELLIS PhD at TU Darmstadt University (2021-), co-advised with [Iryna Gurevych](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp)
-- **Nuno Guerreiro**, PhD student (2020-)
-- **[Patrick Fernandes](https://coderpat.github.io/)**, PhD student at CMU/IST (2020-); co-advised with [Graham Neubig](http://www.phontron.com/)
-- **Taisiya Glushkova**, PhD student (2020-); co-advised with Chryssa Zerva
-- **António Farinhas**, PhD student (2021-)
+- **[Nuno Guerreiro](https://www.nunomg.com)**, PhD student (2020-)
+- **[Patrick Fernandes](https://coderpat.github.io)**, PhD student at CMU/IST (2020-); co-advised with [Graham Neubig](http://www.phontron.com/)
+- **[Taisiya Glushkova](https://glushkovato.github.io)**, PhD student (2020-); co-advised with Chryssa Zerva
+- **[António Farinhas](https://antonio-farinhas.github.io)**, PhD student (2021-)
 - **[Marcos Treviso](http://mtreviso.github.io)**, PhD student (2019-); co-advised with [Mário Figueiredo](http://www.lx.it.pt/~mtf/)
 - **[Tsvetomila Mihaylova](https://tsvm.github.io)**, PhD student (2018-), co-advised with [Vlad Niculae](http://vene.ro)
 - **Ben Peters**, PhD student (2018-)
