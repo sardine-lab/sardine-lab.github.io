@@ -44,3 +44,18 @@ jobs:
           git add data/*.js
           git diff --cached --quiet || git commit -m "${{ inputs.commit_message || 'chore(data): refresh from Google Sheets' }}"
           git push
+
+      - name: Trigger GitHub Pages rebuild
+        if: ${{ success() }}
+        env:
+          GH_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: |
+          set -e
+          code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -X POST https://api.github.com/repos/sardine-lab/sardine-lab.github.io/pages/builds)
+          if [ "$code" != "201" ]; then
+            echo "Failed to request Pages build (HTTP $code)"; exit 1
+          fi
+          echo "Requested Pages rebuild (201 Created)."
