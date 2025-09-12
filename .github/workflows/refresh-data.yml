@@ -1,0 +1,46 @@
+name: Refresh data from Google Sheets
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Commit message'
+        required: false
+      sheet_id:
+        description: 'Google Sheet ID (optional; falls back to secret)'
+        required: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          pip install gspread google-auth markdown
+
+      - name: Write service account key
+        run: |
+          echo "$GOOGLE_CREDENTIALS_JSON" > sa.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$PWD/sa.json" >> $GITHUB_ENV
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+
+      - name: Run updater
+        env:
+          SHEET_ID: ${{ inputs.sheet_id || secrets.SHEET_ID }}
+        run: |
+          python python/data_update.py --sheet "${SHEET_ID}"
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "sheet-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/*.js
+          git diff --cached --quiet || git commit -m "${{ inputs.commit_message || 'chore(data): refresh from Google Sheets' }}"
+          git push

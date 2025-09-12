@@ -1,73 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>About</title>
-        <link rel="stylesheet" href="./theme/css/main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARDINE Lab</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%22100%22>🐟</text></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sardine-blue': '#007a94',
+                        'sardine-light': '#00a4c3',
+                        'ocean': '#00a4c3'
+                    }
+                }
+            }
+        }
+    </script>
 </head>
+<body class="bg-slate-50 text-slate-800">
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <img width="220" src="assets/figs/logo.png" alt="SARDINE Lab Logo">
+                </a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                    <a href="index.html" class="navlink active text-slate-600 hover:text-slate-900 transition-colors">Home</a><a href="news.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">News</a><a href="publications.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">Publications</a><a href="projects.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">Projects</a>
+                </nav>
+                <button id="mobileMenuBtn" class="md:hidden inline-flex items-center justify-center p-2 rounded-lg border border-slate-300 text-slate-700">
+                    <i class="fas fa-bars text-lg"></i>
+                </button>
+            </div>
+            <div id="mobileMenu" class="hidden md:hidden">
+                <nav class="px-4 pb-3">
+                    <a href="index.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 active">Home</a><a href="news.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">News</a><a href="publications.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">Publications</a><a href="projects.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">Projects</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="./">SARDINE Lab </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="./">About</a></li>
-                    <li><a href="./pages/news.html">News</a></li>
-                    <li><a href="./pages/projects.html">Projects</a></li>
-                    <li><a href="./pages/publications.html">Publications</a></li>
-                    <li><a href="./pages/team.html">Team</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-    <h1 class="entry-title">About</h1>
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-sardine-blue/5 to-white border-b border-slate-200/60">
+        <div class="max-w-6xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-3xl md:text-4xl font-extrabold leading-tight text-slate-900 mb-4">SARDINE Lab</h1>
+                <p class="text-lg text-slate-700 mb-4">
+                    Structure AwaRe moDelIng for Natural LanguagE — a research group focused on Natural Language Processing, Deep Learning, Structured Prediction, and Sparse Modeling.
+                </p>
+                <p class="text-slate-700 mb-6">
+                    We are based at <a class="text-sardine-blue hover:underline font-medium" href="https://www.it.pt/" target="_blank">Instituto de Telecomunicações</a> and <a class="text-sardine-blue hover:underline font-medium" href="https://tecnico.ulisboa.pt/" target="_blank">Instituto Superior Técnico</a> in the sunny Lisbon ☀️, Portugal 🇵🇹.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                    <a href="#team" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white text-sardine-blue font-semibold border border-sardine-blue/20 hover:bg-sardine-blue/5 transition">
+                        <span>Meet the team</span>
+                        <i class="fas fa-users"></i>
+                    </a>
+                    <a href="#projects" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white text-sardine-blue font-semibold border border-sardine-blue/20 hover:bg-sardine-blue/5 transition">
+                        <span>Check out our projects</span>
+                        <i class="fas fa-microscope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <img class="rounded-2xl shadow-lg ring-1 ring-slate-200" title="Scenic View of Lisbon with São Jorge Castle at Sunset" alt="Panoramic view of Lisbon, Portugal, featuring colorful hillside buildings and the historic São Jorge Castle, overlooking the Tagus River at sunset." src="assets/figs/lisbon.webp" />
+                <div class="absolute -bottom-4 -right-4 bg-white/90 backdrop-blur px-4 py-2 rounded-xl shadow border border-slate-200 text-sm">Olá from Lisbon 🇵🇹</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About SARDINE Section -->
+    <section id="about" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why SARDINE?</h2>
+            <div class="w-24 h-1 bg-sardine-blue mx-auto mb-8"></div>
+        </div>
+        <div class="grid lg:grid-cols-1 items-center">
+            <div class="text-center">
+                <center>
+                    <img width="512" src="assets/figs/sardinha.png" alt="Bordallo Pinheiro's sardine" title="Bordallo Pinheiro's sardine">
+                </center>
+                <p class="text-md text-slate-700 mb-6 leading-relaxed">
+                    A <a class="underline" href="https://en.wikipedia.org/wiki/Sardine" target="_blank">sardine</a> (<i>sardina pilchardus</i>, "sardinha" in Portuguese) is a fish commonly found in the Northeast Atlantic and Mediterranean. Sardines are a much appreciated delicacy in Portugal, most prominently at city summer festivals such as the <a class="underline" href="https://beportugal.com/lisbon-sardine-festival" target="_blank">Santo António festival</a> in Lisbon.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section id="news" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Latest News</h2>
+                <div class="w-24 h-1 bg-sardine-blue mx-auto mb-8"></div>
+            </div>
+            <div id="latestNews" class="space-y-6 mb-12">
+                <!-- News items will be populated by JavaScript -->
+                <div class="text-center py-8 text-slate-500">
+                    <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                    <p>Loading latest news...</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="news.html" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-sardine-blue font-semibold border border-sardine-blue hover:bg-sardine-blue/5 transition-colors">
+                    <span>View All News</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Publications Section -->
+    <section id="publications" class="py-16 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Recent Publications</h2>
+                <div class="w-24 h-1 bg-sardine-blue mx-auto"></div>
+            </div>
+            
+            <!-- Stream Filters -->
+            <div class="mb-8">
+                <div class="text-center">
+                    <div id="homeStreamFilters" class="flex flex-wrap justify-center gap-2 mb-6">
+                        <!-- Stream buttons will be populated by JavaScript -->
+                        <div class="text-sm text-slate-500 py-2">Loading streams...</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Publications Grid -->
+            <div id="homePublications" class="grid md:grid-cols-2 gap-6 mb-12">
+                <!-- Publications will be populated by JavaScript -->
+                <div class="text-center py-8 text-slate-500 col-span-full">
+                    <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                    <p>Loading recent publications...</p>
+                </div>
+            </div>
+            
+            <!-- Explore More Streams -->
+            <div class="ocean-currents-bg bg-gradient-to-r from-sardine-blue/5 to-sardine-light/5 rounded-2xl border-2 border-dashed border-sardine-blue/30 p-8 text-center relative overflow-hidden mb-8">
+                <!-- Ocean current background -->
+                <div class="absolute inset-0 opacity-15 w-full">
+                    <svg class="w-full h-full" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="current1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#007a94;stop-opacity:0.3" />
+                                <stop offset="50%" style="stop-color:#00a4c3;stop-opacity:0.6" />
+                                <stop offset="100%" style="stop-color:#007a94;stop-opacity:0.3" />
+                            </linearGradient>
+                            <linearGradient id="current2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#00a4c3;stop-opacity:0.2" />
+                                <stop offset="50%" style="stop-color:#007a94;stop-opacity:0.5" />
+                                <stop offset="100%" style="stop-color:#00a4c3;stop-opacity:0.2" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Animated current flows -->
+                        <path d="M0,50 Q100,30 200,50 T400,50" stroke="url(#current1)" stroke-width="3" fill="none">
+                        </path>
+                        <path d="M0,100 Q150,120 300,100 T400,100" stroke="url(#current2)" stroke-width="2" fill="none">
+                        </path>
+                        <path d="M0,150 Q80,130 160,150 T400,150" stroke="url(#current1)" stroke-width="2" fill="none" opacity="0.7">
+                        </path>
+                    </svg>
+                </div>
+                
+                <div class="relative z-10">
+                    <div class="flex items-center justify-center gap-4 mb-4">
+                        <div class="flex -space-x-2">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs text-white" style="background: #8b5cf6;">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs text-white" style="background: #14b8a6; animation-delay: 0.5s;">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs text-white" style="background: #6b7280; animation-delay: 1s;">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs text-white" style="background: #84cc16; animation-delay: 1.5s;">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-2">Dive into Deeper Waters</h3>
+                    <p class="text-slate-600 mb-6">
+                        Explore our work in Theory & Foundations, Evaluation & Metrics, Uncertainty Quantification, Fairness & Bias, and many more streams!
+                    </p>
+
+                    <a href="publications.html" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-sardine-blue text-white font-semibold shadow hover:bg-sardine-light transition-colors">
+                        <span>View All Publications</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Current Projects</h2>
+                <div class="w-24 h-1 bg-sardine-blue mx-auto mb-8"></div>
+            </div>
+            <div id="currentProjects" class="space-y-8">
+                <!-- Projects will be populated by JavaScript -->
+                <div class="text-center py-8 text-slate-500">
+                    <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                    <p>Loading current projects...</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="projects.html" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-sardine-blue font-semibold border border-sardine-blue hover:bg-sardine-blue/5 transition-colors">
+                    <span>View All Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="py-16 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Our Team</h2>
+                <div class="w-24 h-1 bg-sardine-blue mx-auto mb-8"></div>
+            </div>
+            
+            <!-- Team Photo Slider -->
+            <div class="team-photo-slider mb-8">
+                <div class="slider-container">
+                    <!-- Main photo display -->
+                    <div class="main-photo-container">
+                        <button class="nav-btn prev-btn" onclick="changePhoto(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        
+                        <div class="main-photo">
+                            <img id="currentPhoto" src="assets/figs/group1.jpg" alt="SARDINE Lab Group Photo">
+                            <div class="photo-caption">
+                                <span id="photoDate">2018</span>
+                                <span id="photoDescription">Early days of SARDINE Lab</span>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changePhoto(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Thumbnail navigation -->
+                    <div class="thumbnails">
+                        <div class="thumbnail-track justify-center" id="thumbnailTrack">
+                            <!-- Thumbnails will be generated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <!-- Photo counter -->
+                    <div class="photo-counter">
+                        <span id="currentIndex">1</span> / <span id="totalPhotos">8</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- Team Members -->
+            <div id="teamMembers" class="space-y-12 mt-8">
+                <!-- Team members will be populated by JavaScript -->
+                <div class="text-center py-8 text-slate-500">
+                    <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                    <p>Loading team members...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- World Map Section -->
+    <section id="origin-map" class="py-16 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Where Do SARDINEs Come From?</h2>
+                <div class="w-24 h-1 bg-sardine-blue mx-auto mb-8"></div>
+            </div>
+            <div class="relative aspect-[2/1] w-full rounded-2xl border border-slate-200 overflow-hidden bg-slate-100">
+                <img id="worldMap" alt="World map" class="absolute inset-0 w-full h-full object-cover opacity-90" 
+                     src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg">
+                <div id="pins" class="absolute inset-0">
+                    <!-- Loading indicator -->
+                    <div class="absolute inset-0 flex items-center justify-center text-slate-500">
+                        <div class="text-center">
+                            <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                            <p class="text-sm">Loading world map...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-xs text-slate-500 mt-2">Dots indicate the hometown or country of origin of current and former members.</p>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="py-16 bg-gradient-to-b from-sardine-blue/5 to-white border-t border-slate-200/60">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+        <!-- Text -->
+        <div>
+          <div class="flex items-center gap-3 mb-3">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Want to Join Us?</h2>
+            <span class="text-3xl" aria-hidden="true">🐟</span>
+          </div>
+          <p class="text-lg text-slate-700 mb-6">
+            We're always excited to hear from curious minds who love language, learning, and structure.
+            If you're into NLP, deep learning, structured prediction, or sparse modeling, come swim with us! 
+          </p>
+
+          <div class="flex flex-wrap gap-3">
+            <a href="mailto:sardinelab@gmail.com?subject=Joining%20SARDINE%20Lab"
+               class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-sardine-blue text-white font-semibold shadow hover:bg-sardine-light transition">
+              <span>Send Us an Email</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </a>
+            <a href="news.html"
+               class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white text-sardine-blue font-semibold border border-sardine-blue hover:bg-sardine-blue/5 transition">
+              <span>Check Open Calls</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+          <div class="relative">
+            <img class="rounded-2xl shadow-lg ring-1 ring-slate-200" alt="Cartoon illustration of a group of smiling fish underwater, with two fish giving each other a high-five beneath a glowing lightbulb, symbolizing teamwork and shared ideas." src="assets/figs/sardines.png">
+            <p class="text-center mt-2 text-sm text-slate-500">Come swim with us! Research flows better in a shoal 💦</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white bg-footer py-12">
+        <div class="max-w-6xl mx-auto">
+            <!-- Footer content will be populated by metadata.js -->
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data/streams.js"></script>
+    <script src="data/news.js"></script>
+    <script src="data/publications.js"></script>
+    <script src="data/projects.js"></script>
+    <script src="data/photos.js"></script> 
+    <script src="data/team.js"></script>
+    <script src="data/countries.js"></script>
     
-    <p><strong>SARDINE</strong> (Structure AwaRe moDelIng for Natural LanguagE) is a research group at <a href="https://it.pt">Instituto de Telecomunicações</a> and <a href="https://tecnico.ulisboa.pt">Instituto Superior Técnico</a>, in <a href="http://en.wikipedia.org/wiki/Lisbon">Lisbon</a>, <a href="http://en.wikipedia.org/wiki/Portugal">Portugal</a>, led by <a href="http://andre-martins.github.io">André Martins</a>.</p>
-<p>We carry out research in Natural Language Processing, Deep Learning, Structured Predition, and Sparse Modeling.</p>
-<p>Check out our amazing <a href="pages/team.html">team</a>, our ongoing <a href="pages/projects.html">projects</a>, and some of our <a href="pages/publications">publications</a>. </p>
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="20">
-  <tbody>
-    <tr>
-      <td style="vertical-align: top; text-align: center;">
-      <img style="width: 447px; height: 150px;" alt="Bordallo Pinheiro's sardine." src="./images/sardinha.jpg" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2>Why SARDINE?</h2>
-<p>A <strong><a href="https://en.wikipedia.org/wiki/Sardine">sardine</a></strong> (<em>sardina pilchardus</em>, "sardinha" in Portuguese) is a fish commonly found in the Northeast Atlantic and Mediterranean, where it inhabits the water column in coastal zones between 25-100 m of depth.
-It has an elongated body covered with scales, with a darker blue-silvery coloured back and lighter silvery coloured sides and belly.
-It spawns from October to April when it is leaner, and females can release 50,000 to 60,000 eggs.
-Sardines are a much appreciated delicacy in <a href="http://en.wikipedia.org/wiki/Portugal">Portugal</a>, most prominently at city summer festivals such as <a href="https://beportugal.com/lisbon-sardine-festival">Santo António festival</a> in <a href="http://en.wikipedia.org/wiki/Lisbon">Lisbon</a>. </p>
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="20">
-  <tbody>
-    <tr>
-      <td style="vertical-align: top; text-align: center;">
-      <img style="width: 496px; height: 372px;" alt="DeepSPIN team relaxing after a deadline, with our collaborator Zita Marinho." src="./images/deepspin_team.jpg" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-</section>
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-
-                            <li><a href="http://twitter.com/deep_spin">twitter</a></li>
-                            <li><a href="http://github.com/deep-spin">github</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
-
+    <!-- JS modules -->
+    <script src="assets/metadata.js"></script>
+    <script src="assets/news.js"></script>
+    <script src="assets/publications.js"></script>
+    <script src="assets/team.js"></script>
+    <script src="assets/projects.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 </html>

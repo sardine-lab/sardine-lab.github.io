@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SARDINE Lab</title>
+    <meta name="description" content="SARDINE Lab — Structure AwaRe moDelIng for Natural LanguagE">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%22100%22>🐟</text></svg>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sardine-blue': '#007a94',
+                        'sardine-light': '#00a4c3',
+                        'ocean': '#00a4c3'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <img width="220" src="assets/figs/logo.png" alt="SARDINE Lab Logo">
+                </a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                    <a href="index.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">Home</a><a href="news.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">News</a><a href="publications.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">Publications</a><a href="projects.html" class="navlink active text-slate-600 hover:text-slate-900 transition-colors">Projects</a>
+                </nav>
+                <button id="mobileMenuBtn" class="md:hidden inline-flex items-center justify-center p-2 rounded-lg border border-slate-300 text-slate-700">
+                    <i class="fas fa-bars text-lg"></i>
+                </button>
+            </div>
+            <div id="mobileMenu" class="hidden md:hidden">
+                <nav class="px-4 pb-3">
+                    <a href="index.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">Home</a><a href="news.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">News</a><a href="publications.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">Publications</a><a href="projects.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 active">Projects</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-b from-sardine-blue/5 to-white border-b border-slate-200/60">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">🔬 Projects</h1>
+                    <p class="text-lg text-slate-700">Research projects from SARDINE Lab</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Content -->
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- Tabs Navigation -->
+        <div class="flex border-b border-slate-200 mb-8">
+            <button id="currentTab" class="tab-btn active px-6 py-3 font-medium text-slate-900 border-b-2 border-sardine-blue">
+                Current Projects
+            </button>
+            <button id="pastTab" class="tab-btn px-6 py-3 font-medium text-slate-600 hover:text-slate-900 border-b-2 border-transparent hover:border-slate-300 transition-colors">
+                Past Projects
+            </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="projectsTabContent" class="tab-content">
+            <!-- Current Projects Tab -->
+            <div id="currentProjectsTab" class="tab-panel active">
+                <div id="currentProjectsList" class="space-y-8">
+                    <!-- Current projects will be populated by JavaScript -->
+                    <div class="text-center py-8 text-slate-500">
+                        <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                        <p>Loading current projects...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Past Projects Tab -->
+            <div id="pastProjectsTab" class="tab-panel hidden">
+                <div id="pastProjectsList" class="space-y-8">
+                    <!-- Past projects will be populated by JavaScript -->
+                    <div class="text-center py-8 text-slate-500">
+                        <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                        <p>Loading past projects...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-white bg-footer py-12">
+        <div class="max-w-6xl mx-auto">
+            <!-- Footer content will be populated by metadata.js -->
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data/publications.js"></script>
+    <script src="data/streams.js"></script>
+    <script src="data/projects.js"></script>
+    
+    <!-- Refactored JS modules -->
+    <script src="assets/metadata.js"></script>
+    <script src="assets/projects.js"></script>
+    <script src="assets/main.js"></script>
+    
+    <script>
+        // Initialize projects page
+        let projectsPage;
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof projectsData !== 'undefined') {
+                projectsPage = new ProjectsPage();
+            }
+        });
+    </script>
+</body>
+</html>

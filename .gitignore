@@ -1,0 +1,5 @@
+.DS_Store
+env/
+python/sa.json
+python/data_update.sh
+python/github_token.txt

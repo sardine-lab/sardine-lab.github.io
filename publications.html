@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARDINE Lab — Publications</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%22100%22>🐟</text></svg>">
+    <meta name="description" content="SARDINE Lab — Structure AwaRe moDelIng for Natural LanguagE">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sardine-blue': '#007a94',
+                        'sardine-light': '#00a4c3',
+                        'ocean': '#00a4c3'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <img width="220" src="assets/figs/logo.png" alt="SARDINE Lab Logo">
+                </a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                    <a href="index.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">Home</a><a href="news.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">News</a><a href="publications.html" class="navlink active text-slate-600 hover:text-slate-900 transition-colors">Publications</a><a href="projects.html" class="navlink  text-slate-600 hover:text-slate-900 transition-colors">Projects</a>
+                </nav>
+                <button id="mobileMenuBtn" class="md:hidden inline-flex items-center justify-center p-2 rounded-lg border border-slate-300 text-slate-700">
+                    <i class="fas fa-bars text-lg"></i>
+                </button>
+            </div>
+            <div id="mobileMenu" class="hidden md:hidden">
+                <nav class="px-4 pb-3">
+                    <a href="index.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">Home</a><a href="news.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">News</a><a href="publications.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 active">Publications</a><a href="projects.html" class="block px-3 py-2 rounded-lg hover:bg-slate-100 ">Projects</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-b from-sardine-blue/5 to-white border-b border-slate-200/60">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">📚 Publications</h1>
+                    <p class="text-lg text-slate-700">Research output from SARDINE Lab</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section  class="mt-12 mb-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <!-- Statistics -->
+            <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+                    <div>
+                        <div class="text-2xl font-bold text-sardine-blue" id="totalCount">0</div>
+                        <div class="text-sm text-slate-600">Total Publications</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-sardine-blue" id="conferenceCount">0</div>
+                        <div class="text-sm text-slate-600">Conference Papers</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-sardine-blue" id="journalCount">0</div>
+                        <div class="text-sm text-slate-600">Journal Articles</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-sardine-blue" id="preprintCount">0</div>
+                        <div class="text-sm text-slate-600">Preprints</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-sardine-blue" id="streamCount">0</div>
+                        <div class="text-sm text-slate-600">Research Streams</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters and Search -->
+    <section>
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                <!-- First Row: Basic Filters -->
+                <div class="flex flex-wrap gap-4 items-center justify-between mb-4">
+                    <!-- Filter Dropdowns -->
+                    <div class="flex flex-wrap gap-4 items-center">
+                        <!-- Type Filter -->
+                        <div class="flex items-center gap-2">
+                            <label for="typeFilter" class="text-sm font-medium text-slate-700">Type:</label>
+                            <select id="typeFilter" class="px-3 py-2 border border-slate-300 rounded-lg text-sm min-w-[120px] focus:ring-2 focus:ring-sardine-blue focus:border-sardine-blue">
+                                <option value="all">All Types</option>
+                                <option value="conference">Conferences</option>
+                                <option value="journal">Journals</option>
+                                <option value="preprint">Preprints</option>
+                                <option value="book">Books</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Year Filter -->
+                        <div class="flex items-center gap-2">
+                            <label for="yearFilter" class="text-sm font-medium text-slate-700">Year:</label>
+                            <select id="yearFilter" class="px-3 py-2 border border-slate-300 rounded-lg text-sm min-w-[100px] focus:ring-2 focus:ring-sardine-blue focus:border-sardine-blue">
+                                <option value="all">All Years</option>
+                                <!-- Years will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        
+                        <!-- Sort -->
+                        <div class="flex items-center gap-2">
+                            <label for="sortSelect" class="text-sm font-medium text-slate-700">Sort:</label>
+                            <select id="sortSelect" class="px-3 py-2 border border-slate-300 rounded-lg text-sm min-w-[180px] focus:ring-2 focus:ring-sardine-blue focus:border-sardine-blue">
+                                <option value="date-desc">Release Date (New)</option>
+                                <option value="date-asc">Release Date (Old)</option>
+                                <option value="year-desc">Year (New)</option>
+                                <option value="year-asc">Year (Old)</option>
+                                <option value="title-asc">Title (A-Z)</option>
+                                <option value="title-desc">Title (Z-A)</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Items per page -->
+                        <div class="flex items-center gap-2">
+                            <label for="itemsPerPage" class="text-sm font-medium text-slate-700">Show:</label>
+                            <select id="itemsPerPage" class="px-3 py-2 border border-slate-300 rounded-lg text-sm min-w-[80px] focus:ring-2 focus:ring-sardine-blue focus:border-sardine-blue">
+                                <option value="10">10</option>
+                                <option value="20" selected>20</option>
+                                <option value="50">50</option>
+                                <option value="all">All</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Search -->
+                    <div class="flex flex-1 ml-4">
+                        <div class="relative flex-1 max-w-lg">
+                            <input type="text" id="searchInput" placeholder="Search publications..." class="search-input w-full pl-10">
+                            <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
+                        </div>
+                        <button id="resetFilters" title="Reset filters" class="px-4 py-2 text-sm text-slate-600 hover:text-slate-900 transition-colors">
+                            <i class="fas fa-undo mr-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Second Row: Stream Filters -->
+                <div class="border-t border-slate-100 pt-4">
+                    <div class="flex items-start gap-3 justify-center">
+                        <div id="streamFilters" class="flex flex-wrap gap-2 justify-center">
+                            <!-- Stream buttons will be populated by JavaScript -->
+                            <div class="text-sm text-slate-500 py-2">Loading streams...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Info -->
+            <div class="flex items-center justify-between mt-4 px-2">
+                <div id="resultsInfo" class="text-sm text-slate-400">
+                    <!-- Results count will be populated by JavaScript -->
+                </div>
+                <div id="pageInfo" class="text-sm text-slate-400">
+                    <!-- Page info will be populated by JavaScript -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Publications List -->
+    <main id="mainPublicationsContainer" class="max-w-6xl mx-auto px-4 py-12">
+
+        <!-- No Results -->
+        <div id="noResults" class="hidden text-center py-12">
+            <i class="fas fa-search text-4xl text-slate-400 mb-4"></i>
+            <p class="text-lg text-slate-600 mb-2">No publications found</p>
+            <p class="text-sm text-slate-500">Try adjusting your filters or search terms</p>
+        </div>
+
+        <div id="publicationsList" class="space-y-6">
+            <!-- Publications will be populated by JavaScript -->
+            <div class="text-center py-12 text-slate-500">
+                <i class="fas fa-spinner fa-spin text-2xl mb-2"></i>
+                <p>Loading publications...</p>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div id="paginationContainer" class="mt-12">
+            <!-- Pagination will be populated by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-white bg-footer py-12">
+        <div class="max-w-6xl mx-auto">
+            <!-- Footer content will be populated by metadata.js -->
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/pagination.js"></script>
+    <script src="data/streams.js"></script>
+    <script src="data/publications.js"></script>
+    
+    <!-- Refactored JS modules -->
+    <script src="assets/metadata.js"></script>
+    <script src="assets/publications.js"></script>
+    <script src="assets/main.js"></script>
+    
+    <script>
+        // Initialize publications page
+        let publicationsPage;
+        document.addEventListener('DOMContentLoaded', () => {
+            publicationsPage = new PublicationsPage();
+        });
+    </script>
+</body>
+</html>
