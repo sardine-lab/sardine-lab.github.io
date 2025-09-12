@@ -944,15 +944,12 @@ select:focus {
     flex-direction: column;
   }
   
-  .timeline-icon {
-    position: relative;
-    left: auto;
-    margin-bottom: 1rem;
-    align-self: flex-start;
-  }
-  
   .timeline-item > div:last-child {
     margin-left: 0;
+  }
+
+  .timeline-icon {
+    display: none !important; /* beats inline/Tailwind utilities */
   }
   
   .timeline-line {

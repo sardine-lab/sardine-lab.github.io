@@ -214,7 +214,7 @@ class NewsManager {
 
             // Ensure images are responsive
             newsItem.querySelectorAll('.news-content img').forEach(img => {
-                img.classList.add('mx-auto', 'rounded-lg', 'shadow-none');
+                img.classList.add('mx-auto', 'rounded-lg', 'shadow-none', 'w-full');
                 img.style.maxWidth = '512px';
                 img.style.height = 'auto';
                 img.style.boxShadow = 'none';
