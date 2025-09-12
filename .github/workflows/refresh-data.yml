@@ -35,7 +35,9 @@ jobs:
         env:
           SHEET_ID: ${{ inputs.sheet_id || secrets.SHEET_ID }}
         run: |
-          python python/data_update.py --sheet "${SHEET_ID}"
+          cd python
+          python data_update.py --sheet "${SHEET_ID}"
+          
 
       - name: Commit updated data files
         run: |
