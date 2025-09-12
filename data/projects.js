@@ -6,16 +6,13 @@ const projectsData = {
   "name": "DECOLLAGE",
   "title": "Deep Cognition Learning for Language Generation",
   "status": "current",
-  "funding": "Andr\u00e9 Martins",
-  "pi": "ERC Consolidator Grant",
+  "funding": "ERC Consolidator Grant",
+  "pi": "Andr\u00e9 Martins",
   "period": "2023-2028",
   "team_members": [
   "Matthias Lindemann",
-  "Miguel Faria",
   "Beatriz Canaverde",
   "Duarte Alves",
-  "Guilherme Viveiros",
-  "Margarida Campos",
   "Miguel Ramos",
   "Saul Santos",
   "Sophia Sklaviadis"
@@ -38,14 +35,13 @@ const projectsData = {
   "name": "UTTER",
   "title": "Unified Transcription and Translation",
   "status": "current",
-  "funding": "Andr\u00e9 Martins",
-  "pi": "EUROPE HORIZON",
+  "funding": "EUROPE HORIZON",
+  "pi": "Andr\u00e9 Martins",
   "period": "2022-2025",
   "team_members": [
   "Ben Peters",
   "Marcos Treviso",
   "Hugo Pitorro",
-  "Emmanouil Zaranis",
   "Jos\u00e9 Pombal",
   "Sonal Sannigrahi"
 ],
@@ -63,6 +59,30 @@ const projectsData = {
   "Tower: An Open Multilingual Large Language Model for Translation-Related Tasks"
 ],
   "description": `<p>The UTTER project advances online and hybrid interaction by developing extended reality (XR) technologies that seamlessly integrate human and AI agents in conversation platforms. It focuses on creating intelligent assistants for meetings and customer support, capable of real-time multilingual translation, summarization, minuting, and multimodal dialogue support. Through innovations in XR model efficiency, usability, and adaptability across languages and domains, UTTER will deliver new resources such as multilingual datasets and pretrained models, alongside prototypes including a meeting assistant with live captioning and summaries, and a multilingual customer support assistant enhanced with quality estimates and emotion tracking.</p>`
+},
+  {
+  "name": "NextGenAI",
+  "title": "NextGenAI: Center for Responsible AI",
+  "status": "current",
+  "funding": "IAPMEI - Plan for Recovery and Resilience",
+  "pi": "Andr\u00e9 Martins",
+  "period": "2023-2026",
+  "team_members": [
+  "Miguel Faria",
+  "Giuseppe Attanasio",
+  "Guilherme Viveiros",
+  "Margarida Campos",
+  "Emmanouil Zaranis",
+  "Pavlo Vasylenko"
+],
+  "keywords": [
+  "multilinguality",
+  "context-aware translation",
+  "dialogue systems",
+  "quality estimation",
+  "human-in-the-loop AI"
+],
+  "website": "https://centerforresponsible.ai/"
 }
 ],
   "past": [
@@ -70,12 +90,10 @@ const projectsData = {
   "name": "MAIA",
   "title": "Multilingual AI Agent Assistants for Customer Service",
   "status": "finished",
-  "funding": "Andr\u00e9 Martins",
-  "pi": "CMU-Portugal Large-Scale Collaborative Research project",
+  "funding": "CMU-Portugal Large-Scale Collaborative Research project",
+  "pi": "Andr\u00e9 Martins",
   "period": "2020-2023",
   "team_members": [
-  "Chryssa Zerva",
-  "Chunchuan Lyu",
   "Ant\u00f3nio Farinhas",
   "Patrick Fernandes",
   "Nuno Guerreiro",
@@ -103,17 +121,19 @@ const projectsData = {
   "name": "DeepSPIN",
   "title": "Deep Structured Prediction in Natural Language Processing",
   "status": "finished",
-  "funding": "Andr\u00e9 Martins",
-  "pi": "ERC Starting Grant",
+  "funding": "ERC Starting Grant",
+  "pi": "Andr\u00e9 Martins",
   "period": "2018-2023",
   "team_members": [
   "Vlad Niculae",
   "Erick Fonseca",
+  "Chunchuan Lyu",
   "Ben Peters",
   "Gon\u00e7alo Correia",
   "Tsvetomila Mihaylova",
   "Marcos Treviso",
-  "Pedro Martins"
+  "Pedro Martins",
+  "Chryssa Zerva"
 ],
   "keywords": [
   "structured prediction",
