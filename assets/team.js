@@ -147,8 +147,9 @@ class TeamManager {
             </a>`;
         }).join('');
 
+        const advisedByText = member.role == 'postdoc' ? "Working with" : "Advised by";
         const advisorInfo = member.advisor ? 
-            `<p class="text-xs text-slate-500 mb-2">Advised by ${member.advisor} ${member.co_advisor ? `and ${member.co_advisor}` : ''}</p>` : `<p class="text-xs text-slate-500 mb-2">${member.position}</p>`;
+            `<p class="text-xs text-slate-500 mb-2">${advisedByText} ${member.advisor} ${member.co_advisor ? `and ${member.co_advisor}` : ''}</p>` : `<p class="text-xs text-slate-500 mb-2">${member.position}</p>`;
 
         card.innerHTML = `
             <div class="${classes.avatar} bg-slate-300 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-500">
