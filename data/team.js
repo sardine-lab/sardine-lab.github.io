@@ -656,7 +656,7 @@ const teamData = {
   "name": "Nikita Nangia",
   "role": "alumni",
   "position": "Applied Scientis at Amazon AGI",
-  "image": "asserts/figs/team/nikita_nangia.jpeg",
+  "image": "assets/figs/team/nikita_nangia.jpeg",
   "advisor": "Andr\u00e9 Martins",
   "start_year": 2020,
   "graduation_year": 2020,
