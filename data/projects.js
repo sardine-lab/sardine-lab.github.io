@@ -82,7 +82,9 @@ const projectsData = {
   "quality estimation",
   "human-in-the-loop AI"
 ],
-  "website": "https://centerforresponsible.ai/"
+  "website": "https://centerforresponsible.ai/",
+  "figure": "crai.jpg",
+  "description": `<p>The Center for Responsible AI (CRAI) is dedicated to advancing Artificial Intelligence that is fair, transparent, efficient, and socially responsible. Its mission is to ensure that AI technologies are developed and applied in ways that benefit people, respect human rights, and support sustainable digital transformation.</p>`
 }
 ],
   "past": [

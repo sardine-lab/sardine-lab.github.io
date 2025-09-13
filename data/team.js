@@ -637,7 +637,7 @@ const teamData = {
   {
   "name": "Taisiya Glushkova",
   "role": "alumni",
-  "position": "PhD Graduate",
+  "position": "ML Engineer at Polynome",
   "image": "assets/figs/team/taisiya_glushkova.jpg",
   "advisor": "Andr\u00e9 Martins",
   "co_advisor": "Chryssa Zerva",
