@@ -543,6 +543,51 @@ const teamData = {
   "city": "Shanghai"
 },
   {
+  "name": "Dennis Fucci",
+  "role": "alumni",
+  "position": "PhD at FBK, University of Trento",
+  "image": "assets/figs/teams/dennis_fucci.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2024,
+  "graduation_year": 2025,
+  "previous_position": "Visiting Researcher",
+  "links": {
+  "website": "https://mt.fbk.eu/author/dfucci/"
+},
+  "country": "Italy",
+  "city": "Bologna"
+},
+  {
+  "name": "Dennis Ulmer",
+  "role": "alumni",
+  "position": "Post-doc at University of Amsterdam",
+  "image": "assets/figs/team/dennis_ulmer.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2023,
+  "graduation_year": 2024,
+  "previous_position": "Visiting Researcher",
+  "links": {
+  "website": "https://dennisulmer.eu/"
+},
+  "country": "Germany",
+  "city": "Heidelberg"
+},
+  {
+  "name": "Elena Voita",
+  "role": "alumni",
+  "position": "Research Scientist at FAIR, Meta AI",
+  "image": "assets/figs/teams/elena_voita.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2022,
+  "graduation_year": 2022,
+  "previous_position": "Visiting Researcher",
+  "links": {
+  "website": "https://lena-voita.github.io/"
+},
+  "country": "Russia",
+  "city": "Moscow"
+},
+  {
   "name": "Erick Fonseca",
   "role": "alumni",
   "position": "Data Scientist at Kaufland",
@@ -587,6 +632,40 @@ const teamData = {
 },
   "country": "Portugal",
   "city": "Lisbon"
+},
+  {
+  "name": "Kshitij Ambilduke",
+  "role": "alumni",
+  "position": "MSc at Universit\u00e9 Paris-Saclay",
+  "image": "assets/figs/teams/kshitij_ambilduke.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Ben Peters",
+  "start_year": 2023,
+  "graduation_year": 2024,
+  "previous_position": "Researcher",
+  "links": {
+  "website": "https://ambilduke.notion.site/Kshitij-Ambilduke-1b6f9e06108a8050812fd96f490a7567",
+  "github": "https://github.com/Kshitij-Ambilduke",
+  "linkedin": "https://www.linkedin.com/in/kshitij-ambilduke/",
+  "scholar": "https://scholar.google.com/citations?user=UjsUiKIAAAAJ&hl=en"
+},
+  "country": "India",
+  "city": "Nagpur"
+},
+  {
+  "name": "Nikita Nangia",
+  "role": "alumni",
+  "position": "Applied Scientis at Amazon AGI",
+  "image": "asserts/figs/teams/nikita_nangia.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2020,
+  "graduation_year": 2020,
+  "previous_position": "Visiting Researcher",
+  "links": {
+  "website": "https://woollysocks.github.io/"
+},
+  "country": "United States",
+  "city": "Chicago"
 },
   {
   "name": "Nuno Guerreiro",
@@ -681,6 +760,21 @@ const teamData = {
 },
   "country": "Romania",
   "city": "Bucharest"
+},
+  {
+  "name": "Wafaa Mohammed",
+  "role": "alumni",
+  "position": "PhD at University of Amsterdam",
+  "image": "assets/figs/teams/wafaa_mohammed.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2025,
+  "graduation_year": 2025,
+  "previous_position": "Visiting Researcher",
+  "links": {
+  "website": "https://wafaa014.github.io/"
+},
+  "country": "Sudan",
+  "city": "Khartoum"
 },
   {
   "name": "Zita Marinho",
