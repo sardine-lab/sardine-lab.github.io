@@ -208,7 +208,7 @@ def map_team_row(r: Dict[str, Any]) -> Optional[Tuple[str, Dict[str, Any]]]:
         "start_year": r.get("start_year") or r.get("Start Year") or r.get("Start_Year") or "",
         "graduation_year": grad,
         "research_interests": split_list(r.get("research_interests") or r.get("Research Interests")),
-        "current_position": (r.get("previous_position") or r.get("Previous Position") or
+        "previous_position": (r.get("previous_position") or r.get("Previous Position") or
                              ((r.get("position") or r.get("Position")) if str(grad).lower() != "current" else "")) or "",
         "links": nonempty({
             "website": (r.get("website") or r.get("Website") or "").strip() or None,

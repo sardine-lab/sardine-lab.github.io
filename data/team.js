@@ -534,7 +534,7 @@ const teamData = {
   "advisor": "Andr\u00e9 Martins",
   "start_year": 2022,
   "graduation_year": 2022,
-  "current_position": "Postdoc",
+  "previous_position": "Postdoc",
   "links": {
   "website": "https://scholar.xjtlu.edu.cn/en/persons/ChunchuanLyu"
 },
@@ -549,7 +549,7 @@ const teamData = {
   "advisor": "Andr\u00e9 Martins",
   "start_year": 2019,
   "graduation_year": 2020,
-  "current_position": "Postdoc",
+  "previous_position": "Postdoc",
   "links": {
   "website": "https://erickrf.github.io/"
 },
@@ -565,7 +565,7 @@ const teamData = {
   "co_advisor": "Vlad Niculae",
   "start_year": 2019,
   "graduation_year": 2022,
-  "current_position": "PhD (ELLIS)",
+  "previous_position": "PhD (ELLIS)",
   "links": {
   "website": "https://goncalomcorreia.github.io"
 },
@@ -580,7 +580,7 @@ const teamData = {
   "advisor": "Andr\u00e9 Martins",
   "start_year": 2022,
   "graduation_year": 2023,
-  "current_position": "Researcher",
+  "previous_position": "Researcher",
   "links": {
   "website": "https://www.goncalofaria.com/"
 },
@@ -596,7 +596,7 @@ const teamData = {
   "co_advisor": "Pierre Colombo",
   "start_year": 2021,
   "graduation_year": 2025,
-  "current_position": "PhD",
+  "previous_position": "PhD",
   "links": {
   "website": "https://nunonmg.github.io/"
 },
@@ -612,7 +612,7 @@ const teamData = {
   "co_advisor": "Zita Marinho",
   "start_year": 2019,
   "graduation_year": 2022,
-  "current_position": "PhD",
+  "previous_position": "PhD",
   "links": {
   "website": "https://www.linkedin.com/in/pedro-henrique-martins-a0969937/"
 },
@@ -627,7 +627,7 @@ const teamData = {
   "advisor": "Andr\u00e9 Martins",
   "start_year": 2024,
   "graduation_year": 2025,
-  "current_position": "Postdoc",
+  "previous_position": "Postdoc",
   "links": {
   "website": "https://sweta20.github.io/"
 },
@@ -643,7 +643,7 @@ const teamData = {
   "co_advisor": "Chryssa Zerva",
   "start_year": 2021,
   "graduation_year": 2024,
-  "current_position": "PhD",
+  "previous_position": "PhD",
   "links": {
   "website": "https://glushkovato.github.io/"
 },
@@ -659,7 +659,7 @@ const teamData = {
   "co_advisor": "Vlad Niculae",
   "start_year": 2019,
   "graduation_year": 2022,
-  "current_position": "PhD",
+  "previous_position": "PhD",
   "links": {
   "website": "https://tsvm.github.io"
 },
@@ -674,7 +674,7 @@ const teamData = {
   "advisor": "Andr\u00e9 Martins",
   "start_year": 2019,
   "graduation_year": 2020,
-  "current_position": "Postdoc",
+  "previous_position": "Postdoc",
   "links": {
   "website": "http://vene.ro"
 },
@@ -690,7 +690,7 @@ const teamData = {
   "co_advisor": "Geoff Gordon, Sidd Srinivasa",
   "start_year": 2015,
   "graduation_year": 2018,
-  "current_position": "PhD",
+  "previous_position": "PhD",
   "links": {
   "website": "http://www.cs.cmu.edu/~zmarinho"
 },

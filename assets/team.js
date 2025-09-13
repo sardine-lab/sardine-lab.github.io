@@ -8,10 +8,6 @@ class TeamManager {
 
     // Get current team organized by categories
     getCurrentTeam() {
-        if (typeof getCurrentTeam === 'function') {
-            return getCurrentTeam();
-        }
-        
         // Fallback implementation
         const current = {};
         Object.keys(this.teamData).forEach(role => {
@@ -26,10 +22,6 @@ class TeamManager {
 
     // Get alumni
     getAlumni() {
-        if (typeof getAlumni === 'function') {
-            return getAlumni();
-        }
-        
         // Fallback implementation
         const alumni = [];
         Object.keys(this.teamData).forEach(role => {
@@ -119,7 +111,7 @@ class TeamManager {
                 </div>
                 <div>
                     <p class="font-medium"><a href="${member.links.website ? member.links.website : '#'}" class="hover:text-sardine-blue transition-colors" target="_blank" rel="noopener">${member.name}</a></p>
-                    <p class="text-xs text-slate-500">${member.degree} from ${member.start_year} to ${member.graduation_year}</p>
+                    <p class="text-xs text-slate-500">${member.previous_position} from ${member.start_year} to ${member.graduation_year}</p>
                     <p class="text-xs text-slate-500">${member.position}</p>
                 </div>
             `;
