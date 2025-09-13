@@ -78,7 +78,7 @@ const teamData = {
   "scholar": "https://scholar.google.com/citations?user=WFcYhToAAAAJ&hl=en"
 },
   "country": "United States",
-  "city": "Boston"
+  "city": "Seattle"
 },
   {
   "name": "Giuseppe Attanasio",
@@ -109,7 +109,7 @@ const teamData = {
   "start_year": 2025,
   "graduation_year": "current",
   "research_interests": [
-  "Agens & Causality"
+  "Structure & Causality"
 ],
   "links": {
   "website": "https://namednil.github.io/",
@@ -489,6 +489,7 @@ const teamData = {
   "position": "Visiting Researcher at IT",
   "image": "assets/figs/team/anil_keshwani.jpeg",
   "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Ben Peters",
   "start_year": 2024,
   "graduation_year": "current",
   "research_interests": [
