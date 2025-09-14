@@ -17,7 +17,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2506.16640",
-  "bibtex": "@article{Vasylenko2025LongContextGW,\n author = {Pavlo Vasylenko and Marcos V. Treviso and Andr'e F. T. Martins},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Long-Context Generalization with Sparse Attention},\n volume = {abs/2506.16640},\n year = {2025}\n}"
+  "bibtex": `@article{Vasylenko2025LongContextGW,
+ author = {Pavlo Vasylenko and Marcos V. Treviso and Andr'e F. T. Martins},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {Long-Context Generalization with Sparse Attention},
+ volume = {abs/2506.16640},
+ year = {2025}
+}`
 }
 },
   {
@@ -36,7 +43,24 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2025.acl-long.1194/",
   "code": "https://github.com/deep-spin/latim",
-  "bibtex": "@inproceedings{pitorro-treviso-2025-latim,\n    title = \"{L}a{TIM}: Measuring Latent Token-to-Token Interactions in Mamba Models\",\n    author = \"Pitorro, Hugo  and\n      Treviso, Marcos Vinicius\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-long.1194/\",\n    doi = \"10.18653/v1/2025.acl-long.1194\",\n    pages = \"24478--24493\",\n    ISBN = \"979-8-89176-251-0\"\n}"
+  "bibtex": `@inproceedings{pitorro-treviso-2025-latim,
+    title = "{L}a{TIM}: Measuring Latent Token-to-Token Interactions in Mamba Models",
+    author = "Pitorro, Hugo  and
+      Treviso, Marcos Vinicius",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1194/",
+    doi = "10.18653/v1/2025.acl-long.1194",
+    pages = "24478--24493",
+    ISBN = "979-8-89176-251-0"
+}`
 }
 },
   {
@@ -56,7 +80,13 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=OWIPDWhUcO",
   "code": "https://github.com/deep-spin/adasplash",
-  "bibtex": "@inproceedings{GonalvesAdasplashAdaptiveSparseF,\n  title={ AdaSplash: Adaptive Sparse Flash Attention },\n  author={ Nuno Gon\u00e7alves and Marcos Treviso and Andre Martins },\n  booktitle={ International Conference on Machine Learning },\n  year={ 2025},\n  url={ https://openreview.net/forum?id=OWIPDWhUcO }\n}"
+  "bibtex": `@inproceedings{GonalvesAdasplashAdaptiveSparseF,
+  title={ AdaSplash: Adaptive Sparse Flash Attention },
+  author={ Nuno Gonçalves and Marcos Treviso and Andre Martins },
+  booktitle={ International Conference on Machine Learning },
+  year={ 2025},
+  url={ https://openreview.net/forum?id=OWIPDWhUcO }
+}`
 }
 },
   {
@@ -74,7 +104,14 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2507.00994",
   "code": "https://huggingface.co/blog/Nicolas-BZRD/encoders-should-not-be-only-pre-trained-with-mlm",
-  "bibtex": "@article{Gisserot-Boukhlef2025ShouldWS,\n author = {Hippolyte Gisserot-Boukhlef and Nicolas Boizard and Manuel Faysse and Duarte M. Alves and Emmanuel Malherbe and Andr\u00e9 Martins and C'eline Hudelot and Pierre Colombo},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Should We Still Pretrain Encoders with Masked Language Modeling?},\n volume = {abs/2507.00994},\n year = {2025}\n}"
+  "bibtex": `@article{Gisserot-Boukhlef2025ShouldWS,
+ author = {Hippolyte Gisserot-Boukhlef and Nicolas Boizard and Manuel Faysse and Duarte M. Alves and Emmanuel Malherbe and André Martins and C'eline Hudelot and Pierre Colombo},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {Should We Still Pretrain Encoders with Masked Language Modeling?},
+ volume = {abs/2507.00994},
+ year = {2025}
+}`
 }
 },
   {
@@ -92,7 +129,14 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2506.17080",
   "code": "https://huggingface.co/Unbabel/Tower-Plus-9B",
-  "bibtex": "@article{Rei2025TowerBG,\n author = {Ricardo Rei and Nuno M. Guerreiro and Jos\u00e9 P. Pombal and Jo\u00e3o Alves and Pedro Teixeirinha and Amin Farajian and Andr'e F. T. Martins},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Tower+: Bridging Generality and Translation Specialization in Multilingual LLMs},\n volume = {abs/2506.17080},\n year = {2025}\n}"
+  "bibtex": `@article{Rei2025TowerBG,
+ author = {Ricardo Rei and Nuno M. Guerreiro and José P. Pombal and João Alves and Pedro Teixeirinha and Amin Farajian and Andr'e F. T. Martins},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {Tower+: Bridging Generality and Translation Specialization in Multilingual LLMs},
+ volume = {abs/2506.17080},
+ year = {2025}
+}`
 }
 },
   {
@@ -111,7 +155,25 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.iwslt-1.36/",
-  "bibtex": "@inproceedings{attanasio-etal-2025-instituto,\n    title = \"Instituto de Telecomunica{\\c{c}}{\\~o}es at {IWSLT} 2025: Aligning Small-Scale Speech and Language Models for Speech-to-Text Learning\",\n    author = \"Attanasio, Giuseppe  and\n      Sannigrahi, Sonal  and\n      Peters, Ben  and\n      Filipe Torres Martins, Andr{\\'e}\",\n    editor = \"Salesky, Elizabeth  and\n      Federico, Marcello  and\n      Anastasopoulos, Antonis\",\n    booktitle = \"Proceedings of the 22nd International Conference on Spoken Language Translation (IWSLT 2025)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria (in-person and online)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.iwslt-1.36/\",\n    doi = \"10.18653/v1/2025.iwslt-1.36\",\n    pages = \"347--353\",\n    ISBN = \"979-8-89176-272-5\"\n}"
+  "bibtex": `@inproceedings{attanasio-etal-2025-instituto,
+    title = "Instituto de Telecomunica{\\c{c}}{\\~o}es at {IWSLT} 2025: Aligning Small-Scale Speech and Language Models for Speech-to-Text Learning",
+    author = "Attanasio, Giuseppe  and
+      Sannigrahi, Sonal  and
+      Peters, Ben  and
+      Filipe Torres Martins, Andr{\\'e}",
+    editor = "Salesky, Elizabeth  and
+      Federico, Marcello  and
+      Anastasopoulos, Antonis",
+    booktitle = "Proceedings of the 22nd International Conference on Spoken Language Translation (IWSLT 2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.iwslt-1.36/",
+    doi = "10.18653/v1/2025.iwslt-1.36",
+    pages = "347--353",
+    ISBN = "979-8-89176-272-5"
+}`
 }
 },
   {
@@ -128,7 +190,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2506.13468",
-  "bibtex": "@article{Carpuat2025AnIA,\n author = {Marine Carpuat and Omri Asscher and Kalika Bali and Luisa Bentivogli and Fr'ed'eric Blain and Lynne Bowker and M. Choudhury and Hal Daum'e and Kevin Duh and Ge Gao and Alvin Grissom and Marzena Karpinska and Elaine C. Khoong and William D. Lewis and Andr'e F. T. Martins and Mary Nurminen and Douglas W. Oard and Maja Popovic and Michel Simard and Franccois Yvon},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {An Interdisciplinary Approach to Human-Centered Machine Translation},\n volume = {abs/2506.13468},\n year = {2025}\n}"
+  "bibtex": `@article{Carpuat2025AnIA,
+ author = {Marine Carpuat and Omri Asscher and Kalika Bali and Luisa Bentivogli and Fr'ed'eric Blain and Lynne Bowker and M. Choudhury and Hal Daum'e and Kevin Duh and Ge Gao and Alvin Grissom and Marzena Karpinska and Elaine C. Khoong and William D. Lewis and Andr'e F. T. Martins and Mary Nurminen and Douglas W. Oard and Maja Popovic and Michel Simard and Franccois Yvon},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {An Interdisciplinary Approach to Human-Centered Machine Translation},
+ volume = {abs/2506.13468},
+ year = {2025}
+}`
 }
 },
   {
@@ -146,7 +215,14 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2506.06275",
   "code": "https://github.com/deep-spin/MF2",
-  "bibtex": "@article{Zaranis2025MovieFA,\n author = {Emmanouil Zaranis and Ant\u00f3nio Farinhas and Saul Santos and Beatriz Canaverde and Miguel Moura Ramos and Aditya K Surikuchi and Andr'e Viveiros and Baohao Liao and E. Bueno-Benito and Nithin Sivakumaran and Pavlo Vasylenko and Shoubin Yu and Sonal Sannigrahi and Wafaa Mohammed and Ben Peters and Danae S'anchez Villegas and Elias Stengel-Eskin and Giuseppe Attanasio and Jaehong Yoon and Stella Frank and Alessandro Suglia and Chrysoula Zerva and Desmond Elliott and Mariella Dimiccoli and Mohit Bansal and Oswald Lanz and Raffaella Bernardi and R. Fern'andez and Sandro Pezzelle and Vlad Niculae and Andr'e F. T. Martins},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Movie Facts and Fibs (MF2): A Benchmark for Long Movie Understanding},\n volume = {abs/2506.06275},\n year = {2025}\n}"
+  "bibtex": `@article{Zaranis2025MovieFA,
+ author = {Emmanouil Zaranis and António Farinhas and Saul Santos and Beatriz Canaverde and Miguel Moura Ramos and Aditya K Surikuchi and Andr'e Viveiros and Baohao Liao and E. Bueno-Benito and Nithin Sivakumaran and Pavlo Vasylenko and Shoubin Yu and Sonal Sannigrahi and Wafaa Mohammed and Ben Peters and Danae S'anchez Villegas and Elias Stengel-Eskin and Giuseppe Attanasio and Jaehong Yoon and Stella Frank and Alessandro Suglia and Chrysoula Zerva and Desmond Elliott and Mariella Dimiccoli and Mohit Bansal and Oswald Lanz and Raffaella Bernardi and R. Fern'andez and Sandro Pezzelle and Vlad Niculae and Andr'e F. T. Martins},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {Movie Facts and Fibs (MF2): A Benchmark for Long Movie Understanding},
+ volume = {abs/2506.06275},
+ year = {2025}
+}`
 }
 },
   {
@@ -162,7 +238,33 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.sigtyp-1.13/",
-  "bibtex": "@inproceedings{lin-etal-2025-construction,\n    title = \"Construction-Based Reduction of Translationese for Low-Resource Languages: A Pilot Study on {B}avarian\",\n    author = {Lin, Peiqin  and\n      Thaler, Marion  and\n      Goschala, Daniela  and\n      Kargaran, Amir Hossein  and\n      Liu, Yihong  and\n      Martins, Andr{\\'e} F. T.  and\n      Sch{\\\"u}tze, Hinrich},\n    editor = \"Hahn, Michael  and\n      Rani, Priya  and\n      Kumar, Ritesh  and\n      Shcherbakov, Andreas  and\n      Sorokin, Alexey  and\n      Serikov, Oleg  and\n      Cotterell, Ryan  and\n      Vylomova, Ekaterina\",\n    booktitle = \"Proceedings of the 7th Workshop on Research in Computational Linguistic Typology and Multilingual NLP\",\n    month = aug,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.sigtyp-1.13/\",\n    doi = \"10.18653/v1/2025.sigtyp-1.13\",\n    pages = \"114--121\",\n    ISBN = \"979-8-89176-281-7\"\n}"
+  "bibtex": `@inproceedings{lin-etal-2025-construction,
+    title = "Construction-Based Reduction of Translationese for Low-Resource Languages: A Pilot Study on {B}avarian",
+    author = {Lin, Peiqin  and
+      Thaler, Marion  and
+      Goschala, Daniela  and
+      Kargaran, Amir Hossein  and
+      Liu, Yihong  and
+      Martins, Andr{\\'e} F. T.  and
+      Sch{\\"u}tze, Hinrich},
+    editor = "Hahn, Michael  and
+      Rani, Priya  and
+      Kumar, Ritesh  and
+      Shcherbakov, Andreas  and
+      Sorokin, Alexey  and
+      Serikov, Oleg  and
+      Cotterell, Ryan  and
+      Vylomova, Ekaterina",
+    booktitle = "Proceedings of the 7th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    month = aug,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.sigtyp-1.13/",
+    doi = "10.18653/v1/2025.sigtyp-1.13",
+    pages = "114--121",
+    ISBN = "979-8-89176-281-7"
+}`
 }
 },
   {
@@ -179,7 +281,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2506.04079",
-  "bibtex": "@article{Martins2025EuroLLM9BTR,\n author = {P. Martins and Jo\u00e3o Alves and Patrick Fernandes and Nuno M. Guerreiro and Ricardo Rei and Amin Farajian and Mateusz Klimaszewski and Duarte M. Alves and Jos\u00e9 P. Pombal and Manuel Faysse and Pierre Colombo and Franccois Yvon and Barry Haddow and J. G. C. D. Souza and Alexandra Birch and Andr\u00e9 Martins},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {EuroLLM-9B: Technical Report},\n volume = {abs/2506.04079},\n year = {2025}\n}"
+  "bibtex": `@article{Martins2025EuroLLM9BTR,
+ author = {P. Martins and João Alves and Patrick Fernandes and Nuno M. Guerreiro and Ricardo Rei and Amin Farajian and Mateusz Klimaszewski and Duarte M. Alves and José P. Pombal and Manuel Faysse and Pierre Colombo and Franccois Yvon and Barry Haddow and J. G. C. D. Souza and Alexandra Birch and André Martins},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {EuroLLM-9B: Technical Report},
+ volume = {abs/2506.04079},
+ year = {2025}
+}`
 }
 },
   {
@@ -197,7 +306,28 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.acl-short.78/",
-  "bibtex": "@inproceedings{fucci-etal-2025-different,\n    title = \"Different Speech Translation Models Encode and Translate Speaker Gender Differently\",\n    author = \"Fucci, Dennis  and\n      Gaido, Marco  and\n      Negri, Matteo  and\n      Bentivogli, Luisa  and\n      Martins, Andre  and\n      Attanasio, Giuseppe\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-short.78/\",\n    doi = \"10.18653/v1/2025.acl-short.78\",\n    pages = \"1005--1019\",\n    ISBN = \"979-8-89176-252-7\"\n}"
+  "bibtex": `@inproceedings{fucci-etal-2025-different,
+    title = "Different Speech Translation Models Encode and Translate Speaker Gender Differently",
+    author = "Fucci, Dennis  and
+      Gaido, Marco  and
+      Negri, Matteo  and
+      Bentivogli, Luisa  and
+      Martins, Andre  and
+      Attanasio, Giuseppe",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-short.78/",
+    doi = "10.18653/v1/2025.acl-short.78",
+    pages = "1005--1019",
+    ISBN = "979-8-89176-252-7"
+}`
 }
 },
   {
@@ -214,7 +344,15 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2301.07473",
-  "bibtex": "@article{Niculae2025DiscreteLS,\n author = {Vlad Niculae and Caio F. Corro and Nikita Nangia and Tsvetomila Mihaylova and Andr\u00e9 F. T. Martins},\n booktitle = {Foundations and Trends\u00ae in Signal Processing},\n journal = {Found. Trends Signal Process.},\n pages = {99-211},\n title = {Discrete Latent Structure in Neural Networks},\n volume = {19},\n year = {2025}\n}"
+  "bibtex": `@article{Niculae2025DiscreteLS,
+ author = {Vlad Niculae and Caio F. Corro and Nikita Nangia and Tsvetomila Mihaylova and André F. T. Martins},
+ booktitle = {Foundations and Trends® in Signal Processing},
+ journal = {Found. Trends Signal Process.},
+ pages = {99-211},
+ title = {Discrete Latent Structure in Neural Networks},
+ volume = {19},
+ year = {2025}
+}`
 }
 },
   {
@@ -232,7 +370,13 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://openreview.net/forum?id=Ah0U1r5Ldq",
-  "bibtex": "@inproceedings{ramos2025multilingual,\ntitle={Multilingual Contextualization of Large Language Models for Document-Level Machine Translation},\nauthor={Miguel Moura Ramos and Patrick Fernandes and Sweta Agrawal and Andre Martins},\nbooktitle={Second Conference on Language Modeling},\nyear={2025},\nurl={https://openreview.net/forum?id=Ah0U1r5Ldq}\n}"
+  "bibtex": `@inproceedings{ramos2025multilingual,
+title={Multilingual Contextualization of Large Language Models for Document-Level Machine Translation},
+author={Miguel Moura Ramos and Patrick Fernandes and Sweta Agrawal and Andre Martins},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=Ah0U1r5Ldq}
+}`
 }
 },
   {
@@ -250,7 +394,13 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://openreview.net/forum?id=Zfa9jCYGCz",
-  "bibtex": "@inproceedings{fernandes2025do,\ntitle={Do {LLM}s Understand Your Translations? Evaluating Paragraph-level {MT} with Question Answering},\nauthor={Patrick Fernandes and Sweta Agrawal and Emmanouil Zaranis and Andre Martins and Graham Neubig},\nbooktitle={Second Conference on Language Modeling},\nyear={2025},\nurl={https://openreview.net/forum?id=Zfa9jCYGCz}\n}"
+  "bibtex": `@inproceedings{fernandes2025do,
+title={Do {LLM}s Understand Your Translations? Evaluating Paragraph-level {MT} with Question Answering},
+author={Patrick Fernandes and Sweta Agrawal and Emmanouil Zaranis and Andre Martins and Graham Neubig},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=Zfa9jCYGCz}
+}`
 }
 },
   {
@@ -269,7 +419,14 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=Atyk8lnIQQ",
   "code": "https://huggingface.co/collections/Unbabel/m-prometheus-67f3b17e6409b2550b698822",
-  "bibtex": "@inproceedings{\npombal2025mprometheus,\ntitle={M-Prometheus: A Suite of Open Multilingual {LLM} Judges},\nauthor={Jos{\\'e} Pombal and Dongkeun Yoon and Patrick Fernandes and Ian Wu and Seungone Kim and Ricardo Rei and Graham Neubig and Andre Martins},\nbooktitle={Second Conference on Language Modeling},\nyear={2025},\nurl={https://openreview.net/forum?id=Atyk8lnIQQ}\n}"
+  "bibtex": `@inproceedings{
+pombal2025mprometheus,
+title={M-Prometheus: A Suite of Open Multilingual {LLM} Judges},
+author={Jos{\\'e} Pombal and Dongkeun Yoon and Patrick Fernandes and Ian Wu and Seungone Kim and Ricardo Rei and Graham Neubig and Andre Martins},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=Atyk8lnIQQ}
+}`
 }
 },
   {
@@ -287,7 +444,14 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=WARZwyDf17",
   "code": "https://github.com/deep-spin/zsb",
-  "bibtex": "@inproceedings{\npombal2025zeroshot,\ntitle={Zero-shot Benchmarking: A Framework for Flexible and Scalable Automatic Evaluation of Language Models},\nauthor={Jos{\\'e} Pombal and Nuno M Guerreiro and Ricardo Rei and Andre Martins},\nbooktitle={Second Conference on Language Modeling},\nyear={2025},\nurl={https://openreview.net/forum?id=WARZwyDf17}\n}"
+  "bibtex": `@inproceedings{
+pombal2025zeroshot,
+title={Zero-shot Benchmarking: A Framework for Flexible and Scalable Automatic Evaluation of Language Models},
+author={Jos{\\'e} Pombal and Nuno M Guerreiro and Ricardo Rei and Andre Martins},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=WARZwyDf17}
+}`
 }
 },
   {
@@ -306,7 +470,12 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2503.10620",
   "code": "https://huggingface.co/papers/2503.10620",
-  "bibtex": "@article{ambilduke2025tower,\n  title={From tower to spire: Adding the speech modality to a text-only llm},\n  author={Ambilduke, Kshitij and Peters, Ben and Sannigrahi, Sonal and Keshwani, Anil and Lam, Tsz Kin and Martins, Bruno and Boito, Marcely Zanon and Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2503.10620},\n  year={2025}\n}"
+  "bibtex": `@article{ambilduke2025tower,
+  title={From tower to spire: Adding the speech modality to a text-only llm},
+  author={Ambilduke, Kshitij and Peters, Ben and Sannigrahi, Sonal and Keshwani, Anil and Lam, Tsz Kin and Martins, Bruno and Boito, Marcely Zanon and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2503.10620},
+  year={2025}
+}`
 }
 },
   {
@@ -323,7 +492,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2503.08327",
-  "bibtex": "@article{Pombal2025AddingCT,\n author = {Jos\u00e9 P. Pombal and Nuno M. Guerreiro and Ricardo Rei and Andr'e F. T. Martins},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Adding Chocolate to Mint: Mitigating Metric Interference in Machine Translation},\n volume = {abs/2503.08327},\n year = {2025}\n}"
+  "bibtex": `@article{Pombal2025AddingCT,
+ author = {José P. Pombal and Nuno M. Guerreiro and Ricardo Rei and Andr'e F. T. Martins},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {Adding Chocolate to Mint: Mitigating Metric Interference in Machine Translation},
+ volume = {abs/2503.08327},
+ year = {2025}
+}`
 }
 },
   {
@@ -341,7 +517,13 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=jdOC24msVq",
   "code": "https://huggingface.co/papers/2503.05500",
-  "bibtex": "@inproceedings{boizard2025eurobert,\ntitle={Euro{BERT}: Scaling Multilingual Encoders for European Languages},\nauthor={Nicolas Boizard and Hippolyte Gisserot-Boukhlef and Duarte Miguel Alves and Andre Martins and Ayoub Hammal and Caio Corro and CELINE HUDELOT and Emmanuel Malherbe and Etienne Malaboeuf and Fanny Jourdan and Gabriel Hautreux and Jo{\\~a}o Alves and Kevin El Haddad and Manuel Faysse and Maxime Peyrard and Nuno M Guerreiro and Patrick Fernandes and Ricardo Rei and Pierre Colombo},\nbooktitle={Second Conference on Language Modeling},\nyear={2025},\nurl={https://openreview.net/forum?id=jdOC24msVq}\n}"
+  "bibtex": `@inproceedings{boizard2025eurobert,
+title={Euro{BERT}: Scaling Multilingual Encoders for European Languages},
+author={Nicolas Boizard and Hippolyte Gisserot-Boukhlef and Duarte Miguel Alves and Andre Martins and Ayoub Hammal and Caio Corro and CELINE HUDELOT and Emmanuel Malherbe and Etienne Malaboeuf and Fanny Jourdan and Gabriel Hautreux and Jo{\\~a}o Alves and Kevin El Haddad and Manuel Faysse and Maxime Peyrard and Nuno M Guerreiro and Patrick Fernandes and Ricardo Rei and Pierre Colombo},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=jdOC24msVq}
+}`
 }
 },
   {
@@ -360,7 +542,12 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2502.16357",
   "code": "https://huggingface.co/datasets/BeatrizCanaverde/LegalBench.PT",
-  "bibtex": "@article{canaverde2025legalbench,\n  title={Legalbench. pt: a benchmark for portuguese law},\n  author={Canaverde, Beatriz and Pires, Telmo Pessoa and Ribeiro, Leonor Melo and Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2502.16357},\n  year={2025}\n}"
+  "bibtex": `@article{canaverde2025legalbench,
+  title={Legalbench. pt: a benchmark for portuguese law},
+  author={Canaverde, Beatriz and Pires, Telmo Pessoa and Ribeiro, Leonor Melo and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2502.16357},
+  year={2025}
+}`
 }
 },
   {
@@ -379,7 +566,20 @@ const publicationsData = [
   "paper": "https://arxiv.org/abs/2502.14773",
   "code": "https://github.com/deep-spin/sparse-activations-cp",
   "demo": "https://sparse-activations-conformal-predictors.streamlit.app/",
-  "bibtex": "@InProceedings{campos2025sparse,\n  title =    {Sparse Activations as Conformal Predictors},\n  author =       {Campos, Margarida M and C{\\'a}lem, Jo{\\~a}o and Sklaviadis, Sophia and Figueiredo, Mario A. T. and Martins, Andre},\n  booktitle =    {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},\n  pages =    {2674--2682},\n  year =   {2025},\n  editor =   {Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz},\n  volume =   {258},\n  series =   {Proceedings of Machine Learning Research},\n  month =    {03--05 May},\n  publisher =    {PMLR},\n  pdf =    {https://raw.githubusercontent.com/mlresearch/v258/main/assets/campos25a/campos25a.pdf},\n  url =    {https://proceedings.mlr.press/v258/campos25a.html},\n}"
+  "bibtex": `@InProceedings{campos2025sparse,
+  title =    {Sparse Activations as Conformal Predictors},
+  author =       {Campos, Margarida M and C{\\'a}lem, Jo{\\~a}o and Sklaviadis, Sophia and Figueiredo, Mario A. T. and Martins, Andre},
+  booktitle =    {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  pages =    {2674--2682},
+  year =   {2025},
+  editor =   {Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz},
+  volume =   {258},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {03--05 May},
+  publisher =    {PMLR},
+  pdf =    {https://raw.githubusercontent.com/mlresearch/v258/main/assets/campos25a/campos25a.pdf},
+  url =    {https://proceedings.mlr.press/v258/campos25a.html},
+}`
 }
 },
   {
@@ -396,7 +596,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2502.12701",
-  "bibtex": "@article{farinhas2025translate,\n  title={Translate Smart, not Hard: Cascaded Translation Systems with Quality-Aware Deferral},\n  author={Farinhas, Ant{\\'o}nio and Guerreiro, Nuno M and Agrawal, Sweta and Rei, Ricardo and Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2502.12701},\n  year={2025}\n}"
+  "bibtex": `@article{farinhas2025translate,
+  title={Translate Smart, not Hard: Cascaded Translation Systems with Quality-Aware Deferral},
+  author={Farinhas, Ant{\\'o}nio and Guerreiro, Nuno M and Agrawal, Sweta and Rei, Ricardo and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2502.12701},
+  year={2025}
+}`
 }
 },
   {
@@ -414,7 +619,13 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=bU4dyLTNp3",
   "code": "https://github.com/deep-spin/CHM-Net",
-  "bibtex": "@inproceedings{santos2025modern,\ntitle={Modern Hopfield Networks with Continuous-Time Memories},\nauthor={Saul Santos and Ant{\\'o}nio Farinhas and Daniel C McNamee and Andre Martins},\nbooktitle={New Frontiers in Associative Memories},\nyear={2025},\nurl={https://openreview.net/forum?id=bU4dyLTNp3}\n}"
+  "bibtex": `@inproceedings{santos2025modern,
+title={Modern Hopfield Networks with Continuous-Time Memories},
+author={Saul Santos and Ant{\\'o}nio Farinhas and Daniel C McNamee and Andre Martins},
+booktitle={New Frontiers in Associative Memories},
+year={2025},
+url={https://openreview.net/forum?id=bU4dyLTNp3}
+}`
 }
 },
   {
@@ -430,7 +641,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2502.10295",
-  "bibtex": "@article{sklaviadis2025fenchel,\n  title={Fenchel-Young Variational Learning},\n  author={Sklaviadis, Sophia and Agrawal, Sweta and Farinhas, Antonio and Martins, Andre and Figueiredo, Mario},\n  journal={arXiv preprint arXiv:2502.10295},\n  year={2025}\n}"
+  "bibtex": `@article{sklaviadis2025fenchel,
+  title={Fenchel-Young Variational Learning},
+  author={Sklaviadis, Sophia and Agrawal, Sweta and Farinhas, Antonio and Martins, Andre and Figueiredo, Mario},
+  journal={arXiv preprint arXiv:2502.10295},
+  year={2025}
+}`
 }
 },
   {
@@ -448,7 +664,13 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=afDHwQ1ZDO",
   "code": "https://github.com/deep-spin/Infinite-Video",
-  "bibtex": "@inproceedings{santos2025inftyvideo,\ntitle={\\${\\textbackslash}infty\\$-Video: A Training-Free Approach to Long Video Understanding via Continuous-Time Memory Consolidation},\nauthor={Saul Santos and Ant{\\'o}nio Farinhas and Daniel C McNamee and Andre Martins},\nbooktitle={Forty-second International Conference on Machine Learning},\nyear={2025},\nurl={https://openreview.net/forum?id=afDHwQ1ZDO}\n}"
+  "bibtex": `@inproceedings{santos2025inftyvideo,
+title={\\\${\\textbackslash}infty\\$-Video: A Training-Free Approach to Long Video Understanding via Continuous-Time Memory Consolidation},
+author={Saul Santos and Ant{\\'o}nio Farinhas and Daniel C McNamee and Andre Martins},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=afDHwQ1ZDO}
+}`
 }
 },
   {
@@ -465,7 +687,15 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2409.16235",
-  "bibtex": "@article{martins2025eurollm,\n  title={Eurollm: Multilingual language models for europe},\n  author={Martins, Pedro Henrique and Fernandes, Patrick and Alves, Jo{\\~a}o and Guerreiro, Nuno M and Rei, Ricardo and Alves, Duarte M and Pombal, Jos{\\'e} and Farajian, Amin and Faysse, Manuel and Klimaszewski, Mateusz and others},\n  journal={Procedia Computer Science},\n  volume={255},\n  pages={53--62},\n  year={2025},\n  publisher={Elsevier}\n}"
+  "bibtex": `@article{martins2025eurollm,
+  title={Eurollm: Multilingual language models for europe},
+  author={Martins, Pedro Henrique and Fernandes, Patrick and Alves, Jo{\\~a}o and Guerreiro, Nuno M and Rei, Ricardo and Alves, Duarte M and Pombal, Jos{\\'e} and Farajian, Amin and Faysse, Manuel and Klimaszewski, Mateusz and others},
+  journal={Procedia Computer Science},
+  volume={255},
+  pages={53--62},
+  year={2025},
+  publisher={Elsevier}
+}`
 }
 },
   {
@@ -483,7 +713,45 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.acl-long.919/",
-  "bibtex": "@inproceedings{singh-etal-2025-global,\n    title = \"Global {MMLU}: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation\",\n    author = \"Singh, Shivalika  and\n      Romanou, Angelika  and\n      Fourrier, Cl{\\'e}mentine  and\n      Adelani, David Ifeoluwa  and\n      Ngui, Jian Gang  and\n      Vila-Suero, Daniel  and\n      Limkonchotiwat, Peerat  and\n      Marchisio, Kelly  and\n      Leong, Wei Qi  and\n      Susanto, Yosephine  and\n      Ng, Raymond  and\n      Longpre, Shayne  and\n      Ruder, Sebastian  and\n      Ko, Wei-Yin  and\n      Bosselut, Antoine  and\n      Oh, Alice  and\n      Martins, Andre  and\n      Choshen, Leshem  and\n      Ippolito, Daphne  and\n      Ferrante, Enzo  and\n      Fadaee, Marzieh  and\n      Ermis, Beyza  and\n      Hooker, Sara\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-long.919/\",\n    doi = \"10.18653/v1/2025.acl-long.919\",\n    pages = \"18761--18799\",\n    ISBN = \"979-8-89176-251-0\",\n}"
+  "bibtex": `@inproceedings{singh-etal-2025-global,
+    title = "Global {MMLU}: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation",
+    author = "Singh, Shivalika  and
+      Romanou, Angelika  and
+      Fourrier, Cl{\\'e}mentine  and
+      Adelani, David Ifeoluwa  and
+      Ngui, Jian Gang  and
+      Vila-Suero, Daniel  and
+      Limkonchotiwat, Peerat  and
+      Marchisio, Kelly  and
+      Leong, Wei Qi  and
+      Susanto, Yosephine  and
+      Ng, Raymond  and
+      Longpre, Shayne  and
+      Ruder, Sebastian  and
+      Ko, Wei-Yin  and
+      Bosselut, Antoine  and
+      Oh, Alice  and
+      Martins, Andre  and
+      Choshen, Leshem  and
+      Ippolito, Daphne  and
+      Ferrante, Enzo  and
+      Fadaee, Marzieh  and
+      Ermis, Beyza  and
+      Hooker, Sara",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.919/",
+    doi = "10.18653/v1/2025.acl-long.919",
+    pages = "18761--18799",
+    ISBN = "979-8-89176-251-0",
+}`
 }
 },
   {
@@ -502,7 +770,30 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2024.findings-emnlp.892/",
   "code": "https://huggingface.co/sardinelab/xTower13B",
-  "bibtex": "@inproceedings{treviso-etal-2024-xtower,\n    title = \"x{T}ower: A Multilingual {LLM} for Explaining and Correcting Translation Errors\",\n    author = \"Treviso, Marcos V  and\n      Guerreiro, Nuno M  and\n      Agrawal, Sweta  and\n      Rei, Ricardo  and\n      Pombal, Jos{\\'e}  and\n      Vaz, Tania  and\n      Wu, Helena  and\n      Silva, Beatriz  and\n      Stigt, Daan Van  and\n      Martins, Andre\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2024\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-emnlp.892/\",\n    doi = \"10.18653/v1/2024.findings-emnlp.892\",\n    pages = \"15222--15239\",\n}"
+  "bibtex": `@inproceedings{treviso-etal-2024-xtower,
+    title = "x{T}ower: A Multilingual {LLM} for Explaining and Correcting Translation Errors",
+    author = "Treviso, Marcos V  and
+      Guerreiro, Nuno M  and
+      Agrawal, Sweta  and
+      Rei, Ricardo  and
+      Pombal, Jos{\\'e}  and
+      Vaz, Tania  and
+      Wu, Helena  and
+      Silva, Beatriz  and
+      Stigt, Daan Van  and
+      Martins, Andre",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.892/",
+    doi = "10.18653/v1/2024.findings-emnlp.892",
+    pages = "15222--15239",
+}`
 }
 },
   {
@@ -520,7 +811,26 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.wmt-1.111/",
-  "bibtex": "@inproceedings{pitorro-etal-2024-effective,\n    title = \"How Effective Are State Space Models for Machine Translation?\",\n    author = \"Pitorro, Hugo  and\n      Vasylenko, Pavlo  and\n      Treviso, Marcos  and\n      Martins, Andr{\\'e}\",\n    editor = \"Haddow, Barry  and\n      Kocmi, Tom  and\n      Koehn, Philipp  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Ninth Conference on Machine Translation\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.wmt-1.111/\",\n    doi = \"10.18653/v1/2024.wmt-1.111\",\n    pages = \"1107--1124\",\n    abstract = \"Transformers are the current architecture of choice for NLP, but their attention layers do not scale well to long contexts. Recent works propose to replace attention with linear recurrent layers - this is the case for state space models, which enjoy efficient training and inference. However, it remains unclear whether these models are competitive with transformers in machine translation (MT). In this paper, we provide a rigorous and comprehensive experimental comparison between transformers and linear recurrent models for MT. Concretely, we experiment with RetNet, Mamba, and hybrid versions of Mamba which incorporate attention mechanisms. Our findings demonstrate that Mamba is highly competitive with transformers on sentence and paragraph-level datasets, where in the latter both models benefit from shifting the training distribution towards longer sequences. Further analysis show that integrating attention into Mamba improves translation quality, robustness to sequence length extrapolation, and the ability to recall named entities.\"\n}"
+  "bibtex": `@inproceedings{pitorro-etal-2024-effective,
+    title = "How Effective Are State Space Models for Machine Translation?",
+    author = "Pitorro, Hugo  and
+      Vasylenko, Pavlo  and
+      Treviso, Marcos  and
+      Martins, Andr{\\'e}",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.111/",
+    doi = "10.18653/v1/2024.wmt-1.111",
+    pages = "1107--1124",
+    abstract = "Transformers are the current architecture of choice for NLP, but their attention layers do not scale well to long contexts. Recent works propose to replace attention with linear recurrent layers - this is the case for state space models, which enjoy efficient training and inference. However, it remains unclear whether these models are competitive with transformers in machine translation (MT). In this paper, we provide a rigorous and comprehensive experimental comparison between transformers and linear recurrent models for MT. Concretely, we experiment with RetNet, Mamba, and hybrid versions of Mamba which incorporate attention mechanisms. Our findings demonstrate that Mamba is highly competitive with transformers on sentence and paragraph-level datasets, where in the latter both models benefit from shifting the training distribution towards longer sequences. Further analysis show that integrating attention into Mamba improves translation quality, robustness to sequence length extrapolation, and the ability to recall named entities."
+}`
 }
 },
   {
@@ -538,7 +848,15 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2409.07131",
-  "bibtex": "@inproceedings{Farinhas2024reranking,\n  author={Ant\u00f3nio Farinhas and Haau-Sing Li and Andr\u00e9 Martins},\n  title={Reranking Laws for Language Generation: A Communication-Theoretic Perspective},\n  year={2024},\n  cdate={1704067200000},\n  url={http://papers.nips.cc/paper_files/paper/2024/hash/c8b2f897e45770595656a79a9ad91e89-Abstract-Conference.html},\n  booktitle={NeurIPS},\n  crossref={conf/nips/2024}\n}"
+  "bibtex": `@inproceedings{Farinhas2024reranking,
+  author={António Farinhas and Haau-Sing Li and André Martins},
+  title={Reranking Laws for Language Generation: A Communication-Theoretic Perspective},
+  year={2024},
+  cdate={1704067200000},
+  url={http://papers.nips.cc/paper_files/paper/2024/hash/c8b2f897e45770595656a79a9ad91e89-Abstract-Conference.html},
+  booktitle={NeurIPS},
+  crossref={conf/nips/2024}
+}`
 }
 },
   {
@@ -557,7 +875,14 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=dLnduWGTB4",
   "code": "https://github.com/deep-spin/quest-decoding",
-  "bibtex": "@inproceedings{\nfaria2024quest,\ntitle={{QUEST}: Quality-Aware Metropolis-Hastings Sampling for Machine Translation},\nauthor={Gon{\\c{c}}alo Faria and Sweta Agrawal and Ant{\\'o}nio Farinhas and Ricardo Rei and Jos{\\'e} G. C. de Souza and Andre Martins},\nbooktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},\nyear={2024},\nurl={https://openreview.net/forum?id=dLnduWGTB4}\n}"
+  "bibtex": `@inproceedings{
+faria2024quest,
+title={{QUEST}: Quality-Aware Metropolis-Hastings Sampling for Machine Translation},
+author={Gon{\\c{c}}alo Faria and Sweta Agrawal and Ant{\\'o}nio Farinhas and Ricardo Rei and Jos{\\'e} G. C. de Souza and Andre Martins},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=dLnduWGTB4}
+}`
 }
 },
   {
@@ -576,7 +901,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2412.04205",
-  "bibtex": "@article{pombal2024context,\n  title={A context-aware framework for translation-mediated conversations},\n  author={Pombal, Jos{\\'e} and Agrawal, Sweta and Fernandes, Patrick and Zaranis, Emmanouil and Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2412.04205},\n  year={2024}\n}"
+  "bibtex": `@article{pombal2024context,
+  title={A context-aware framework for translation-mediated conversations},
+  author={Pombal, Jos{\\'e} and Agrawal, Sweta and Fernandes, Patrick and Zaranis, Emmanouil and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2412.04205},
+  year={2024}
+}`
 }
 },
   {
@@ -592,7 +922,22 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.tacl-1.82/",
-  "bibtex": "@article{campos-etal-2024-conformal,\n    title = \"Conformal Prediction for Natural Language Processing: A Survey\",\n    author = \"Campos, Margarida  and\n      Farinhas, Ant{\\'o}nio  and\n      Zerva, Chrysoula  and\n      Figueiredo, M{\\'a}rio A. T.  and\n      Martins, Andr{\\'e} F. T.\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"12\",\n    year = \"2024\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2024.tacl-1.82/\",\n    doi = \"10.1162/tacl_a_00715\",\n    pages = \"1497--1516\"\n}"
+  "bibtex": `@article{campos-etal-2024-conformal,
+    title = "Conformal Prediction for Natural Language Processing: A Survey",
+    author = "Campos, Margarida  and
+      Farinhas, Ant{\\'o}nio  and
+      Zerva, Chrysoula  and
+      Figueiredo, M{\\'a}rio A. T.  and
+      Martins, Andr{\\'e} F. T.",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "12",
+    year = "2024",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2024.tacl-1.82/",
+    doi = "10.1162/tacl_a_00715",
+    pages = "1497--1516"
+}`
 }
 },
   {
@@ -610,7 +955,19 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.tacl-1.80/",
-  "bibtex": "@article{zerva-martins-2024-conformalizing,\n    title = \"Conformalizing Machine Translation Evaluation\",\n    author = \"Zerva, Chrysoula  and\n      Martins, Andr{\\'e} F. T.\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"12\",\n    year = \"2024\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2024.tacl-1.80/\",\n    doi = \"10.1162/tacl_a_00711\",\n    pages = \"1460--1478\"\n}"
+  "bibtex": `@article{zerva-martins-2024-conformalizing,
+    title = "Conformalizing Machine Translation Evaluation",
+    author = "Zerva, Chrysoula  and
+      Martins, Andr{\\'e} F. T.",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "12",
+    year = "2024",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2024.tacl-1.80/",
+    doi = "10.1162/tacl_a_00711",
+    pages = "1460--1478"
+}`
 }
 },
   {
@@ -628,7 +985,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2411.08590",
-  "bibtex": "@article{santos2024hopfield,\n  title={Hopfield-fenchel-young networks: A unified framework for associative memory retrieval},\n  author={Santos, Saul and Niculae, Vlad and McNamee, Daniel and Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2411.08590},\n  year={2024}\n}"
+  "bibtex": `@article{santos2024hopfield,
+  title={Hopfield-fenchel-young networks: A unified framework for associative memory retrieval},
+  author={Santos, Saul and Niculae, Vlad and McNamee, Daniel and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2411.08590},
+  year={2024}
+}`
 }
 },
   {
@@ -645,7 +1007,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2411.05986",
-  "bibtex": "@article{ramos2024fine,\n  title={Fine-grained reward optimization for machine translation using error severity mappings},\n  author={Ramos, Miguel Moura and Almeida, Tom{\\'a}s and Vareta, Daniel and Azevedo, Filipe and Agrawal, Sweta and Fernandes, Patrick and Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2411.05986},\n  year={2024}\n}"
+  "bibtex": `@article{ramos2024fine,
+  title={Fine-grained reward optimization for machine translation using error severity mappings},
+  author={Ramos, Miguel Moura and Almeida, Tom{\\'a}s and Vareta, Daniel and Azevedo, Filipe and Agrawal, Sweta and Fernandes, Patrick and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2411.05986},
+  year={2024}
+}`
 }
 },
   {
@@ -663,7 +1030,35 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.wmt-1.12/",
-  "bibtex": "@inproceedings{rei-etal-2024-tower,\n    title = \"Tower v2: Unbabel-{IST} 2024 Submission for the General {MT} Shared Task\",\n    author = \"Rei, Ricardo  and\n      Pombal, Jose  and\n      Guerreiro, Nuno M.  and\n      Alves, Jo{\\~a}o  and\n      Martins, Pedro Henrique  and\n      Fernandes, Patrick  and\n      Wu, Helena  and\n      Vaz, Tania  and\n      Alves, Duarte  and\n      Farajian, Amin  and\n      Agrawal, Sweta  and\n      Farinhas, Antonio  and\n      C. De Souza, Jos{\\'e} G.  and\n      Martins, Andr{\\'e}\",\n    editor = \"Haddow, Barry  and\n      Kocmi, Tom  and\n      Koehn, Philipp  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Ninth Conference on Machine Translation\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.wmt-1.12/\",\n    doi = \"10.18653/v1/2024.wmt-1.12\",\n    pages = \"185--204\"\n}"
+  "bibtex": `@inproceedings{rei-etal-2024-tower,
+    title = "Tower v2: Unbabel-{IST} 2024 Submission for the General {MT} Shared Task",
+    author = "Rei, Ricardo  and
+      Pombal, Jose  and
+      Guerreiro, Nuno M.  and
+      Alves, Jo{\\~a}o  and
+      Martins, Pedro Henrique  and
+      Fernandes, Patrick  and
+      Wu, Helena  and
+      Vaz, Tania  and
+      Alves, Duarte  and
+      Farajian, Amin  and
+      Agrawal, Sweta  and
+      Farinhas, Antonio  and
+      C. De Souza, Jos{\\'e} G.  and
+      Martins, Andr{\\'e}",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.12/",
+    doi = "10.18653/v1/2024.wmt-1.12",
+    pages = "185--204"
+}`
 }
 },
   {
@@ -681,7 +1076,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.wmt-1.100/",
-  "bibtex": "@inproceedings{pombal-etal-2024-improving,\n    title = \"Improving Context Usage for Translating Bilingual Customer Support Chat with Large Language Models\",\n    author = \"Pombal, Jose  and\n      Agrawal, Sweta  and\n      Martins, Andr{\\'e}\",\n    editor = \"Haddow, Barry  and\n      Kocmi, Tom  and\n      Koehn, Philipp  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Ninth Conference on Machine Translation\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.wmt-1.100/\",\n    doi = \"10.18653/v1/2024.wmt-1.100\",\n    pages = \"993--1003\"\n}"
+  "bibtex": `@inproceedings{pombal-etal-2024-improving,
+    title = "Improving Context Usage for Translating Bilingual Customer Support Chat with Large Language Models",
+    author = "Pombal, Jose  and
+      Agrawal, Sweta  and
+      Martins, Andr{\\'e}",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.100/",
+    doi = "10.18653/v1/2024.wmt-1.100",
+    pages = "993--1003"
+}`
 }
 },
   {
@@ -699,7 +1111,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.findings-emnlp.876/",
-  "bibtex": "@inproceedings{zaranis-etal-2024-analyzing,\n    title = \"Analyzing Context Contributions in {LLM}-based Machine Translation\",\n    author = \"Zaranis, Emmanouil  and\n      Guerreiro, Nuno M  and\n      Martins, Andre\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2024\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-emnlp.876/\",\n    doi = \"10.18653/v1/2024.findings-emnlp.876\",\n    pages = \"14899--14924\",\n    abstract = \"Large language models (LLMs) have achieved state-of-the-art performance in machine translation (MT) and demonstrated the ability to leverage in-context learning through few-shot examples. However, the mechanisms by which LLMs use different parts of the input context remain largely unexplored. In this work, we provide a comprehensive analysis of context utilization in MT, studying how LLMs use various context parts, such as few-shot examples and the source text, when generating translations. We highlight several key findings: (1) the source part of few-shot examples appears to contribute more than its corresponding targets, irrespective of translation direction; (2) finetuning LLMs with parallel data alters the contribution patterns of different context parts; and (3) there is a positional bias where earlier few-shot examples have higher contributions to the translated sequence. Finally, we demonstrate that inspecting anomalous context contributions can potentially uncover pathological translations, such as hallucinations. Our findings shed light on the internal workings of LLM-based MT which go beyond those known for standard encoder-decoder MT models.\"\n}"
+  "bibtex": `@inproceedings{zaranis-etal-2024-analyzing,
+    title = "Analyzing Context Contributions in {LLM}-based Machine Translation",
+    author = "Zaranis, Emmanouil  and
+      Guerreiro, Nuno M  and
+      Martins, Andre",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.876/",
+    doi = "10.18653/v1/2024.findings-emnlp.876",
+    pages = "14899--14924",
+    abstract = "Large language models (LLMs) have achieved state-of-the-art performance in machine translation (MT) and demonstrated the ability to leverage in-context learning through few-shot examples. However, the mechanisms by which LLMs use different parts of the input context remain largely unexplored. In this work, we provide a comprehensive analysis of context utilization in MT, studying how LLMs use various context parts, such as few-shot examples and the source text, when generating translations. We highlight several key findings: (1) the source part of few-shot examples appears to contribute more than its corresponding targets, irrespective of translation direction; (2) finetuning LLMs with parallel data alters the contribution patterns of different context parts; and (3) there is a positional bias where earlier few-shot examples have higher contributions to the translated sequence. Finally, we demonstrate that inspecting anomalous context contributions can potentially uncover pathological translations, such as hallucinations. Our findings shed light on the internal workings of LLM-based MT which go beyond those known for standard encoder-decoder MT models."
+}`
 }
 },
   {
@@ -718,7 +1147,26 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.acl-long.1228/",
-  "bibtex": "@inproceedings{zaranis-etal-2025-watching,\n    title = \"Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation\",\n    author = \"Zaranis, Emmanouil  and\n      Attanasio, Giuseppe  and\n      Agrawal, Sweta  and\n      Martins, Andre\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-long.1228/\",\n    doi = \"10.18653/v1/2025.acl-long.1228\",\n    pages = \"25261--25284\",\n    ISBN = \"979-8-89176-251-0\"\n}"
+  "bibtex": `@inproceedings{zaranis-etal-2025-watching,
+    title = "Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation",
+    author = "Zaranis, Emmanouil  and
+      Attanasio, Giuseppe  and
+      Agrawal, Sweta  and
+      Martins, Andre",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1228/",
+    doi = "10.18653/v1/2025.acl-long.1228",
+    pages = "25261--25284",
+    ISBN = "979-8-89176-251-0"
+}`
 }
 },
   {
@@ -736,7 +1184,28 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.emnlp-main.803/",
-  "bibtex": "@inproceedings{agrawal-etal-2024-modeling,\n    title = \"Modeling User Preferences with Automatic Metrics: Creating a High-Quality Preference Dataset for Machine Translation\",\n    author = \"Agrawal, Sweta  and\n      De Souza, Jos{\\'e} G. C.  and\n      Rei, Ricardo  and\n      Farinhas, Ant{\\'o}nio  and\n      Faria, Gon{\\c{c}}alo  and\n      Fernandes, Patrick  and\n      Guerreiro, Nuno M  and\n      Martins, Andre\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.emnlp-main.803/\",\n    doi = \"10.18653/v1/2024.emnlp-main.803\",\n    pages = \"14503--14519\",\n}"
+  "bibtex": `@inproceedings{agrawal-etal-2024-modeling,
+    title = "Modeling User Preferences with Automatic Metrics: Creating a High-Quality Preference Dataset for Machine Translation",
+    author = "Agrawal, Sweta  and
+      De Souza, Jos{\\'e} G. C.  and
+      Rei, Ricardo  and
+      Farinhas, Ant{\\'o}nio  and
+      Faria, Gon{\\c{c}}alo  and
+      Fernandes, Patrick  and
+      Guerreiro, Nuno M  and
+      Martins, Andre",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.803/",
+    doi = "10.18653/v1/2024.emnlp-main.803",
+    pages = "14503--14519",
+}`
 }
 },
   {
@@ -754,7 +1223,22 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.tacl-1.69/",
-  "bibtex": "@article{agrawal-etal-2024-assessing,\n    title = \"Assessing the Role of Context in Chat Translation Evaluation: Is Context Helpful and Under What Conditions?\",\n    author = \"Agrawal, Sweta  and\n      Farajian, Amin  and\n      Fernandes, Patrick  and\n      Rei, Ricardo  and\n      Martins, Andr{\\'e} F. T.\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"12\",\n    year = \"2024\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2024.tacl-1.69/\",\n    doi = \"10.1162/tacl_a_00700\",\n    pages = \"1250--1267\"\n}"
+  "bibtex": `@article{agrawal-etal-2024-assessing,
+    title = "Assessing the Role of Context in Chat Translation Evaluation: Is Context Helpful and Under What Conditions?",
+    author = "Agrawal, Sweta  and
+      Farajian, Amin  and
+      Fernandes, Patrick  and
+      Rei, Ricardo  and
+      Martins, Andr{\\'e} F. T.",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "12",
+    year = "2024",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2024.tacl-1.69/",
+    doi = "10.1162/tacl_a_00700",
+    pages = "1250--1267"
+}`
 }
 },
   {
@@ -773,7 +1257,23 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.tacl-1.54/",
-  "bibtex": "@article{guerreiro-etal-2024-xcomet,\n    title = \"xcomet: Transparent Machine Translation Evaluation through Fine-grained Error Detection\",\n    author = \"Guerreiro, Nuno M.  and\n      Rei, Ricardo  and\n      Stigt, Daan van  and\n      Coheur, Luisa  and\n      Colombo, Pierre  and\n      Martins, Andr{\\'e} F. T.\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"12\",\n    year = \"2024\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2024.tacl-1.54/\",\n    doi = \"10.1162/tacl_a_00683\",\n    pages = \"979--995\"\n}"
+  "bibtex": `@article{guerreiro-etal-2024-xcomet,
+    title = "xcomet: Transparent Machine Translation Evaluation through Fine-grained Error Detection",
+    author = "Guerreiro, Nuno M.  and
+      Rei, Ricardo  and
+      Stigt, Daan van  and
+      Coheur, Luisa  and
+      Colombo, Pierre  and
+      Martins, Andr{\\'e} F. T.",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "12",
+    year = "2024",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2024.tacl-1.54/",
+    doi = "10.1162/tacl_a_00683",
+    pages = "979--995"
+}`
 }
 },
   {
@@ -790,7 +1290,12 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2408.13745",
   "code": "https://github.com/deep-spin/doce",
-  "bibtex": "@article{li2024doce,\n  title={Doce: Finding the sweet spot for execution-based code generation},\n  author={Li, Haau-Sing and Fernandes, Patrick and Gurevych, Iryna and Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2408.13745},\n  year={2024}\n}"
+  "bibtex": `@article{li2024doce,
+  title={Doce: Finding the sweet spot for execution-based code generation},
+  author={Li, Haau-Sing and Fernandes, Patrick and Gurevych, Iryna and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2408.13745},
+  year={2024}
+}`
 }
 },
   {
@@ -807,7 +1312,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.findings-naacl.225/",
-  "bibtex": "@inproceedings{lin-etal-2025-recipe,\n    title = \"A Recipe of Parallel Corpora Exploitation for Multilingual Large Language Models\",\n    author = \"Lin, Peiqin  and\n      Martins, Andre  and\n      Schuetze, Hinrich\",\n    editor = \"Chiruzzo, Luis  and\n      Ritter, Alan  and\n      Wang, Lu\",\n    booktitle = \"Findings of the Association for Computational Linguistics: NAACL 2025\",\n    month = apr,\n    year = \"2025\",\n    address = \"Albuquerque, New Mexico\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.findings-naacl.225/\",\n    doi = \"10.18653/v1/2025.findings-naacl.225\",\n    pages = \"4038--4050\",\n    ISBN = \"979-8-89176-195-7\",\n}"
+  "bibtex": `@inproceedings{lin-etal-2025-recipe,
+    title = "A Recipe of Parallel Corpora Exploitation for Multilingual Large Language Models",
+    author = "Lin, Peiqin  and
+      Martins, Andre  and
+      Schuetze, Hinrich",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.225/",
+    doi = "10.18653/v1/2025.findings-naacl.225",
+    pages = "4038--4050",
+    ISBN = "979-8-89176-195-7",
+}`
 }
 },
   {
@@ -824,7 +1346,42 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.acl-short.20/",
-  "bibtex": "@inproceedings{bavaresco-etal-2025-llms,\n    title = \"{LLM}s instead of Human Judges? A Large Scale Empirical Study across 20 {NLP} Evaluation Tasks\",\n    author = \"Bavaresco, Anna  and\n      Bernardi, Raffaella  and\n      Bertolazzi, Leonardo  and\n      Elliott, Desmond  and\n      Fern{\\'a}ndez, Raquel  and\n      Gatt, Albert  and\n      Ghaleb, Esam  and\n      Giulianelli, Mario  and\n      Hanna, Michael  and\n      Koller, Alexander  and\n      Martins, Andre  and\n      Mondorf, Philipp  and\n      Neplenbroek, Vera  and\n      Pezzelle, Sandro  and\n      Plank, Barbara  and\n      Schlangen, David  and\n      Suglia, Alessandro  and\n      Surikuchi, Aditya K  and\n      Takmaz, Ece  and\n      Testoni, Alberto\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-short.20/\",\n    doi = \"10.18653/v1/2025.acl-short.20\",\n    pages = \"238--255\",\n    ISBN = \"979-8-89176-252-7\",\n}"
+  "bibtex": `@inproceedings{bavaresco-etal-2025-llms,
+    title = "{LLM}s instead of Human Judges? A Large Scale Empirical Study across 20 {NLP} Evaluation Tasks",
+    author = "Bavaresco, Anna  and
+      Bernardi, Raffaella  and
+      Bertolazzi, Leonardo  and
+      Elliott, Desmond  and
+      Fern{\\'a}ndez, Raquel  and
+      Gatt, Albert  and
+      Ghaleb, Esam  and
+      Giulianelli, Mario  and
+      Hanna, Michael  and
+      Koller, Alexander  and
+      Martins, Andre  and
+      Mondorf, Philipp  and
+      Neplenbroek, Vera  and
+      Pezzelle, Sandro  and
+      Plank, Barbara  and
+      Schlangen, David  and
+      Suglia, Alessandro  and
+      Surikuchi, Aditya K  and
+      Takmaz, Ece  and
+      Testoni, Alberto",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-short.20/",
+    doi = "10.18653/v1/2025.acl-short.20",
+    pages = "238--255",
+    ISBN = "979-8-89176-252-7",
+}`
 }
 },
   {
@@ -841,7 +1398,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.emnlp-main.802/",
-  "bibtex": "@inproceedings{agrawal-etal-2024-automatic-metrics,\n    title = \"Can Automatic Metrics Assess High-Quality Translations?\",\n    author = \"Agrawal, Sweta  and\n      Farinhas, Ant{\\'o}nio  and\n      Rei, Ricardo  and\n      Martins, Andre\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.emnlp-main.802/\",\n    doi = \"10.18653/v1/2024.emnlp-main.802\",\n    pages = \"14491--14502\",\n}"
+  "bibtex": `@inproceedings{agrawal-etal-2024-automatic-metrics,
+    title = "Can Automatic Metrics Assess High-Quality Translations?",
+    author = "Agrawal, Sweta  and
+      Farinhas, Ant{\\'o}nio  and
+      Rei, Ricardo  and
+      Martins, Andre",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.802/",
+    doi = "10.18653/v1/2024.emnlp-main.802",
+    pages = "14491--14502",
+}`
 }
 },
   {
@@ -858,7 +1432,16 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://openreview.net/forum?id=uA19Xo1o31",
-  "bibtex": "@article{\nfaysse2025croissantllm,\ntitle={Croissant{LLM}: A Truly Bilingual French-English Language Model},\nauthor={Manuel Faysse and Patrick Fernandes and Nuno M Guerreiro and Ant{\\'o}nio Loison and Duarte Miguel Alves and Caio Corro and Nicolas Boizard and Jo{\\~a}o Alves and Ricardo Rei and Pedro Henrique Martins and Antoni Bigata Casademunt and Fran{\\c{c}}ois Yvon and Andre Martins and Gautier Viaud and CELINE HUDELOT and Pierre Colombo},\njournal={Transactions on Machine Learning Research},\nissn={2835-8856},\nyear={2025},\nurl={https://openreview.net/forum?id=uA19Xo1o31},\nnote={}\n}"
+  "bibtex": `@article{
+faysse2025croissantllm,
+title={Croissant{LLM}: A Truly Bilingual French-English Language Model},
+author={Manuel Faysse and Patrick Fernandes and Nuno M Guerreiro and Ant{\\'o}nio Loison and Duarte Miguel Alves and Caio Corro and Nicolas Boizard and Jo{\\~a}o Alves and Ricardo Rei and Pedro Henrique Martins and Antoni Bigata Casademunt and Fran{\\c{c}}ois Yvon and Andre Martins and Gautier Viaud and CELINE HUDELOT and Pierre Colombo},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=uA19Xo1o31},
+note={}
+}`
 }
 },
   {
@@ -875,7 +1458,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.findings-naacl.221/",
-  "bibtex": "@inproceedings{lin-etal-2025-xampler,\n    title = \"{XAMPLER}: Learning to Retrieve Cross-Lingual In-Context Examples\",\n    author = \"Lin, Peiqin  and\n      Martins, Andre  and\n      Schuetze, Hinrich\",\n    editor = \"Chiruzzo, Luis  and\n      Ritter, Alan  and\n      Wang, Lu\",\n    booktitle = \"Findings of the Association for Computational Linguistics: NAACL 2025\",\n    month = apr,\n    year = \"2025\",\n    address = \"Albuquerque, New Mexico\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.findings-naacl.221/\",\n    doi = \"10.18653/v1/2025.findings-naacl.221\",\n    pages = \"3968--3977\",\n    ISBN = \"979-8-89176-195-7\",\n}"
+  "bibtex": `@inproceedings{lin-etal-2025-xampler,
+    title = "{XAMPLER}: Learning to Retrieve Cross-Lingual In-Context Examples",
+    author = "Lin, Peiqin  and
+      Martins, Andre  and
+      Schuetze, Hinrich",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.221/",
+    doi = "10.18653/v1/2025.findings-naacl.221",
+    pages = "3968--3977",
+    ISBN = "979-8-89176-195-7",
+}`
 }
 },
   {
@@ -893,7 +1493,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2025.acl-long.122/",
-  "bibtex": "@inproceedings{peters-martins-2025-translation,\n    title = \"Did Translation Models Get More Robust Without Anyone {E}ven Noticing?\",\n    author = \"Peters, Ben  and\n      Martins, Andre\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-long.122/\",\n    doi = \"10.18653/v1/2025.acl-long.122\",\n    pages = \"2445--2458\",\n    ISBN = \"979-8-89176-251-0\",\n}"
+  "bibtex": `@inproceedings{peters-martins-2025-translation,
+    title = "Did Translation Models Get More Robust Without Anyone {E}ven Noticing?",
+    author = "Peters, Ben  and
+      Martins, Andre",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.122/",
+    doi = "10.18653/v1/2025.acl-long.122",
+    pages = "2445--2458",
+    ISBN = "979-8-89176-251-0",
+}`
 }
 },
   {
@@ -910,7 +1527,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2403.03883",
-  "bibtex": "@article{colombo2024saullm,\n  title={Saullm-7b: A pioneering large language model for law},\n  author={Colombo, Pierre and Pires, Telmo Pessoa and Boudiaf, Malik and Culver, Dominic and Melo, Rui and Corro, Caio and Martins, Andre FT and Esposito, Fabrizio and Raposo, Vera L{\\'u}cia and Morgado, Sofia and others},\n  journal={arXiv preprint arXiv:2403.03883},\n  year={2024}\n}"
+  "bibtex": `@article{colombo2024saullm,
+  title={Saullm-7b: A pioneering large language model for law},
+  author={Colombo, Pierre and Pires, Telmo Pessoa and Boudiaf, Malik and Culver, Dominic and Melo, Rui and Corro, Caio and Martins, Andre FT and Esposito, Fabrizio and Raposo, Vera L{\\'u}cia and Morgado, Sofia and others},
+  journal={arXiv preprint arXiv:2403.03883},
+  year={2024}
+}`
 }
 },
   {
@@ -927,7 +1549,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://openreview.net/forum?id=EHPns3hVkj",
-  "bibtex": "@inproceedings{\nalves2024tower,\ntitle={Tower: An Open Multilingual Large Language Model for Translation-Related Tasks},\nauthor={Duarte Miguel Alves and Jos{\\'e} Pombal and Nuno M Guerreiro and Pedro Henrique Martins and Jo{\\~a}o Alves and Amin Farajian and Ben Peters and Ricardo Rei and Patrick Fernandes and Sweta Agrawal and Pierre Colombo and Jos{\\'e} G. C. de Souza and Andre Martins},\nbooktitle={First Conference on Language Modeling},\nyear={2024},\nurl={https://openreview.net/forum?id=EHPns3hVkj}\n}"
+  "bibtex": `@inproceedings{
+alves2024tower,
+title={Tower: An Open Multilingual Large Language Model for Translation-Related Tasks},
+author={Duarte Miguel Alves and Jos{\\'e} Pombal and Nuno M Guerreiro and Pedro Henrique Martins and Jo{\\~a}o Alves and Amin Farajian and Ben Peters and Ricardo Rei and Patrick Fernandes and Sweta Agrawal and Pierre Colombo and Jos{\\'e} G. C. de Souza and Andre Martins},
+booktitle={First Conference on Language Modeling},
+year={2024},
+url={https://openreview.net/forum?id=EHPns3hVkj}
+}`
 }
 },
   {
@@ -945,7 +1574,20 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2402.13725",
-  "bibtex": "@InProceedings{pmlr-v235-santos24a,\n  title = \t {Sparse and Structured Hopfield Networks},\n  author =       {Santos, Saul Jos\\'{e} Rodrigues Dos and Niculae, Vlad and Mcnamee, Daniel C and Martins, Andre},\n  booktitle = \t {Proceedings of the 41st International Conference on Machine Learning},\n  pages = \t {43368--43388},\n  year = \t {2024},\n  editor = \t {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},\n  volume = \t {235},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {21--27 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://raw.githubusercontent.com/mlresearch/v235/main/assets/santos24a/santos24a.pdf},\n  url = \t {https://proceedings.mlr.press/v235/santos24a.html},\n}"
+  "bibtex": `@InProceedings{pmlr-v235-santos24a,
+  title = 	 {Sparse and Structured Hopfield Networks},
+  author =       {Santos, Saul Jos\\'{e} Rodrigues Dos and Niculae, Vlad and Mcnamee, Daniel C and Martins, Andre},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {43368--43388},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/santos24a/santos24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/santos24a.html},
+}`
 }
 },
   {
@@ -963,7 +1605,21 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.findings-eacl.129/",
-  "bibtex": "@inproceedings{ulmer-etal-2024-non,\n    title = \"Non-Exchangeable Conformal Language Generation with Nearest Neighbors\",\n    author = \"Ulmer, Dennis  and\n      Zerva, Chrysoula  and\n      Martins, Andre\",\n    editor = \"Graham, Yvette  and\n      Purver, Matthew\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EACL 2024\",\n    month = mar,\n    year = \"2024\",\n    address = \"St. Julian{'}s, Malta\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-eacl.129/\",\n    pages = \"1909--1929\",\n}"
+  "bibtex": `@inproceedings{ulmer-etal-2024-non,
+    title = "Non-Exchangeable Conformal Language Generation with Nearest Neighbors",
+    author = "Ulmer, Dennis  and
+      Zerva, Chrysoula  and
+      Martins, Andre",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-eacl.129/",
+    pages = "1909--1929",
+}`
 }
 },
   {
@@ -980,7 +1636,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2401.13303",
-  "bibtex": "@article{lin2024mala,\n  title={Mala-500: Massive language adaptation of large language models},\n  author={Lin, Peiqin and Ji, Shaoxiong and Tiedemann, J{\\\"o}rg and Martins, Andr{\\'e} FT and Sch{\\\"u}tze, Hinrich},\n  journal={arXiv preprint arXiv:2401.13303},\n  year={2024}\n}"
+  "bibtex": `@article{lin2024mala,
+  title={Mala-500: Massive language adaptation of large language models},
+  author={Lin, Peiqin and Ji, Shaoxiong and Tiedemann, J{\\"o}rg and Martins, Andr{\\'e} FT and Sch{\\"u}tze, Hinrich},
+  journal={arXiv preprint arXiv:2401.13303},
+  year={2024}
+}`
 }
 },
   {
@@ -999,7 +1660,36 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.wmt-1.3/",
-  "bibtex": "@inproceedings{zerva-etal-2024-findings,\n    title = \"Findings of the Quality Estimation Shared Task at {WMT} 2024: Are {LLM}s Closing the Gap in {QE}?\",\n    author = \"Zerva, Chrysoula  and\n      Blain, Frederic  and\n      C. De Souza, Jos{\\'e} G.  and\n      Kanojia, Diptesh  and\n      Deoghare, Sourabh  and\n      Guerreiro, Nuno M.  and\n      Attanasio, Giuseppe  and\n      Rei, Ricardo  and\n      Orasan, Constantin  and\n      Negri, Matteo  and\n      Turchi, Marco  and\n      Chatterjee, Rajen  and\n      Bhattacharyya, Pushpak  and\n      Freitag, Markus  and\n      Martins, Andr{\\'e}\",\n    editor = \"Haddow, Barry  and\n      Kocmi, Tom  and\n      Koehn, Philipp  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Ninth Conference on Machine Translation\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.wmt-1.3/\",\n    doi = \"10.18653/v1/2024.wmt-1.3\",\n    pages = \"82--109\",\n}"
+  "bibtex": `@inproceedings{zerva-etal-2024-findings,
+    title = "Findings of the Quality Estimation Shared Task at {WMT} 2024: Are {LLM}s Closing the Gap in {QE}?",
+    author = "Zerva, Chrysoula  and
+      Blain, Frederic  and
+      C. De Souza, Jos{\\'e} G.  and
+      Kanojia, Diptesh  and
+      Deoghare, Sourabh  and
+      Guerreiro, Nuno M.  and
+      Attanasio, Giuseppe  and
+      Rei, Ricardo  and
+      Orasan, Constantin  and
+      Negri, Matteo  and
+      Turchi, Marco  and
+      Chatterjee, Rajen  and
+      Bhattacharyya, Pushpak  and
+      Freitag, Markus  and
+      Martins, Andr{\\'e}",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.3/",
+    doi = "10.18653/v1/2024.wmt-1.3",
+    pages = "82--109",
+}`
 }
 },
   {
@@ -1016,7 +1706,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://openreview.net/forum?id=j511LaqEeP",
-  "bibtex": "@inproceedings{\nfarinhas2024nonexchangeable,\ntitle={Non-Exchangeable Conformal Risk Control},\nauthor={Ant{\\'o}nio Farinhas and Chrysoula Zerva and Dennis Thomas Ulmer and Andre Martins},\nbooktitle={The Twelfth International Conference on Learning Representations},\nyear={2024},\nurl={https://openreview.net/forum?id=j511LaqEeP}\n}"
+  "bibtex": `@inproceedings{
+farinhas2024nonexchangeable,
+title={Non-Exchangeable Conformal Risk Control},
+author={Ant{\\'o}nio Farinhas and Chrysoula Zerva and Dennis Thomas Ulmer and Andre Martins},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=j511LaqEeP}
+}`
 }
 },
   {
@@ -1034,7 +1731,29 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.wmt-1.73/",
-  "bibtex": "@inproceedings{rei-etal-2023-scaling,\n    title = \"Scaling up {C}omet{K}iwi: Unbabel-{IST} 2023 Submission for the Quality Estimation Shared Task\",\n    author = \"Rei, Ricardo  and\n      Guerreiro, Nuno M.  and\n      Pombal, Jos{\\~A}{\\textcopyright}  and\n      van Stigt, Daan  and\n      Treviso, Marcos  and\n      Coheur, Luisa  and\n      C. de Souza, Jos{\\'e} G.  and\n      Martins, Andr{\\'e}\",\n    editor = \"Koehn, Philipp  and\n      Haddow, Barry  and\n      Kocmi, Tom  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Eighth Conference on Machine Translation\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.wmt-1.73/\",\n    doi = \"10.18653/v1/2023.wmt-1.73\",\n    pages = \"841--848\",\n}"
+  "bibtex": `@inproceedings{rei-etal-2023-scaling,
+    title = "Scaling up {C}omet{K}iwi: Unbabel-{IST} 2023 Submission for the Quality Estimation Shared Task",
+    author = "Rei, Ricardo  and
+      Guerreiro, Nuno M.  and
+      Pombal, Jos{\\~A}{\\textcopyright}  and
+      van Stigt, Daan  and
+      Treviso, Marcos  and
+      Coheur, Luisa  and
+      C. de Souza, Jos{\\'e} G.  and
+      Martins, Andr{\\'e}",
+    editor = "Koehn, Philipp  and
+      Haddow, Barry  and
+      Kocmi, Tom  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eighth Conference on Machine Translation",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wmt-1.73/",
+    doi = "10.18653/v1/2023.wmt-1.73",
+    pages = "841--848",
+}`
 }
 },
   {
@@ -1052,7 +1771,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.acl-long.842/",
-  "bibtex": "@inproceedings{treviso-etal-2023-crest,\n    title = \"{CREST}: A Joint Framework for Rationalization and Counterfactual Text Generation\",\n    author = \"Treviso, Marcos  and\n      Ross, Alexis  and\n      Guerreiro, Nuno M.  and\n      Martins, Andr{\\'e}\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.842/\",\n    doi = \"10.18653/v1/2023.acl-long.842\",\n    pages = \"15109--15126\",\n}"
+  "bibtex": `@inproceedings{treviso-etal-2023-crest,
+    title = "{CREST}: A Joint Framework for Rationalization and Counterfactual Text Generation",
+    author = "Treviso, Marcos  and
+      Ross, Alexis  and
+      Guerreiro, Nuno M.  and
+      Martins, Andr{\\'e}",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.842/",
+    doi = "10.18653/v1/2023.acl-long.842",
+    pages = "15109--15126",
+}`
 }
 },
   {
@@ -1069,7 +1805,26 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.acl-short.94/",
-  "bibtex": "@inproceedings{rei-etal-2023-inside,\n    title = \"The Inside Story: Towards Better Understanding of Machine Translation Neural Evaluation Metrics\",\n    author = \"Rei, Ricardo  and\n      Guerreiro, Nuno M.  and\n      Treviso, Marcos  and\n      Coheur, Luisa  and\n      Lavie, Alon  and\n      Martins, Andr{\\'e}\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-short.94/\",\n    doi = \"10.18653/v1/2023.acl-short.94\",\n    pages = \"1089--1105\",\n}"
+  "bibtex": `@inproceedings{rei-etal-2023-inside,
+    title = "The Inside Story: Towards Better Understanding of Machine Translation Neural Evaluation Metrics",
+    author = "Rei, Ricardo  and
+      Guerreiro, Nuno M.  and
+      Treviso, Marcos  and
+      Coheur, Luisa  and
+      Lavie, Alon  and
+      Martins, Andr{\\'e}",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.94/",
+    doi = "10.18653/v1/2023.acl-short.94",
+    pages = "1089--1105",
+}`
 }
 },
   {
@@ -1085,7 +1840,28 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.tacl-1.92/",
-  "bibtex": "@article{fernandes-etal-2023-bridging,\n    title = \"Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural Language Generation\",\n    author = \"Fernandes, Patrick  and\n      Madaan, Aman  and\n      Liu, Emmy  and\n      Farinhas, Ant{\\'o}nio  and\n      Martins, Pedro Henrique  and\n      Bertsch, Amanda  and\n      de Souza, Jos{\\'e} G. C.  and\n      Zhou, Shuyan  and\n      Wu, Tongshuang  and\n      Neubig, Graham  and\n      Martins, Andr{\\'e} F. T.\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"11\",\n    year = \"2023\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2023.tacl-1.92/\",\n    doi = \"10.1162/tacl_a_00626\",\n    pages = \"1643--1668\",\n}"
+  "bibtex": `@article{fernandes-etal-2023-bridging,
+    title = "Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural Language Generation",
+    author = "Fernandes, Patrick  and
+      Madaan, Aman  and
+      Liu, Emmy  and
+      Farinhas, Ant{\\'o}nio  and
+      Martins, Pedro Henrique  and
+      Bertsch, Amanda  and
+      de Souza, Jos{\\'e} G. C.  and
+      Zhou, Shuyan  and
+      Wu, Tongshuang  and
+      Neubig, Graham  and
+      Martins, Andr{\\'e} F. T.",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "11",
+    year = "2023",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2023.tacl-1.92/",
+    doi = "10.1162/tacl_a_00626",
+    pages = "1643--1668",
+}`
 }
 },
   {
@@ -1104,7 +1880,24 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2023.tacl-1.85/",
   "code": "https://github.com/deep-spin/hallucinations-in-nmt",
-  "bibtex": "@article{guerreiro-etal-2023-hallucinations,\n    title = \"Hallucinations in Large Multilingual Translation Models\",\n    author = \"Guerreiro, Nuno M.  and\n      Alves, Duarte M.  and\n      Waldendorf, Jonas  and\n      Haddow, Barry  and\n      Birch, Alexandra  and\n      Colombo, Pierre  and\n      Martins, Andr{\\'e} F. T.\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"11\",\n    year = \"2023\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2023.tacl-1.85/\",\n    doi = \"10.1162/tacl_a_00615\",\n    pages = \"1500--1517\",\n}"
+  "bibtex": `@article{guerreiro-etal-2023-hallucinations,
+    title = "Hallucinations in Large Multilingual Translation Models",
+    author = "Guerreiro, Nuno M.  and
+      Alves, Duarte M.  and
+      Waldendorf, Jonas  and
+      Haddow, Barry  and
+      Birch, Alexandra  and
+      Colombo, Pierre  and
+      Martins, Andr{\\'e} F. T.",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "11",
+    year = "2023",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2023.tacl-1.85/",
+    doi = "10.1162/tacl_a_00615",
+    pages = "1500--1517",
+}`
 }
 },
   {
@@ -1122,7 +1915,37 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.eamt-1.22/",
-  "bibtex": "@inproceedings{ramos-etal-2024-aligning,\n    title = \"Aligning Neural Machine Translation Models: Human Feedback in Training and Inference\",\n    author = \"Ramos, Miguel  and\n      Fernandes, Patrick  and\n      Farinhas, Ant{\\'o}nio  and\n      Martins, Andre\",\n    editor = \"Scarton, Carolina  and\n      Prescott, Charlotte  and\n      Bayliss, Chris  and\n      Oakley, Chris  and\n      Wright, Joanna  and\n      Wrigley, Stuart  and\n      Song, Xingyi  and\n      Gow-Smith, Edward  and\n      Bawden, Rachel  and\n      S{\\'a}nchez-Cartagena, V{\\'i}ctor M  and\n      Cadwell, Patrick  and\n      Lapshinova-Koltunski, Ekaterina  and\n      Cabarr{\\~a}o, Vera  and\n      Chatzitheodorou, Konstantinos  and\n      Nurminen, Mary  and\n      Kanojia, Diptesh  and\n      Moniz, Helena\",\n    booktitle = \"Proceedings of the 25th Annual Conference of the European Association for Machine Translation (Volume 1)\",\n    month = jun,\n    year = \"2024\",\n    address = \"Sheffield, UK\",\n    publisher = \"European Association for Machine Translation (EAMT)\",\n    url = \"https://aclanthology.org/2024.eamt-1.22/\",\n    pages = \"258--274\",\n}"
+  "bibtex": `@inproceedings{ramos-etal-2024-aligning,
+    title = "Aligning Neural Machine Translation Models: Human Feedback in Training and Inference",
+    author = "Ramos, Miguel  and
+      Fernandes, Patrick  and
+      Farinhas, Ant{\\'o}nio  and
+      Martins, Andre",
+    editor = "Scarton, Carolina  and
+      Prescott, Charlotte  and
+      Bayliss, Chris  and
+      Oakley, Chris  and
+      Wright, Joanna  and
+      Wrigley, Stuart  and
+      Song, Xingyi  and
+      Gow-Smith, Edward  and
+      Bawden, Rachel  and
+      S{\\'a}nchez-Cartagena, V{\\'i}ctor M  and
+      Cadwell, Patrick  and
+      Lapshinova-Koltunski, Ekaterina  and
+      Cabarr{\\~a}o, Vera  and
+      Chatzitheodorou, Konstantinos  and
+      Nurminen, Mary  and
+      Kanojia, Diptesh  and
+      Moniz, Helena",
+    booktitle = "Proceedings of the 25th Annual Conference of the European Association for Machine Translation (Volume 1)",
+    month = jun,
+    year = "2024",
+    address = "Sheffield, UK",
+    publisher = "European Association for Machine Translation (EAMT)",
+    url = "https://aclanthology.org/2024.eamt-1.22/",
+    pages = "258--274",
+}`
 }
 },
   {
@@ -1139,7 +1962,28 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.findings-emnlp.744/",
-  "bibtex": "@inproceedings{alves-etal-2023-steering,\n    title = \"Steering Large Language Models for Machine Translation with Finetuning and In-Context Learning\",\n    author = \"Alves, Duarte  and\n      Guerreiro, Nuno  and\n      Alves, Jo{\\~a}o  and\n      Pombal, Jos{\\'e}  and\n      Rei, Ricardo  and\n      de Souza, Jos{\\'e}  and\n      Colombo, Pierre  and\n      Martins, Andre\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2023\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.findings-emnlp.744/\",\n    doi = \"10.18653/v1/2023.findings-emnlp.744\",\n    pages = \"11127--11148\",\n}"
+  "bibtex": `@inproceedings{alves-etal-2023-steering,
+    title = "Steering Large Language Models for Machine Translation with Finetuning and In-Context Learning",
+    author = "Alves, Duarte  and
+      Guerreiro, Nuno  and
+      Alves, Jo{\\~a}o  and
+      Pombal, Jos{\\'e}  and
+      Rei, Ricardo  and
+      de Souza, Jos{\\'e}  and
+      Colombo, Pierre  and
+      Martins, Andre",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.744/",
+    doi = "10.18653/v1/2023.findings-emnlp.744",
+    pages = "11127--11148",
+}`
 }
 },
   {
@@ -1157,7 +2001,23 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.emnlp-main.733/",
-  "bibtex": "@inproceedings{farinhas-etal-2023-empirical,\n    title = \"An Empirical Study of Translation Hypothesis Ensembling with Large Language Models\",\n    author = \"Farinhas, Ant{\\'o}nio  and\n      de Souza, Jos{\\'e}  and\n      Martins, Andre\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.emnlp-main.733/\",\n    doi = \"10.18653/v1/2023.emnlp-main.733\",\n    pages = \"11956--11970\",\n}"
+  "bibtex": `@inproceedings{farinhas-etal-2023-empirical,
+    title = "An Empirical Study of Translation Hypothesis Ensembling with Large Language Models",
+    author = "Farinhas, Ant{\\'o}nio  and
+      de Souza, Jos{\\'e}  and
+      Martins, Andre",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.733/",
+    doi = "10.18653/v1/2023.emnlp-main.733",
+    pages = "11956--11970",
+}`
 }
 },
   {
@@ -1174,7 +2034,39 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.tacl-1.48/",
-  "bibtex": "@article{treviso-etal-2023-efficient,\n    title = \"Efficient Methods for Natural Language Processing: A Survey\",\n    author = \"Treviso, Marcos  and\n      Lee, Ji-Ung  and\n      Ji, Tianchu  and\n      van Aken, Betty  and\n      Cao, Qingqing  and\n      Ciosici, Manuel R.  and\n      Hassid, Michael  and\n      Heafield, Kenneth  and\n      Hooker, Sara  and\n      Raffel, Colin  and\n      Martins, Pedro H.  and\n      Martins, Andr{\\'e} F. T.  and\n      Forde, Jessica Zosa  and\n      Milder, Peter  and\n      Simpson, Edwin  and\n      Slonim, Noam  and\n      Dodge, Jesse  and\n      Strubell, Emma  and\n      Balasubramanian, Niranjan  and\n      Derczynski, Leon  and\n      Gurevych, Iryna  and\n      Schwartz, Roy\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"11\",\n    year = \"2023\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2023.tacl-1.48/\",\n    doi = \"10.1162/tacl_a_00577\",\n    pages = \"826--860\",\n}"
+  "bibtex": `@article{treviso-etal-2023-efficient,
+    title = "Efficient Methods for Natural Language Processing: A Survey",
+    author = "Treviso, Marcos  and
+      Lee, Ji-Ung  and
+      Ji, Tianchu  and
+      van Aken, Betty  and
+      Cao, Qingqing  and
+      Ciosici, Manuel R.  and
+      Hassid, Michael  and
+      Heafield, Kenneth  and
+      Hooker, Sara  and
+      Raffel, Colin  and
+      Martins, Pedro H.  and
+      Martins, Andr{\\'e} F. T.  and
+      Forde, Jessica Zosa  and
+      Milder, Peter  and
+      Simpson, Edwin  and
+      Slonim, Noam  and
+      Dodge, Jesse  and
+      Strubell, Emma  and
+      Balasubramanian, Niranjan  and
+      Derczynski, Leon  and
+      Gurevych, Iryna  and
+      Schwartz, Roy",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "11",
+    year = "2023",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2023.tacl-1.48/",
+    doi = "10.1162/tacl_a_00577",
+    pages = "826--860",
+}`
 }
 },
   {
@@ -1192,7 +2084,31 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.wmt-1.100/",
-  "bibtex": "@inproceedings{fernandes-etal-2023-devil,\n    title = \"The Devil Is in the Errors: Leveraging Large Language Models for Fine-grained Machine Translation Evaluation\",\n    author = \"Fernandes, Patrick  and\n      Deutsch, Daniel  and\n      Finkelstein, Mara  and\n      Riley, Parker  and\n      Martins, Andr{\\'e}  and\n      Neubig, Graham  and\n      Garg, Ankush  and\n      Clark, Jonathan  and\n      Freitag, Markus  and\n      Firat, Orhan\",\n    editor = \"Koehn, Philipp  and\n      Haddow, Barry  and\n      Kocmi, Tom  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Eighth Conference on Machine Translation\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.wmt-1.100/\",\n    doi = \"10.18653/v1/2023.wmt-1.100\",\n    pages = \"1066--1083\",\n}"
+  "bibtex": `@inproceedings{fernandes-etal-2023-devil,
+    title = "The Devil Is in the Errors: Leveraging Large Language Models for Fine-grained Machine Translation Evaluation",
+    author = "Fernandes, Patrick  and
+      Deutsch, Daniel  and
+      Finkelstein, Mara  and
+      Riley, Parker  and
+      Martins, Andr{\\'e}  and
+      Neubig, Graham  and
+      Garg, Ankush  and
+      Clark, Jonathan  and
+      Freitag, Markus  and
+      Firat, Orhan",
+    editor = "Koehn, Philipp  and
+      Haddow, Barry  and
+      Kocmi, Tom  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eighth Conference on Machine Translation",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wmt-1.100/",
+    doi = "10.18653/v1/2023.wmt-1.100",
+    pages = "1066--1083",
+}`
 }
 },
   {
@@ -1209,7 +2125,41 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.eamt-1.12/",
-  "bibtex": "@inproceedings{martins-etal-2023-empirical,\n    title = \"Empirical Assessment of k{NN}-{MT} for Real-World Translation Scenarios\",\n    author = \"Martins, Pedro Henrique  and\n      Alves, Jo{\\~a}o  and\n      Vaz, T{\\^a}nia  and\n      Gon{\\c{c}}alves, Madalena  and\n      Silva, Beatriz  and\n      Buchicchio, Marianna  and\n      de Souza, Jos{\\'e} G. C.  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Nurminen, Mary  and\n      Brenner, Judith  and\n      Koponen, Maarit  and\n      Latomaa, Sirkku  and\n      Mikhailov, Mikhail  and\n      Schierl, Frederike  and\n      Ranasinghe, Tharindu  and\n      Vanmassenhove, Eva  and\n      Vidal, Sergi Alvarez  and\n      Aranberri, Nora  and\n      Nunziatini, Mara  and\n      Escart{\\'i}n, Carla Parra  and\n      Forcada, Mikel  and\n      Popovic, Maja  and\n      Scarton, Carolina  and\n      Moniz, Helena\",\n    booktitle = \"Proceedings of the 24th Annual Conference of the European Association for Machine Translation\",\n    month = jun,\n    year = \"2023\",\n    address = \"Tampere, Finland\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2023.eamt-1.12/\",\n    pages = \"115--124\",\n    abstract = \"This paper aims to investigate the effectiveness of the k-Nearest Neighbor Machine Translation model (kNN-MT) in real-world scenarios. kNN-MT is a retrieval-augmented framework that combines the advantages of parametric models with non-parametric datastores built using a set of parallel sentences. Previous studies have primarily focused on evaluating the model using only the BLEU metric and have not tested kNN-MT in real world scenarios. Our study aims to fill this gap by conducting a comprehensive analysis on various datasets comprising different language pairs and different domains, using multiple automatic metrics and expert evaluated Multidimensional Quality Metrics (MQM). We compare kNN-MT with two alternate strategies: fine-tuning all the model parameters and adapter-based finetuning. Finally, we analyze the effect of the datastore size on translation quality, and we examine the number of entries necessary to bootstrap and configure the index.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2023-empirical,
+    title = "Empirical Assessment of k{NN}-{MT} for Real-World Translation Scenarios",
+    author = "Martins, Pedro Henrique  and
+      Alves, Jo{\\~a}o  and
+      Vaz, T{\\^a}nia  and
+      Gon{\\c{c}}alves, Madalena  and
+      Silva, Beatriz  and
+      Buchicchio, Marianna  and
+      de Souza, Jos{\\'e} G. C.  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Nurminen, Mary  and
+      Brenner, Judith  and
+      Koponen, Maarit  and
+      Latomaa, Sirkku  and
+      Mikhailov, Mikhail  and
+      Schierl, Frederike  and
+      Ranasinghe, Tharindu  and
+      Vanmassenhove, Eva  and
+      Vidal, Sergi Alvarez  and
+      Aranberri, Nora  and
+      Nunziatini, Mara  and
+      Escart{\\'i}n, Carla Parra  and
+      Forcada, Mikel  and
+      Popovic, Maja  and
+      Scarton, Carolina  and
+      Moniz, Helena",
+    booktitle = "Proceedings of the 24th Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2023",
+    address = "Tampere, Finland",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2023.eamt-1.12/",
+    pages = "115--124",
+    abstract = "This paper aims to investigate the effectiveness of the k-Nearest Neighbor Machine Translation model (kNN-MT) in real-world scenarios. kNN-MT is a retrieval-augmented framework that combines the advantages of parametric models with non-parametric datastores built using a set of parallel sentences. Previous studies have primarily focused on evaluating the model using only the BLEU metric and have not tested kNN-MT in real world scenarios. Our study aims to fill this gap by conducting a comprehensive analysis on various datasets comprising different language pairs and different domains, using multiple automatic metrics and expert evaluated Multidimensional Quality Metrics (MQM). We compare kNN-MT with two alternate strategies: fine-tuning all the model parameters and adapter-based finetuning. Finally, we analyze the effect of the datastore size on translation quality, and we examine the number of entries necessary to bootstrap and configure the index."
+}`
 }
 },
   {
@@ -1226,7 +2176,36 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.eamt-1.6/",
-  "bibtex": "@inproceedings{glushkova-etal-2023-bleu,\n    title = \"{BLEU} Meets {COMET}: Combining Lexical and Neural Metrics Towards Robust Machine Translation Evaluation\",\n    author = \"Glushkova, Taisiya  and\n      Zerva, Chrysoula  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Nurminen, Mary  and\n      Brenner, Judith  and\n      Koponen, Maarit  and\n      Latomaa, Sirkku  and\n      Mikhailov, Mikhail  and\n      Schierl, Frederike  and\n      Ranasinghe, Tharindu  and\n      Vanmassenhove, Eva  and\n      Vidal, Sergi Alvarez  and\n      Aranberri, Nora  and\n      Nunziatini, Mara  and\n      Escart{\\'i}n, Carla Parra  and\n      Forcada, Mikel  and\n      Popovic, Maja  and\n      Scarton, Carolina  and\n      Moniz, Helena\",\n    booktitle = \"Proceedings of the 24th Annual Conference of the European Association for Machine Translation\",\n    month = jun,\n    year = \"2023\",\n    address = \"Tampere, Finland\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2023.eamt-1.6/\",\n    pages = \"47--58\",\n    abstract = \"Although neural-based machine translation evaluation metrics, such as COMET or BLEURT, have achieved strong correlations with human judgements, they are sometimes unreliable in detecting certain phenomena that can be considered as critical errors, such as deviations in entities and numbers. In contrast, traditional evaluation metrics such as BLEU or chrF, which measure lexical or character overlap between translation hypotheses and human references, have lower correlations with human judgements but are sensitive to such deviations. In this paper, we investigate several ways of combining the two approaches in order to increase robustness of state-of-the-art evaluation methods to translations with critical errors. We show that by using additional information during training, such as sentence-level features and word-level tags, the trained metrics improve their capability to penalize translations with specific troublesome phenomena, which leads to gains in correlations with humans and on the recent DEMETR benchmark on several language pairs.\"\n}"
+  "bibtex": `@inproceedings{glushkova-etal-2023-bleu,
+    title = "{BLEU} Meets {COMET}: Combining Lexical and Neural Metrics Towards Robust Machine Translation Evaluation",
+    author = "Glushkova, Taisiya  and
+      Zerva, Chrysoula  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Nurminen, Mary  and
+      Brenner, Judith  and
+      Koponen, Maarit  and
+      Latomaa, Sirkku  and
+      Mikhailov, Mikhail  and
+      Schierl, Frederike  and
+      Ranasinghe, Tharindu  and
+      Vanmassenhove, Eva  and
+      Vidal, Sergi Alvarez  and
+      Aranberri, Nora  and
+      Nunziatini, Mara  and
+      Escart{\\'i}n, Carla Parra  and
+      Forcada, Mikel  and
+      Popovic, Maja  and
+      Scarton, Carolina  and
+      Moniz, Helena",
+    booktitle = "Proceedings of the 24th Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2023",
+    address = "Tampere, Finland",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2023.eamt-1.6/",
+    pages = "47--58",
+    abstract = "Although neural-based machine translation evaluation metrics, such as COMET or BLEURT, have achieved strong correlations with human judgements, they are sometimes unreliable in detecting certain phenomena that can be considered as critical errors, such as deviations in entities and numbers. In contrast, traditional evaluation metrics such as BLEU or chrF, which measure lexical or character overlap between translation hypotheses and human references, have lower correlations with human judgements but are sensitive to such deviations. In this paper, we investigate several ways of combining the two approaches in order to increase robustness of state-of-the-art evaluation methods to translations with critical errors. We show that by using additional information during training, such as sentence-level features and word-level tags, the trained metrics improve their capability to penalize translations with specific troublesome phenomena, which leads to gains in correlations with humans and on the recent DEMETR benchmark on several language pairs."
+}`
 }
 },
   {
@@ -1243,7 +2222,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2024.findings-eacl.20/",
-  "bibtex": "@inproceedings{lin-etal-2024-mplm,\n    title = \"m{PLM}-Sim: Better Cross-Lingual Similarity and Transfer in Multilingual Pretrained Language Models\",\n    author = \"Lin, Peiqin  and\n      Hu, Chengzhi  and\n      Zhang, Zheyu  and\n      Martins, Andre  and\n      Schuetze, Hinrich\",\n    editor = \"Graham, Yvette  and\n      Purver, Matthew\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EACL 2024\",\n    month = mar,\n    year = \"2024\",\n    address = \"St. Julian{'}s, Malta\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-eacl.20/\",\n    pages = \"276--310\",\n    abstract = \"Recent multilingual pretrained language models (mPLMs) have been shown to encode strong language-specific signals, which are not explicitly provided during pretraining. It remains an open question whether it is feasible to employ mPLMs to measure language similarity, and subsequently use the similarity results to select source languages for boosting cross-lingual transfer. To investigate this, we propose mPLM-Sim, a language similarity measure that induces the similarities across languages from mPLMs using multi-parallel corpora. Our study shows that mPLM-Sim exhibits moderately high correlations with linguistic similarity measures, such as lexicostatistics, genealogical language family, and geographical sprachbund. We also conduct a case study on languages with low correlation and observe that mPLM-Sim yields more accurate similarity results. Additionally, we find that similarity results vary across different mPLMs and different layers within an mPLM. We further investigate whether mPLM-Sim is effective for zero-shot cross-lingual transfer by conducting experiments on both low-level syntactic tasks and high-level semantic tasks. The experimental results demonstrate that mPLM-Sim is capable of selecting better source languages than linguistic measures, resulting in a 1{\\%}-2{\\%} improvement in zero-shot cross-lingual transfer performance.\"\n}"
+  "bibtex": `@inproceedings{lin-etal-2024-mplm,
+    title = "m{PLM}-Sim: Better Cross-Lingual Similarity and Transfer in Multilingual Pretrained Language Models",
+    author = "Lin, Peiqin  and
+      Hu, Chengzhi  and
+      Zhang, Zheyu  and
+      Martins, Andre  and
+      Schuetze, Hinrich",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-eacl.20/",
+    pages = "276--310",
+    abstract = "Recent multilingual pretrained language models (mPLMs) have been shown to encode strong language-specific signals, which are not explicitly provided during pretraining. It remains an open question whether it is feasible to employ mPLMs to measure language similarity, and subsequently use the similarity results to select source languages for boosting cross-lingual transfer. To investigate this, we propose mPLM-Sim, a language similarity measure that induces the similarities across languages from mPLMs using multi-parallel corpora. Our study shows that mPLM-Sim exhibits moderately high correlations with linguistic similarity measures, such as lexicostatistics, genealogical language family, and geographical sprachbund. We also conduct a case study on languages with low correlation and observe that mPLM-Sim yields more accurate similarity results. Additionally, we find that similarity results vary across different mPLMs and different layers within an mPLM. We further investigate whether mPLM-Sim is effective for zero-shot cross-lingual transfer by conducting experiments on both low-level syntactic tasks and high-level semantic tasks. The experimental results demonstrate that mPLM-Sim is capable of selecting better source languages than linguistic measures, resulting in a 1{\\%}-2{\\%} improvement in zero-shot cross-lingual transfer performance."
+}`
 }
 },
   {
@@ -1260,7 +2256,32 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.acl-long.61/",
-  "bibtex": "@inproceedings{imanigooghari-etal-2023-glot500,\n    title = \"Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages\",\n    author = {Imani, Ayyoob  and\n      Lin, Peiqin  and\n      Kargaran, Amir Hossein  and\n      Severini, Silvia  and\n      Jalili Sabet, Masoud  and\n      Kassner, Nora  and\n      Ma, Chunlan  and\n      Schmid, Helmut  and\n      Martins, Andr{\\'e}  and\n      Yvon, Fran{\\c{c}}ois  and\n      Sch{\\\"u}tze, Hinrich},\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.61/\",\n    doi = \"10.18653/v1/2023.acl-long.61\",\n    pages = \"1082--1117\",\n    abstract = \"The NLP community has mainly focused on scaling Large Language Models (LLMs) vertically, i.e., making them better for about 100 languages. We instead scale LLMs horizontally: we create, through continued pretraining, Glot500-m, an LLM that covers 511 predominantly low-resource languages. An important part of this effort is to collect and clean Glot500-c, a corpus that covers these 511 languages and allows us to train Glot500-m. We evaluate Glot500-m on five diverse tasks across these languages. We observe large improvements for both high-resource and low-resource languages compared to an XLM-R baseline. Our analysis shows that no single factor explains the quality of multilingual LLM representations. Rather, a combination of factors determines quality including corpus size, script, ``help'' from related languages and the total capacity of the model. Our work addresses an important goal of NLP research: we should notlimit NLP to a small fraction of the world{'}s languages and instead strive to support as many languages as possible to bring the benefits of NLP technology to all languages and cultures. Code, data and models are available at \\url{https://github.com/cisnlp/Glot500}.\"\n}"
+  "bibtex": `@inproceedings{imanigooghari-etal-2023-glot500,
+    title = "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
+    author = {Imani, Ayyoob  and
+      Lin, Peiqin  and
+      Kargaran, Amir Hossein  and
+      Severini, Silvia  and
+      Jalili Sabet, Masoud  and
+      Kassner, Nora  and
+      Ma, Chunlan  and
+      Schmid, Helmut  and
+      Martins, Andr{\\'e}  and
+      Yvon, Fran{\\c{c}}ois  and
+      Sch{\\"u}tze, Hinrich},
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.61/",
+    doi = "10.18653/v1/2023.acl-long.61",
+    pages = "1082--1117",
+    abstract = "The NLP community has mainly focused on scaling Large Language Models (LLMs) vertically, i.e., making them better for about 100 languages. We instead scale LLMs horizontally: we create, through continued pretraining, Glot500-m, an LLM that covers 511 predominantly low-resource languages. An important part of this effort is to collect and clean Glot500-c, a corpus that covers these 511 languages and allows us to train Glot500-m. We evaluate Glot500-m on five diverse tasks across these languages. We observe large improvements for both high-resource and low-resource languages compared to an XLM-R baseline. Our analysis shows that no single factor explains the quality of multilingual LLM representations. Rather, a combination of factors determines quality including corpus size, script, \`\`help'' from related languages and the total capacity of the model. Our work addresses an important goal of NLP research: we should notlimit NLP to a small fraction of the world{'}s languages and instead strive to support as many languages as possible to bring the benefits of NLP technology to all languages and cultures. Code, data and models are available at \\url{https://github.com/cisnlp/Glot500}."
+}`
 }
 },
   {
@@ -1277,7 +2298,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://openreview.net/forum?id=zwqlV7HoaT",
-  "bibtex": "@inproceedings{\nmartins2023sparse,\ntitle={Sparse Modern Hopfield Networks},\nauthor={Andre Martins and Vlad Niculae and Daniel C McNamee},\nbooktitle={Associative Memory {\\&} Hopfield Networks in 2023},\nyear={2023},\nurl={https://openreview.net/forum?id=zwqlV7HoaT}\n}"
+  "bibtex": `@inproceedings{
+martins2023sparse,
+title={Sparse Modern Hopfield Networks},
+author={Andre Martins and Vlad Niculae and Daniel C McNamee},
+booktitle={Associative Memory {\\&} Hopfield Networks in 2023},
+year={2023},
+url={https://openreview.net/forum?id=zwqlV7HoaT}
+}`
 }
 },
   {
@@ -1295,7 +2323,34 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.wmt-1.52/",
-  "bibtex": "@inproceedings{blain-etal-2023-findings,\n    title = \"Findings of the {WMT} 2023 Shared Task on Quality Estimation\",\n    author = \"Blain, Frederic  and\n      Zerva, Chrysoula  and\n      Rei, Ricardo  and\n      Guerreiro, Nuno M.  and\n      Kanojia, Diptesh  and\n      C. de Souza, Jos{\\'e} G.  and\n      Silva, Beatriz  and\n      Vaz, T{\\^a}nia  and\n      Jingxuan, Yan  and\n      Azadi, Fatemeh  and\n      Orasan, Constantin  and\n      Martins, Andr{\\'e}\",\n    editor = \"Koehn, Philipp  and\n      Haddow, Barry  and\n      Kocmi, Tom  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Eighth Conference on Machine Translation\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.wmt-1.52/\",\n    doi = \"10.18653/v1/2023.wmt-1.52\",\n    pages = \"629--653\",\n    abstract = \"We report the results of the WMT 2023 shared task on Quality Estimation, in which the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels, without access to reference translations. This edition introduces a few novel aspects and extensions that aim to enable more fine-grained, and explainable quality estimation approaches. We introduce an updated quality annotation scheme using Multidimensional Quality Metrics to obtain sentence- and word-level quality scores for three language pairs. We also extend the provided data to new language pairs: we specifically target low-resource languages and provide training, development and test data for English-Hindi, English-Tamil, English-Telegu and English-Gujarati as well as a zero-shot test-set for English-Farsi. Further, we introduce a novel fine-grained error prediction task aspiring to motivate research towards more detailed quality predictions.\"\n}"
+  "bibtex": `@inproceedings{blain-etal-2023-findings,
+    title = "Findings of the {WMT} 2023 Shared Task on Quality Estimation",
+    author = "Blain, Frederic  and
+      Zerva, Chrysoula  and
+      Rei, Ricardo  and
+      Guerreiro, Nuno M.  and
+      Kanojia, Diptesh  and
+      C. de Souza, Jos{\\'e} G.  and
+      Silva, Beatriz  and
+      Vaz, T{\\^a}nia  and
+      Jingxuan, Yan  and
+      Azadi, Fatemeh  and
+      Orasan, Constantin  and
+      Martins, Andr{\\'e}",
+    editor = "Koehn, Philipp  and
+      Haddow, Barry  and
+      Kocmi, Tom  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eighth Conference on Machine Translation",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wmt-1.52/",
+    doi = "10.18653/v1/2023.wmt-1.52",
+    pages = "629--653",
+    abstract = "We report the results of the WMT 2023 shared task on Quality Estimation, in which the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels, without access to reference translations. This edition introduces a few novel aspects and extensions that aim to enable more fine-grained, and explainable quality estimation approaches. We introduce an updated quality annotation scheme using Multidimensional Quality Metrics to obtain sentence- and word-level quality scores for three language pairs. We also extend the provided data to new language pairs: we specifically target low-resource languages and provide training, development and test data for English-Hindi, English-Tamil, English-Telegu and English-Gujarati as well as a zero-shot test-set for English-Farsi. Further, we introduce a novel fine-grained error prediction task aspiring to motivate research towards more detailed quality predictions."
+}`
 }
 },
   {
@@ -1312,7 +2367,26 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.acl-long.36/",
-  "bibtex": "@inproceedings{fernandes-etal-2023-translation,\n    title = \"When Does Translation Require Context? A Data-driven, Multilingual Exploration\",\n    author = \"Fernandes, Patrick  and\n      Yin, Kayo  and\n      Liu, Emmy  and\n      Martins, Andr{\\'e}  and\n      Neubig, Graham\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.36/\",\n    doi = \"10.18653/v1/2023.acl-long.36\",\n    pages = \"606--626\",\n    abstract = \"Although proper handling of discourse significantly contributes to the quality of machine translation (MT), these improvements are not adequately measured in common translation quality metrics. Recent works in context-aware MT attempt to target a small set of discourse phenomena during evaluation, however not in a fully systematic way. In this paper, we develop the Multilingual Discourse-Aware (MuDA) benchmark, a series of taggers that identify and evaluate model performance on discourse phenomena in any given dataset. The choice of phenomena is inspired by a novel methodology to systematically identify translations that require context. This methodology confirms the difficulty of previously studied phenomena while uncovering others which were not previously addressed. We find that commonly studied context-aware MT models make only marginal improvements over context-agnostic models, which suggests these models do not handle these ambiguities effectively. We release code and data for 14 language pairs to encourage the MT community to focus on accurately capturing discourse phenomena. Code available at \\url{https://github.com/neulab/contextual-mt}\"\n}"
+  "bibtex": `@inproceedings{fernandes-etal-2023-translation,
+    title = "When Does Translation Require Context? A Data-driven, Multilingual Exploration",
+    author = "Fernandes, Patrick  and
+      Yin, Kayo  and
+      Liu, Emmy  and
+      Martins, Andr{\\'e}  and
+      Neubig, Graham",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.36/",
+    doi = "10.18653/v1/2023.acl-long.36",
+    pages = "606--626",
+    abstract = "Although proper handling of discourse significantly contributes to the quality of machine translation (MT), these improvements are not adequately measured in common translation quality metrics. Recent works in context-aware MT attempt to target a small set of discourse phenomena during evaluation, however not in a fully systematic way. In this paper, we develop the Multilingual Discourse-Aware (MuDA) benchmark, a series of taggers that identify and evaluate model performance on discourse phenomena in any given dataset. The choice of phenomena is inspired by a novel methodology to systematically identify translations that require context. This methodology confirms the difficulty of previously studied phenomena while uncovering others which were not previously addressed. We find that commonly studied context-aware MT models make only marginal improvements over context-agnostic models, which suggests these models do not handle these ambiguities effectively. We release code and data for 14 language pairs to encourage the MT community to focus on accurately capturing discourse phenomena. Code available at \\url{https://github.com/neulab/contextual-mt}"
+}`
 }
 },
   {
@@ -1330,7 +2404,57 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.wmt-1.60/",
-  "bibtex": "@inproceedings{rei-etal-2022-cometkiwi,\n    title = \"{C}omet{K}iwi: {IST}-Unbabel 2022 Submission for the Quality Estimation Shared Task\",\n    author = \"Rei, Ricardo  and\n      Treviso, Marcos  and\n      Guerreiro, Nuno M.  and\n      Zerva, Chrysoula  and\n      Farinha, Ana C  and\n      Maroti, Christine  and\n      C. de Souza, Jos{\\'e} G.  and\n      Glushkova, Taisiya  and\n      Alves, Duarte  and\n      Coheur, Luisa  and\n      Lavie, Alon  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Koehn, Philipp  and\n      Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Jimeno Yepes, Antonio  and\n      Kocmi, Tom  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Popel, Martin  and\n      Turchi, Marco  and\n      Zampieri, Marcos},\n    booktitle = \"Proceedings of the Seventh Conference on Machine Translation (WMT)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.wmt-1.60/\",\n    pages = \"634--645\",\n    abstract = \"We present the joint contribution of IST and Unbabel to the WMT 2022 Shared Task on Quality Estimation (QE). Our team participated in all three subtasks: (i) Sentence and Word-level Quality Prediction; (ii) Explainable QE; and (iii) Critical Error Detection. For all tasks we build on top of the COMET framework, connecting it with the predictor-estimator architecture of OpenKiwi, and equipping it with a word-level sequence tagger and an explanation extractor. Our results suggest that incorporating references during pretraining improves performance across several language pairs on downstream tasks, and that jointly training with sentence and word-level objectives yields a further boost. Furthermore, combining attention and gradient information proved to be the top strategy for extracting good explanations of sentence-level QE models. Overall, our submissions achieved the best results for all three tasks for almost all language pairs by a considerable margin.\"\n}"
+  "bibtex": `@inproceedings{rei-etal-2022-cometkiwi,
+    title = "{C}omet{K}iwi: {IST}-Unbabel 2022 Submission for the Quality Estimation Shared Task",
+    author = "Rei, Ricardo  and
+      Treviso, Marcos  and
+      Guerreiro, Nuno M.  and
+      Zerva, Chrysoula  and
+      Farinha, Ana C  and
+      Maroti, Christine  and
+      C. de Souza, Jos{\\'e} G.  and
+      Glushkova, Taisiya  and
+      Alves, Duarte  and
+      Coheur, Luisa  and
+      Lavie, Alon  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.60/",
+    pages = "634--645",
+    abstract = "We present the joint contribution of IST and Unbabel to the WMT 2022 Shared Task on Quality Estimation (QE). Our team participated in all three subtasks: (i) Sentence and Word-level Quality Prediction; (ii) Explainable QE; and (iii) Critical Error Detection. For all tasks we build on top of the COMET framework, connecting it with the predictor-estimator architecture of OpenKiwi, and equipping it with a word-level sequence tagger and an explanation extractor. Our results suggest that incorporating references during pretraining improves performance across several language pairs on downstream tasks, and that jointly training with sentence and word-level objectives yields a further boost. Furthermore, combining attention and gradient information proved to be the top strategy for extracting good explanations of sentence-level QE models. Overall, our submissions achieved the best results for all three tasks for almost all language pairs by a considerable margin."
+}`
 }
 },
   {
@@ -1349,7 +2473,15 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=V5rlSPsHpkf",
   "code": "https://github.com/CoderPat/learning-scaffold",
-  "bibtex": "@inproceedings{\nfernandes2022learning,\ntitle={Learning to Scaffold: Optimizing Model Explanations for Teaching},\nauthor={Patrick Fernandes and Marcos Vinicius Treviso and Danish Pruthi and Andre Martins and Graham Neubig},\nbooktitle={Advances in Neural Information Processing Systems},\neditor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},\nyear={2022},\nurl={https://openreview.net/forum?id=V5rlSPsHpkf}\n}"
+  "bibtex": `@inproceedings{
+fernandes2022learning,
+title={Learning to Scaffold: Optimizing Model Explanations for Teaching},
+author={Patrick Fernandes and Marcos Vinicius Treviso and Danish Pruthi and Andre Martins and Graham Neubig},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=V5rlSPsHpkf}
+}`
 }
 },
   {
@@ -1367,7 +2499,15 @@ const publicationsData = [
   "links": {
   "paper": "https://www.jmlr.org/papers/v23/21-0879.html",
   "code": "https://github.com/deep-spin/sparse_continuous_distributions",
-  "bibtex": "@article{martins2022sparse,\n  title={Sparse continuous distributions and Fenchel-Young losses},\n  author={Martins, Andr{\\'e} FT and Treviso, Marcos and Farinhas, Ant{\\'o}nio and Aguiar, Pedro MQ and Figueiredo, M{\\'a}rio AT and Blondel, Mathieu and Niculae, Vlad},\n  journal={Journal of Machine Learning Research},\n  volume={23},\n  number={257},\n  pages={1--74},\n  year={2022}\n}"
+  "bibtex": `@article{martins2022sparse,
+  title={Sparse continuous distributions and Fenchel-Young losses},
+  author={Martins, Andr{\\'e} FT and Treviso, Marcos and Farinhas, Ant{\\'o}nio and Aguiar, Pedro MQ and Figueiredo, M{\\'a}rio AT and Blondel, Mathieu and Niculae, Vlad},
+  journal={Journal of Machine Learning Research},
+  volume={23},
+  number={257},
+  pages={1--74},
+  year={2022}
+}`
 }
 },
   {
@@ -1384,7 +2524,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://link.springer.com/chapter/10.1007/978-3-031-05311-5_29",
-  "bibtex": "@inproceedings{de2022framework,\n  title={A framework to semi-automated usability evaluations processing considering users\u2019 emotional aspects},\n  author={de Souza Santos, Fl{\\'a}via and Vin{\\'\\i}cius Treviso, Marcos and Gama, Sandra Pereira and de Mattos Fortes, Renata Pontin},\n  booktitle={International conference on human-computer interaction},\n  pages={419--438},\n  year={2022},\n  organization={Springer}\n}"
+  "bibtex": `@inproceedings{de2022framework,
+  title={A framework to semi-automated usability evaluations processing considering users’ emotional aspects},
+  author={de Souza Santos, Fl{\\'a}via and Vin{\\'\\i}cius Treviso, Marcos and Gama, Sandra Pereira and de Mattos Fortes, Renata Pontin},
+  booktitle={International conference on human-computer interaction},
+  pages={419--438},
+  year={2022},
+  organization={Springer}
+}`
 }
 },
   {
@@ -1400,7 +2547,41 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.eamt-1.53/",
-  "bibtex": "@inproceedings{martins-etal-2022-deepspin,\n    title = \"{D}eep{SPIN}: Deep Structured Prediction for Natural Language Processing\",\n    author = \"Martins, Andr{\\'e} F. T.  and\n      Peters, Ben  and\n      Zerva, Chrysoula  and\n      Lyu, Chunchuan  and\n      Correia, Gon{\\c{c}}alo  and\n      Treviso, Marcos  and\n      Martins, Pedro  and\n      Mihaylova, Tsvetomila\",\n    editor = {Moniz, Helena  and\n      Macken, Lieve  and\n      Rufener, Andrew  and\n      Barrault, Lo{\\\"i}c  and\n      Costa-juss{\\`a}, Marta R.  and\n      Declercq, Christophe  and\n      Koponen, Maarit  and\n      Kemp, Ellie  and\n      Pilos, Spyridon  and\n      Forcada, Mikel L.  and\n      Scarton, Carolina  and\n      Van den Bogaert, Joachim  and\n      Daems, Joke  and\n      Tezcan, Arda  and\n      Vanroy, Bram  and\n      Fonteyne, Margot},\n    booktitle = \"Proceedings of the 23rd Annual Conference of the European Association for Machine Translation\",\n    month = jun,\n    year = \"2022\",\n    address = \"Ghent, Belgium\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2022.eamt-1.53/\",\n    pages = \"327--328\",\n    abstract = \"DeepSPIN is a research project funded by the European Research Council (ERC) whose goal is to develop new neural structured prediction methods, models, and algorithms for improving the quality, interpretability, and data-efficiency of natural language processing (NLP) systems, with special emphasis on machine translation and quality estimation. We describe in this paper the latest findings from this project.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2022-deepspin,
+    title = "{D}eep{SPIN}: Deep Structured Prediction for Natural Language Processing",
+    author = "Martins, Andr{\\'e} F. T.  and
+      Peters, Ben  and
+      Zerva, Chrysoula  and
+      Lyu, Chunchuan  and
+      Correia, Gon{\\c{c}}alo  and
+      Treviso, Marcos  and
+      Martins, Pedro  and
+      Mihaylova, Tsvetomila",
+    editor = {Moniz, Helena  and
+      Macken, Lieve  and
+      Rufener, Andrew  and
+      Barrault, Lo{\\"i}c  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Declercq, Christophe  and
+      Koponen, Maarit  and
+      Kemp, Ellie  and
+      Pilos, Spyridon  and
+      Forcada, Mikel L.  and
+      Scarton, Carolina  and
+      Van den Bogaert, Joachim  and
+      Daems, Joke  and
+      Tezcan, Arda  and
+      Vanroy, Bram  and
+      Fonteyne, Margot},
+    booktitle = "Proceedings of the 23rd Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2022",
+    address = "Ghent, Belgium",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2022.eamt-1.53/",
+    pages = "327--328",
+    abstract = "DeepSPIN is a research project funded by the European Research Council (ERC) whose goal is to develop new neural structured prediction methods, models, and algorithms for improving the quality, interpretability, and data-efficiency of natural language processing (NLP) systems, with special emphasis on machine translation and quality estimation. We describe in this paper the latest findings from this project."
+}`
 }
 },
   {
@@ -1416,7 +2597,25 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.acl-long.799/",
-  "bibtex": "@inproceedings{li-etal-2023-python,\n    title = \"Python Code Generation by Asking Clarification Questions\",\n    author = \"Li, Haau-Sing (Xiaocheng)  and\n      Mesgar, Mohsen  and\n      Martins, Andr{\\'e}  and\n      Gurevych, Iryna\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.799/\",\n    doi = \"10.18653/v1/2023.acl-long.799\",\n    pages = \"14287--14306\",\n    abstract = \"Code generation from text requires understanding the user{'}s intent from a natural languagedescription and generating an executable code snippet that satisfies this intent. While recent pretrained language models demonstrate remarkable performance for this task, these models fail when the given natural language description is under-specified. In this work, we introduce a novel and more realistic setup for this task. We hypothesize that the under-specification of a natural language description can be resolved by asking clarification questions. Therefore, we collect and introduce a new dataset named CodeClarQA containing pairs of natural language descriptions and code with created synthetic clarification questions and answers. The empirical results of our evaluation of pretrained language model performance on code generation show that clarifications result in more precisely generated code, as shown by the substantial improvement of model performance in all evaluation metrics. Alongside this, our task and dataset introduce new challenges to the community, including when and what clarification questions should be asked. Our code and dataset are available on GitHub.\"\n}"
+  "bibtex": `@inproceedings{li-etal-2023-python,
+    title = "Python Code Generation by Asking Clarification Questions",
+    author = "Li, Haau-Sing (Xiaocheng)  and
+      Mesgar, Mohsen  and
+      Martins, Andr{\\'e}  and
+      Gurevych, Iryna",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.799/",
+    doi = "10.18653/v1/2023.acl-long.799",
+    pages = "14287--14306",
+    abstract = "Code generation from text requires understanding the user{'}s intent from a natural languagedescription and generating an executable code snippet that satisfies this intent. While recent pretrained language models demonstrate remarkable performance for this task, these models fail when the given natural language description is under-specified. In this work, we introduce a novel and more realistic setup for this task. We hypothesize that the under-specification of a natural language description can be resolved by asking clarification questions. Therefore, we collect and introduce a new dataset named CodeClarQA containing pairs of natural language descriptions and code with created synthetic clarification questions and answers. The empirical results of our evaluation of pretrained language model performance on code generation show that clarifications result in more precisely generated code, as shown by the substantial improvement of model performance in all evaluation metrics. Alongside this, our task and dataset introduce new challenges to the community, including when and what clarification questions should be asked. Our code and dataset are available on GitHub."
+}`
 }
 },
   {
@@ -1434,7 +2633,25 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.acl-long.770/",
-  "bibtex": "@inproceedings{guerreiro-etal-2023-optimal,\n    title = \"Optimal Transport for Unsupervised Hallucination Detection in Neural Machine Translation\",\n    author = \"Guerreiro, Nuno M.  and\n      Colombo, Pierre  and\n      Piantanida, Pablo  and\n      Martins, Andr{\\'e}\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.770/\",\n    doi = \"10.18653/v1/2023.acl-long.770\",\n    pages = \"13766--13784\",\n    abstract = \"Neural machine translation (NMT) has become the de-facto standard in real-world machine translation applications. However, NMT models can unpredictably produce severely pathological translations, known as hallucinations, that seriously undermine user trust. It becomes thus crucial to implement effective preventive strategies to guarantee their proper functioning. In this paper, we address the problem of hallucination detection in NMT by following a simple intuition: as hallucinations are detached from the source content, they exhibit encoder-decoder attention patterns that are statistically different from those of good quality translations. We frame this problem with an optimal transport formulation and propose a fully unsupervised, plug-in detector that can be used with any attention-based NMT model. Experimental results show that our detector not only outperforms all previous model-based detectors, but is also competitive with detectors that employ external models trained on millions of samples for related tasks such as quality estimation and cross-lingual sentence similarity.\"\n}"
+  "bibtex": `@inproceedings{guerreiro-etal-2023-optimal,
+    title = "Optimal Transport for Unsupervised Hallucination Detection in Neural Machine Translation",
+    author = "Guerreiro, Nuno M.  and
+      Colombo, Pierre  and
+      Piantanida, Pablo  and
+      Martins, Andr{\\'e}",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.770/",
+    doi = "10.18653/v1/2023.acl-long.770",
+    pages = "13766--13784",
+    abstract = "Neural machine translation (NMT) has become the de-facto standard in real-world machine translation applications. However, NMT models can unpredictably produce severely pathological translations, known as hallucinations, that seriously undermine user trust. It becomes thus crucial to implement effective preventive strategies to guarantee their proper functioning. In this paper, we address the problem of hallucination detection in NMT by following a simple intuition: as hallucinations are detached from the source content, they exhibit encoder-decoder attention patterns that are statistically different from those of good quality translations. We frame this problem with an optimal transport formulation and propose a fully unsupervised, plug-in detector that can be used with any attention-based NMT model. Experimental results show that our detector not only outperforms all previous model-based detectors, but is also competitive with detectors that employ external models trained on millions of samples for related tasks such as quality estimation and cross-lingual sentence similarity."
+}`
 }
 },
   {
@@ -1452,7 +2669,54 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.wmt-1.52/",
-  "bibtex": "@inproceedings{rei-etal-2022-comet,\n    title = \"{COMET}-22: Unbabel-{IST} 2022 Submission for the Metrics Shared Task\",\n    author = \"Rei, Ricardo  and\n      C. de Souza, Jos{\\'e} G.  and\n      Alves, Duarte  and\n      Zerva, Chrysoula  and\n      Farinha, Ana C  and\n      Glushkova, Taisiya  and\n      Lavie, Alon  and\n      Coheur, Luisa  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Koehn, Philipp  and\n      Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Jimeno Yepes, Antonio  and\n      Kocmi, Tom  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Popel, Martin  and\n      Turchi, Marco  and\n      Zampieri, Marcos},\n    booktitle = \"Proceedings of the Seventh Conference on Machine Translation (WMT)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.wmt-1.52/\",\n    pages = \"578--585\",\n    abstract = \"In this paper, we present the joint contribution of Unbabel and IST to the WMT 2022 Metrics Shared Task. Our primary submission {--} dubbed COMET-22 {--} is an ensemble between a COMET estimator model trained with Direct Assessments and a newly proposed multitask model trained to predict sentence-level scores along with OK/BAD word-level tags derived from Multidimensional Quality Metrics error annotations. These models are ensembled together using a hyper-parameter search that weights different features extracted from both evaluation models and combines them into a single score. For the reference-free evaluation, we present CometKiwi. Similarly to our primary submission, CometKiwi is an ensemble between two models. A traditional predictor-estimator model inspired by OpenKiwi and our new multitask model trained on Multidimensional Quality Metrics which can also be used without references. Both our submissions show improved correlations compared to state-of-the-art metrics from last year as well as increased robustness to critical errors.\"\n}"
+  "bibtex": `@inproceedings{rei-etal-2022-comet,
+    title = "{COMET}-22: Unbabel-{IST} 2022 Submission for the Metrics Shared Task",
+    author = "Rei, Ricardo  and
+      C. de Souza, Jos{\\'e} G.  and
+      Alves, Duarte  and
+      Zerva, Chrysoula  and
+      Farinha, Ana C  and
+      Glushkova, Taisiya  and
+      Lavie, Alon  and
+      Coheur, Luisa  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.52/",
+    pages = "578--585",
+    abstract = "In this paper, we present the joint contribution of Unbabel and IST to the WMT 2022 Metrics Shared Task. Our primary submission {--} dubbed COMET-22 {--} is an ensemble between a COMET estimator model trained with Direct Assessments and a newly proposed multitask model trained to predict sentence-level scores along with OK/BAD word-level tags derived from Multidimensional Quality Metrics error annotations. These models are ensembled together using a hyper-parameter search that weights different features extracted from both evaluation models and combines them into a single score. For the reference-free evaluation, we present CometKiwi. Similarly to our primary submission, CometKiwi is an ensemble between two models. A traditional predictor-estimator model inspired by OpenKiwi and our new multitask model trained on Multidimensional Quality Metrics which can also be used without references. Both our submissions show improved correlations compared to state-of-the-art metrics from last year as well as increased robustness to critical errors."
+}`
 }
 },
   {
@@ -1470,7 +2734,52 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.wmt-1.70/",
-  "bibtex": "@inproceedings{farinha-etal-2022-findings,\n    title = \"Findings of the {WMT} 2022 Shared Task on Chat Translation\",\n    author = \"Farinha, Ana C  and\n      Farajian, M. Amin  and\n      Buchicchio, Marianna  and\n      Fernandes, Patrick  and\n      C. de Souza, Jos{\\'e} G.  and\n      Moniz, Helena  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Koehn, Philipp  and\n      Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Jimeno Yepes, Antonio  and\n      Kocmi, Tom  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Popel, Martin  and\n      Turchi, Marco  and\n      Zampieri, Marcos},\n    booktitle = \"Proceedings of the Seventh Conference on Machine Translation (WMT)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.wmt-1.70/\",\n    pages = \"724--743\",\n    abstract = \"This paper reports the findings of the second edition of the Chat Translation Shared Task. Similarly to the previous WMT 2020 edition, the task consisted of translating bilingual customer support conversational text. However, unlike the previous edition, in which the bilingual data was created from a synthetic monolingual English corpus, this year we used a portion of the newly released Unbabel{'}s MAIA corpus, which contains genuine bilingual conversations between agents and customers. We also expanded the language pairs to English{\\ensuremath{\\leftrightarrow}}German (en{\\ensuremath{\\leftrightarrow}}de), English{\\ensuremath{\\leftrightarrow}}French (en{\\ensuremath{\\leftrightarrow}}fr), and English{\\ensuremath{\\leftrightarrow}}Brazilian Portuguese (en{\\ensuremath{\\leftrightarrow}}pt-br).Given that the main goal of the shared task is to translate bilingual conversations, participants were encouraged to train and test their models specifically for this environment. In total, we received 18 submissions from 4 different teams. All teams participated in both directions of en{\\ensuremath{\\leftrightarrow}}de. One of the teams also participated in en{\\ensuremath{\\leftrightarrow}}fr and en{\\ensuremath{\\leftrightarrow}}pt-br. We evaluated the submissions with automatic metrics as well as human judgments via Multidimensional Quality Metrics (MQM) on both directions. The official ranking of the systems is based on the overall MQM scores of the participating systems on both directions, i.e. agent and customer.\"\n}"
+  "bibtex": `@inproceedings{farinha-etal-2022-findings,
+    title = "Findings of the {WMT} 2022 Shared Task on Chat Translation",
+    author = "Farinha, Ana C  and
+      Farajian, M. Amin  and
+      Buchicchio, Marianna  and
+      Fernandes, Patrick  and
+      C. de Souza, Jos{\\'e} G.  and
+      Moniz, Helena  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.70/",
+    pages = "724--743",
+    abstract = "This paper reports the findings of the second edition of the Chat Translation Shared Task. Similarly to the previous WMT 2020 edition, the task consisted of translating bilingual customer support conversational text. However, unlike the previous edition, in which the bilingual data was created from a synthetic monolingual English corpus, this year we used a portion of the newly released Unbabel{'}s MAIA corpus, which contains genuine bilingual conversations between agents and customers. We also expanded the language pairs to English{\\ensuremath{\\leftrightarrow}}German (en{\\ensuremath{\\leftrightarrow}}de), English{\\ensuremath{\\leftrightarrow}}French (en{\\ensuremath{\\leftrightarrow}}fr), and English{\\ensuremath{\\leftrightarrow}}Brazilian Portuguese (en{\\ensuremath{\\leftrightarrow}}pt-br).Given that the main goal of the shared task is to translate bilingual conversations, participants were encouraged to train and test their models specifically for this environment. In total, we received 18 submissions from 4 different teams. All teams participated in both directions of en{\\ensuremath{\\leftrightarrow}}de. One of the teams also participated in en{\\ensuremath{\\leftrightarrow}}fr and en{\\ensuremath{\\leftrightarrow}}pt-br. We evaluated the submissions with automatic metrics as well as human judgments via Multidimensional Quality Metrics (MQM) on both directions. The official ranking of the systems is based on the overall MQM scores of the participating systems on both directions, i.e. agent and customer."
+}`
 }
 },
   {
@@ -1488,7 +2797,50 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.wmt-1.89/",
-  "bibtex": "@inproceedings{alves-etal-2022-unbabel,\n    title = \"Unbabel-{IST} at the {WMT} Chat Translation Shared Task\",\n    author = \"Alves, Jo{\\~a}o  and\n      Martins, Pedro Henrique  and\n      C. de Souza, Jos{\\'e} G.  and\n      Farajian, M. Amin  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Koehn, Philipp  and\n      Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Jimeno Yepes, Antonio  and\n      Kocmi, Tom  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Popel, Martin  and\n      Turchi, Marco  and\n      Zampieri, Marcos},\n    booktitle = \"Proceedings of the Seventh Conference on Machine Translation (WMT)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.wmt-1.89/\",\n    pages = \"943--948\",\n    abstract = \"We present the joint contribution of IST and Unbabel to the WMT 2022 Chat Translation Shared Task. We participated in all six language directions (English {\\ensuremath{\\leftrightarrow}} German, English {\\ensuremath{\\leftrightarrow}} French, English {\\ensuremath{\\leftrightarrow}} Brazilian Portuguese). Due to the lack of domain-specific data, we use mBART50, a large pretrained language model trained on millions of sentence-pairs, as our base model. We fine-tune it using a two step fine-tuning process. In the first step, we fine-tune the model on publicly available data. In the second step, we use the validation set. After having a domain specific model, we explore the use of kNN-MT as a way of incorporating domain-specific data at decoding time.\"\n}"
+  "bibtex": `@inproceedings{alves-etal-2022-unbabel,
+    title = "Unbabel-{IST} at the {WMT} Chat Translation Shared Task",
+    author = "Alves, Jo{\\~a}o  and
+      Martins, Pedro Henrique  and
+      C. de Souza, Jos{\\'e} G.  and
+      Farajian, M. Amin  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.89/",
+    pages = "943--948",
+    abstract = "We present the joint contribution of IST and Unbabel to the WMT 2022 Chat Translation Shared Task. We participated in all six language directions (English {\\ensuremath{\\leftrightarrow}} German, English {\\ensuremath{\\leftrightarrow}} French, English {\\ensuremath{\\leftrightarrow}} Brazilian Portuguese). Due to the lack of domain-specific data, we use mBART50, a large pretrained language model trained on millions of sentence-pairs, as our base model. We fine-tune it using a two step fine-tuning process. In the first step, we fine-tune the model on publicly available data. In the second step, we use the validation set. After having a domain specific model, we explore the use of kNN-MT as a way of incorporating domain-specific data at decoding time."
+}`
 }
 },
   {
@@ -1505,7 +2857,55 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.wmt-1.2/",
-  "bibtex": "@inproceedings{freitag-etal-2022-results,\n    title = \"Results of {WMT}22 Metrics Shared Task: Stop Using {BLEU} {--} Neural Metrics Are Better and More Robust\",\n    author = \"Freitag, Markus  and\n      Rei, Ricardo  and\n      Mathur, Nitika  and\n      Lo, Chi-kiu  and\n      Stewart, Craig  and\n      Avramidis, Eleftherios  and\n      Kocmi, Tom  and\n      Foster, George  and\n      Lavie, Alon  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Koehn, Philipp  and\n      Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Jimeno Yepes, Antonio  and\n      Kocmi, Tom  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Popel, Martin  and\n      Turchi, Marco  and\n      Zampieri, Marcos},\n    booktitle = \"Proceedings of the Seventh Conference on Machine Translation (WMT)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.wmt-1.2/\",\n    pages = \"46--68\",\n    abstract = \"This paper presents the results of the WMT22 Metrics Shared Task. Participants submitting automatic MT evaluation metrics were asked to score the outputs of the translation systems competing in the WMT22 News Translation Task on four different domains: news, social, ecommerce, and chat. All metrics were evaluated on how well they correlate with human ratings at the system and segment level. Similar to last year, we acquired our own human ratings based on expert-based human evaluation via Multidimensional Quality Metrics (MQM). This setup had several advantages, among other things: (i) expert-based evaluation is more reliable, (ii) we extended the pool of translations by 5 additional translations based on MBR decoding or rescoring which are challenging for current metrics. In addition, we initiated a challenge set subtask, where participants had to create contrastive test suites for evaluating metrics' ability to capture and penalise specific types of translation errors. Finally, we present an extensive analysis on how well metrics perform on three language pairs: English to German, English to Russian and Chinese to English. The results demonstrate the superiority of neural-based learned metrics and demonstrate again that overlap metrics like Bleu, spBleu or chrf correlate poorly with human ratings. The results also reveal that neural-based metrics are remarkably robust across different domains and challenges.\"\n}"
+  "bibtex": `@inproceedings{freitag-etal-2022-results,
+    title = "Results of {WMT}22 Metrics Shared Task: Stop Using {BLEU} {--} Neural Metrics Are Better and More Robust",
+    author = "Freitag, Markus  and
+      Rei, Ricardo  and
+      Mathur, Nitika  and
+      Lo, Chi-kiu  and
+      Stewart, Craig  and
+      Avramidis, Eleftherios  and
+      Kocmi, Tom  and
+      Foster, George  and
+      Lavie, Alon  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.2/",
+    pages = "46--68",
+    abstract = "This paper presents the results of the WMT22 Metrics Shared Task. Participants submitting automatic MT evaluation metrics were asked to score the outputs of the translation systems competing in the WMT22 News Translation Task on four different domains: news, social, ecommerce, and chat. All metrics were evaluated on how well they correlate with human ratings at the system and segment level. Similar to last year, we acquired our own human ratings based on expert-based human evaluation via Multidimensional Quality Metrics (MQM). This setup had several advantages, among other things: (i) expert-based evaluation is more reliable, (ii) we extended the pool of translations by 5 additional translations based on MBR decoding or rescoring which are challenging for current metrics. In addition, we initiated a challenge set subtask, where participants had to create contrastive test suites for evaluating metrics' ability to capture and penalise specific types of translation errors. Finally, we present an extensive analysis on how well metrics perform on three language pairs: English to German, English to Russian and Chinese to English. The results demonstrate the superiority of neural-based learned metrics and demonstrate again that overlap metrics like Bleu, spBleu or chrf correlate poorly with human ratings. The results also reveal that neural-based metrics are remarkably robust across different domains and challenges."
+}`
 }
 },
   {
@@ -1522,7 +2922,50 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.wmt-1.43/",
-  "bibtex": "@inproceedings{alves-etal-2022-robust,\n    title = \"Robust {MT} Evaluation with Sentence-level Multilingual Augmentation\",\n    author = \"Alves, Duarte  and\n      Rei, Ricardo  and\n      Farinha, Ana C  and\n      C. de Souza, Jos{\\'e} G.  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Koehn, Philipp  and\n      Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Jimeno Yepes, Antonio  and\n      Kocmi, Tom  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Popel, Martin  and\n      Turchi, Marco  and\n      Zampieri, Marcos},\n    booktitle = \"Proceedings of the Seventh Conference on Machine Translation (WMT)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.wmt-1.43/\",\n    pages = \"469--478\",\n    abstract = \"Automatic translations with critical errors may lead to misinterpretations and pose several risks for the user. As such, it is important that Machine Translation (MT) Evaluation systems are robust to these errors in order to increase the reliability and safety of Machine Translation systems. Here we introduce SMAUG a novel Sentence-level Multilingual AUGmentation approach for generating translations with critical errors and apply this approach to create a test set to evaluate the robustness of MT metrics to these errors. We show that current State-of-the-Art metrics are improving their capability to distinguish translations with and without critical errors and to penalize the first accordingly. We also show that metrics tend to struggle with errors related to named entities and numbers and that there is a high variance in the robustness of current methods to translations with critical errors.\"\n}"
+  "bibtex": `@inproceedings{alves-etal-2022-robust,
+    title = "Robust {MT} Evaluation with Sentence-level Multilingual Augmentation",
+    author = "Alves, Duarte  and
+      Rei, Ricardo  and
+      Farinha, Ana C  and
+      C. de Souza, Jos{\\'e} G.  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.43/",
+    pages = "469--478",
+    abstract = "Automatic translations with critical errors may lead to misinterpretations and pose several risks for the user. As such, it is important that Machine Translation (MT) Evaluation systems are robust to these errors in order to increase the reliability and safety of Machine Translation systems. Here we introduce SMAUG a novel Sentence-level Multilingual AUGmentation approach for generating translations with critical errors and apply this approach to create a test set to evaluate the robustness of MT metrics to these errors. We show that current State-of-the-Art metrics are improving their capability to distinguish translations with and without critical errors and to penalize the first accordingly. We also show that metrics tend to struggle with errors related to named entities and numbers and that there is a high variance in the robustness of current methods to translations with critical errors."
+}`
 }
 },
   {
@@ -1539,7 +2982,57 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.wmt-1.3/",
-  "bibtex": "@inproceedings{zerva-etal-2022-findings,\n    title = \"Findings of the {WMT} 2022 Shared Task on Quality Estimation\",\n    author = \"Zerva, Chrysoula  and\n      Blain, Fr{\\'e}d{\\'e}ric  and\n      Rei, Ricardo  and\n      Lertvittayakumjorn, Piyawat  and\n      C. de Souza, Jos{\\'e} G.  and\n      Eger, Steffen  and\n      Kanojia, Diptesh  and\n      Alves, Duarte  and\n      Or{\\u{a}}san, Constantin  and\n      Fomicheva, Marina  and\n      Martins, Andr{\\'e} F. T.  and\n      Specia, Lucia\",\n    editor = {Koehn, Philipp  and\n      Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Jimeno Yepes, Antonio  and\n      Kocmi, Tom  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Popel, Martin  and\n      Turchi, Marco  and\n      Zampieri, Marcos},\n    booktitle = \"Proceedings of the Seventh Conference on Machine Translation (WMT)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.wmt-1.3/\",\n    pages = \"69--99\",\n    abstract = \"We report the results of the WMT 2022 shared task on Quality Estimation, in which the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels, without access to reference translations. This edition introduces a few novel aspects and extensions that aim to enable more fine-grained, and explainable quality estimation approaches. We introduce an updated quality annotation scheme using Multidimensional Quality Metrics to obtain sentence- and word-level quality scores for three language pairs. We also extend the Direct Assessments and post-edit data (MLQE-PE) to new language pairs: we present a novel and large dataset on English-Marathi, as well as a zero-shot test set on English-Yoruba. Further, we include an explainability sub-task for all language pairs and present a new format of a critical error detection task for two new language pairs. Participants from 11 different teams submitted altogether 991 systems to different task variants and language pairs.\"\n}"
+  "bibtex": `@inproceedings{zerva-etal-2022-findings,
+    title = "Findings of the {WMT} 2022 Shared Task on Quality Estimation",
+    author = "Zerva, Chrysoula  and
+      Blain, Fr{\\'e}d{\\'e}ric  and
+      Rei, Ricardo  and
+      Lertvittayakumjorn, Piyawat  and
+      C. de Souza, Jos{\\'e} G.  and
+      Eger, Steffen  and
+      Kanojia, Diptesh  and
+      Alves, Duarte  and
+      Or{\\u{a}}san, Constantin  and
+      Fomicheva, Marina  and
+      Martins, Andr{\\'e} F. T.  and
+      Specia, Lucia",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.3/",
+    pages = "69--99",
+    abstract = "We report the results of the WMT 2022 shared task on Quality Estimation, in which the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels, without access to reference translations. This edition introduces a few novel aspects and extensions that aim to enable more fine-grained, and explainable quality estimation approaches. We introduce an updated quality annotation scheme using Multidimensional Quality Metrics to obtain sentence- and word-level quality scores for three language pairs. We also extend the Direct Assessments and post-edit data (MLQE-PE) to new language pairs: we present a novel and large dataset on English-Marathi, as well as a zero-shot test set on English-Yoruba. Further, we include an explainability sub-task for all language pairs and present a new format of a critical error detection task for two new language pairs. Participants from 11 different teams submitted altogether 991 systems to different task variants and language pairs."
+}`
 }
 },
   {
@@ -1555,7 +3048,29 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.gem-1.1/",
-  "bibtex": "@inproceedings{pernes-etal-2022-improving,\n    title = \"Improving abstractive summarization with energy-based re-ranking\",\n    author = \"Pernes, Diogo  and\n      Mendes, Afonso  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Bosselut, Antoine  and\n      Chandu, Khyathi  and\n      Dhole, Kaustubh  and\n      Gangal, Varun  and\n      Gehrmann, Sebastian  and\n      Jernite, Yacine  and\n      Novikova, Jekaterina  and\n      Perez-Beltrachini, Laura\",\n    booktitle = \"Proceedings of the Second Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates (Hybrid)\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.gem-1.1/\",\n    doi = \"10.18653/v1/2022.gem-1.1\",\n    pages = \"1--17\",\n    abstract = \"Current abstractive summarization systems present important weaknesses which prevent their deployment in real-world applications, such as the omission of relevant information and the generation of factual inconsistencies (also known as hallucinations). At the same time, automatic evaluation metrics such as CTC scores (Deng et al., 2021) have been recently proposed that exhibit a higher correlation with human judgments than traditional lexical-overlap metrics such as ROUGE. In this work, we intend to close the loop by leveraging the recent advances in summarization metrics to create quality-aware abstractive summarizers. Namely, we propose an energy-based model that learns to re-rank summaries according to one or a combination of these metrics. We experiment using several metrics to train our energy-based re-ranker and show that it consistently improves the scores achieved by the predicted summaries. Nonetheless, human evaluation results show that the re-ranking approach should be used with care for highly abstractive summaries, as the available metrics are not yet sufficiently reliable for this purpose.\"\n}"
+  "bibtex": `@inproceedings{pernes-etal-2022-improving,
+    title = "Improving abstractive summarization with energy-based re-ranking",
+    author = "Pernes, Diogo  and
+      Mendes, Afonso  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Bosselut, Antoine  and
+      Chandu, Khyathi  and
+      Dhole, Kaustubh  and
+      Gangal, Varun  and
+      Gehrmann, Sebastian  and
+      Jernite, Yacine  and
+      Novikova, Jekaterina  and
+      Perez-Beltrachini, Laura",
+    booktitle = "Proceedings of the Second Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.gem-1.1/",
+    doi = "10.18653/v1/2022.gem-1.1",
+    pages = "1--17",
+    abstract = "Current abstractive summarization systems present important weaknesses which prevent their deployment in real-world applications, such as the omission of relevant information and the generation of factual inconsistencies (also known as hallucinations). At the same time, automatic evaluation metrics such as CTC scores (Deng et al., 2021) have been recently proposed that exhibit a higher correlation with human judgments than traditional lexical-overlap metrics such as ROUGE. In this work, we intend to close the loop by leveraging the recent advances in summarization metrics to create quality-aware abstractive summarizers. Namely, we propose an energy-based model that learns to re-rank summaries according to one or a combination of these metrics. We experiment using several metrics to train our energy-based re-ranker and show that it consistently improves the scores achieved by the predicted summaries. Nonetheless, human evaluation results show that the re-ranking approach should be used with care for highly abstractive summaries, as the available metrics are not yet sufficiently reliable for this purpose."
+}`
 }
 },
   {
@@ -1572,7 +3087,23 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2023.eacl-main.75/",
-  "bibtex": "@inproceedings{guerreiro-etal-2023-looking,\n    title = \"Looking for a Needle in a Haystack: A Comprehensive Study of Hallucinations in Neural Machine Translation\",\n    author = \"Guerreiro, Nuno M.  and\n      Voita, Elena  and\n      Martins, Andr{\\'e}\",\n    editor = \"Vlachos, Andreas  and\n      Augenstein, Isabelle\",\n    booktitle = \"Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics\",\n    month = may,\n    year = \"2023\",\n    address = \"Dubrovnik, Croatia\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.eacl-main.75/\",\n    doi = \"10.18653/v1/2023.eacl-main.75\",\n    pages = \"1059--1075\",\n    abstract = \"Although the problem of hallucinations in neural machine translation (NMT) has received some attention, research on this highly pathological phenomenon lacks solid ground. Previous work has been limited in several ways: it often resorts to artificial settings where the problem is amplified, it disregards some (common) types of hallucinations, and it does not validate adequacy of detection heuristics. In this paper, we set foundations for the study of NMT hallucinations. First, we work in a natural setting, i.e., in-domain data without artificial noise neither in training nor in inference. Next, we annotate a dataset of over 3.4k sentences indicating different kinds of critical errors and hallucinations. Then, we turn to detection methods and both revisit methods used previously and propose using glass-box uncertainty-based detectors. Overall, we show that for preventive settings, (i) previously used methods are largely inadequate, (ii) sequence log-probability works best and performs on par with reference-based methods. Finally, we propose DeHallucinator, a simple method for alleviating hallucinations at test time that significantly reduces the hallucinatory rate.\"\n}"
+  "bibtex": `@inproceedings{guerreiro-etal-2023-looking,
+    title = "Looking for a Needle in a Haystack: A Comprehensive Study of Hallucinations in Neural Machine Translation",
+    author = "Guerreiro, Nuno M.  and
+      Voita, Elena  and
+      Martins, Andr{\\'e}",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eacl-main.75/",
+    doi = "10.18653/v1/2023.eacl-main.75",
+    pages = "1059--1075",
+    abstract = "Although the problem of hallucinations in neural machine translation (NMT) has received some attention, research on this highly pathological phenomenon lacks solid ground. Previous work has been limited in several ways: it often resorts to artificial settings where the problem is amplified, it disregards some (common) types of hallucinations, and it does not validate adequacy of detection heuristics. In this paper, we set foundations for the study of NMT hallucinations. First, we work in a natural setting, i.e., in-domain data without artificial noise neither in training nor in inference. Next, we annotate a dataset of over 3.4k sentences indicating different kinds of critical errors and hallucinations. Then, we turn to detection methods and both revisit methods used previously and propose using glass-box uncertainty-based detectors. Overall, we show that for preventive settings, (i) previously used methods are largely inadequate, (ii) sequence log-probability works best and performs on par with reference-based methods. Finally, we propose DeHallucinator, a simple method for alleviating hallucinations at test time that significantly reduces the hallucinatory rate."
+}`
 }
 },
   {
@@ -1588,7 +3119,22 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.sigmorphon-1.14/",
-  "bibtex": "@inproceedings{peters-martins-2022-beyond,\n    title = \"Beyond Characters: Subword-level Morpheme Segmentation\",\n    author = \"Peters, Ben  and\n      Martins, Andre F. T.\",\n    editor = \"Nicolai, Garrett  and\n      Chodroff, Eleanor\",\n    booktitle = \"Proceedings of the 19th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology\",\n    month = jul,\n    year = \"2022\",\n    address = \"Seattle, Washington\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.sigmorphon-1.14/\",\n    doi = \"10.18653/v1/2022.sigmorphon-1.14\",\n    pages = \"131--138\",\n    abstract = \"This paper presents DeepSPIN{'}s submissions to the SIGMORPHON 2022 Shared Task on Morpheme Segmentation. We make three submissions, all to the word-level subtask. First, we show that entmax-based sparse sequence-tosequence models deliver large improvements over conventional softmax-based models, echoing results from other tasks. Then, we challenge the assumption that models for morphological tasks should be trained at the character level by building a transformer that generates morphemes as sequences of unigram language model-induced subwords. This subword transformer outperforms all of our character-level models and wins the word-level subtask. Although we do not submit an official submission to the sentence-level subtask, we show that this subword-based approach is highly effective there as well.\"\n}"
+  "bibtex": `@inproceedings{peters-martins-2022-beyond,
+    title = "Beyond Characters: Subword-level Morpheme Segmentation",
+    author = "Peters, Ben  and
+      Martins, Andre F. T.",
+    editor = "Nicolai, Garrett  and
+      Chodroff, Eleanor",
+    booktitle = "Proceedings of the 19th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+    month = jul,
+    year = "2022",
+    address = "Seattle, Washington",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.sigmorphon-1.14/",
+    doi = "10.18653/v1/2022.sigmorphon-1.14",
+    pages = "131--138",
+    abstract = "This paper presents DeepSPIN{'}s submissions to the SIGMORPHON 2022 Shared Task on Morpheme Segmentation. We make three submissions, all to the word-level subtask. First, we show that entmax-based sparse sequence-tosequence models deliver large improvements over conventional softmax-based models, echoing results from other tasks. Then, we challenge the assumption that models for morphological tasks should be trained at the character level by building a transformer that generates morphemes as sequences of unigram language model-induced subwords. This subword transformer outperforms all of our character-level models and wins the word-level subtask. Although we do not submit an official submission to the sentence-level subtask, we show that this subword-based approach is highly effective there as well."
+}`
 }
 },
   {
@@ -1604,7 +3150,21 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://proceedings.mlr.press/v177/faria22a/faria22a.pdf",
-  "bibtex": "@InProceedings{pmlr-v177-faria22a,\n  title = \t {Differentiable Causal Discovery Under Latent Interventions},\n  author =       {Faria, Gon{\\c{c}}alo Rui Alves and Martins, Andre and Figueiredo, Mario A. T.},\n  booktitle = \t {Proceedings of the First Conference on Causal Learning and Reasoning},\n  pages = \t {253--274},\n  year = \t {2022},\n  editor = \t {Sch\u00f6lkopf, Bernhard and Uhler, Caroline and Zhang, Kun},\n  volume = \t {177},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {11--13 Apr},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v177/faria22a/faria22a.pdf},\n  url = \t {https://proceedings.mlr.press/v177/faria22a.html},\n  abstract = \t {Recent work has shown promising results in causal discovery by leveraging interventional data with gradient-based methods, even when the intervened variables are unknown. However, previous work assumes that the correspondence between samples and interventions is known, which is often unrealistic. We envision a scenario with an extensive dataset sampled from multiple intervention distributions and one observation distribution, but where we do not know which distribution originated each sample and how the intervention affected the system, \\textit{i.e.}, interventions are entirely latent. We propose a method based on neural networks and variational inference that addresses this scenario by framing it as learning a shared causal graph among a infinite mixture (under a Dirichlet process prior) of intervention structural causal models . Experiments with synthetic and real data show that our approach and its semi-supervised variant are able to discover causal relations in this challenging scenario. }\n}"
+  "bibtex": `@InProceedings{pmlr-v177-faria22a,
+  title = 	 {Differentiable Causal Discovery Under Latent Interventions},
+  author =       {Faria, Gon{\\c{c}}alo Rui Alves and Martins, Andre and Figueiredo, Mario A. T.},
+  booktitle = 	 {Proceedings of the First Conference on Causal Learning and Reasoning},
+  pages = 	 {253--274},
+  year = 	 {2022},
+  editor = 	 {Schölkopf, Bernhard and Uhler, Caroline and Zhang, Kun},
+  volume = 	 {177},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--13 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v177/faria22a/faria22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v177/faria22a.html},
+  abstract = 	 {Recent work has shown promising results in causal discovery by leveraging interventional data with gradient-based methods, even when the intervened variables are unknown. However, previous work assumes that the correspondence between samples and interventions is known, which is often unrealistic. We envision a scenario with an extensive dataset sampled from multiple intervention distributions and one observation distribution, but where we do not know which distribution originated each sample and how the intervention affected the system, \\textit{i.e.}, interventions are entirely latent. We propose a method based on neural networks and variational inference that addresses this scenario by framing it as learning a shared causal graph among a infinite mixture (under a Dirichlet process prior) of intervention structural causal models . Experiments with synthetic and real data show that our approach and its semi-supervised variant are able to discover causal relations in this challenging scenario. }
+}`
 }
 },
   {
@@ -1621,7 +3181,21 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://proceedings.mlr.press/v162/mihaylova22a/mihaylova22a.pdf",
-  "bibtex": "@InProceedings{pmlr-v162-mihaylova22a,\n  title = \t {Modeling Structure with Undirected Neural Networks},\n  author =       {Mihaylova, Tsvetomila and Niculae, Vlad and Martins, Andre},\n  booktitle = \t {Proceedings of the 39th International Conference on Machine Learning},\n  pages = \t {15544--15560},\n  year = \t {2022},\n  editor = \t {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},\n  volume = \t {162},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {17--23 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v162/mihaylova22a/mihaylova22a.pdf},\n  url = \t {https://proceedings.mlr.press/v162/mihaylova22a.html},\n  abstract = \t {Neural networks are powerful function estimators, leading to their status as a paradigm of choice for modeling structured data. However, unlike other structured representations that emphasize the modularity of the problem {\u2013} e.g., factor graphs {\u2013} neural networks are usually monolithic mappings from inputs to outputs, with a fixed computation order. This limitation prevents them from capturing different directions of computation and interaction between the modeled variables. In this paper, we combine the representational strengths of factor graphs and of neural networks, proposing undirected neural networks (UNNs): a flexible framework for specifying computations that can be performed in any order. For particular choices, our proposed models subsume and extend many existing architectures: feed-forward, recurrent, self-attention networks, auto-encoders, and networks with implicit layers. We demonstrate the effectiveness of undirected neural architectures, both unstructured and structured, on a range of tasks: tree-constrained dependency parsing, convolutional image classification, and sequence completion with attention. By varying the computation order, we show how a single UNN can be used both as a classifier and a prototype generator, and how it can fill in missing parts of an input sequence, making them a promising field for further research.}\n}"
+  "bibtex": `@InProceedings{pmlr-v162-mihaylova22a,
+  title = 	 {Modeling Structure with Undirected Neural Networks},
+  author =       {Mihaylova, Tsvetomila and Niculae, Vlad and Martins, Andre},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {15544--15560},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/mihaylova22a/mihaylova22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/mihaylova22a.html},
+  abstract = 	 {Neural networks are powerful function estimators, leading to their status as a paradigm of choice for modeling structured data. However, unlike other structured representations that emphasize the modularity of the problem {–} e.g., factor graphs {–} neural networks are usually monolithic mappings from inputs to outputs, with a fixed computation order. This limitation prevents them from capturing different directions of computation and interaction between the modeled variables. In this paper, we combine the representational strengths of factor graphs and of neural networks, proposing undirected neural networks (UNNs): a flexible framework for specifying computations that can be performed in any order. For particular choices, our proposed models subsume and extend many existing architectures: feed-forward, recurrent, self-attention networks, auto-encoders, and networks with implicit layers. We demonstrate the effectiveness of undirected neural architectures, both unstructured and structured, on a range of tasks: tree-constrained dependency parsing, convolutional image classification, and sequence completion with attention. By varying the computation order, we show how a single UNN can be used both as a classifier and a prototype generator, and how it can fill in missing parts of an input sequence, making them a promising field for further research.}
+}`
 }
 },
   {
@@ -1638,7 +3212,40 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.eamt-1.9/",
-  "bibtex": "@inproceedings{rei-etal-2022-searching,\n    title = \"Searching for {COMETINHO}: The Little Metric That Could\",\n    author = \"Rei, Ricardo  and\n      Farinha, Ana C  and\n      de Souza, Jos{\\'e} G.C.  and\n      Ramos, Pedro G.  and\n      Martins, Andr{\\'e} F.T.  and\n      Coheur, Luisa  and\n      Lavie, Alon\",\n    editor = {Moniz, Helena  and\n      Macken, Lieve  and\n      Rufener, Andrew  and\n      Barrault, Lo{\\\"i}c  and\n      Costa-juss{\\`a}, Marta R.  and\n      Declercq, Christophe  and\n      Koponen, Maarit  and\n      Kemp, Ellie  and\n      Pilos, Spyridon  and\n      Forcada, Mikel L.  and\n      Scarton, Carolina  and\n      Van den Bogaert, Joachim  and\n      Daems, Joke  and\n      Tezcan, Arda  and\n      Vanroy, Bram  and\n      Fonteyne, Margot},\n    booktitle = \"Proceedings of the 23rd Annual Conference of the European Association for Machine Translation\",\n    month = jun,\n    year = \"2022\",\n    address = \"Ghent, Belgium\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2022.eamt-1.9/\",\n    pages = \"61--70\",\n    abstract = \"In recent years, several neural fine-tuned machine translation evaluation metrics such as COMET and BLEURT have been proposed. These metrics achieve much higher correlations with human judgments than lexical overlap metrics at the cost of computational efficiency and simplicity, limiting their applications to scenarios in which one has to score thousands of translation hypothesis (e.g. scoring multiple systems or Minimum Bayes Risk decoding). In this paper, we explore optimization techniques, pruning, and knowledge distillation to create more compact and faster COMET versions. Our results show that just by optimizing the code through the use of caching and length batching we can reduce inference time between 39{\\%} and 65{\\%} when scoring multiple systems. Also, we show that pruning COMET can lead to a 21{\\%} model reduction without affecting the model{'}s accuracy beyond 0.01 Kendall tau correlation. Furthermore, we present DISTIL-COMET a lightweight distilled version that is 80{\\%} smaller and 2.128x faster while attaining a performance close to the original model and above strong baselines such as BERTSCORE and PRISM.\"\n}"
+  "bibtex": `@inproceedings{rei-etal-2022-searching,
+    title = "Searching for {COMETINHO}: The Little Metric That Could",
+    author = "Rei, Ricardo  and
+      Farinha, Ana C  and
+      de Souza, Jos{\\'e} G.C.  and
+      Ramos, Pedro G.  and
+      Martins, Andr{\\'e} F.T.  and
+      Coheur, Luisa  and
+      Lavie, Alon",
+    editor = {Moniz, Helena  and
+      Macken, Lieve  and
+      Rufener, Andrew  and
+      Barrault, Lo{\\"i}c  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Declercq, Christophe  and
+      Koponen, Maarit  and
+      Kemp, Ellie  and
+      Pilos, Spyridon  and
+      Forcada, Mikel L.  and
+      Scarton, Carolina  and
+      Van den Bogaert, Joachim  and
+      Daems, Joke  and
+      Tezcan, Arda  and
+      Vanroy, Bram  and
+      Fonteyne, Margot},
+    booktitle = "Proceedings of the 23rd Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2022",
+    address = "Ghent, Belgium",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2022.eamt-1.9/",
+    pages = "61--70",
+    abstract = "In recent years, several neural fine-tuned machine translation evaluation metrics such as COMET and BLEURT have been proposed. These metrics achieve much higher correlations with human judgments than lexical overlap metrics at the cost of computational efficiency and simplicity, limiting their applications to scenarios in which one has to score thousands of translation hypothesis (e.g. scoring multiple systems or Minimum Bayes Risk decoding). In this paper, we explore optimization techniques, pruning, and knowledge distillation to create more compact and faster COMET versions. Our results show that just by optimizing the code through the use of caching and length batching we can reduce inference time between 39{\\%} and 65{\\%} when scoring multiple systems. Also, we show that pruning COMET can lead to a 21{\\%} model reduction without affecting the model{'}s accuracy beyond 0.01 Kendall tau correlation. Furthermore, we present DISTIL-COMET a lightweight distilled version that is 80{\\%} smaller and 2.128x faster while attaining a performance close to the original model and above strong baselines such as BERTSCORE and PRISM."
+}`
 }
 },
   {
@@ -1655,7 +3262,38 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.eamt-1.47/",
-  "bibtex": "@inproceedings{de-souza-etal-2022-quartz,\n    title = \"{QUARTZ}: Quality-Aware Machine Translation\",\n    author = \"de Souza, Jos{\\'e} G.C.  and\n      Rei, Ricardo  and\n      Farinha, Ana C.  and\n      Moniz, Helena  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Moniz, Helena  and\n      Macken, Lieve  and\n      Rufener, Andrew  and\n      Barrault, Lo{\\\"i}c  and\n      Costa-juss{\\`a}, Marta R.  and\n      Declercq, Christophe  and\n      Koponen, Maarit  and\n      Kemp, Ellie  and\n      Pilos, Spyridon  and\n      Forcada, Mikel L.  and\n      Scarton, Carolina  and\n      Van den Bogaert, Joachim  and\n      Daems, Joke  and\n      Tezcan, Arda  and\n      Vanroy, Bram  and\n      Fonteyne, Margot},\n    booktitle = \"Proceedings of the 23rd Annual Conference of the European Association for Machine Translation\",\n    month = jun,\n    year = \"2022\",\n    address = \"Ghent, Belgium\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2022.eamt-1.47/\",\n    pages = \"315--316\",\n    abstract = \"This paper presents QUARTZ, QUality-AwaRe machine Translation, a project led by Unbabel which aims at developing machine translation systems that are more robust and produce fewer critical errors. With QUARTZ we want to enable machine translation for user-generated conversational content types that do not tolerate critical errors in automatic translations.\"\n}"
+  "bibtex": `@inproceedings{de-souza-etal-2022-quartz,
+    title = "{QUARTZ}: Quality-Aware Machine Translation",
+    author = "de Souza, Jos{\\'e} G.C.  and
+      Rei, Ricardo  and
+      Farinha, Ana C.  and
+      Moniz, Helena  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Moniz, Helena  and
+      Macken, Lieve  and
+      Rufener, Andrew  and
+      Barrault, Lo{\\"i}c  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Declercq, Christophe  and
+      Koponen, Maarit  and
+      Kemp, Ellie  and
+      Pilos, Spyridon  and
+      Forcada, Mikel L.  and
+      Scarton, Carolina  and
+      Van den Bogaert, Joachim  and
+      Daems, Joke  and
+      Tezcan, Arda  and
+      Vanroy, Bram  and
+      Fonteyne, Margot},
+    booktitle = "Proceedings of the 23rd Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2022",
+    address = "Ghent, Belgium",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2022.eamt-1.47/",
+    pages = "315--316",
+    abstract = "This paper presents QUARTZ, QUality-AwaRe machine Translation, a project led by Unbabel which aims at developing machine translation systems that are more robust and produce fewer critical errors. With QUARTZ we want to enable machine translation for user-generated conversational content types that do not tolerate critical errors in automatic translations."
+}`
 }
 },
   {
@@ -1672,7 +3310,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.emnlp-main.284/",
-  "bibtex": "@inproceedings{martins-etal-2022-chunk,\n    title = \"Chunk-based Nearest Neighbor Machine Translation\",\n    author = \"Martins, Pedro Henrique  and\n      Marinho, Zita  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Goldberg, Yoav  and\n      Kozareva, Zornitsa  and\n      Zhang, Yue\",\n    booktitle = \"Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.emnlp-main.284/\",\n    doi = \"10.18653/v1/2022.emnlp-main.284\",\n    pages = \"4228--4245\",\n    abstract = \"Semi-parametric models, which augment generation with retrieval, have led to impressive results in language modeling and machine translation, due to their ability to retrieve fine-grained information from a datastore of examples. One of the most prominent approaches, kNN-MT, exhibits strong domain adaptation capabilities by retrieving tokens from domain-specific datastores (Khandelwal et al., 2021). However, kNN-MT requires an expensive retrieval operation for every single generated token, leading to a very low decoding speed (around 8 times slower than a parametric model). In this paper, we introduce a chunk-based kNN-MT model which retrieves chunks of tokens from the datastore, instead of a single token. We propose several strategies for incorporating the retrieved chunks into the generation process, and for selecting the steps at which the model needs to search for neighbors in the datastore. Experiments on machine translation in two settings, static and ``on-the-fly'' domain adaptation, show that the chunk-based kNN-MT model leads to significant speed-ups (up to 4 times) with only a small drop in translation quality.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2022-chunk,
+    title = "Chunk-based Nearest Neighbor Machine Translation",
+    author = "Martins, Pedro Henrique  and
+      Marinho, Zita  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.284/",
+    doi = "10.18653/v1/2022.emnlp-main.284",
+    pages = "4228--4245",
+    abstract = "Semi-parametric models, which augment generation with retrieval, have led to impressive results in language modeling and machine translation, due to their ability to retrieve fine-grained information from a datastore of examples. One of the most prominent approaches, kNN-MT, exhibits strong domain adaptation capabilities by retrieving tokens from domain-specific datastores (Khandelwal et al., 2021). However, kNN-MT requires an expensive retrieval operation for every single generated token, leading to a very low decoding speed (around 8 times slower than a parametric model). In this paper, we introduce a chunk-based kNN-MT model which retrieves chunks of tokens from the datastore, instead of a single token. We propose several strategies for incorporating the retrieved chunks into the generation process, and for selecting the steps at which the model needs to search for neighbors in the datastore. Experiments on machine translation in two settings, static and \`\`on-the-fly'' domain adaptation, show that the chunk-based kNN-MT model leads to significant speed-ups (up to 4 times) with only a small drop in translation quality."
+}`
 }
 },
   {
@@ -1689,7 +3344,28 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.naacl-main.100/",
-  "bibtex": "@inproceedings{fernandes-etal-2022-quality,\n    title = \"Quality-Aware Decoding for Neural Machine Translation\",\n    author = \"Fernandes, Patrick  and\n      Farinhas, Ant{\\'o}nio  and\n      Rei, Ricardo  and\n      C. de Souza, Jos{\\'e} G.  and\n      Ogayo, Perez  and\n      Neubig, Graham  and\n      Martins, Andre\",\n    editor = \"Carpuat, Marine  and\n      de Marneffe, Marie-Catherine  and\n      Meza Ruiz, Ivan Vladimir\",\n    booktitle = \"Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies\",\n    month = jul,\n    year = \"2022\",\n    address = \"Seattle, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.naacl-main.100/\",\n    doi = \"10.18653/v1/2022.naacl-main.100\",\n    pages = \"1396--1412\",\n    abstract = \"Despite the progress in machine translation quality estimation and evaluation in the last years, decoding in neural machine translation (NMT) is mostly oblivious to this and centers around finding the most probable translation according to the model (MAP decoding), approximated with beam search. In this paper, we bring together these two lines of research and propose \\textit{quality-aware decoding} for NMT, by leveraging recent breakthroughs in reference-free and reference-based MT evaluation through various inference methods like $N$-best reranking and minimum Bayes risk decoding. We perform an extensive comparison of various possible candidate generation and ranking methods across four datasets and two model classes and find that quality-aware decoding consistently outperforms MAP-based decoding according both to state-of-the-art automatic metrics (COMET and BLEURT) and to human assessments.\"\n}"
+  "bibtex": `@inproceedings{fernandes-etal-2022-quality,
+    title = "Quality-Aware Decoding for Neural Machine Translation",
+    author = "Fernandes, Patrick  and
+      Farinhas, Ant{\\'o}nio  and
+      Rei, Ricardo  and
+      C. de Souza, Jos{\\'e} G.  and
+      Ogayo, Perez  and
+      Neubig, Graham  and
+      Martins, Andre",
+    editor = "Carpuat, Marine  and
+      de Marneffe, Marie-Catherine  and
+      Meza Ruiz, Ivan Vladimir",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.100/",
+    doi = "10.18653/v1/2022.naacl-main.100",
+    pages = "1396--1412",
+    abstract = "Despite the progress in machine translation quality estimation and evaluation in the last years, decoding in neural machine translation (NMT) is mostly oblivious to this and centers around finding the most probable translation according to the model (MAP decoding), approximated with beam search. In this paper, we bring together these two lines of research and propose \\textit{quality-aware decoding} for NMT, by leveraging recent breakthroughs in reference-free and reference-based MT evaluation through various inference methods like $N$-best reranking and minimum Bayes risk decoding. We perform an extensive comparison of various possible candidate generation and ranking methods across four datasets and two model classes and find that quality-aware decoding consistently outperforms MAP-based decoding according both to state-of-the-art automatic metrics (COMET and BLEURT) and to human assessments."
+}`
 }
 },
   {
@@ -1708,7 +3384,26 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2022.spanlp-1.3/",
   "code": "https://github.com/deep-spin/efficient_kNN_MT",
-  "bibtex": "@inproceedings{martins-etal-2022-efficient,\n    title = \"Efficient Machine Translation Domain Adaptation\",\n    author = \"Martins, Pedro  and\n      Marinho, Zita  and\n      Martins, Andre\",\n    editor = \"Das, Rajarshi  and\n      Lewis, Patrick  and\n      Min, Sewon  and\n      Thai, June  and\n      Zaheer, Manzil\",\n    booktitle = \"Proceedings of the 1st Workshop on Semiparametric Methods in NLP: Decoupling Logic from Knowledge\",\n    month = may,\n    year = \"2022\",\n    address = \"Dublin, Ireland and Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.spanlp-1.3/\",\n    doi = \"10.18653/v1/2022.spanlp-1.3\",\n    pages = \"23--29\",\n    abstract = \"Machine translation models struggle when translating out-of-domain text, which makes domain adaptation a topic of critical importance. However, most domain adaptation methods focus on fine-tuning or training the entire or part of the model on every new domain, which can be costly. On the other hand, semi-parametric models have been shown to successfully perform domain adaptation by retrieving examples from an in-domain datastore (Khandelwal et al., 2021). A drawback of these retrieval-augmented models, however, is that they tend to be substantially slower. In this paper, we explore several approaches to speed up nearest neighbors machine translation. We adapt the methods recently proposed by He et al. (2021) for language modeling, and introduce a simple but effective caching strategy that avoids performing retrieval when similar contexts have been seen before. Translation quality and runtimes for several domains show the effectiveness of the proposed solutions.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2022-efficient,
+    title = "Efficient Machine Translation Domain Adaptation",
+    author = "Martins, Pedro  and
+      Marinho, Zita  and
+      Martins, Andre",
+    editor = "Das, Rajarshi  and
+      Lewis, Patrick  and
+      Min, Sewon  and
+      Thai, June  and
+      Zaheer, Manzil",
+    booktitle = "Proceedings of the 1st Workshop on Semiparametric Methods in NLP: Decoupling Logic from Knowledge",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland and Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.spanlp-1.3/",
+    doi = "10.18653/v1/2022.spanlp-1.3",
+    pages = "23--29",
+    abstract = "Machine translation models struggle when translating out-of-domain text, which makes domain adaptation a topic of critical importance. However, most domain adaptation methods focus on fine-tuning or training the entire or part of the model on every new domain, which can be costly. On the other hand, semi-parametric models have been shown to successfully perform domain adaptation by retrieving examples from an in-domain datastore (Khandelwal et al., 2021). A drawback of these retrieval-augmented models, however, is that they tend to be substantially slower. In this paper, we explore several approaches to speed up nearest neighbors machine translation. We adapt the methods recently proposed by He et al. (2021) for language modeling, and introduce a simple but effective caching strategy that avoids performing retrieval when similar contexts have been seen before. Translation quality and runtimes for several domains show the effectiveness of the proposed solutions."
+}`
 }
 },
   {
@@ -1725,7 +3420,25 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.emnlp-main.591/",
-  "bibtex": "@inproceedings{zerva-etal-2022-disentangling,\n    title = \"Disentangling Uncertainty in Machine Translation Evaluation\",\n    author = \"Zerva, Chrysoula  and\n      Glushkova, Taisiya  and\n      Rei, Ricardo  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Goldberg, Yoav  and\n      Kozareva, Zornitsa  and\n      Zhang, Yue\",\n    booktitle = \"Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.emnlp-main.591/\",\n    doi = \"10.18653/v1/2022.emnlp-main.591\",\n    pages = \"8622--8641\",\n    abstract = \"Trainable evaluation metrics for machine translation (MT) exhibit strong correlation with human judgements, but they are often hard to interpret and might produce unreliable scores under noisy or out-of-domain data. Recent work has attempted to mitigate this with simple uncertainty quantification techniques (Monte Carlo dropout and deep ensembles), however these techniques (as we show) are limited in several ways {--} for example, they are unable to distinguish between different kinds of uncertainty, and they are time and memory consuming. In this paper, we propose more powerful and efficient uncertainty predictors for MT evaluation, and we assess their ability to target different sources of aleatoric and epistemic uncertainty. To this end, we develop and compare training objectives for the COMET metric to enhance it with an uncertainty prediction output, including heteroscedastic regression, divergence minimization, and direct uncertainty prediction.Our experiments show improved results on uncertainty prediction for the WMT metrics task datasets, with a substantial reduction in computational costs. Moreover, they demonstrate the ability of these predictors to address specific uncertainty causes in MT evaluation, such as low quality references and out-of-domain data.\"\n}"
+  "bibtex": `@inproceedings{zerva-etal-2022-disentangling,
+    title = "Disentangling Uncertainty in Machine Translation Evaluation",
+    author = "Zerva, Chrysoula  and
+      Glushkova, Taisiya  and
+      Rei, Ricardo  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.591/",
+    doi = "10.18653/v1/2022.emnlp-main.591",
+    pages = "8622--8641",
+    abstract = "Trainable evaluation metrics for machine translation (MT) exhibit strong correlation with human judgements, but they are often hard to interpret and might produce unreliable scores under noisy or out-of-domain data. Recent work has attempted to mitigate this with simple uncertainty quantification techniques (Monte Carlo dropout and deep ensembles), however these techniques (as we show) are limited in several ways {--} for example, they are unable to distinguish between different kinds of uncertainty, and they are time and memory consuming. In this paper, we propose more powerful and efficient uncertainty predictors for MT evaluation, and we assess their ability to target different sources of aleatoric and epistemic uncertainty. To this end, we develop and compare training objectives for the COMET metric to enhance it with an uncertainty prediction output, including heteroscedastic regression, divergence minimization, and direct uncertainty prediction.Our experiments show improved results on uncertainty prediction for the WMT metrics task datasets, with a substantial reduction in computational costs. Moreover, they demonstrate the ability of these predictors to address specific uncertainty causes in MT evaluation, such as low quality references and out-of-domain data."
+}`
 }
 },
   {
@@ -1743,7 +3456,24 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2022.acl-long.375/",
   "code": "https://github.com/deep-spin/infinite-former",
-  "bibtex": "@inproceedings{martins-etal-2022-former,\n    title = \"$\\infty$-former: Infinite Memory Transformer\",\n    author = \"Martins, Pedro Henrique  and\n      Marinho, Zita  and\n      Martins, Andre\",\n    editor = \"Muresan, Smaranda  and\n      Nakov, Preslav  and\n      Villavicencio, Aline\",\n    booktitle = \"Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = may,\n    year = \"2022\",\n    address = \"Dublin, Ireland\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.acl-long.375/\",\n    doi = \"10.18653/v1/2022.acl-long.375\",\n    pages = \"5468--5485\",\n    abstract = \"Transformers are unable to model long-term memories effectively, since the amount of computation they need to perform grows with the context length. While variations of efficient transformers have been proposed, they all have a finite memory capacity and are forced to drop old information. In this paper, we propose the $\\infty$-former, which extends the vanilla transformer with an unbounded long-term memory. By making use of a continuous-space attention mechanism to attend over the long-term memory, the $\\infty$-former{'}s attention complexity becomes independent of the context length, trading off memory length with precision.In order to control where precision is more important, $\\infty$-former maintains ``sticky memories,'' being able to model arbitrarily long contexts while keeping the computation budget fixed.Experiments on a synthetic sorting task, language modeling, and document grounded dialogue generation demonstrate the $\\infty$-former{'}s ability to retain information from long sequences.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2022-former,
+    title = "$\\infty$-former: Infinite Memory Transformer",
+    author = "Martins, Pedro Henrique  and
+      Marinho, Zita  and
+      Martins, Andre",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.375/",
+    doi = "10.18653/v1/2022.acl-long.375",
+    pages = "5468--5485",
+    abstract = "Transformers are unable to model long-term memories effectively, since the amount of computation they need to perform grows with the context length. While variations of efficient transformers have been proposed, they all have a finite memory capacity and are forced to drop old information. In this paper, we propose the $\\infty$-former, which extends the vanilla transformer with an unbounded long-term memory. By making use of a continuous-space attention mechanism to attend over the long-term memory, the $\\infty$-former{'}s attention complexity becomes independent of the context length, trading off memory length with precision.In order to control where precision is more important, $\\infty$-former maintains \`\`sticky memories,'' being able to model arbitrarily long contexts while keeping the computation budget fixed.Experiments on a synthetic sorting task, language modeling, and document grounded dialogue generation demonstrate the $\\infty$-former{'}s ability to retain information from long sequences."
+}`
 }
 },
   {
@@ -1759,7 +3489,28 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.spnlp-1.7/",
-  "bibtex": "@inproceedings{treviso-etal-2022-predicting,\n    title = \"Predicting Attention Sparsity in Transformers\",\n    author = \"Treviso, Marcos  and\n      G{\\'o}is, Ant{\\'o}nio  and\n      Fernandes, Patrick  and\n      Fonseca, Erick  and\n      Martins, Andre\",\n    editor = \"Vlachos, Andreas  and\n      Agrawal, Priyanka  and\n      Martins, Andr{\\'e}  and\n      Lampouras, Gerasimos  and\n      Lyu, Chunchuan\",\n    booktitle = \"Proceedings of the Sixth Workshop on Structured Prediction for NLP\",\n    month = may,\n    year = \"2022\",\n    address = \"Dublin, Ireland\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.spnlp-1.7/\",\n    doi = \"10.18653/v1/2022.spnlp-1.7\",\n    pages = \"67--81\",\n    abstract = \"Transformers' quadratic complexity with respect to the input sequence length has motivated a body of work on efficient sparse approximations to softmax. An alternative path, used by entmax transformers, consists of having built-in exact sparse attention; however this approach still requires quadratic computation. In this paper, we propose Sparsefinder, a simple model trained to identify the sparsity pattern of entmax attention before computing it. We experiment with three variants of our method, based on distances, quantization, and clustering, on two tasks: machine translation (attention in the decoder) and masked language modeling (encoder-only). Our work provides a new angle to study model efficiency by doing extensive analysis of the tradeoff between the sparsity and recall of the predicted attention graph. This allows for detailed comparison between different models along their Pareto curves, important to guide future benchmarks for sparse attention models.\"\n}"
+  "bibtex": `@inproceedings{treviso-etal-2022-predicting,
+    title = "Predicting Attention Sparsity in Transformers",
+    author = "Treviso, Marcos  and
+      G{\\'o}is, Ant{\\'o}nio  and
+      Fernandes, Patrick  and
+      Fonseca, Erick  and
+      Martins, Andre",
+    editor = "Vlachos, Andreas  and
+      Agrawal, Priyanka  and
+      Martins, Andr{\\'e}  and
+      Lampouras, Gerasimos  and
+      Lyu, Chunchuan",
+    booktitle = "Proceedings of the Sixth Workshop on Structured Prediction for NLP",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.spnlp-1.7/",
+    doi = "10.18653/v1/2022.spnlp-1.7",
+    pages = "67--81",
+    abstract = "Transformers' quadratic complexity with respect to the input sequence length has motivated a body of work on efficient sparse approximations to softmax. An alternative path, used by entmax transformers, consists of having built-in exact sparse attention; however this approach still requires quadratic computation. In this paper, we propose Sparsefinder, a simple model trained to identify the sparsity pattern of entmax attention before computing it. We experiment with three variants of our method, based on distances, quantization, and clustering, on two tasks: machine translation (attention in the decoder) and masked language modeling (encoder-only). Our work provides a new angle to study model efficiency by doing extensive analysis of the tradeoff between the sparsity and recall of the predicted attention graph. This allows for detailed comparison between different models along their Pareto curves, important to guide future benchmarks for sparse attention models."
+}`
 }
 },
   {
@@ -1777,7 +3528,27 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2021.eval4nlp-1.14/",
-  "bibtex": "@inproceedings{treviso-etal-2021-ist,\n    title = \"{IST}-Unbabel 2021 Submission for the Explainable Quality Estimation Shared Task\",\n    author = \"Treviso, Marcos  and\n      Guerreiro, Nuno M.  and\n      Rei, Ricardo  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Gao, Yang  and\n      Eger, Steffen  and\n      Zhao, Wei  and\n      Lertvittayakumjorn, Piyawat  and\n      Fomicheva, Marina\",\n    booktitle = \"Proceedings of the 2nd Workshop on Evaluation and Comparison of NLP Systems\",\n    month = nov,\n    year = \"2021\",\n    address = \"Punta Cana, Dominican Republic\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.eval4nlp-1.14/\",\n    doi = \"10.18653/v1/2021.eval4nlp-1.14\",\n    pages = \"133--145\",\n    abstract = \"We present the joint contribution of Instituto Superior T{\\'e}cnico (IST) and Unbabel to the Explainable Quality Estimation (QE) shared task, where systems were submitted to two tracks: constrained (without word-level supervision) and unconstrained (with word-level supervision). For the constrained track, we experimented with several explainability methods to extract the relevance of input tokens from sentence-level QE models built on top of multilingual pre-trained transformers. Among the different tested methods, composing explanations in the form of attention weights scaled by the norm of value vectors yielded the best results. When word-level labels are used during training, our best results were obtained by using word-level predicted probabilities. We further improve the performance of our methods on the two tracks by ensembling explanation scores extracted from models trained with different pre-trained transformers, achieving strong results for in-domain and zero-shot language pairs.\"\n}"
+  "bibtex": `@inproceedings{treviso-etal-2021-ist,
+    title = "{IST}-Unbabel 2021 Submission for the Explainable Quality Estimation Shared Task",
+    author = "Treviso, Marcos  and
+      Guerreiro, Nuno M.  and
+      Rei, Ricardo  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Gao, Yang  and
+      Eger, Steffen  and
+      Zhao, Wei  and
+      Lertvittayakumjorn, Piyawat  and
+      Fomicheva, Marina",
+    booktitle = "Proceedings of the 2nd Workshop on Evaluation and Comparison of NLP Systems",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eval4nlp-1.14/",
+    doi = "10.18653/v1/2021.eval4nlp-1.14",
+    pages = "133--145",
+    abstract = "We present the joint contribution of Instituto Superior T{\\'e}cnico (IST) and Unbabel to the Explainable Quality Estimation (QE) shared task, where systems were submitted to two tracks: constrained (without word-level supervision) and unconstrained (with word-level supervision). For the constrained track, we experimented with several explainability methods to extract the relevance of input tokens from sentence-level QE models built on top of multilingual pre-trained transformers. Among the different tested methods, composing explanations in the form of attention weights scaled by the norm of value vectors yielded the best results. When word-level labels are used during training, our best results were obtained by using word-level predicted probabilities. We further improve the performance of our methods on the two tracks by ensembling explanation scores extracted from models trained with different pre-trained transformers, achieving strong results for in-domain and zero-shot language pairs."
+}`
 }
 },
   {
@@ -1794,7 +3565,46 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2021.wmt-1.111/",
-  "bibtex": "@inproceedings{rei-etal-2021-references,\n    title = \"Are References Really Needed? Unbabel-{IST} 2021 Submission for the Metrics Shared Task\",\n    author = \"Rei, Ricardo  and\n      Farinha, Ana C  and\n      Zerva, Chrysoula  and\n      van Stigt, Daan  and\n      Stewart, Craig  and\n      Ramos, Pedro  and\n      Glushkova, Taisiya  and\n      Martins, Andr{\\'e} F. T.  and\n      Lavie, Alon\",\n    editor = \"Barrault, Loic  and\n      Bojar, Ondrej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-jussa, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Kocmi, Tom  and\n      Martins, Andre  and\n      Morishita, Makoto  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Sixth Conference on Machine Translation\",\n    month = nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.wmt-1.111/\",\n    pages = \"1030--1040\",\n    abstract = \"In this paper, we present the joint contribution of Unbabel and IST to the WMT 2021 Metrics Shared Task. With this year{'}s focus on Multidimensional Quality Metric (MQM) as the ground-truth human assessment, our aim was to steer COMET towards higher correlations with MQM. We do so by first pre-training on Direct Assessments and then fine-tuning on z-normalized MQM scores. In our experiments we also show that reference-free COMET models are becoming competitive with reference-based models, even outperforming the best COMET model from 2020 on this year{'}s development data. Additionally, we present COMETinho, a lightweight COMET model that is 19x faster on CPU than the original model, while also achieving state-of-the-art correlations with MQM. Finally, in the ``QE as a metric'' track, we also participated with a QE model trained using the OpenKiwi framework leveraging MQM scores and word-level annotations.\"\n}"
+  "bibtex": `@inproceedings{rei-etal-2021-references,
+    title = "Are References Really Needed? Unbabel-{IST} 2021 Submission for the Metrics Shared Task",
+    author = "Rei, Ricardo  and
+      Farinha, Ana C  and
+      Zerva, Chrysoula  and
+      van Stigt, Daan  and
+      Stewart, Craig  and
+      Ramos, Pedro  and
+      Glushkova, Taisiya  and
+      Martins, Andr{\\'e} F. T.  and
+      Lavie, Alon",
+    editor = "Barrault, Loic  and
+      Bojar, Ondrej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-jussa, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Kocmi, Tom  and
+      Martins, Andre  and
+      Morishita, Makoto  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Sixth Conference on Machine Translation",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.wmt-1.111/",
+    pages = "1030--1040",
+    abstract = "In this paper, we present the joint contribution of Unbabel and IST to the WMT 2021 Metrics Shared Task. With this year{'}s focus on Multidimensional Quality Metric (MQM) as the ground-truth human assessment, our aim was to steer COMET towards higher correlations with MQM. We do so by first pre-training on Direct Assessments and then fine-tuning on z-normalized MQM scores. In our experiments we also show that reference-free COMET models are becoming competitive with reference-based models, even outperforming the best COMET model from 2020 on this year{'}s development data. Additionally, we present COMETinho, a lightweight COMET model that is 19x faster on CPU than the original model, while also achieving state-of-the-art correlations with MQM. Finally, in the \`\`QE as a metric'' track, we also participated with a QE model trained using the OpenKiwi framework leveraging MQM scores and word-level annotations."
+}`
 }
 },
   {
@@ -1811,7 +3621,44 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2021.wmt-1.71/",
-  "bibtex": "@inproceedings{specia-etal-2021-findings,\n    title = \"Findings of the {WMT} 2021 Shared Task on Quality Estimation\",\n    author = \"Specia, Lucia  and\n      Blain, Fr{\\'e}d{\\'e}ric  and\n      Fomicheva, Marina  and\n      Zerva, Chrysoula  and\n      Li, Zhenhao  and\n      Chaudhary, Vishrav  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Barrault, Loic  and\n      Bojar, Ondrej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-jussa, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Freitag, Markus  and\n      Graham, Yvette  and\n      Grundkiewicz, Roman  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Kocmi, Tom  and\n      Martins, Andre  and\n      Morishita, Makoto  and\n      Monz, Christof\",\n    booktitle = \"Proceedings of the Sixth Conference on Machine Translation\",\n    month = nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.wmt-1.71/\",\n    pages = \"684--725\",\n    abstract = \"We report the results of the WMT 2021 shared task on Quality Estimation, where the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels. This edition focused on two main novel additions: (i) prediction for unseen languages, i.e. zero-shot settings, and (ii) prediction of sentences with catastrophic errors. In addition, new data was released for a number of languages, especially post-edited data. Participating teams from 19 institutions submitted altogether 1263 systems to different task variants and language pairs.\"\n}"
+  "bibtex": `@inproceedings{specia-etal-2021-findings,
+    title = "Findings of the {WMT} 2021 Shared Task on Quality Estimation",
+    author = "Specia, Lucia  and
+      Blain, Fr{\\'e}d{\\'e}ric  and
+      Fomicheva, Marina  and
+      Zerva, Chrysoula  and
+      Li, Zhenhao  and
+      Chaudhary, Vishrav  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Barrault, Loic  and
+      Bojar, Ondrej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-jussa, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Kocmi, Tom  and
+      Martins, Andre  and
+      Morishita, Makoto  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Sixth Conference on Machine Translation",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.wmt-1.71/",
+    pages = "684--725",
+    abstract = "We report the results of the WMT 2021 shared task on Quality Estimation, where the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels. This edition focused on two main novel additions: (i) prediction for unseen languages, i.e. zero-shot settings, and (ii) prediction of sentences with catastrophic errors. In addition, new data was released for a number of languages, especially post-edited data. Participating teams from 19 institutions submitted altogether 1263 systems to different task variants and language pairs."
+}`
 }
 },
   {
@@ -1828,7 +3675,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2002.05556",
-  "bibtex": "@inproceedings{martins2021sparse,\n  title={Sparse and structured visual attention},\n  author={Martins, Pedro Henrique and Niculae, Vlad and Marinho, Zita and Martins, Andr{\\'e} FT},\n  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},\n  pages={379--383},\n  year={2021},\n  organization={IEEE}\n}"
+  "bibtex": `@inproceedings{martins2021sparse,
+  title={Sparse and structured visual attention},
+  author={Martins, Pedro Henrique and Niculae, Vlad and Marinho, Zita and Martins, Andr{\\'e} FT},
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  pages={379--383},
+  year={2021},
+  organization={IEEE}
+}`
 }
 },
   {
@@ -1845,7 +3699,26 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2021.findings-emnlp.330/",
-  "bibtex": "@inproceedings{glushkova-etal-2021-uncertainty-aware,\n    title = \"Uncertainty-Aware Machine Translation Evaluation\",\n    author = \"Glushkova, Taisiya  and\n      Zerva, Chrysoula  and\n      Rei, Ricardo  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Moens, Marie-Francine  and\n      Huang, Xuanjing  and\n      Specia, Lucia  and\n      Yih, Scott Wen-tau\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2021\",\n    month = nov,\n    year = \"2021\",\n    address = \"Punta Cana, Dominican Republic\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.findings-emnlp.330/\",\n    doi = \"10.18653/v1/2021.findings-emnlp.330\",\n    pages = \"3920--3938\",\n    abstract = \"Several neural-based metrics have been recently proposed to evaluate machine translation quality. However, all of them resort to point estimates, which provide limited information at segment level. This is made worse as they are trained on noisy, biased and scarce human judgements, often resulting in unreliable quality predictions. In this paper, we introduce uncertainty-aware MT evaluation and analyze the trustworthiness of the predicted quality. We combine the COMET framework with two uncertainty estimation methods, Monte Carlo dropout and deep ensembles, to obtain quality scores along with confidence intervals. We compare the performance of our uncertainty-aware MT evaluation methods across multiple language pairs from the QT21 dataset and the WMT20 metrics task, augmented with MQM annotations. We experiment with varying numbers of references and further discuss the usefulness of uncertainty-aware quality estimation (without references) to flag possibly critical translation mistakes.\"\n}"
+  "bibtex": `@inproceedings{glushkova-etal-2021-uncertainty-aware,
+    title = "Uncertainty-Aware Machine Translation Evaluation",
+    author = "Glushkova, Taisiya  and
+      Zerva, Chrysoula  and
+      Rei, Ricardo  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.330/",
+    doi = "10.18653/v1/2021.findings-emnlp.330",
+    pages = "3920--3938",
+    abstract = "Several neural-based metrics have been recently proposed to evaluate machine translation quality. However, all of them resort to point estimates, which provide limited information at segment level. This is made worse as they are trained on noisy, biased and scarce human judgements, often resulting in unreliable quality predictions. In this paper, we introduce uncertainty-aware MT evaluation and analyze the trustworthiness of the predicted quality. We combine the COMET framework with two uncertainty estimation methods, Monte Carlo dropout and deep ensembles, to obtain quality scores along with confidence intervals. We compare the performance of our uncertainty-aware MT evaluation methods across multiple language pairs from the QT21 dataset and the WMT20 metrics task, augmented with MQM annotations. We experiment with varying numbers of references and further discuss the usefulness of uncertainty-aware quality estimation (without references) to flag possibly critical translation mistakes."
+}`
 }
 },
   {
@@ -1863,7 +3736,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2021.emnlp-main.525/",
-  "bibtex": "@inproceedings{guerreiro-martins-2021-spectra,\n    title = \"{SPECTRA}: Sparse Structured Text Rationalization\",\n    author = \"Guerreiro, Nuno M.  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Moens, Marie-Francine  and\n      Huang, Xuanjing  and\n      Specia, Lucia  and\n      Yih, Scott Wen-tau\",\n    booktitle = \"Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing\",\n    month = nov,\n    year = \"2021\",\n    address = \"Online and Punta Cana, Dominican Republic\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.emnlp-main.525/\",\n    doi = \"10.18653/v1/2021.emnlp-main.525\",\n    pages = \"6534--6550\",\n    abstract = \"Selective rationalization aims to produce decisions along with rationales (e.g., text highlights or word alignments between two sentences). Commonly, rationales are modeled as stochastic binary masks, requiring sampling-based gradient estimators, which complicates training and requires careful hyperparameter tuning. Sparse attention mechanisms are a deterministic alternative, but they lack a way to regularize the rationale extraction (e.g., to control the sparsity of a text highlight or the number of alignments). In this paper, we present a unified framework for deterministic extraction of structured explanations via constrained inference on a factor graph, forming a differentiable layer. Our approach greatly eases training and rationale regularization, generally outperforming previous work on what comes to performance and plausibility of the extracted rationales. We further provide a comparative study of stochastic and deterministic methods for rationale extraction for classification and natural language inference tasks, jointly assessing their predictive power, quality of the explanations, and model variability.\"\n}"
+  "bibtex": `@inproceedings{guerreiro-martins-2021-spectra,
+    title = "{SPECTRA}: Sparse Structured Text Rationalization",
+    author = "Guerreiro, Nuno M.  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.525/",
+    doi = "10.18653/v1/2021.emnlp-main.525",
+    pages = "6534--6550",
+    abstract = "Selective rationalization aims to produce decisions along with rationales (e.g., text highlights or word alignments between two sentences). Commonly, rationales are modeled as stochastic binary masks, requiring sampling-based gradient estimators, which complicates training and requires careful hyperparameter tuning. Sparse attention mechanisms are a deterministic alternative, but they lack a way to regularize the rationale extraction (e.g., to control the sparsity of a text highlight or the number of alignments). In this paper, we present a unified framework for deterministic extraction of structured explanations via constrained inference on a factor graph, forming a differentiable layer. Our approach greatly eases training and rationale regularization, generally outperforming previous work on what comes to performance and plausibility of the extracted rationales. We further provide a comparative study of stochastic and deterministic methods for rationale extraction for classification and natural language inference tasks, jointly assessing their predictive power, quality of the explanations, and model variability."
+}`
 }
 },
   {
@@ -1881,7 +3771,14 @@ const publicationsData = [
   "links": {
   "paper": "https://openreview.net/forum?id=WAid50QschI",
   "code": "https://github.com/deep-spin/sparse-communication",
-  "bibtex": "@inproceedings{\nfarinhas2022sparse,\ntitle={Sparse Communication via Mixed Distributions},\nauthor={Ant{\\'o}nio Farinhas and Wilker Aziz and Vlad Niculae and Andre Martins},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=WAid50QschI}\n}"
+  "bibtex": `@inproceedings{
+farinhas2022sparse,
+title={Sparse Communication via Mixed Distributions},
+author={Ant{\\'o}nio Farinhas and Wilker Aziz and Vlad Niculae and Andre Martins},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=WAid50QschI}
+}`
 }
 },
   {
@@ -1900,7 +3797,28 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2021.acl-long.65/",
-  "bibtex": "@inproceedings{yin-etal-2021-context,\n    title = \"Do Context-Aware Translation Models Pay the Right Attention?\",\n    author = \"Yin, Kayo  and\n      Fernandes, Patrick  and\n      Pruthi, Danish  and\n      Chaudhary, Aditi  and\n      Martins, Andr{\\'e} F. T.  and\n      Neubig, Graham\",\n    editor = \"Zong, Chengqing  and\n      Xia, Fei  and\n      Li, Wenjie  and\n      Navigli, Roberto\",\n    booktitle = \"Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)\",\n    month = aug,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.acl-long.65/\",\n    doi = \"10.18653/v1/2021.acl-long.65\",\n    pages = \"788--801\",\n    abstract = \"Context-aware machine translation models are designed to leverage contextual information, but often fail to do so. As a result, they inaccurately disambiguate pronouns and polysemous words that require context for resolution. In this paper, we ask several questions: What contexts do human translators use to resolve ambiguous words? Are models paying large amounts of attention to the same context? What if we explicitly train them to do so? To answer these questions, we introduce SCAT (Supporting Context for Ambiguous Translations), a new English-French dataset comprising supporting context words for 14K translations that professional translators found useful for pronoun disambiguation. Using SCAT, we perform an in-depth analysis of the context used to disambiguate, examining positional and lexical characteristics of the supporting words. Furthermore, we measure the degree of alignment between the model{'}s attention scores and the supporting context from SCAT, and apply a guided attention strategy to encourage agreement between the two.\"\n}"
+  "bibtex": `@inproceedings{yin-etal-2021-context,
+    title = "Do Context-Aware Translation Models Pay the Right Attention?",
+    author = "Yin, Kayo  and
+      Fernandes, Patrick  and
+      Pruthi, Danish  and
+      Chaudhary, Aditi  and
+      Martins, Andr{\\'e} F. T.  and
+      Neubig, Graham",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.65/",
+    doi = "10.18653/v1/2021.acl-long.65",
+    pages = "788--801",
+    abstract = "Context-aware machine translation models are designed to leverage contextual information, but often fail to do so. As a result, they inaccurately disambiguate pronouns and polysemous words that require context for resolution. In this paper, we ask several questions: What contexts do human translators use to resolve ambiguous words? Are models paying large amounts of attention to the same context? What if we explicitly train them to do so? To answer these questions, we introduce SCAT (Supporting Context for Ambiguous Translations), a new English-French dataset comprising supporting context words for 14K translations that professional translators found useful for pronoun disambiguation. Using SCAT, we perform an in-depth analysis of the context used to disambiguate, examining positional and lexical characteristics of the supporting words. Furthermore, we measure the degree of alignment between the model{'}s attention scores and the supporting context from SCAT, and apply a guided attention strategy to encourage agreement between the two."
+}`
 }
 },
   {
@@ -1918,7 +3836,26 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2021.acl-long.505/",
-  "bibtex": "@inproceedings{fernandes-etal-2021-measuring,\n    title = \"Measuring and Increasing Context Usage in Context-Aware Machine Translation\",\n    author = \"Fernandes, Patrick  and\n      Yin, Kayo  and\n      Neubig, Graham  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Zong, Chengqing  and\n      Xia, Fei  and\n      Li, Wenjie  and\n      Navigli, Roberto\",\n    booktitle = \"Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)\",\n    month = aug,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.acl-long.505/\",\n    doi = \"10.18653/v1/2021.acl-long.505\",\n    pages = \"6467--6478\",\n    abstract = \"Recent work in neural machine translation has demonstrated both the necessity and feasibility of using inter-sentential context, context from sentences other than those currently being translated. However, while many current methods present model architectures that theoretically can use this extra context, it is often not clear how much they do actually utilize it at translation time. In this paper, we introduce a new metric, conditional cross-mutual information, to quantify usage of context by these models. Using this metric, we measure how much document-level machine translation systems use particular varieties of context. We find that target context is referenced more than source context, and that including more context has a diminishing affect on results. We then introduce a new, simple training method, context-aware word dropout, to increase the usage of context by context-aware models. Experiments show that our method not only increases context usage, but also improves the translation quality according to metrics such as BLEU and COMET, as well as performance on anaphoric pronoun resolution and lexical cohesion contrastive datasets.\"\n}"
+  "bibtex": `@inproceedings{fernandes-etal-2021-measuring,
+    title = "Measuring and Increasing Context Usage in Context-Aware Machine Translation",
+    author = "Fernandes, Patrick  and
+      Yin, Kayo  and
+      Neubig, Graham  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.505/",
+    doi = "10.18653/v1/2021.acl-long.505",
+    pages = "6467--6478",
+    abstract = "Recent work in neural machine translation has demonstrated both the necessity and feasibility of using inter-sentential context, context from sentences other than those currently being translated. However, while many current methods present model architectures that theoretically can use this extra context, it is often not clear how much they do actually utilize it at translation time. In this paper, we introduce a new metric, conditional cross-mutual information, to quantify usage of context by these models. Using this metric, we measure how much document-level machine translation systems use particular varieties of context. We find that target context is referenced more than source context, and that including more context has a diminishing affect on results. We then introduce a new, simple training method, context-aware word dropout, to increase the usage of context by context-aware models. Experiments show that our method not only increases context usage, but also improves the translation quality according to metrics such as BLEU and COMET, as well as performance on anaphoric pronoun resolution and lexical cohesion contrastive datasets."
+}`
 }
 },
   {
@@ -1934,7 +3871,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2104.00755",
-  "bibtex": "@article{martins2021reconciling,\n  title={Reconciling the Discrete-Continuous Divide: Towards a Mathematical Theory of Sparse Communication},\n  author={Martins, Andr{\\'e} FT},\n  journal={arXiv preprint arXiv:2104.00755},\n  year={2021}\n}"
+  "bibtex": `@article{martins2021reconciling,
+  title={Reconciling the Discrete-Continuous Divide: Towards a Mathematical Theory of Sparse Communication},
+  author={Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2104.00755},
+  year={2021}
+}`
 }
 },
   {
@@ -1953,7 +3895,29 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2021.naacl-main.210/",
   "code": "https://github.com/deep-spin/S7",
-  "bibtex": "@inproceedings{peters-martins-2021-smoothing,\n    title = \"Smoothing and Shrinking the Sparse {S}eq2{S}eq Search Space\",\n    author = \"Peters, Ben  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Toutanova, Kristina  and\n      Rumshisky, Anna  and\n      Zettlemoyer, Luke  and\n      Hakkani-Tur, Dilek  and\n      Beltagy, Iz  and\n      Bethard, Steven  and\n      Cotterell, Ryan  and\n      Chakraborty, Tanmoy  and\n      Zhou, Yichao\",\n    booktitle = \"Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies\",\n    month = jun,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.naacl-main.210/\",\n    doi = \"10.18653/v1/2021.naacl-main.210\",\n    pages = \"2642--2654\",\n    abstract = \"Current sequence-to-sequence models are trained to minimize cross-entropy and use softmax to compute the locally normalized probabilities over target sequences. While this setup has led to strong results in a variety of tasks, one unsatisfying aspect is its length bias: models give high scores to short, inadequate hypotheses and often make the empty string the argmax{---}the so-called cat got your tongue problem. Recently proposed entmax-based sparse sequence-to-sequence models present a possible solution, since they can shrink the search space by assigning zero probability to bad hypotheses, but their ability to handle word-level tasks with transformers has never been tested. In this work, we show that entmax-based models effectively solve the cat got your tongue problem, removing a major source of model error for neural machine translation. In addition, we generalize label smoothing, a critical regularization technique, to the broader family of Fenchel-Young losses, which includes both cross-entropy and the entmax losses. Our resulting label-smoothed entmax loss models set a new state of the art on multilingual grapheme-to-phoneme conversion and deliver improvements and better calibration properties on cross-lingual morphological inflection and machine translation for 7 language pairs.\"\n}"
+  "bibtex": `@inproceedings{peters-martins-2021-smoothing,
+    title = "Smoothing and Shrinking the Sparse {S}eq2{S}eq Search Space",
+    author = "Peters, Ben  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Toutanova, Kristina  and
+      Rumshisky, Anna  and
+      Zettlemoyer, Luke  and
+      Hakkani-Tur, Dilek  and
+      Beltagy, Iz  and
+      Bethard, Steven  and
+      Cotterell, Ryan  and
+      Chakraborty, Tanmoy  and
+      Zhou, Yichao",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.naacl-main.210/",
+    doi = "10.18653/v1/2021.naacl-main.210",
+    pages = "2642--2654",
+    abstract = "Current sequence-to-sequence models are trained to minimize cross-entropy and use softmax to compute the locally normalized probabilities over target sequences. While this setup has led to strong results in a variety of tasks, one unsatisfying aspect is its length bias: models give high scores to short, inadequate hypotheses and often make the empty string the argmax{---}the so-called cat got your tongue problem. Recently proposed entmax-based sparse sequence-to-sequence models present a possible solution, since they can shrink the search space by assigning zero probability to bad hypotheses, but their ability to handle word-level tasks with transformers has never been tested. In this work, we show that entmax-based models effectively solve the cat got your tongue problem, removing a major source of model error for neural machine translation. In addition, we generalize label smoothing, a critical regularization technique, to the broader family of Fenchel-Young losses, which includes both cross-entropy and the entmax losses. Our resulting label-smoothed entmax loss models set a new state of the art on multilingual grapheme-to-phoneme conversion and deliver improvements and better calibration properties on cross-lingual morphological inflection and machine translation for 7 language pairs."
+}`
 }
 },
   {
@@ -1969,7 +3933,13 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2104.03046",
-  "bibtex": "@inproceedings{farinhas2021multimodal,\n  title={Multimodal continuous visual attention mechanisms},\n  author={Farinhas, Ant{\\'o}nio and Martins, Andr{\\'e} FT and Aguiar, Pedro MQ},\n  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},\n  pages={1047--1056},\n  year={2021}\n}"
+  "bibtex": `@inproceedings{farinhas2021multimodal,
+  title={Multimodal continuous visual attention mechanisms},
+  author={Farinhas, Ant{\\'o}nio and Martins, Andr{\\'e} FT and Aguiar, Pedro MQ},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={1047--1056},
+  year={2021}
+}`
 }
 },
   {
@@ -1987,7 +3957,14 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2006.07214",
-  "bibtex": "@article{martins2020sparse,\n  title={Sparse and continuous attention mechanisms},\n  author={Martins, Andr{\\'e} and Farinhas, Ant{\\'o}nio and Treviso, Marcos and Niculae, Vlad and Aguiar, Pedro and Figueiredo, Mario},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  pages={20989--21001},\n  year={2020}\n}"
+  "bibtex": `@article{martins2020sparse,
+  title={Sparse and continuous attention mechanisms},
+  author={Martins, Andr{\\'e} and Farinhas, Ant{\\'o}nio and Treviso, Marcos and Niculae, Vlad and Aguiar, Pedro and Figueiredo, Mario},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={20989--21001},
+  year={2020}
+}`
 }
 },
   {
@@ -2004,7 +3981,26 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.blackboxnlp-1.10/",
-  "bibtex": "@inproceedings{treviso-martins-2020-explanation,\n    title = \"The Explanation Game: Towards Prediction Explainability through Sparse Communication\",\n    author = \"Treviso, Marcos  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Alishahi, Afra  and\n      Belinkov, Yonatan  and\n      Chrupa{\\l}a, Grzegorz  and\n      Hupkes, Dieuwke  and\n      Pinter, Yuval  and\n      Sajjad, Hassan\",\n    booktitle = \"Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.blackboxnlp-1.10/\",\n    doi = \"10.18653/v1/2020.blackboxnlp-1.10\",\n    pages = \"107--118\",\n    abstract = \"Explainability is a topic of growing importance in NLP. In this work, we provide a unified perspective of explainability as a communication problem between an explainer and a layperson about a classifier{'}s decision. We use this framework to compare several explainers, including gradient methods, erasure, and attention mechanisms, in terms of their communication success. In addition, we reinterpret these methods in the light of classical feature selection, and use this as inspiration for new embedded explainers, through the use of selective, sparse attention. Experiments in text classification and natural language inference, using different configurations of explainers and laypeople (including both machines and humans), reveal an advantage of attention-based explainers over gradient and erasure methods, and show that selective attention is a simpler alternative to stochastic rationalizers. Human experiments show strong results on text classification with post-hoc explainers trained to optimize communication success.\"\n}"
+  "bibtex": `@inproceedings{treviso-martins-2020-explanation,
+    title = "The Explanation Game: Towards Prediction Explainability through Sparse Communication",
+    author = "Treviso, Marcos  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Alishahi, Afra  and
+      Belinkov, Yonatan  and
+      Chrupa{\\l}a, Grzegorz  and
+      Hupkes, Dieuwke  and
+      Pinter, Yuval  and
+      Sajjad, Hassan",
+    booktitle = "Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.blackboxnlp-1.10/",
+    doi = "10.18653/v1/2020.blackboxnlp-1.10",
+    pages = "107--118",
+    abstract = "Explainability is a topic of growing importance in NLP. In this work, we provide a unified perspective of explainability as a communication problem between an explainer and a layperson about a classifier{'}s decision. We use this framework to compare several explainers, including gradient methods, erasure, and attention mechanisms, in terms of their communication success. In addition, we reinterpret these methods in the light of classical feature selection, and use this as inspiration for new embedded explainers, through the use of selective, sparse attention. Experiments in text classification and natural language inference, using different configurations of explainers and laypeople (including both machines and humans), reveal an advantage of attention-based explainers over gradient and erasure methods, and show that selective attention is a simpler alternative to stochastic rationalizers. Human experiments show strong results on text classification with post-hoc explainers trained to optimize communication success."
+}`
 }
 },
   {
@@ -2022,7 +4018,21 @@ const publicationsData = [
   "links": {
   "paper": "http://proceedings.mlr.press/v119/niculae20a/niculae20a.pdf",
   "code": "https://github.com/deep-spin/lp-sparsemap",
-  "bibtex": "@InProceedings{pmlr-v119-niculae20a,\n  title =          {{LP}-{S}parse{MAP}: Differentiable Relaxed Optimization for Sparse Structured Prediction},\n  author =       {Niculae, Vlad and Martins, Andre},\n  booktitle =          {Proceedings of the 37th International Conference on Machine Learning},\n  pages =          {7348--7359},\n  year =          {2020},\n  editor =          {III, Hal Daum\u00e9 and Singh, Aarti},\n  volume =          {119},\n  series =          {Proceedings of Machine Learning Research},\n  month =          {13--18 Jul},\n  publisher =    {PMLR},\n  pdf =          {http://proceedings.mlr.press/v119/niculae20a/niculae20a.pdf},\n  url =          {https://proceedings.mlr.press/v119/niculae20a.html},\n  abstract =          {Structured predictors require solving a combinatorial optimization problem over a large number of structures, such as dependency trees or alignments. When embedded as structured hidden layers in a neural net, argmin differentiation and efficient gradient computation are further required. Recently, SparseMAP has been proposed as a differentiable, sparse alternative to maximum a posteriori (MAP) and marginal inference. SparseMAP returns an interpretable combination of a small number of structures; its sparsity being the key to efficient optimization. However, SparseMAP requires access to an exact MAP oracle in the structured model, excluding, e.g., loopy graphical models or logic constraints, which generally require approximate inference. In this paper, we introduce LP-SparseMAP, an extension of SparseMAP addressing this limitation via a local polytope relaxation. LP-SparseMAP uses the flexible and powerful language of factor graphs to define expressive hidden structures, supporting coarse decompositions, hard logic constraints, and higher-order correlations. We derive the forward and backward algorithms needed for using LP-SparseMAP as a structured hidden or output layer. Experiments in three structured tasks show benefits versus SparseMAP and Structured SVM.}\n}"
+  "bibtex": `@InProceedings{pmlr-v119-niculae20a,
+  title =          {{LP}-{S}parse{MAP}: Differentiable Relaxed Optimization for Sparse Structured Prediction},
+  author =       {Niculae, Vlad and Martins, Andre},
+  booktitle =          {Proceedings of the 37th International Conference on Machine Learning},
+  pages =          {7348--7359},
+  year =          {2020},
+  editor =          {III, Hal Daumé and Singh, Aarti},
+  volume =          {119},
+  series =          {Proceedings of Machine Learning Research},
+  month =          {13--18 Jul},
+  publisher =    {PMLR},
+  pdf =          {http://proceedings.mlr.press/v119/niculae20a/niculae20a.pdf},
+  url =          {https://proceedings.mlr.press/v119/niculae20a.html},
+  abstract =          {Structured predictors require solving a combinatorial optimization problem over a large number of structures, such as dependency trees or alignments. When embedded as structured hidden layers in a neural net, argmin differentiation and efficient gradient computation are further required. Recently, SparseMAP has been proposed as a differentiable, sparse alternative to maximum a posteriori (MAP) and marginal inference. SparseMAP returns an interpretable combination of a small number of structures; its sparsity being the key to efficient optimization. However, SparseMAP requires access to an exact MAP oracle in the structured model, excluding, e.g., loopy graphical models or logic constraints, which generally require approximate inference. In this paper, we introduce LP-SparseMAP, an extension of SparseMAP addressing this limitation via a local polytope relaxation. LP-SparseMAP uses the flexible and powerful language of factor graphs to define expressive hidden structures, supporting coarse decompositions, hard logic constraints, and higher-order correlations. We derive the forward and backward algorithms needed for using LP-SparseMAP as a structured hidden or output layer. Experiments in three structured tasks show benefits versus SparseMAP and Structured SVM.}
+}`
 }
 },
   {
@@ -2039,7 +4049,42 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.wmt-1.119/",
-  "bibtex": "@inproceedings{moura-etal-2020-ist,\n    title = \"{IST}-Unbabel Participation in the {WMT}20 Quality Estimation Shared Task\",\n    author = \"Moura, Jo{\\~a}o  and\n      Vera, Miguel  and\n      van Stigt, Daan  and\n      Kepler, Fabio  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = {Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Graham, Yvette  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo},\n    booktitle = \"Proceedings of the Fifth Conference on Machine Translation\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.wmt-1.119/\",\n    pages = \"1029--1036\",\n    abstract = \"We present the joint contribution of IST and Unbabel to the WMT 2020 Shared Task on Quality Estimation. Our team participated on all tracks (Direct Assessment, Post-Editing Effort, Document-Level), encompassing a total of 14 submissions. Our submitted systems were developed by extending the OpenKiwi framework to a transformer-based predictor-estimator architecture, and to cope with glass-box, uncertainty-based features coming from neural machine translation systems.\"\n}"
+  "bibtex": `@inproceedings{moura-etal-2020-ist,
+    title = "{IST}-Unbabel Participation in the {WMT}20 Quality Estimation Shared Task",
+    author = "Moura, Jo{\\~a}o  and
+      Vera, Miguel  and
+      van Stigt, Daan  and
+      Kepler, Fabio  and
+      Martins, Andr{\\'e} F. T.",
+    editor = {Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Graham, Yvette  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo},
+    booktitle = "Proceedings of the Fifth Conference on Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.wmt-1.119/",
+    pages = "1029--1036",
+    abstract = "We present the joint contribution of IST and Unbabel to the WMT 2020 Shared Task on Quality Estimation. Our team participated on all tracks (Direct Assessment, Post-Editing Effort, Document-Level), encompassing a total of 14 submissions. Our submitted systems were developed by extending the OpenKiwi framework to a transformer-based predictor-estimator architecture, and to cope with glass-box, uncertainty-based features coming from neural machine translation systems."
+}`
 }
 },
   {
@@ -2057,7 +4102,42 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.wmt-1.3/",
-  "bibtex": "@inproceedings{farajian-etal-2020-findings,\n    title = \"Findings of the {WMT} 2020 Shared Task on Chat Translation\",\n    author = \"Farajian, M. Amin  and\n      Lopes, Ant{\\'o}nio V.  and\n      Martins, Andr{\\'e} F. T.  and\n      Maruf, Sameen  and\n      Haffari, Gholamreza\",\n    editor = {Barrault, Lo{\\\"i}c  and\n      Bojar, Ond{\\v{r}}ej  and\n      Bougares, Fethi  and\n      Chatterjee, Rajen  and\n      Costa-juss{\\`a}, Marta R.  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Fraser, Alexander  and\n      Graham, Yvette  and\n      Guzman, Paco  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Martins, Andr{\\'e}  and\n      Morishita, Makoto  and\n      Monz, Christof  and\n      Nagata, Masaaki  and\n      Nakazawa, Toshiaki  and\n      Negri, Matteo},\n    booktitle = \"Proceedings of the Fifth Conference on Machine Translation\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.wmt-1.3/\",\n    pages = \"65--75\",\n    abstract = \"We report the results of the first edition of the WMT shared task on chat translation. The task consisted of translating bilingual conversational text, in particular customer support chats for the English-German language pair (English agent, German customer). This task varies from the other translation shared tasks, i.e. news and biomedical, mainly due to the fact that the conversations are bilingual, less planned, more informal, and often ungrammatical. Furthermore, such conversations are usually characterized by shorter and simpler sentences and contain more pronouns. We received 14 submissions from 6 participating teams, all of them covering both directions, i.e. En-{\\ensuremath{>}}De for agent utterances and De-{\\ensuremath{>}}En for customer messages. We used automatic metrics (BLEU and TER) for evaluating the translations of both agent and customer messages and human document-level direct assessments (DDA) to evaluate the agent translations.\"\n}"
+  "bibtex": `@inproceedings{farajian-etal-2020-findings,
+    title = "Findings of the {WMT} 2020 Shared Task on Chat Translation",
+    author = "Farajian, M. Amin  and
+      Lopes, Ant{\\'o}nio V.  and
+      Martins, Andr{\\'e} F. T.  and
+      Maruf, Sameen  and
+      Haffari, Gholamreza",
+    editor = {Barrault, Lo{\\"i}c  and
+      Bojar, Ond{\\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\\\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Graham, Yvette  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Martins, Andr{\\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo},
+    booktitle = "Proceedings of the Fifth Conference on Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.wmt-1.3/",
+    pages = "65--75",
+    abstract = "We report the results of the first edition of the WMT shared task on chat translation. The task consisted of translating bilingual conversational text, in particular customer support chats for the English-German language pair (English agent, German customer). This task varies from the other translation shared tasks, i.e. news and biomedical, mainly due to the fact that the conversations are bilingual, less planned, more informal, and often ungrammatical. Furthermore, such conversations are usually characterized by shorter and simpler sentences and contain more pronouns. We received 14 submissions from 6 participating teams, all of them covering both directions, i.e. En-{\\ensuremath{>}}De for agent utterances and De-{\\ensuremath{>}}En for customer messages. We used automatic metrics (BLEU and TER) for evaluating the translations of both agent and customer messages and human document-level direct assessments (DDA) to evaluate the agent translations."
+}`
 }
 },
   {
@@ -2074,7 +4154,37 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.eamt-1.68/",
-  "bibtex": "@inproceedings{martins-etal-2020-project,\n    title = \"Project {MAIA}: Multilingual {AI} Agent Assistant\",\n    author = \"Martins, Andr{\\'e} F. T.  and\n      Graca, Joao  and\n      Dimas, Paulo  and\n      Moniz, Helena  and\n      Neubig, Graham\",\n    editor = \"Martins, Andr{\\'e}  and\n      Moniz, Helena  and\n      Fumega, Sara  and\n      Martins, Bruno  and\n      Batista, Fernando  and\n      Coheur, Luisa  and\n      Parra, Carla  and\n      Trancoso, Isabel  and\n      Turchi, Marco  and\n      Bisazza, Arianna  and\n      Moorkens, Joss  and\n      Guerberof, Ana  and\n      Nurminen, Mary  and\n      Marg, Lena  and\n      Forcada, Mikel L.\",\n    booktitle = \"Proceedings of the 22nd Annual Conference of the European Association for Machine Translation\",\n    month = nov,\n    year = \"2020\",\n    address = \"Lisboa, Portugal\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2020.eamt-1.68/\",\n    pages = \"495--496\",\n    abstract = \"This paper presents the Multilingual Artificial Intelligence Agent Assistant (MAIA), a project led by Unbabel with the collaboration of CMU, INESC-ID and IT Lisbon. MAIA will employ cutting-edge machine learning and natural language processing technologies to build multilingual AI agent assistants, eliminating language barriers. MAIA{'}s translation layer will empower human agents to provide customer support in real-time, in any language, with human quality.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2020-project,
+    title = "Project {MAIA}: Multilingual {AI} Agent Assistant",
+    author = "Martins, Andr{\\'e} F. T.  and
+      Graca, Joao  and
+      Dimas, Paulo  and
+      Moniz, Helena  and
+      Neubig, Graham",
+    editor = "Martins, Andr{\\'e}  and
+      Moniz, Helena  and
+      Fumega, Sara  and
+      Martins, Bruno  and
+      Batista, Fernando  and
+      Coheur, Luisa  and
+      Parra, Carla  and
+      Trancoso, Isabel  and
+      Turchi, Marco  and
+      Bisazza, Arianna  and
+      Moorkens, Joss  and
+      Guerberof, Ana  and
+      Nurminen, Mary  and
+      Marg, Lena  and
+      Forcada, Mikel L.",
+    booktitle = "Proceedings of the 22nd Annual Conference of the European Association for Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Lisboa, Portugal",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2020.eamt-1.68/",
+    pages = "495--496",
+    abstract = "This paper presents the Multilingual Artificial Intelligence Agent Assistant (MAIA), a project led by Unbabel with the collaboration of CMU, INESC-ID and IT Lisbon. MAIA will employ cutting-edge machine learning and natural language processing technologies to build multilingual AI agent assistants, eliminating language barriers. MAIA{'}s translation layer will empower human agents to provide customer support in real-time, in any language, with human quality."
+}`
 }
 },
   {
@@ -2092,7 +4202,40 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2022.lrec-1.530/",
-  "bibtex": "@inproceedings{fomicheva-etal-2022-mlqe,\n    title = \"{MLQE}-{PE}: A Multilingual Quality Estimation and Post-Editing Dataset\",\n    author = \"Fomicheva, Marina  and\n      Sun, Shuo  and\n      Fonseca, Erick  and\n      Zerva, Chrysoula  and\n      Blain, Fr{\\'e}d{\\'e}ric  and\n      Chaudhary, Vishrav  and\n      Guzm{\\'a}n, Francisco  and\n      Lopatina, Nina  and\n      Specia, Lucia  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Calzolari, Nicoletta  and\n      B{\\'e}chet, Fr{\\'e}d{\\'e}ric  and\n      Blache, Philippe  and\n      Choukri, Khalid  and\n      Cieri, Christopher  and\n      Declerck, Thierry  and\n      Goggi, Sara  and\n      Isahara, Hitoshi  and\n      Maegaard, Bente  and\n      Mariani, Joseph  and\n      Mazo, H{\\'e}l{\\`e}ne  and\n      Odijk, Jan  and\n      Piperidis, Stelios\",\n    booktitle = \"Proceedings of the Thirteenth Language Resources and Evaluation Conference\",\n    month = jun,\n    year = \"2022\",\n    address = \"Marseille, France\",\n    publisher = \"European Language Resources Association\",\n    url = \"https://aclanthology.org/2022.lrec-1.530/\",\n    pages = \"4963--4974\",\n    abstract = \"We present MLQE-PE, a new dataset for Machine Translation (MT) Quality Estimation (QE) and Automatic Post-Editing (APE). The dataset contains annotations for eleven language pairs, including both high- and low-resource languages. Specifically, it is annotated for translation quality with human labels for up to 10,000 translations per language pair in the following formats: sentence-level direct assessments and post-editing effort, and word-level binary good/bad labels. Apart from the quality-related scores, each source-translation sentence pair is accompanied by the corresponding post-edited sentence, as well as titles of the articles where the sentences were extracted from, and information on the neural MT models used to translate the text. We provide a thorough description of the data collection and annotation process as well as an analysis of the annotation distribution for each language pair. We also report the performance of baseline systems trained on the MLQE-PE dataset. The dataset is freely available and has already been used for several WMT shared tasks.\"\n}"
+  "bibtex": `@inproceedings{fomicheva-etal-2022-mlqe,
+    title = "{MLQE}-{PE}: A Multilingual Quality Estimation and Post-Editing Dataset",
+    author = "Fomicheva, Marina  and
+      Sun, Shuo  and
+      Fonseca, Erick  and
+      Zerva, Chrysoula  and
+      Blain, Fr{\\'e}d{\\'e}ric  and
+      Chaudhary, Vishrav  and
+      Guzm{\\'a}n, Francisco  and
+      Lopatina, Nina  and
+      Specia, Lucia  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Calzolari, Nicoletta  and
+      B{\\'e}chet, Fr{\\'e}d{\\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\\'e}l{\\\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.530/",
+    pages = "4963--4974",
+    abstract = "We present MLQE-PE, a new dataset for Machine Translation (MT) Quality Estimation (QE) and Automatic Post-Editing (APE). The dataset contains annotations for eleven language pairs, including both high- and low-resource languages. Specifically, it is annotated for translation quality with human labels for up to 10,000 translations per language pair in the following formats: sentence-level direct assessments and post-editing effort, and word-level binary good/bad labels. Apart from the quality-related scores, each source-translation sentence pair is accompanied by the corresponding post-edited sentence, as well as titles of the articles where the sentences were extracted from, and information on the neural MT models used to translate the text. We provide a thorough description of the data collection and annotation process as well as an analysis of the annotation distribution for each language pair. We also report the performance of baseline systems trained on the MLQE-PE dataset. The dataset is freely available and has already been used for several WMT shared tasks."
+}`
 }
 },
   {
@@ -2109,7 +4252,25 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2020.emnlp-main.171/",
   "code": "https://github.com/deep-spin/understanding-spigot",
-  "bibtex": "@inproceedings{mihaylova-etal-2020-understanding,\n    title = \"Understanding the Mechanics of {SPIGOT}: Surrogate Gradients for Latent Structure Learning\",\n    author = \"Mihaylova, Tsvetomila  and\n      Niculae, Vlad  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Webber, Bonnie  and\n      Cohn, Trevor  and\n      He, Yulan  and\n      Liu, Yang\",\n    booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.emnlp-main.171/\",\n    doi = \"10.18653/v1/2020.emnlp-main.171\",\n    pages = \"2186--2202\",\n    abstract = \"Latent structure models are a powerful tool for modeling language data: they can mitigate the error propagation and annotation bottleneck in pipeline systems, while simultaneously uncovering linguistic insights about the data. One challenge with end-to-end training of these models is the argmax operation, which has null gradient. In this paper, we focus on surrogate gradients, a popular strategy to deal with this problem. We explore latent structure learning through the angle of pulling back the downstream learning objective. In this paradigm, we discover a principled motivation for both the straight-through estimator (STE) as well as the recently-proposed SPIGOT {--} a variant of STE for structured models. Our perspective leads to new algorithms in the same family. We empirically compare the known and the novel pulled-back estimators against the popular alternatives, yielding new insight for practitioners and revealing intriguing failure cases.\"\n}"
+  "bibtex": `@inproceedings{mihaylova-etal-2020-understanding,
+    title = "Understanding the Mechanics of {SPIGOT}: Surrogate Gradients for Latent Structure Learning",
+    author = "Mihaylova, Tsvetomila  and
+      Niculae, Vlad  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Webber, Bonnie  and
+      Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.171/",
+    doi = "10.18653/v1/2020.emnlp-main.171",
+    pages = "2186--2202",
+    abstract = "Latent structure models are a powerful tool for modeling language data: they can mitigate the error propagation and annotation bottleneck in pipeline systems, while simultaneously uncovering linguistic insights about the data. One challenge with end-to-end training of these models is the argmax operation, which has null gradient. In this paper, we focus on surrogate gradients, a popular strategy to deal with this problem. We explore latent structure learning through the angle of pulling back the downstream learning objective. In this paradigm, we discover a principled motivation for both the straight-through estimator (STE) as well as the recently-proposed SPIGOT {--} a variant of STE for structured models. Our perspective leads to new algorithms in the same family. We empirically compare the known and the novel pulled-back estimators against the popular alternatives, yielding new insight for practitioners and revealing intriguing failure cases."
+}`
 }
 },
   {
@@ -2127,7 +4288,23 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.sigmorphon-1.4/",
-  "bibtex": "@inproceedings{peters-martins-2020-one,\n    title = \"One-Size-Fits-All Multilingual Models\",\n    author = \"Peters, Ben  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Nicolai, Garrett  and\n      Gorman, Kyle  and\n      Cotterell, Ryan\",\n    booktitle = \"Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology\",\n    month = jul,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.sigmorphon-1.4/\",\n    doi = \"10.18653/v1/2020.sigmorphon-1.4\",\n    pages = \"63--69\",\n    abstract = \"This paper presents DeepSPIN{'}s submissions to Tasks 0 and 1 of the SIGMORPHON 2020 Shared Task. For both tasks, we present multilingual models, training jointly on data in all languages. We perform no language-specific hyperparameter tuning {--} each of our submissions uses the same model for all languages. Our basic architecture is the sparse sequence-to-sequence model with entmax attention and loss, which allows our models to learn sparse, local alignments while still being trainable with gradient-based techniques. For Task 1, we achieve strong performance with both RNN- and transformer-based sparse models. For Task 0, we extend our RNN-based model to a multi-encoder set-up in which separate modules encode the lemma and inflection sequences. Despite our models' lack of language-specific tuning, they tie for first in Task 0 and place third in Task 1.\"\n}"
+  "bibtex": `@inproceedings{peters-martins-2020-one,
+    title = "One-Size-Fits-All Multilingual Models",
+    author = "Peters, Ben  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Nicolai, Garrett  and
+      Gorman, Kyle  and
+      Cotterell, Ryan",
+    booktitle = "Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.sigmorphon-1.4/",
+    doi = "10.18653/v1/2020.sigmorphon-1.4",
+    pages = "63--69",
+    abstract = "This paper presents DeepSPIN{'}s submissions to Tasks 0 and 1 of the SIGMORPHON 2020 Shared Task. For both tasks, we present multilingual models, training jointly on data in all languages. We perform no language-specific hyperparameter tuning {--} each of our submissions uses the same model for all languages. Our basic architecture is the sparse sequence-to-sequence model with entmax attention and loss, which allows our models to learn sparse, local alignments while still being trainable with gradient-based techniques. For Task 1, we achieve strong performance with both RNN- and transformer-based sparse models. For Task 0, we extend our RNN-based model to a multi-encoder set-up in which separate modules encode the lemma and inflection sequences. Despite our models' lack of language-specific tuning, they tie for first in Task 0 and place third in Task 1."
+}`
 }
 },
   {
@@ -2143,7 +4320,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.acl-main.776/",
-  "bibtex": "@inproceedings{fonseca-martins-2020-revisiting,\n    title = \"Revisiting Higher-Order Dependency Parsers\",\n    author = \"Fonseca, Erick  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Jurafsky, Dan  and\n      Chai, Joyce  and\n      Schluter, Natalie  and\n      Tetreault, Joel\",\n    booktitle = \"Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics\",\n    month = jul,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.acl-main.776/\",\n    doi = \"10.18653/v1/2020.acl-main.776\",\n    pages = \"8795--8800\",\n    abstract = \"Neural encoders have allowed dependency parsers to shift from higher-order structured models to simpler first-order ones, making decoding faster and still achieving better accuracy than non-neural parsers. This has led to a belief that neural encoders can implicitly encode structural constraints, such as siblings and grandparents in a tree. We tested this hypothesis and found that neural parsers may benefit from higher-order features, even when employing a powerful pre-trained encoder, such as BERT. While the gains of higher-order features are small in the presence of a powerful encoder, they are consistent for long-range dependencies and long sentences. In particular, higher-order models are more accurate on full sentence parses and on the exact match of modifier lists, indicating that they deal better with larger, more complex structures.\"\n}"
+  "bibtex": `@inproceedings{fonseca-martins-2020-revisiting,
+    title = "Revisiting Higher-Order Dependency Parsers",
+    author = "Fonseca, Erick  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.776/",
+    doi = "10.18653/v1/2020.acl-main.776",
+    pages = "8795--8800",
+    abstract = "Neural encoders have allowed dependency parsers to shift from higher-order structured models to simpler first-order ones, making decoding faster and still achieving better accuracy than non-neural parsers. This has led to a belief that neural encoders can implicitly encode structural constraints, such as siblings and grandparents in a tree. We tested this hypothesis and found that neural parsers may benefit from higher-order features, even when employing a powerful pre-trained encoder, such as BERT. While the gains of higher-order features are small in the presence of a powerful encoder, they are consistent for long-range dependencies and long sentences. In particular, higher-order models are more accurate on full sentence parses and on the exact match of modifier lists, indicating that they deal better with larger, more complex structures."
+}`
 }
 },
   {
@@ -2159,7 +4353,35 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.eamt-1.22/",
-  "bibtex": "@inproceedings{gois-etal-2020-learning,\n    title = \"Learning Non-Monotonic Automatic Post-Editing of Translations from Human Orderings\",\n    author = \"G{\\'o}is, Ant{\\'o}nio  and\n      Cho, Kyunghyun  and\n      Martins, Andr{\\'e}\",\n    editor = \"Martins, Andr{\\'e}  and\n      Moniz, Helena  and\n      Fumega, Sara  and\n      Martins, Bruno  and\n      Batista, Fernando  and\n      Coheur, Luisa  and\n      Parra, Carla  and\n      Trancoso, Isabel  and\n      Turchi, Marco  and\n      Bisazza, Arianna  and\n      Moorkens, Joss  and\n      Guerberof, Ana  and\n      Nurminen, Mary  and\n      Marg, Lena  and\n      Forcada, Mikel L.\",\n    booktitle = \"Proceedings of the 22nd Annual Conference of the European Association for Machine Translation\",\n    month = nov,\n    year = \"2020\",\n    address = \"Lisboa, Portugal\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2020.eamt-1.22/\",\n    pages = \"205--214\",\n    abstract = \"Recent research in neural machine translation has explored flexible generation orders, as an alternative to left-to-right generation. However, training non-monotonic models brings a new complication: how to search for a good ordering when there is a combinatorial explosion of orderings arriving at the same final result? Also, how do these automatic orderings compare with the actual behaviour of human translators? Current models rely on manually built biases or are left to explore all possibilities on their own. In this paper, we analyze the orderings produced by human post-editors and use them to train an automatic post-editing system. We compare the resulting system with those trained with left-to-right and random post-editing orderings. We observe that humans tend to follow a nearly left-to-right order, but with interesting deviations, such as preferring to start by correcting punctuation or verbs.\"\n}"
+  "bibtex": `@inproceedings{gois-etal-2020-learning,
+    title = "Learning Non-Monotonic Automatic Post-Editing of Translations from Human Orderings",
+    author = "G{\\'o}is, Ant{\\'o}nio  and
+      Cho, Kyunghyun  and
+      Martins, Andr{\\'e}",
+    editor = "Martins, Andr{\\'e}  and
+      Moniz, Helena  and
+      Fumega, Sara  and
+      Martins, Bruno  and
+      Batista, Fernando  and
+      Coheur, Luisa  and
+      Parra, Carla  and
+      Trancoso, Isabel  and
+      Turchi, Marco  and
+      Bisazza, Arianna  and
+      Moorkens, Joss  and
+      Guerberof, Ana  and
+      Nurminen, Mary  and
+      Marg, Lena  and
+      Forcada, Mikel L.",
+    booktitle = "Proceedings of the 22nd Annual Conference of the European Association for Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Lisboa, Portugal",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2020.eamt-1.22/",
+    pages = "205--214",
+    abstract = "Recent research in neural machine translation has explored flexible generation orders, as an alternative to left-to-right generation. However, training non-monotonic models brings a new complication: how to search for a good ordering when there is a combinatorial explosion of orderings arriving at the same final result? Also, how do these automatic orderings compare with the actual behaviour of human translators? Current models rely on manually built biases or are left to explore all possibilities on their own. In this paper, we analyze the orderings produced by human post-editors and use them to train an automatic post-editing system. We compare the resulting system with those trained with left-to-right and random post-editing orderings. We observe that humans tend to follow a nearly left-to-right order, but with interesting deviations, such as preferring to start by correcting punctuation or verbs."
+}`
 }
 },
   {
@@ -2177,7 +4399,25 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/2020.emnlp-main.348/",
   "code": "https://github.com/deep-spin/sparse_text_generation",
-  "bibtex": "@inproceedings{martins-etal-2020-sparse,\n    title = \"Sparse Text Generation\",\n    author = \"Martins, Pedro Henrique  and\n      Marinho, Zita  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Webber, Bonnie  and\n      Cohn, Trevor  and\n      He, Yulan  and\n      Liu, Yang\",\n    booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.emnlp-main.348/\",\n    doi = \"10.18653/v1/2020.emnlp-main.348\",\n    pages = \"4252--4273\",\n    abstract = \"Current state-of-the-art text generators build on powerful language models such as GPT-2, achieving impressive performance. However, to avoid degenerate text, they require sampling from a modified softmax, via temperature parameters or ad-hoc truncation techniques, as in top-$k$ or nucleus sampling. This creates a mismatch between training and testing conditions. In this paper, we use the recently introduced entmax transformation to train and sample from a natively sparse language model, avoiding this mismatch. The result is a text generator with favorable performance in terms of fluency and consistency, fewer repetitions, and n-gram diversity closer to human text. In order to evaluate our model, we propose three new metrics for comparing sparse or truncated distributions: $\\epsilon$-perplexity, sparsemax score, and Jensen-Shannon divergence. Human-evaluated experiments in story completion and dialogue generation show that entmax sampling leads to more engaging and coherent stories and conversations.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2020-sparse,
+    title = "Sparse Text Generation",
+    author = "Martins, Pedro Henrique  and
+      Marinho, Zita  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Webber, Bonnie  and
+      Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.348/",
+    doi = "10.18653/v1/2020.emnlp-main.348",
+    pages = "4252--4273",
+    abstract = "Current state-of-the-art text generators build on powerful language models such as GPT-2, achieving impressive performance. However, to avoid degenerate text, they require sampling from a modified softmax, via temperature parameters or ad-hoc truncation techniques, as in top-$k$ or nucleus sampling. This creates a mismatch between training and testing conditions. In this paper, we use the recently introduced entmax transformation to train and sample from a natively sparse language model, avoiding this mismatch. The result is a text generator with favorable performance in terms of fluency and consistency, fewer repetitions, and n-gram diversity closer to human text. In order to evaluate our model, we propose three new metrics for comparing sparse or truncated distributions: $\\epsilon$-perplexity, sparsemax score, and Jensen-Shannon divergence. Human-evaluated experiments in story completion and dialogue generation show that entmax sampling leads to more engaging and coherent stories and conversations."
+}`
 }
 },
   {
@@ -2194,7 +4434,37 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/2020.eamt-1.24/",
-  "bibtex": "@inproceedings{lopes-etal-2020-document,\n    title = \"Document-level Neural {MT}: A Systematic Comparison\",\n    author = \"Lopes, Ant{\\'o}nio  and\n      Farajian, M. Amin  and\n      Bawden, Rachel  and\n      Zhang, Michael  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Martins, Andr{\\'e}  and\n      Moniz, Helena  and\n      Fumega, Sara  and\n      Martins, Bruno  and\n      Batista, Fernando  and\n      Coheur, Luisa  and\n      Parra, Carla  and\n      Trancoso, Isabel  and\n      Turchi, Marco  and\n      Bisazza, Arianna  and\n      Moorkens, Joss  and\n      Guerberof, Ana  and\n      Nurminen, Mary  and\n      Marg, Lena  and\n      Forcada, Mikel L.\",\n    booktitle = \"Proceedings of the 22nd Annual Conference of the European Association for Machine Translation\",\n    month = nov,\n    year = \"2020\",\n    address = \"Lisboa, Portugal\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/2020.eamt-1.24/\",\n    pages = \"225--234\",\n    abstract = \"In this paper we provide a systematic comparison of existing and new document-level neural machine translation solutions. As part of this comparison, we introduce and evaluate a document-level variant of the recently proposed Star Transformer architecture. In addition to using the traditional metric BLEU, we report the accuracy of the models in handling anaphoric pronoun translation as well as coherence and cohesion using contrastive test sets. Finally, we report the results of human evaluation in terms of Multidimensional Quality Metrics (MQM) and analyse the correlation of the results obtained by the automatic metrics with human judgments.\"\n}"
+  "bibtex": `@inproceedings{lopes-etal-2020-document,
+    title = "Document-level Neural {MT}: A Systematic Comparison",
+    author = "Lopes, Ant{\\'o}nio  and
+      Farajian, M. Amin  and
+      Bawden, Rachel  and
+      Zhang, Michael  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Martins, Andr{\\'e}  and
+      Moniz, Helena  and
+      Fumega, Sara  and
+      Martins, Bruno  and
+      Batista, Fernando  and
+      Coheur, Luisa  and
+      Parra, Carla  and
+      Trancoso, Isabel  and
+      Turchi, Marco  and
+      Bisazza, Arianna  and
+      Moorkens, Joss  and
+      Guerberof, Ana  and
+      Nurminen, Mary  and
+      Marg, Lena  and
+      Forcada, Mikel L.",
+    booktitle = "Proceedings of the 22nd Annual Conference of the European Association for Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Lisboa, Portugal",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2020.eamt-1.24/",
+    pages = "225--234",
+    abstract = "In this paper we provide a systematic comparison of existing and new document-level neural machine translation solutions. As part of this comparison, we introduce and evaluate a document-level variant of the recently proposed Star Transformer architecture. In addition to using the traditional metric BLEU, we report the accuracy of the models in handling anaphoric pronoun translation as well as coherence and cohesion using contrastive test sets. Finally, we report the results of human evaluation in terms of Multidimensional Quality Metrics (MQM) and analyse the correlation of the results obtained by the automatic metrics with human judgments."
+}`
 }
 },
   {
@@ -2213,7 +4483,14 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2007.01919",
   "code": "https://github.com/deep-spin/sparse-marginalization-lvm",
-  "bibtex": "@article{correia2020efficient,\n  title={Efficient marginalization of discrete and structured latent variables via sparsity},\n  author={Correia, Gon{\\c{c}}alo and Niculae, Vlad and Aziz, Wilker and Martins, Andr{\\'e}},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  pages={11789--11802},\n  year={2020}\n}"
+  "bibtex": `@article{correia2020efficient,
+  title={Efficient marginalization of discrete and structured latent variables via sparsity},
+  author={Correia, Gon{\\c{c}}alo and Niculae, Vlad and Aziz, Wilker and Martins, Andr{\\'e}},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={11789--11802},
+  year={2020}
+}`
 }
 },
   {
@@ -2229,7 +4506,15 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/1901.02324",
-  "bibtex": "@article{blondel2020learning,\n  title={Learning with fenchel-young losses},\n  author={Blondel, Mathieu and Martins, Andr{\\'e} FT and Niculae, Vlad},\n  journal={Journal of Machine Learning Research},\n  volume={21},\n  number={35},\n  pages={1--69},\n  year={2020}\n}"
+  "bibtex": `@article{blondel2020learning,
+  title={Learning with fenchel-young losses},
+  author={Blondel, Mathieu and Martins, Andr{\\'e} FT and Niculae, Vlad},
+  journal={Journal of Machine Learning Research},
+  volume={21},
+  number={35},
+  pages={1--69},
+  year={2020}
+}`
 }
 },
   {
@@ -2248,7 +4533,25 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/P19-3020/",
-  "bibtex": "@inproceedings{kepler-etal-2019-openkiwi,\n    title = \"{O}pen{K}iwi: An Open Source Framework for Quality Estimation\",\n    author = \"Kepler, Fabio  and\n      Tr{\\'e}nous, Jonay  and\n      Treviso, Marcos  and\n      Vera, Miguel  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Costa-juss{\\`a}, Marta R.  and\n      Alfonseca, Enrique\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: System Demonstrations\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-3020/\",\n    doi = \"10.18653/v1/P19-3020\",\n    pages = \"117--122\",\n    abstract = \"We introduce OpenKiwi, a Pytorch-based open source framework for translation quality estimation. OpenKiwi supports training and testing of word-level and sentence-level quality estimation systems, implementing the winning systems of the WMT 2015{--}18 quality estimation campaigns. We benchmark OpenKiwi on two datasets from WMT 2018 (English-German SMT and NMT), yielding state-of-the-art performance on the word-level tasks and near state-of-the-art in the sentence-level tasks.\"\n}"
+  "bibtex": `@inproceedings{kepler-etal-2019-openkiwi,
+    title = "{O}pen{K}iwi: An Open Source Framework for Quality Estimation",
+    author = "Kepler, Fabio  and
+      Tr{\\'e}nous, Jonay  and
+      Treviso, Marcos  and
+      Vera, Miguel  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Costa-juss{\\\`a}, Marta R.  and
+      Alfonseca, Enrique",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-3020/",
+    doi = "10.18653/v1/P19-3020",
+    pages = "117--122",
+    abstract = "We introduce OpenKiwi, a Pytorch-based open source framework for translation quality estimation. OpenKiwi supports training and testing of word-level and sentence-level quality estimation systems, implementing the winning systems of the WMT 2015{--}18 quality estimation campaigns. We benchmark OpenKiwi on two datasets from WMT 2018 (English-German SMT and NMT), yielding state-of-the-art performance on the word-level tasks and near state-of-the-art in the sentence-level tasks."
+}`
 }
 },
   {
@@ -2265,7 +4568,43 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/W19-5406/",
-  "bibtex": "@inproceedings{kepler-etal-2019-unbabels,\n    title = \"Unbabel{'}s Participation in the {WMT}19 Translation Quality Estimation Shared Task\",\n    author = \"Kepler, Fabio  and\n      Tr{\\'e}nous, Jonay  and\n      Treviso, Marcos  and\n      Vera, Miguel  and\n      G{\\'o}is, Ant{\\'o}nio  and\n      Farajian, M. Amin  and\n      Lopes, Ant{\\'o}nio V.  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Bojar, Ond{\\v{r}}ej  and\n      Chatterjee, Rajen  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Graham, Yvette  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Martins, Andr{\\'e}  and\n      Monz, Christof  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Post, Matt  and\n      Turchi, Marco  and\n      Verspoor, Karin\",\n    booktitle = \"Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)\",\n    month = aug,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/W19-5406/\",\n    doi = \"10.18653/v1/W19-5406\",\n    pages = \"78--84\",\n    abstract = \"We present the contribution of the Unbabel team to the WMT 2019 Shared Task on Quality Estimation. We participated on the word, sentence, and document-level tracks, encompassing 3 language pairs: English-German, English-Russian, and English-French. Our submissions build upon the recent OpenKiwi framework: We combine linear, neural, and predictor-estimator systems with new transfer learning approaches using BERT and XLM pre-trained models. We compare systems individually and propose new ensemble techniques for word and sentence-level predictions. We also propose a simple technique for converting word labels into document-level predictions. Overall, our submitted systems achieve the best results on all tracks and language pairs by a considerable margin.\"\n}"
+  "bibtex": `@inproceedings{kepler-etal-2019-unbabels,
+    title = "Unbabel{'}s Participation in the {WMT}19 Translation Quality Estimation Shared Task",
+    author = "Kepler, Fabio  and
+      Tr{\\'e}nous, Jonay  and
+      Treviso, Marcos  and
+      Vera, Miguel  and
+      G{\\'o}is, Ant{\\'o}nio  and
+      Farajian, M. Amin  and
+      Lopes, Ant{\\'o}nio V.  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Bojar, Ond{\\v{r}}ej  and
+      Chatterjee, Rajen  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Graham, Yvette  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Martins, Andr{\\'e}  and
+      Monz, Christof  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Post, Matt  and
+      Turchi, Marco  and
+      Verspoor, Karin",
+    booktitle = "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-5406/",
+    doi = "10.18653/v1/W19-5406",
+    pages = "78--84",
+    abstract = "We present the contribution of the Unbabel team to the WMT 2019 Shared Task on Quality Estimation. We participated on the word, sentence, and document-level tracks, encompassing 3 language pairs: English-German, English-Russian, and English-French. Our submissions build upon the recent OpenKiwi framework: We combine linear, neural, and predictor-estimator systems with new transfer learning approaches using BERT and XLM pre-trained models. We compare systems individually and propose new ensemble techniques for word and sentence-level predictions. We also propose a simple technique for converting word labels into document-level predictions. Overall, our submitted systems achieve the best results on all tracks and language pairs by a considerable margin."
+}`
 }
 },
   {
@@ -2282,7 +4621,25 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/D19-1223/",
-  "bibtex": "@inproceedings{correia-etal-2019-adaptively,\n    title = \"Adaptively Sparse Transformers\",\n    author = \"Correia, Gon{\\c{c}}alo M.  and\n      Niculae, Vlad  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Inui, Kentaro  and\n      Jiang, Jing  and\n      Ng, Vincent  and\n      Wan, Xiaojun\",\n    booktitle = \"Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)\",\n    month = nov,\n    year = \"2019\",\n    address = \"Hong Kong, China\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/D19-1223/\",\n    doi = \"10.18653/v1/D19-1223\",\n    pages = \"2174--2184\",\n    abstract = \"Attention mechanisms have become ubiquitous in NLP. Recent architectures, notably the Transformer, learn powerful context-aware word representations through layered, multi-headed attention. The multiple heads learn diverse types of word relationships. However, with standard softmax attention, all attention heads are dense, assigning a non-zero weight to all context words. In this work, we introduce the adaptively sparse Transformer, wherein attention heads have flexible, context-dependent sparsity patterns. This sparsity is accomplished by replacing softmax with alpha-entmax: a differentiable generalization of softmax that allows low-scoring words to receive precisely zero weight. Moreover, we derive a method to automatically learn the alpha parameter {--} which controls the shape and sparsity of alpha-entmax {--} allowing attention heads to choose between focused or spread-out behavior. Our adaptively sparse Transformer improves interpretability and head diversity when compared to softmax Transformers on machine translation datasets. Findings of the quantitative and qualitative analysis of our approach include that heads in different layers learn different sparsity preferences and tend to be more diverse in their attention distributions than softmax Transformers. Furthermore, at no cost in accuracy, sparsity in attention heads helps to uncover different head specializations.\"\n}"
+  "bibtex": `@inproceedings{correia-etal-2019-adaptively,
+    title = "Adaptively Sparse Transformers",
+    author = "Correia, Gon{\\c{c}}alo M.  and
+      Niculae, Vlad  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1223/",
+    doi = "10.18653/v1/D19-1223",
+    pages = "2174--2184",
+    abstract = "Attention mechanisms have become ubiquitous in NLP. Recent architectures, notably the Transformer, learn powerful context-aware word representations through layered, multi-headed attention. The multiple heads learn diverse types of word relationships. However, with standard softmax attention, all attention heads are dense, assigning a non-zero weight to all context words. In this work, we introduce the adaptively sparse Transformer, wherein attention heads have flexible, context-dependent sparsity patterns. This sparsity is accomplished by replacing softmax with alpha-entmax: a differentiable generalization of softmax that allows low-scoring words to receive precisely zero weight. Moreover, we derive a method to automatically learn the alpha parameter {--} which controls the shape and sparsity of alpha-entmax {--} allowing attention heads to choose between focused or spread-out behavior. Our adaptively sparse Transformer improves interpretability and head diversity when compared to softmax Transformers on machine translation datasets. Findings of the quantitative and qualitative analysis of our approach include that heads in different layers learn different sparsity preferences and tend to be more diverse in their attention distributions than softmax Transformers. Furthermore, at no cost in accuracy, sparsity in attention heads helps to uncover different head specializations."
+}`
 }
 },
   {
@@ -2299,7 +4656,40 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/W19-5401/",
-  "bibtex": "@inproceedings{fonseca-etal-2019-findings,\n    title = \"Findings of the {WMT} 2019 Shared Tasks on Quality Estimation\",\n    author = \"Fonseca, Erick  and\n      Yankovskaya, Lisa  and\n      Martins, Andr{\\'e} F. T.  and\n      Fishel, Mark  and\n      Federmann, Christian\",\n    editor = \"Bojar, Ond{\\v{r}}ej  and\n      Chatterjee, Rajen  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Graham, Yvette  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Martins, Andr{\\'e}  and\n      Monz, Christof  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Post, Matt  and\n      Turchi, Marco  and\n      Verspoor, Karin\",\n    booktitle = \"Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)\",\n    month = aug,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/W19-5401/\",\n    doi = \"10.18653/v1/W19-5401\",\n    pages = \"1--10\",\n    abstract = \"We report the results of the WMT19 shared task on Quality Estimation, i.e. the task of predicting the quality of the output of machine translation systems given just the source text and the hypothesis translations. The task includes estimation at three granularity levels: word, sentence and document. A novel addition is evaluating sentence-level QE against human judgments: in other words, designing MT metrics that do not need a reference translation. This year we include three language pairs, produced solely by neural machine translation systems. Participating teams from eleven institutions submitted a variety of systems to different task variants and language pairs.\"\n}"
+  "bibtex": `@inproceedings{fonseca-etal-2019-findings,
+    title = "Findings of the {WMT} 2019 Shared Tasks on Quality Estimation",
+    author = "Fonseca, Erick  and
+      Yankovskaya, Lisa  and
+      Martins, Andr{\\'e} F. T.  and
+      Fishel, Mark  and
+      Federmann, Christian",
+    editor = "Bojar, Ond{\\v{r}}ej  and
+      Chatterjee, Rajen  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Graham, Yvette  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Martins, Andr{\\'e}  and
+      Monz, Christof  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Post, Matt  and
+      Turchi, Marco  and
+      Verspoor, Karin",
+    booktitle = "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-5401/",
+    doi = "10.18653/v1/W19-5401",
+    pages = "1--10",
+    abstract = "We report the results of the WMT19 shared task on Quality Estimation, i.e. the task of predicting the quality of the output of machine translation systems given just the source text and the hypothesis translations. The task includes estimation at three granularity levels: word, sentence and document. A novel addition is evaluating sentence-level QE against human judgments: in other words, designing MT metrics that do not need a reference translation. This year we include three language pairs, produced solely by neural machine translation systems. Participating teams from eleven institutions submitted a variety of systems to different task variants and language pairs."
+}`
 }
 },
   {
@@ -2318,7 +4708,22 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/W19-4207/",
-  "bibtex": "@inproceedings{peters-martins-2019-ist,\n    title = \"{IT}{--}{IST} at the {SIGMORPHON} 2019 Shared Task: Sparse Two-headed Models for Inflection\",\n    author = \"Peters, Ben  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Nicolai, Garrett  and\n      Cotterell, Ryan\",\n    booktitle = \"Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology\",\n    month = aug,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/W19-4207/\",\n    doi = \"10.18653/v1/W19-4207\",\n    pages = \"50--56\",\n    abstract = \"This paper presents the Instituto de Telecomunica{\\c{c}}{\\~o}es{--}Instituto Superior T{\\'e}cnico submission to Task 1 of the SIGMORPHON 2019 Shared Task. Our models combine sparse sequence-to-sequence models with a two-headed attention mechanism that learns separate attention distributions for the lemma and inflectional tags. Among submissions to Task 1, our models rank second and third. Despite the low data setting of the task (only 100 in-language training examples), they learn plausible inflection patterns and often concentrate all probability mass into a small set of hypotheses, making beam search exact.\"\n}"
+  "bibtex": `@inproceedings{peters-martins-2019-ist,
+    title = "{IT}{--}{IST} at the {SIGMORPHON} 2019 Shared Task: Sparse Two-headed Models for Inflection",
+    author = "Peters, Ben  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Nicolai, Garrett  and
+      Cotterell, Ryan",
+    booktitle = "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-4207/",
+    doi = "10.18653/v1/W19-4207",
+    pages = "50--56",
+    abstract = "This paper presents the Instituto de Telecomunica{\\c{c}}{\\~o}es{--}Instituto Superior T{\\'e}cnico submission to Task 1 of the SIGMORPHON 2019 Shared Task. Our models combine sparse sequence-to-sequence models with a two-headed attention mechanism that learns separate attention distributions for the lemma and inflectional tags. Among submissions to Task 1, our models rank second and third. Despite the low data setting of the task (only 100 in-language training examples), they learn plausible inflection patterns and often concentrate all probability mass into a small set of hypotheses, making beam search exact."
+}`
 }
 },
   {
@@ -2335,7 +4740,22 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/W19-6605/",
-  "bibtex": "@inproceedings{gois-martins-2019-translator2vec,\n    title = \"{T}ranslator2{V}ec: Understanding and Representing Human Post-Editors\",\n    author = \"G{\\'o}is, Ant{\\'o}nio  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Forcada, Mikel  and\n      Way, Andy  and\n      Haddow, Barry  and\n      Sennrich, Rico\",\n    booktitle = \"Proceedings of Machine Translation Summit XVII: Research Track\",\n    month = aug,\n    year = \"2019\",\n    address = \"Dublin, Ireland\",\n    publisher = \"European Association for Machine Translation\",\n    url = \"https://aclanthology.org/W19-6605/\",\n    pages = \"43--54\"\n}"
+  "bibtex": `@inproceedings{gois-martins-2019-translator2vec,
+    title = "{T}ranslator2{V}ec: Understanding and Representing Human Post-Editors",
+    author = "G{\\'o}is, Ant{\\'o}nio  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Forcada, Mikel  and
+      Way, Andy  and
+      Haddow, Barry  and
+      Sennrich, Rico",
+    booktitle = "Proceedings of Machine Translation Summit XVII: Research Track",
+    month = aug,
+    year = "2019",
+    address = "Dublin, Ireland",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/W19-6605/",
+    pages = "43--54"
+}`
 }
 },
   {
@@ -2352,7 +4772,12 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/1907.10348",
-  "bibtex": "@article{martins2019notes,\n  title={Notes on Latent Structure Models and SPIGOT},\n  author={Martins, Andr{\\'e} FT and Niculae, Vlad},\n  journal={arXiv preprint arXiv:1907.10348},\n  year={2019}\n}"
+  "bibtex": `@article{martins2019notes,
+  title={Notes on Latent Structure Models and SPIGOT},
+  author={Martins, Andr{\\'e} FT and Niculae, Vlad},
+  journal={arXiv preprint arXiv:1907.10348},
+  year={2019}
+}`
 }
 },
   {
@@ -2369,7 +4794,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/P19-2026/",
-  "bibtex": "@inproceedings{martins-etal-2019-joint,\n    title = \"Joint Learning of Named Entity Recognition and Entity Linking\",\n    author = \"Martins, Pedro Henrique  and\n      Marinho, Zita  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Alva-Manchego, Fernando  and\n      Choi, Eunsol  and\n      Khashabi, Daniel\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-2026/\",\n    doi = \"10.18653/v1/P19-2026\",\n    pages = \"190--196\",\n    abstract = \"Named entity recognition (NER) and entity linking (EL) are two fundamentally related tasks, since in order to perform EL, first the mentions to entities have to be detected. However, most entity linking approaches disregard the mention detection part, assuming that the correct mentions have been previously detected. In this paper, we perform joint learning of NER and EL to leverage their relatedness and obtain a more robust and generalisable system. For that, we introduce a model inspired by the Stack-LSTM approach. We observe that, in fact, doing multi-task learning of NER and EL improves the performance in both tasks when comparing with models trained with individual objectives. Furthermore, we achieve results competitive with the state-of-the-art in both NER and EL.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2019-joint,
+    title = "Joint Learning of Named Entity Recognition and Entity Linking",
+    author = "Martins, Pedro Henrique  and
+      Marinho, Zita  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Alva-Manchego, Fernando  and
+      Choi, Eunsol  and
+      Khashabi, Daniel",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-2026/",
+    doi = "10.18653/v1/P19-2026",
+    pages = "190--196",
+    abstract = "Named entity recognition (NER) and entity linking (EL) are two fundamentally related tasks, since in order to perform EL, first the mentions to entities have to be detected. However, most entity linking approaches disregard the mention detection part, assuming that the correct mentions have been previously detected. In this paper, we perform joint learning of NER and EL to leverage their relatedness and obtain a more robust and generalisable system. For that, we introduce a model inspired by the Stack-LSTM approach. We observe that, in fact, doing multi-task learning of NER and EL improves the performance in both tasks when comparing with models trained with individual objectives. Furthermore, we achieve results competitive with the state-of-the-art in both NER and EL."
+}`
 }
 },
   {
@@ -2387,7 +4829,24 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/P19-4001/",
   "code": "https://github.com/deep-spin/tutorial",
-  "bibtex": "@inproceedings{martins-etal-2019-latent,\n    title = \"Latent Structure Models for Natural Language Processing\",\n    author = \"Martins, Andr{\\'e} F. T.  and\n      Mihaylova, Tsvetomila  and\n      Nangia, Nikita  and\n      Niculae, Vlad\",\n    editor = \"Nakov, Preslav  and\n      Palmer, Alexis\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-4001/\",\n    doi = \"10.18653/v1/P19-4001\",\n    pages = \"1--5\",\n    abstract = \"Latent structure models are a powerful tool for modeling compositional data, discovering linguistic structure, and building NLP pipelines. They are appealing for two main reasons: they allow incorporating structural bias during training, leading to more accurate models; and they allow discovering hidden linguistic structure, which provides better interpretability. This tutorial will cover recent advances in discrete latent structure models. We discuss their motivation, potential, and limitations, then explore in detail three strategies for designing such models: gradient approximation, reinforcement learning, and end-to-end differentiable methods. We highlight connections among all these methods, enumerating their strengths and weaknesses. The models we present and analyze have been applied to a wide variety of NLP tasks, including sentiment analysis, natural language inference, language modeling, machine translation, and semantic parsing. Examples and evaluation will be covered throughout. After attending the tutorial, a practitioner will be better informed about which method is best suited for their problem.\"\n}"
+  "bibtex": `@inproceedings{martins-etal-2019-latent,
+    title = "Latent Structure Models for Natural Language Processing",
+    author = "Martins, Andr{\\'e} F. T.  and
+      Mihaylova, Tsvetomila  and
+      Nangia, Nikita  and
+      Niculae, Vlad",
+    editor = "Nakov, Preslav  and
+      Palmer, Alexis",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-4001/",
+    doi = "10.18653/v1/P19-4001",
+    pages = "1--5",
+    abstract = "Latent structure models are a powerful tool for modeling compositional data, discovering linguistic structure, and building NLP pipelines. They are appealing for two main reasons: they allow incorporating structural bias during training, leading to more accurate models; and they allow discovering hidden linguistic structure, which provides better interpretability. This tutorial will cover recent advances in discrete latent structure models. We discuss their motivation, potential, and limitations, then explore in detail three strategies for designing such models: gradient approximation, reinforcement learning, and end-to-end differentiable methods. We highlight connections among all these methods, enumerating their strengths and weaknesses. The models we present and analyze have been applied to a wide variety of NLP tasks, including sentiment analysis, natural language inference, language modeling, machine translation, and semantic parsing. Examples and evaluation will be covered throughout. After attending the tutorial, a practitioner will be better informed about which method is best suited for their problem."
+}`
 }
 },
   {
@@ -2404,7 +4863,23 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/P19-2049/",
   "code": "https://github.com/deep-spin/scheduled-sampling-transformers",
-  "bibtex": "@inproceedings{mihaylova-martins-2019-scheduled,\n    title = \"Scheduled Sampling for Transformers\",\n    author = \"Mihaylova, Tsvetomila  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Alva-Manchego, Fernando  and\n      Choi, Eunsol  and\n      Khashabi, Daniel\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-2049/\",\n    doi = \"10.18653/v1/P19-2049\",\n    pages = \"351--356\",\n    abstract = \"Scheduled sampling is a technique for avoiding one of the known problems in sequence-to-sequence generation: exposure bias. It consists of feeding the model a mix of the teacher forced embeddings and the model predictions from the previous step in training time. The technique has been used for improving model performance with recurrent neural networks (RNN). In the Transformer model, unlike the RNN, the generation of a new word attends to the full sentence generated so far, not only to the last word, and it is not straightforward to apply the scheduled sampling technique. We propose some structural changes to allow scheduled sampling to be applied to Transformer architectures, via a two-pass decoding strategy. Experiments on two language pairs achieve performance close to a teacher-forcing baseline and show that this technique is promising for further exploration.\"\n}"
+  "bibtex": `@inproceedings{mihaylova-martins-2019-scheduled,
+    title = "Scheduled Sampling for Transformers",
+    author = "Mihaylova, Tsvetomila  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Alva-Manchego, Fernando  and
+      Choi, Eunsol  and
+      Khashabi, Daniel",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-2049/",
+    doi = "10.18653/v1/P19-2049",
+    pages = "351--356",
+    abstract = "Scheduled sampling is a technique for avoiding one of the known problems in sequence-to-sequence generation: exposure bias. It consists of feeding the model a mix of the teacher forced embeddings and the model predictions from the previous step in training time. The technique has been used for improving model performance with recurrent neural networks (RNN). In the Transformer model, unlike the RNN, the generation of a new word attends to the full sentence generated so far, not only to the last word, and it is not straightforward to apply the scheduled sampling technique. We propose some structural changes to allow scheduled sampling to be applied to Transformer architectures, via a two-pass decoding strategy. Experiments on two language pairs achieve performance close to a teacher-forcing baseline and show that this technique is promising for further exploration."
+}`
 }
 },
   {
@@ -2420,7 +4895,23 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/P19-1292/",
-  "bibtex": "@inproceedings{correia-martins-2019-simple,\n    title = \"A Simple and Effective Approach to Automatic Post-Editing with Transfer Learning\",\n    author = \"Correia, Gon{\\c{c}}alo M.  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Korhonen, Anna  and\n      Traum, David  and\n      M{\\`a}rquez, Llu{\\'i}s\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-1292/\",\n    doi = \"10.18653/v1/P19-1292\",\n    pages = \"3050--3056\",\n    abstract = \"Automatic post-editing (APE) seeks to automatically refine the output of a black-box machine translation (MT) system through human post-edits. APE systems are usually trained by complementing human post-edited data with large, artificial data generated through back-translations, a time-consuming process often no easier than training a MT system from scratch. in this paper, we propose an alternative where we fine-tune pre-trained BERT models on both the encoder and decoder of an APE system, exploring several parameter sharing strategies. By only training on a dataset of 23K sentences for 3 hours on a single GPU we obtain results that are competitive with systems that were trained on 5M artificial sentences. When we add this artificial data our method obtains state-of-the-art results.\"\n}"
+  "bibtex": `@inproceedings{correia-martins-2019-simple,
+    title = "A Simple and Effective Approach to Automatic Post-Editing with Transfer Learning",
+    author = "Correia, Gon{\\c{c}}alo M.  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\\\`a}rquez, Llu{\\'i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1292/",
+    doi = "10.18653/v1/P19-1292",
+    pages = "3050--3056",
+    abstract = "Automatic post-editing (APE) seeks to automatically refine the output of a black-box machine translation (MT) system through human post-edits. APE systems are usually trained by complementing human post-edited data with large, artificial data generated through back-translations, a time-consuming process often no easier than training a MT system from scratch. in this paper, we propose an alternative where we fine-tune pre-trained BERT models on both the encoder and decoder of an APE system, exploring several parameter sharing strategies. By only training on a dataset of 23K sentences for 3 hours on a single GPU we obtain results that are competitive with systems that were trained on 5M artificial sentences. When we add this artificial data our method obtains state-of-the-art results."
+}`
 }
 },
   {
@@ -2437,7 +4928,40 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/W19-5413/",
-  "bibtex": "@inproceedings{lopes-etal-2019-unbabels,\n    title = \"Unbabel{'}s Submission to the {WMT}2019 {APE} Shared Task: {BERT}-Based Encoder-Decoder for Automatic Post-Editing\",\n    author = \"Lopes, Ant{\\'o}nio V.  and\n      Farajian, M. Amin  and\n      Correia, Gon{\\c{c}}alo M.  and\n      Tr{\\'e}nous, Jonay  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Bojar, Ond{\\v{r}}ej  and\n      Chatterjee, Rajen  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Graham, Yvette  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Martins, Andr{\\'e}  and\n      Monz, Christof  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Post, Matt  and\n      Turchi, Marco  and\n      Verspoor, Karin\",\n    booktitle = \"Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)\",\n    month = aug,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/W19-5413/\",\n    doi = \"10.18653/v1/W19-5413\",\n    pages = \"118--123\",\n    abstract = \"This paper describes Unbabel{'}s submission to the WMT2019 APE Shared Task for the English-German language pair. Following the recent rise of large, powerful, pre-trained models, we adapt the BERT pretrained model to perform Automatic Post-Editing in an encoder-decoder framework. Analogously to dual-encoder architectures we develop a BERT-based encoder-decoder (BED) model in which a single pretrained BERT encoder receives both the source src and machine translation mt strings. Furthermore, we explore a conservativeness factor to constrain the APE system to perform fewer edits. As the official results show, when trained on a weighted combination of in-domain and artificial training data, our BED system with the conservativeness penalty improves significantly the translations of a strong NMT system by -0.78 and +1.23 in terms of TER and BLEU, respectively. Finally, our submission achieves a new state-of-the-art, ex-aequo, in English-German APE of NMT.\"\n}"
+  "bibtex": `@inproceedings{lopes-etal-2019-unbabels,
+    title = "Unbabel{'}s Submission to the {WMT}2019 {APE} Shared Task: {BERT}-Based Encoder-Decoder for Automatic Post-Editing",
+    author = "Lopes, Ant{\\'o}nio V.  and
+      Farajian, M. Amin  and
+      Correia, Gon{\\c{c}}alo M.  and
+      Tr{\\'e}nous, Jonay  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Bojar, Ond{\\v{r}}ej  and
+      Chatterjee, Rajen  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Graham, Yvette  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Martins, Andr{\\'e}  and
+      Monz, Christof  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Post, Matt  and
+      Turchi, Marco  and
+      Verspoor, Karin",
+    booktitle = "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-5413/",
+    doi = "10.18653/v1/W19-5413",
+    pages = "118--123",
+    abstract = "This paper describes Unbabel{'}s submission to the WMT2019 APE Shared Task for the English-German language pair. Following the recent rise of large, powerful, pre-trained models, we adapt the BERT pretrained model to perform Automatic Post-Editing in an encoder-decoder framework. Analogously to dual-encoder architectures we develop a BERT-based encoder-decoder (BED) model in which a single pretrained BERT encoder receives both the source src and machine translation mt strings. Furthermore, we explore a conservativeness factor to constrain the APE system to perform fewer edits. As the official results show, when trained on a weighted combination of in-domain and artificial training data, our BED system with the conservativeness penalty improves significantly the translations of a strong NMT system by -0.78 and +1.23 in terms of TER and BLEU, respectively. Finally, our submission achieves a new state-of-the-art, ex-aequo, in English-German APE of NMT."
+}`
 }
 },
   {
@@ -2457,7 +4981,24 @@ const publicationsData = [
   "links": {
   "paper": "https://aclanthology.org/P19-1146/",
   "code": "https://github.com/deep-spin/entmax",
-  "bibtex": "@inproceedings{peters-etal-2019-sparse,\n    title = \"Sparse Sequence-to-Sequence Models\",\n    author = \"Peters, Ben  and\n      Niculae, Vlad  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Korhonen, Anna  and\n      Traum, David  and\n      M{\\`a}rquez, Llu{\\'i}s\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-1146/\",\n    doi = \"10.18653/v1/P19-1146\",\n    pages = \"1504--1519\",\n    abstract = \"Sequence-to-sequence models are a powerful workhorse of NLP. Most variants employ a softmax transformation in both their attention mechanism and output layer, leading to dense alignments and strictly positive output probabilities. This density is wasteful, making models less interpretable and assigning probability mass to many implausible outputs. In this paper, we propose sparse sequence-to-sequence models, rooted in a new family of $\\alpha$-entmax transformations, which includes softmax and sparsemax as particular cases, and is sparse for any $\\alpha > 1$. We provide fast algorithms to evaluate these transformations and their gradients, which scale well for large vocabulary sizes. Our models are able to produce sparse alignments and to assign nonzero probability to a short list of plausible outputs, sometimes rendering beam search exact. Experiments on morphological inflection and machine translation reveal consistent gains over dense models.\"\n}"
+  "bibtex": `@inproceedings{peters-etal-2019-sparse,
+    title = "Sparse Sequence-to-Sequence Models",
+    author = "Peters, Ben  and
+      Niculae, Vlad  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\\\`a}rquez, Llu{\\'i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1146/",
+    doi = "10.18653/v1/P19-1146",
+    pages = "1504--1519",
+    abstract = "Sequence-to-sequence models are a powerful workhorse of NLP. Most variants employ a softmax transformation in both their attention mechanism and output layer, leading to dense alignments and strictly positive output probabilities. This density is wasteful, making models less interpretable and assigning probability mass to many implausible outputs. In this paper, we propose sparse sequence-to-sequence models, rooted in a new family of $\\alpha$-entmax transformations, which includes softmax and sparsemax as particular cases, and is sparse for any $\\alpha > 1$. We provide fast algorithms to evaluate these transformations and their gradients, which scale well for large vocabulary sizes. Our models are able to produce sparse alignments and to assign nonzero probability to a short list of plausible outputs, sometimes rendering beam search exact. Experiments on morphological inflection and machine translation reveal consistent gains over dense models."
+}`
 }
 },
   {
@@ -2473,7 +5014,21 @@ const publicationsData = [
 ],
   "links": {
   "paper": "http://proceedings.mlr.press/v89/blondel19a/blondel19a.pdf",
-  "bibtex": "@InProceedings{pmlr-v89-blondel19a,\n  title = \t {Learning Classifiers with Fenchel-Young Losses: Generalized Entropies, Margins, and Algorithms},\n  author =       {Blondel, Mathieu and Martins, Andre and Niculae, Vlad},\n  booktitle = \t {Proceedings of the Twenty-Second International Conference on Artificial Intelligence and Statistics},\n  pages = \t {606--615},\n  year = \t {2019},\n  editor = \t {Chaudhuri, Kamalika and Sugiyama, Masashi},\n  volume = \t {89},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {16--18 Apr},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v89/blondel19a/blondel19a.pdf},\n  url = \t {https://proceedings.mlr.press/v89/blondel19a.html},\n  abstract = \t {This paper studies Fenchel-Young losses, a generic way to construct convex loss functions from a regularization function.  We analyze their properties in depth, showing that they unify many well-known loss functions and allow to create useful new ones easily.  Fenchel-Young losses constructed from a generalized entropy, including the Shannon and Tsallis entropies, induce predictive probability distributions.  We formulate conditions for a generalized entropy to yield losses with a separation margin, and probability distributions with sparse support.  Finally, we derive efficient algorithms, making Fenchel-Young losses appealing both in theory and practice.}\n}"
+  "bibtex": `@InProceedings{pmlr-v89-blondel19a,
+  title = 	 {Learning Classifiers with Fenchel-Young Losses: Generalized Entropies, Margins, and Algorithms},
+  author =       {Blondel, Mathieu and Martins, Andre and Niculae, Vlad},
+  booktitle = 	 {Proceedings of the Twenty-Second International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {606--615},
+  year = 	 {2019},
+  editor = 	 {Chaudhuri, Kamalika and Sugiyama, Masashi},
+  volume = 	 {89},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {16--18 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v89/blondel19a/blondel19a.pdf},
+  url = 	 {https://proceedings.mlr.press/v89/blondel19a.html},
+  abstract = 	 {This paper studies Fenchel-Young losses, a generic way to construct convex loss functions from a regularization function.  We analyze their properties in depth, showing that they unify many well-known loss functions and allow to create useful new ones easily.  Fenchel-Young losses constructed from a generalized entropy, including the Shannon and Tsallis entropies, induce predictive probability distributions.  We formulate conditions for a generalized entropy to yield losses with a separation margin, and probability distributions with sparse support.  Finally, we derive efficient algorithms, making Fenchel-Young losses appealing both in theory and practice.}
+}`
 }
 },
   {
@@ -2489,7 +5044,27 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/N19-1397/",
-  "bibtex": "@inproceedings{mendes-etal-2019-jointly,\n    title = \"Jointly Extracting and Compressing Documents with Summary State Representations\",\n    author = \"Mendes, Afonso  and\n      Narayan, Shashi  and\n      Miranda, Sebasti{\\~a}o  and\n      Marinho, Zita  and\n      Martins, Andr{\\'e} F. T.  and\n      Cohen, Shay B.\",\n    editor = \"Burstein, Jill  and\n      Doran, Christy  and\n      Solorio, Thamar\",\n    booktitle = \"Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)\",\n    month = jun,\n    year = \"2019\",\n    address = \"Minneapolis, Minnesota\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/N19-1397/\",\n    doi = \"10.18653/v1/N19-1397\",\n    pages = \"3955--3966\",\n    abstract = \"We present a new neural model for text summarization that first extracts sentences from a document and then compresses them. The pro-posed model offers a balance that sidesteps thedifficulties in abstractive methods while gener-ating more concise summaries than extractivemethods. In addition, our model dynamically determines the length of the output summary based on the gold summaries it observes during training and does not require length constraints typical to extractive summarization. The model achieves state-of-the-art results on the CNN/DailyMail and Newsroom datasets, improving over current extractive and abstractive methods. Human evaluations demonstratethat our model generates concise and informa-tive summaries. We also make available a new dataset of oracle compressive summaries derived automatically from the CNN/DailyMailreference summaries.\"\n}"
+  "bibtex": `@inproceedings{mendes-etal-2019-jointly,
+    title = "Jointly Extracting and Compressing Documents with Summary State Representations",
+    author = "Mendes, Afonso  and
+      Narayan, Shashi  and
+      Miranda, Sebasti{\\~a}o  and
+      Marinho, Zita  and
+      Martins, Andr{\\'e} F. T.  and
+      Cohen, Shay B.",
+    editor = "Burstein, Jill  and
+      Doran, Christy  and
+      Solorio, Thamar",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1397/",
+    doi = "10.18653/v1/N19-1397",
+    pages = "3955--3966",
+    abstract = "We present a new neural model for text summarization that first extracts sentences from a document and then compresses them. The pro-posed model offers a balance that sidesteps thedifficulties in abstractive methods while gener-ating more concise summaries than extractivemethods. In addition, our model dynamically determines the length of the output summary based on the gold summaries it observes during training and does not require length constraints typical to extractive summarization. The model achieves state-of-the-art results on the CNN/DailyMail and Newsroom datasets, improving over current extractive and abstractive methods. Human evaluations demonstratethat our model generates concise and informa-tive summaries. We also make available a new dataset of oracle compressive summaries derived automatically from the CNN/DailyMailreference summaries."
+}`
 }
 },
   {
@@ -2507,7 +5082,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/N19-1313/",
-  "bibtex": "@inproceedings{maruf-etal-2019-selective,\n    title = \"Selective Attention for Context-aware Neural Machine Translation\",\n    author = \"Maruf, Sameen  and\n      Martins, Andr{\\'e} F. T.  and\n      Haffari, Gholamreza\",\n    editor = \"Burstein, Jill  and\n      Doran, Christy  and\n      Solorio, Thamar\",\n    booktitle = \"Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)\",\n    month = jun,\n    year = \"2019\",\n    address = \"Minneapolis, Minnesota\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/N19-1313/\",\n    doi = \"10.18653/v1/N19-1313\",\n    pages = \"3092--3102\",\n    abstract = \"Despite the progress made in sentence-level NMT, current systems still fall short at achieving fluent, good quality translation for a full document. Recent works in context-aware NMT consider only a few previous sentences as context and may not scale to entire documents. To this end, we propose a novel and scalable top-down approach to hierarchical attention for context-aware NMT which uses sparse attention to selectively focus on relevant sentences in the document context and then attends to key words in those sentences. We also propose single-level attention approaches based on sentence or word-level information in the context. The document-level context representation, produced from these attention modules, is integrated into the encoder or decoder of the Transformer model depending on whether we use monolingual or bilingual context. Our experiments and evaluation on English-German datasets in different document MT settings show that our selective attention approach not only significantly outperforms context-agnostic baselines but also surpasses context-aware baselines in most cases.\"\n}"
+  "bibtex": `@inproceedings{maruf-etal-2019-selective,
+    title = "Selective Attention for Context-aware Neural Machine Translation",
+    author = "Maruf, Sameen  and
+      Martins, Andr{\\'e} F. T.  and
+      Haffari, Gholamreza",
+    editor = "Burstein, Jill  and
+      Doran, Christy  and
+      Solorio, Thamar",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1313/",
+    doi = "10.18653/v1/N19-1313",
+    pages = "3092--3102",
+    abstract = "Despite the progress made in sentence-level NMT, current systems still fall short at achieving fluent, good quality translation for a full document. Recent works in context-aware NMT consider only a few previous sentences as context and may not scale to entire documents. To this end, we propose a novel and scalable top-down approach to hierarchical attention for context-aware NMT which uses sparse attention to selectively focus on relevant sentences in the document context and then attends to key words in those sentences. We also propose single-level attention approaches based on sentence or word-level information in the context. The document-level context representation, produced from these attention modules, is integrated into the encoder or decoder of the Transformer model depending on whether we use monolingual or bilingual context. Our experiments and evaluation on English-German datasets in different document MT settings show that our selective attention approach not only significantly outperforms context-agnostic baselines but also surpasses context-aware baselines in most cases."
+}`
 }
 },
   {
@@ -2524,7 +5116,24 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/W18-5450/",
-  "bibtex": "@inproceedings{peters-etal-2018-interpretable,\n    title = \"Interpretable Structure Induction via Sparse Attention\",\n    author = \"Peters, Ben  and\n      Niculae, Vlad  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Linzen, Tal  and\n      Chrupa{\\l}a, Grzegorz  and\n      Alishahi, Afra\",\n    booktitle = \"Proceedings of the 2018 {EMNLP} Workshop {B}lackbox{NLP}: Analyzing and Interpreting Neural Networks for {NLP}\",\n    month = nov,\n    year = \"2018\",\n    address = \"Brussels, Belgium\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/W18-5450/\",\n    doi = \"10.18653/v1/W18-5450\",\n    pages = \"365--367\",\n    abstract = \"Neural network methods are experiencing wide adoption in NLP, thanks to their empirical performance on many tasks. Modern neural architectures go way beyond simple feedforward and recurrent models: they are complex pipelines that perform soft, differentiable computation instead of discrete logic. The price of such soft computing is the introduction of dense dependencies, which make it hard to disentangle the patterns that trigger a prediction. Our recent work on sparse and structured latent computation presents a promising avenue for enhancing interpretability of such neural pipelines. Through this extended abstract, we aim to discuss and explore the potential and impact of our methods.\"\n}"
+  "bibtex": `@inproceedings{peters-etal-2018-interpretable,
+    title = "Interpretable Structure Induction via Sparse Attention",
+    author = "Peters, Ben  and
+      Niculae, Vlad  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Linzen, Tal  and
+      Chrupa{\\l}a, Grzegorz  and
+      Alishahi, Afra",
+    booktitle = "Proceedings of the 2018 {EMNLP} Workshop {B}lackbox{NLP}: Analyzing and Interpreting Neural Networks for {NLP}",
+    month = nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W18-5450/",
+    doi = "10.18653/v1/W18-5450",
+    pages = "365--367",
+    abstract = "Neural network methods are experiencing wide adoption in NLP, thanks to their empirical performance on many tasks. Modern neural architectures go way beyond simple feedforward and recurrent models: they are complex pipelines that perform soft, differentiable computation instead of discrete logic. The price of such soft computing is the introduction of dense dependencies, which make it hard to disentangle the patterns that trigger a prediction. Our recent work on sparse and structured latent computation presents a promising avenue for enhancing interpretability of such neural pipelines. Through this extended abstract, we aim to discuss and explore the potential and impact of our methods."
+}`
 }
 },
   {
@@ -2541,7 +5150,25 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/D18-1108/",
-  "bibtex": "@inproceedings{niculae-etal-2018-towards,\n    title = \"Towards Dynamic Computation Graphs via Sparse Latent Structure\",\n    author = \"Niculae, Vlad  and\n      Martins, Andr{\\'e} F. T.  and\n      Cardie, Claire\",\n    editor = \"Riloff, Ellen  and\n      Chiang, David  and\n      Hockenmaier, Julia  and\n      Tsujii, Jun{'}ichi\",\n    booktitle = \"Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing\",\n    month = oct # \"-\" # nov,\n    year = \"2018\",\n    address = \"Brussels, Belgium\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/D18-1108/\",\n    doi = \"10.18653/v1/D18-1108\",\n    pages = \"905--911\",\n    abstract = \"Deep NLP models benefit from underlying structures in the data{---}e.g., parse trees{---}typically extracted using off-the-shelf parsers. Recent attempts to jointly learn the latent structure encounter a tradeoff: either make factorization assumptions that limit expressiveness, or sacrifice end-to-end differentiability. Using the recently proposed SparseMAP inference, which retrieves a sparse distribution over latent structures, we propose a novel approach for end-to-end learning of latent structure predictors jointly with a downstream predictor. To the best of our knowledge, our method is the first to enable unrestricted dynamic computation graph construction from the global latent structure, while maintaining differentiability.\"\n}"
+  "bibtex": `@inproceedings{niculae-etal-2018-towards,
+    title = "Towards Dynamic Computation Graphs via Sparse Latent Structure",
+    author = "Niculae, Vlad  and
+      Martins, Andr{\\'e} F. T.  and
+      Cardie, Claire",
+    editor = "Riloff, Ellen  and
+      Chiang, David  and
+      Hockenmaier, Julia  and
+      Tsujii, Jun{'}ichi",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D18-1108/",
+    doi = "10.18653/v1/D18-1108",
+    pages = "905--911",
+    abstract = "Deep NLP models benefit from underlying structures in the data{---}e.g., parse trees{---}typically extracted using off-the-shelf parsers. Recent attempts to jointly learn the latent structure encounter a tradeoff: either make factorization assumptions that limit expressiveness, or sacrifice end-to-end differentiability. Using the recently proposed SparseMAP inference, which retrieves a sparse distribution over latent structures, we propose a novel approach for end-to-end learning of latent structure predictors jointly with a downstream predictor. To the best of our knowledge, our method is the first to enable unrestricted dynamic computation graph construction from the global latent structure, while maintaining differentiability."
+}`
 }
 },
   {
@@ -2559,7 +5186,38 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/W18-6311/",
-  "bibtex": "@inproceedings{maruf-etal-2018-contextual,\n    title = \"Contextual Neural Model for Translating Bilingual Multi-Speaker Conversations\",\n    author = \"Maruf, Sameen  and\n      Martins, Andr{\\'e} F. T.  and\n      Haffari, Gholamreza\",\n    editor = \"Bojar, Ond{\\v{r}}ej  and\n      Chatterjee, Rajen  and\n      Federmann, Christian  and\n      Fishel, Mark  and\n      Graham, Yvette  and\n      Haddow, Barry  and\n      Huck, Matthias  and\n      Yepes, Antonio Jimeno  and\n      Koehn, Philipp  and\n      Monz, Christof  and\n      Negri, Matteo  and\n      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and\n      Neves, Mariana  and\n      Post, Matt  and\n      Specia, Lucia  and\n      Turchi, Marco  and\n      Verspoor, Karin\",\n    booktitle = \"Proceedings of the Third Conference on Machine Translation: Research Papers\",\n    month = oct,\n    year = \"2018\",\n    address = \"Brussels, Belgium\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/W18-6311/\",\n    doi = \"10.18653/v1/W18-6311\",\n    pages = \"101--112\",\n    abstract = \"Recent works in neural machine translation have begun to explore document translation. However, translating online multi-speaker conversations is still an open problem. In this work, we propose the task of translating Bilingual Multi-Speaker Conversations, and explore neural architectures which exploit both source and target-side conversation histories for this task. To initiate an evaluation for this task, we introduce datasets extracted from Europarl v7 and OpenSubtitles2016. Our experiments on four language-pairs confirm the significance of leveraging conversation history, both in terms of BLEU and manual evaluation.\"\n}"
+  "bibtex": `@inproceedings{maruf-etal-2018-contextual,
+    title = "Contextual Neural Model for Translating Bilingual Multi-Speaker Conversations",
+    author = "Maruf, Sameen  and
+      Martins, Andr{\\'e} F. T.  and
+      Haffari, Gholamreza",
+    editor = "Bojar, Ond{\\v{r}}ej  and
+      Chatterjee, Rajen  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Graham, Yvette  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Monz, Christof  and
+      Negri, Matteo  and
+      N{\\'e}v{\\'e}ol, Aur{\\'e}lie  and
+      Neves, Mariana  and
+      Post, Matt  and
+      Specia, Lucia  and
+      Turchi, Marco  and
+      Verspoor, Karin",
+    booktitle = "Proceedings of the Third Conference on Machine Translation: Research Papers",
+    month = oct,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W18-6311/",
+    doi = "10.18653/v1/W18-6311",
+    pages = "101--112",
+    abstract = "Recent works in neural machine translation have begun to explore document translation. However, translating online multi-speaker conversations is still an open problem. In this work, we propose the task of translating Bilingual Multi-Speaker Conversations, and explore neural architectures which exploit both source and target-side conversation histories for this task. To initiate an evaluation for this task, we introduce datasets extracted from Europarl v7 and OpenSubtitles2016. Our experiments on four language-pairs confirm the significance of leveraging conversation history, both in terms of BLEU and manual evaluation."
+}`
 }
 },
   {
@@ -2576,7 +5234,21 @@ const publicationsData = [
 ],
   "links": {
   "paper": "http://proceedings.mlr.press/v80/niculae18a/niculae18a.pdf",
-  "bibtex": "@InProceedings{pmlr-v80-niculae18a,\n  title = \t {{S}parse{MAP}: Differentiable Sparse Structured Inference},\n  author =       {Niculae, Vlad and Martins, Andre and Blondel, Mathieu and Cardie, Claire},\n  booktitle = \t {Proceedings of the 35th International Conference on Machine Learning},\n  pages = \t {3799--3808},\n  year = \t {2018},\n  editor = \t {Dy, Jennifer and Krause, Andreas},\n  volume = \t {80},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {10--15 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v80/niculae18a/niculae18a.pdf},\n  url = \t {https://proceedings.mlr.press/v80/niculae18a.html},\n  abstract = \t {Structured prediction requires searching over a combinatorial number of structures. To tackle it, we introduce SparseMAP, a new method for sparse structured inference, together with corresponding loss functions. SparseMAP inference is able to automatically select only a few global structures: it is situated between MAP inference, which picks a single structure, and marginal inference, which assigns probability mass to all structures, including implausible ones. Importantly, SparseMAP can be computed using only calls to a MAP oracle, hence it is applicable even to problems where marginal inference is intractable, such as linear assignment. Moreover, thanks to the solution sparsity, gradient backpropagation is efficient regardless of the structure. SparseMAP thus enables us to augment deep neural networks with generic and sparse structured hidden layers. Experiments in dependency parsing and natural language inference reveal competitive accuracy, improved interpretability, and the ability to capture natural language ambiguities, which is attractive for pipeline systems.}\n}"
+  "bibtex": `@InProceedings{pmlr-v80-niculae18a,
+  title = 	 {{S}parse{MAP}: Differentiable Sparse Structured Inference},
+  author =       {Niculae, Vlad and Martins, Andre and Blondel, Mathieu and Cardie, Claire},
+  booktitle = 	 {Proceedings of the 35th International Conference on Machine Learning},
+  pages = 	 {3799--3808},
+  year = 	 {2018},
+  editor = 	 {Dy, Jennifer and Krause, Andreas},
+  volume = 	 {80},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {10--15 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v80/niculae18a/niculae18a.pdf},
+  url = 	 {https://proceedings.mlr.press/v80/niculae18a.html},
+  abstract = 	 {Structured prediction requires searching over a combinatorial number of structures. To tackle it, we introduce SparseMAP, a new method for sparse structured inference, together with corresponding loss functions. SparseMAP inference is able to automatically select only a few global structures: it is situated between MAP inference, which picks a single structure, and marginal inference, which assigns probability mass to all structures, including implausible ones. Importantly, SparseMAP can be computed using only calls to a MAP oracle, hence it is applicable even to problems where marginal inference is intractable, such as linear assignment. Moreover, thanks to the solution sparsity, gradient backpropagation is efficient regardless of the structure. SparseMAP thus enables us to augment deep neural networks with generic and sparse structured hidden layers. Experiments in dependency parsing and natural language inference reveal competitive accuracy, improved interpretability, and the ability to capture natural language ambiguities, which is attractive for pipeline systems.}
+}`
 }
 },
   {
@@ -2593,7 +5265,23 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/P18-2059/",
-  "bibtex": "@inproceedings{malaviya-etal-2018-sparse,\n    title = \"Sparse and Constrained Attention for Neural Machine Translation\",\n    author = \"Malaviya, Chaitanya  and\n      Ferreira, Pedro  and\n      Martins, Andr{\\'e} F. T.\",\n    editor = \"Gurevych, Iryna  and\n      Miyao, Yusuke\",\n    booktitle = \"Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)\",\n    month = jul,\n    year = \"2018\",\n    address = \"Melbourne, Australia\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P18-2059/\",\n    doi = \"10.18653/v1/P18-2059\",\n    pages = \"370--376\",\n    abstract = \"In neural machine translation, words are sometimes dropped from the source or generated repeatedly in the translation. We explore novel strategies to address the coverage problem that change only the attention transformation. Our approach allocates fertilities to source words, used to bound the attention each word can receive. We experiment with various sparse and constrained attention transformations and propose a new one, constrained sparsemax, shown to be differentiable and sparse. Empirical evaluation is provided in three languages pairs.\"\n}"
+  "bibtex": `@inproceedings{malaviya-etal-2018-sparse,
+    title = "Sparse and Constrained Attention for Neural Machine Translation",
+    author = "Malaviya, Chaitanya  and
+      Ferreira, Pedro  and
+      Martins, Andr{\\'e} F. T.",
+    editor = "Gurevych, Iryna  and
+      Miyao, Yusuke",
+    booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P18-2059/",
+    doi = "10.18653/v1/P18-2059",
+    pages = "370--376",
+    abstract = "In neural machine translation, words are sometimes dropped from the source or generated repeatedly in the translation. We explore novel strategies to address the coverage problem that change only the attention transformation. Our approach allocates fertilities to source words, used to bound the attention each word can receive. We experiment with various sparse and constrained attention transformations and propose a new one, constrained sparsemax, shown to be differentiable and sparse. Empirical evaluation is provided in three languages pairs."
+}`
 }
 },
   {
@@ -2610,7 +5298,32 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/P18-4020/",
-  "bibtex": "@inproceedings{junczys-dowmunt-etal-2018-marian,\n    title = \"{M}arian: Fast Neural Machine Translation in {C}++\",\n    author = \"Junczys-Dowmunt, Marcin  and\n      Grundkiewicz, Roman  and\n      Dwojak, Tomasz  and\n      Hoang, Hieu  and\n      Heafield, Kenneth  and\n      Neckermann, Tom  and\n      Seide, Frank  and\n      Germann, Ulrich  and\n      Aji, Alham Fikri  and\n      Bogoychev, Nikolay  and\n      Martins, Andr{\\'e} F. T.  and\n      Birch, Alexandra\",\n    editor = \"Liu, Fei  and\n      Solorio, Thamar\",\n    booktitle = \"Proceedings of {ACL} 2018, System Demonstrations\",\n    month = jul,\n    year = \"2018\",\n    address = \"Melbourne, Australia\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P18-4020/\",\n    doi = \"10.18653/v1/P18-4020\",\n    pages = \"116--121\",\n    abstract = \"We present Marian, an efficient and self-contained Neural Machine Translation framework with an integrated automatic differentiation engine based on dynamic computation graphs. Marian is written entirely in C++. We describe the design of the encoder-decoder framework and demonstrate that a research-friendly toolkit can achieve high training and translation speed.\"\n}"
+  "bibtex": `@inproceedings{junczys-dowmunt-etal-2018-marian,
+    title = "{M}arian: Fast Neural Machine Translation in {C}++",
+    author = "Junczys-Dowmunt, Marcin  and
+      Grundkiewicz, Roman  and
+      Dwojak, Tomasz  and
+      Hoang, Hieu  and
+      Heafield, Kenneth  and
+      Neckermann, Tom  and
+      Seide, Frank  and
+      Germann, Ulrich  and
+      Aji, Alham Fikri  and
+      Bogoychev, Nikolay  and
+      Martins, Andr{\\'e} F. T.  and
+      Birch, Alexandra",
+    editor = "Liu, Fei  and
+      Solorio, Thamar",
+    booktitle = "Proceedings of {ACL} 2018, System Demonstrations",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P18-4020/",
+    doi = "10.18653/v1/P18-4020",
+    pages = "116--121",
+    abstract = "We present Marian, an efficient and self-contained Neural Machine Translation framework with an integrated automatic differentiation engine based on dynamic computation graphs. Marian is written entirely in C++. We describe the design of the encoder-decoder framework and demonstrate that a research-friendly toolkit can achieve high training and translation speed."
+}`
 }
 },
   {
@@ -2626,7 +5339,23 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/D17-1036/",
-  "bibtex": "@inproceedings{martins-kreutzer-2017-learning,\n    title = \"Learning What{'}s Easy: Fully Differentiable Neural Easy-First Taggers\",\n    author = \"Martins, Andr{\\'e} F. T.  and\n      Kreutzer, Julia\",\n    editor = \"Palmer, Martha  and\n      Hwa, Rebecca  and\n      Riedel, Sebastian\",\n    booktitle = \"Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing\",\n    month = sep,\n    year = \"2017\",\n    address = \"Copenhagen, Denmark\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/D17-1036/\",\n    doi = \"10.18653/v1/D17-1036\",\n    pages = \"349--362\",\n    abstract = \"We introduce a novel neural easy-first decoder that learns to solve sequence tagging tasks in a flexible order. In contrast to previous easy-first decoders, our models are end-to-end differentiable. The decoder iteratively updates a ``sketch'' of the predictions over the sequence. At its core is an attention mechanism that controls which parts of the input are strategically the best to process next. We present a new constrained softmax transformation that ensures the same cumulative attention to every word, and show how to efficiently evaluate and backpropagate over it. Our models compare favourably to BILSTM taggers on three sequence tagging tasks.\"\n}"
+  "bibtex": `@inproceedings{martins-kreutzer-2017-learning,
+    title = "Learning What{'}s Easy: Fully Differentiable Neural Easy-First Taggers",
+    author = "Martins, Andr{\\'e} F. T.  and
+      Kreutzer, Julia",
+    editor = "Palmer, Martha  and
+      Hwa, Rebecca  and
+      Riedel, Sebastian",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1036/",
+    doi = "10.18653/v1/D17-1036",
+    pages = "349--362",
+    abstract = "We introduce a novel neural easy-first decoder that learns to solve sequence tagging tasks in a flexible order. In contrast to previous easy-first decoders, our models are end-to-end differentiable. The decoder iteratively updates a \`\`sketch'' of the predictions over the sequence. At its core is an attention mechanism that controls which parts of the input are strategically the best to process next. We present a new constrained softmax transformation that ensures the same cumulative attention to every word, and show how to efficiently evaluate and backpropagate over it. Our models compare favourably to BILSTM taggers on three sequence tagging tasks."
+}`
 }
 },
   {
@@ -2642,7 +5371,27 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://aclanthology.org/Q17-1015/",
-  "bibtex": "@article{martins-etal-2017-pushing,\n    title = \"Pushing the Limits of Translation Quality Estimation\",\n    author = \"Martins, Andr{\\'e} F. T.  and\n      Junczys-Dowmunt, Marcin  and\n      Kepler, Fabio N.  and\n      Astudillo, Ram{\\'o}n  and\n      Hokamp, Chris  and\n      Grundkiewicz, Roman\",\n    editor = \"Lee, Lillian  and\n      Johnson, Mark  and\n      Toutanova, Kristina\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"5\",\n    year = \"2017\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/Q17-1015/\",\n    doi = \"10.1162/tacl_a_00056\",\n    pages = \"205--218\",\n    abstract = \"Translation quality estimation is a task of growing importance in NLP, due to its potential to reduce post-editing human effort in disruptive ways. However, this potential is currently limited by the relatively low accuracy of existing systems. In this paper, we achieve remarkable improvements by exploiting synergies between the related tasks of word-level quality estimation and automatic post-editing. First, we stack a new, carefully engineered, neural model into a rich feature-based word-level quality estimation system. Then, we use the output of an automatic post-editing system as an extra feature, obtaining striking results on WMT16: a word-level FMULT1 score of 57.47{\\%} (an absolute gain of +7.95{\\%} over the current state of the art), and a Pearson correlation score of 65.56{\\%} for sentence-level HTER prediction (an absolute gain of +13.36{\\%}).\"\n}"
+  "bibtex": `@article{martins-etal-2017-pushing,
+    title = "Pushing the Limits of Translation Quality Estimation",
+    author = "Martins, Andr{\\'e} F. T.  and
+      Junczys-Dowmunt, Marcin  and
+      Kepler, Fabio N.  and
+      Astudillo, Ram{\\'o}n  and
+      Hokamp, Chris  and
+      Grundkiewicz, Roman",
+    editor = "Lee, Lillian  and
+      Johnson, Mark  and
+      Toutanova, Kristina",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "5",
+    year = "2017",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/Q17-1015/",
+    doi = "10.1162/tacl_a_00056",
+    pages = "205--218",
+    abstract = "Translation quality estimation is a task of growing importance in NLP, due to its potential to reduce post-editing human effort in disruptive ways. However, this potential is currently limited by the relatively low accuracy of existing systems. In this paper, we achieve remarkable improvements by exploiting synergies between the related tasks of word-level quality estimation and automatic post-editing. First, we stack a new, carefully engineered, neural model into a rich feature-based word-level quality estimation system. Then, we use the output of an automatic post-editing system as an extra feature, obtaining striking results on WMT16: a word-level FMULT1 score of 57.47{\\%} (an absolute gain of +7.95{\\%} over the current state of the art), and a Pearson correlation score of 65.56{\\%} for sentence-level HTER prediction (an absolute gain of +13.36{\\%})."
+}`
 }
 },
   {
@@ -2660,7 +5409,22 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/1602.02068",
-  "bibtex": "@InProceedings{pmlr-v48-martins16,\n  title = \t {From Softmax to Sparsemax: A Sparse Model of Attention and Multi-Label Classification},\n  author = \t {Martins, Andre and Astudillo, Ramon},\n  booktitle = \t {Proceedings of The 33rd International Conference on Machine Learning},\n  pages = \t {1614--1623},\n  year = \t {2016},\n  editor = \t {Balcan, Maria Florina and Weinberger, Kilian Q.},\n  volume = \t {48},\n  series = \t {Proceedings of Machine Learning Research},\n  address = \t {New York, New York, USA},\n  month = \t {20--22 Jun},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v48/martins16.pdf},\n  url = \t {https://proceedings.mlr.press/v48/martins16.html},\n  abstract = \t {We propose sparsemax, a new activation function similar to the traditional softmax, but able to output sparse probabilities. After deriving its properties, we show how its Jacobian can be efficiently computed, enabling its use in a network trained with backpropagation. Then, we propose a new smooth and convex loss function which is the sparsemax analogue of the logistic loss. We reveal an unexpected connection between this new loss and the Huber classification loss. We obtain promising empirical results in multi-label classification problems and in attention-based neural networks for natural language inference. For the latter, we achieve a similar performance as the traditional softmax, but with a selective, more compact, attention focus.}\n}"
+  "bibtex": `@InProceedings{pmlr-v48-martins16,
+  title = 	 {From Softmax to Sparsemax: A Sparse Model of Attention and Multi-Label Classification},
+  author = 	 {Martins, Andre and Astudillo, Ramon},
+  booktitle = 	 {Proceedings of The 33rd International Conference on Machine Learning},
+  pages = 	 {1614--1623},
+  year = 	 {2016},
+  editor = 	 {Balcan, Maria Florina and Weinberger, Kilian Q.},
+  volume = 	 {48},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {New York, New York, USA},
+  month = 	 {20--22 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v48/martins16.pdf},
+  url = 	 {https://proceedings.mlr.press/v48/martins16.html},
+  abstract = 	 {We propose sparsemax, a new activation function similar to the traditional softmax, but able to output sparse probabilities. After deriving its properties, we show how its Jacobian can be efficiently computed, enabling its use in a network trained with backpropagation. Then, we propose a new smooth and convex loss function which is the sparsemax analogue of the logistic loss. We reveal an unexpected connection between this new loss and the Huber classification loss. We obtain promising empirical results in multi-label classification problems and in attention-based neural networks for natural language inference. For the latter, we achieve a similar performance as the traditional softmax, but with a selective, more compact, attention focus.}
+}`
 }
 }
 ];

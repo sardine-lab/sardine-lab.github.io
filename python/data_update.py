@@ -59,7 +59,7 @@ CONFIG = {
 
 
 # Fields that can contain HTML/Markdown and should be emitted with backticks
-RICH_TEXT_KEYS = {"abstract", "content", "description"}
+RICH_TEXT_KEYS = {"abstract", "content", "description", "bibtex"}
 
 # =====================
 # Google Sheets helpers

@@ -67,8 +67,9 @@ class PublicationsManager {
                 };
                 
                 if (type === 'bibtex') {
+                    // url = bibtex content
                     return `
-                        <button class="bibtex-btn inline-flex items-center px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm hover:bg-slate-200 transition-colors" data-bibtex="${url}">
+                        <button class="bibtex-btn inline-flex items-center px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm hover:bg-slate-200 transition-colors" data-bibtex="${encodeURIComponent(url)}">
                             <i class="${icons[type]} mr-1"></i>
                             BibTeX
                         </button>
@@ -159,7 +160,7 @@ class PublicationsManager {
                     const card = this.closest('.publication-card');
                     const container = card.querySelector('.bibtex-container');
                     const textarea = container.querySelector('.bibtex-content');
-                    const bibtexData = this.getAttribute('data-bibtex');
+                    const bibtexData = decodeURIComponent(this.getAttribute('data-bibtex'));
                     
                     if (container.classList.contains('hidden')) {
                         // Show bibtex container
@@ -251,7 +252,7 @@ class PublicationsManager {
                 
                 if (type === 'bibtex') {
                     return `
-                        <button class="bibtex-btn inline-flex items-center px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm hover:bg-slate-200 transition-colors" data-bibtex="${url}">
+                        <button class="bibtex-btn inline-flex items-center px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm hover:bg-slate-200 transition-colors" data-bibtex="${encodeURIComponent(url)}">
                             <i class="${icons[type]} mr-1"></i>
                             BibTeX
                         </button>
@@ -334,7 +335,7 @@ class PublicationsManager {
                     const card = this.closest('.publication-card');
                     const container = card.querySelector('.bibtex-container');
                     const textarea = container.querySelector('.bibtex-content');
-                    const bibtexData = this.getAttribute('data-bibtex');
+                    const bibtexData = decodeURIComponent(this.getAttribute('data-bibtex'));
                     
                     if (container.classList.contains('hidden')) {
                         // Show bibtex container

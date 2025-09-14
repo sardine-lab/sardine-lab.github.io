@@ -354,27 +354,27 @@ select:focus {
 
 /* Publication Type Badges */
 .badge-conference {
-  background: #dbeafe;
-  color: var(--sardine-blue);
-  border: 1px solid #93c5fd;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #e2e8f0;
 }
 
 .badge-journal {
-  background: #dcfce7;
-  color: #166534;
-  border: 1px solid #86efac;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #e2e8f0;
 }
 
 .badge-preprint {
-  background: #fef3c7;
-  color: #92400e;
-  border: 1px solid #fcd34d;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #e2e8f0;
 }
 
 .badge-book {
-  background: #f3e8ff;
-  color: #6b21a8;
-  border: 1px solid #d8b4fe;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #e2e8f0;
 }
 
 
