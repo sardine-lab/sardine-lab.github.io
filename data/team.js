@@ -169,7 +169,7 @@ const teamData = {
   "start_year": 2025,
   "graduation_year": "current",
   "research_interests": [
-  "Benchmarking"
+  "LM Evaluation"
 ],
   "links": {
   "github": "https://github.com/BeatrizCanaverde",
@@ -294,7 +294,10 @@ const teamData = {
   "BioNLP"
 ],
   "links": {
-  "linkedin": "https://www.linkedin.com/in/lara-sa-neves/"
+  "website": "https://larasneves.github.io/",
+  "github": "https://github.com/larasneves",
+  "linkedin": "https://www.linkedin.com/in/lara-sa-neves/",
+  "scholar": "https://scholar.google.com/citations?user=x8L2-HkAAAAJ&hl=pt-PT"
 },
   "country": "Portugal",
   "city": "Lisbon"
