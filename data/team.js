@@ -25,7 +25,7 @@ const teamData = {
   {
   "name": "Chryssa Zerva",
   "role": "faculty",
-  "position": "Assistant Professor at NTUA",
+  "position": "Assistant Professor at IST",
   "image": "assets/figs/team/chryssa_zerva.jpeg",
   "start_year": 2021,
   "graduation_year": "current",
@@ -185,7 +185,6 @@ const teamData = {
   "position": "PhD Student at IST",
   "image": "assets/figs/team/duarte_alves.jpeg",
   "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Pierre Colombo",
   "start_year": 2023,
   "graduation_year": "current",
   "research_interests": [
@@ -329,7 +328,6 @@ const teamData = {
   "position": "PhD Student at IST",
   "image": "assets/figs/team/miguel_ramos.jpeg",
   "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Patrick Fernandes",
   "start_year": 2024,
   "graduation_year": "current",
   "research_interests": [
@@ -450,6 +448,7 @@ const teamData = {
   "position": "PhD Student at IST",
   "image": "assets/figs/team/sonal_sannigrahi.jpg",
   "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Giuseppe Attanasio",
   "start_year": 2023,
   "graduation_year": "current",
   "research_interests": [
@@ -470,7 +469,6 @@ const teamData = {
   "position": "PhD Student at IST",
   "image": "assets/figs/team/sophia_sklaviadis.jpeg",
   "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "M\u00e1rio Figueiredo",
   "start_year": 2023,
   "graduation_year": "current",
   "research_interests": [
