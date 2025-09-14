@@ -229,15 +229,16 @@ const teamData = {
   "start_year": 2025,
   "graduation_year": "current",
   "research_interests": [
-  "Agents"
+  "Reasoning & LMMs"
 ],
   "links": {
   "website": "https://www.gviveiros.com/",
   "github": "https://github.com/GuilhermeViveiros",
-  "linkedin": "https://www.linkedin.com/in/guilherme-viveiros-28985418b/"
+  "linkedin": "https://www.linkedin.com/in/guilherme-viveiros-28985418b/",
+  "scholar": "https://scholar.google.com/citations?user=5ZTx_RgAAAAJ&hl=pt-PT"
 },
   "country": "Portugal",
-  "city": "Braga"
+  "city": "Lisbon"
 },
   {
   "name": "Haau-Sing Li",
