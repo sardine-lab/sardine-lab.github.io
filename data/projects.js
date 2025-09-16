@@ -88,6 +88,30 @@ const projectsData = {
   "Non-Exchangeable Conformal Risk Control"
 ],
   "description": `<p>The Center for Responsible AI (CRAI) is dedicated to advancing Artificial Intelligence that is fair, transparent, efficient, and socially responsible. Its mission is to ensure that AI technologies are developed and applied in ways that benefit people, respect human rights, and support sustainable digital transformation.</p>`
+},
+  {
+  "name": "Ouvia",
+  "title": "A User-Centered Benchmark for Usability Assessment of Speech Translation Systems",
+  "status": "current",
+  "funding": "European Association for Machine Translation",
+  "pi": "Giuseppe Attanasio",
+  "period": "2025-2026",
+  "team_members": [
+  "Giuseppe Attanasio",
+  "Sweta Agrawal",
+  "Andr\u00e9 Martins"
+],
+  "collaborators": [
+  "Google"
+],
+  "keywords": [
+  "speech translation",
+  "usability",
+  "user-centered evaluation",
+  "benchmark"
+],
+  "website": "https://www.it.pt/Projects/Index/4932",
+  "description": `<p>This project seeks to reduce disparities in speech translation (ST) technologies by analyzing performance across demographic groups, particularly gender and ethnicity. It involves creating a multilingual benchmark to assess real-world usability, testing ST tools in both high- and low-stakes scenarios, measuring how well automatic metrics align with perceived usability, and if demographic performance gaps exist.</p>`
 }
 ],
   "past": [

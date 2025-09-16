@@ -89,7 +89,7 @@ const teamData = {
   "start_year": 2024,
   "graduation_year": "current",
   "research_interests": [
-  "Fairness & Bias"
+  "Interpretability & Ethics"
 ],
   "links": {
   "website": "https://gattanasio.cc/",
@@ -98,7 +98,7 @@ const teamData = {
   "scholar": "https://scholar.google.com/citations?user=IuhnRJQAAAAJ"
 },
   "country": "Italy",
-  "city": "Torino"
+  "city": "Castrovillari"
 },
   {
   "name": "Matthias Lindemann",
