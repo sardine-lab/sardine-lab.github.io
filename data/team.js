@@ -6,7 +6,7 @@ const teamData = {
   {
   "name": "Andr\u00e9 Martins",
   "role": "faculty",
-  "position": "Associate Professor at IST & Group Leader",
+  "position": "Associate Professor at IST and Group Leader",
   "image": "assets/figs/team/andre_martins.jpeg",
   "start_year": 2018,
   "graduation_year": "current",
