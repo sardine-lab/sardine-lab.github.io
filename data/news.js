@@ -3,6 +3,17 @@
 
 const newsData = [
   {
+  "date": "23/09/2025",
+  "type": "team",
+  "title": "Andr\u00e9 is looking for post-docs",
+  "content": `<p><a href="https://andre-martins.github.io/">André Martins</a> is looking for highly motivated post-docs to join our SARDINE Lab in Lisbon to work on the <a href="https://andre-martins.github.io/pages/decollage.html">DECOLLAGE project</a> (ERC Consolidator). Please reach out by DM or email! </p>`,
+  "tags": [
+  "team",
+  "postdocs",
+  "job"
+]
+},
+  {
   "date": "30/07/2025",
   "type": "award",
   "title": "Outstanding Paper Award at ACL 2025",
@@ -202,7 +213,7 @@ Big applause to <strong>António Farinhas</strong> for successfully defending hi
 },
   {
   "date": "01/08/2022",
-  "type": "conference",
+  "type": "presentation",
   "title": "Mercury Machine Learning Lab Keynote",
   "content": `<p><a href="https://andre-martins.github.io/">André Martins</a> gave a keynote at the Mercury Machine Learning Lab (<a href="https://icai.ai/mercury-machine-learning-lab/">MMLL</a>) seminar series. He talked about how to go from sparse modeling to sparse communication. Check the video <a href="https://www.youtube.com/watch?v=UFsCAr4kIc0&amp;list=PLTg_E6ob657XajMOqJ4HxfQcv49f8xD_Z&amp;t=8s">here</a>!</p>`,
   "tags": [
