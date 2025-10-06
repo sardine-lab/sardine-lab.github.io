@@ -432,7 +432,7 @@ url={https://openreview.net/forum?id=Atyk8lnIQQ}
   {
   "id": 137,
   "title": "Zero-shot Benchmarking: A Framework for Flexible and Scalable Automatic Evaluation of Language Models",
-  "authors": "Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig",
+  "authors": "Jos\u00e9 Maria Pombal, Nuno Miguel Guerreiro, Ricardo Rei, Andre Martins",
   "venue": "COLM",
   "year": 2025,
   "type": "conference",

@@ -5,12 +5,12 @@ const newsData = [
   {
   "date": "23/09/2025",
   "type": "team",
-  "title": "Andr\u00e9 is looking for post-docs",
-  "content": `<p><a href="https://andre-martins.github.io/">André Martins</a> is looking for highly motivated post-docs to join our SARDINE Lab in Lisbon to work on the <a href="https://andre-martins.github.io/pages/decollage.html">DECOLLAGE project</a> (ERC Consolidator). Please reach out by DM or email! </p>`,
+  "title": "Post-doc Openings at SARDINE Lab",
+  "content": `<p><a href="https://andre-martins.github.io/">André Martins</a> is recruiting post-doc researchers to join the SARDINE Lab in Lisbon and work on the <a href="https://andre-martins.github.io/pages/decollage.html">DECOLLAGE project</a> (ERC Consolidator Grant). Please get in touch via DM or email.</p>`,
   "tags": [
   "team",
-  "postdocs",
-  "job"
+  "post-doc",
+  "open-position"
 ]
 },
   {
