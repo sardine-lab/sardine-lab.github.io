@@ -493,6 +493,22 @@ select:focus {
   color: #334155;
 }
 
+.news-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.news-content ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.news-content li {
+  margin: 0.25rem 0;
+}
+
 .news-content p {
   margin-bottom: 1rem;
 }
