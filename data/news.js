@@ -3,13 +3,28 @@
 
 const newsData = [
   {
-  "date": "23/09/2025",
+  "date": "12/10/2025",
   "type": "team",
-  "title": "Post-doc Openings at SARDINE Lab",
-  "content": `<p><a href="https://andre-martins.github.io/">André Martins</a> is recruiting post-doc researchers to join the SARDINE Lab in Lisbon and work on the <a href="https://andre-martins.github.io/pages/decollage.html">DECOLLAGE project</a> (ERC Consolidator Grant). Please get in touch via DM or email.</p>`,
+  "title": "We're Hiring: Post-doc, PhD, and Research Engineer Positions at SARDINE Lab!",
+  "content": `<p>We have open positions for <strong>PhD students</strong>, <strong>postdoctoral researchers</strong>, and <strong>research engineers</strong> within the scope of the <a href="https://andre-martins.github.io/pages/decollage.html">ERC project DECOLLAGE</a> — <em>Deep Cognition Learning for Language Generation</em> — an <strong>ERC Consolidator Grant (2023–2028)</strong> running at the <strong><a href="https://sardine-lab.github.io">SARDINE Lab</a></strong> in Lisbon.</p>
+<p>Our research spans a wide range of topics, including:</p>
+<ul>
+<li>LLM contextualization and multimodal reasoning</li>
+<li>Uncertainty-aware world models</li>
+<li>Efficient long-context generalization for text and video</li>
+<li>Multilingual and multimodal LLM pre- and post-training</li>
+<li>Associative memories and sparse continuous representations</li>
+<li>New paradigms for automatic evaluation</li>
+</ul>
+<p>We have <strong>access to large-scale compute resources</strong>, including a <strong>2M GPU-hour grant</strong> on the <em>Jupiter exascale supercomputer</em>.</p>
+<p>Our team has contributed to the training and post-training of leading language models such as <a href="https://arxiv.org/abs/2402.17733">Tower</a> and <a href="https://eurollm.io/">EuroLLM</a>.</p>
+<p>Learn more about the <a href="https://sardine-lab.github.io">SARDINE Lab</a> and explore our <a href="https://sardine-lab.github.io/publications.html">recent publications</a>.</p>
+<p><strong>Interested?</strong>
+Contact us via e-mail! The specific roles within the project will be tailored to each member's research interests and background.</p>`,
   "tags": [
   "team",
   "post-doc",
+  "phd",
   "open-position"
 ]
 },
