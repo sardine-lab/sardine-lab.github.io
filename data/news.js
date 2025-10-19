@@ -6,8 +6,7 @@ const newsData = [
   "date": "12/10/2025",
   "type": "team",
   "title": "We're Hiring: Post-doc, PhD, and Research Engineer Positions at SARDINE Lab!",
-  "content": `<p><img alt="Open Positions Banner" src="assets/figs/hiring-postdocs-phds.jpeg" />
-<p>We have open positions for <strong>PhD students</strong>, <strong>postdoctoral researchers</strong>, and <strong>research engineers</strong> within the scope of the <a href="https://andre-martins.github.io/pages/decollage.html">ERC project DECOLLAGE</a> — <em>Deep Cognition Learning for Language Generation</em> — an <strong>ERC Consolidator Grant (2023–2028)</strong> running at the <strong><a href="https://sardine-lab.github.io">SARDINE Lab</a></strong> in Lisbon.</p>
+  "content": `<p>We have open positions for <strong>PhD students</strong>, <strong>postdoctoral researchers</strong>, and <strong>research engineers</strong> within the scope of the <a href="https://andre-martins.github.io/pages/decollage.html">ERC project DECOLLAGE</a> — <em>Deep Cognition Learning for Language Generation</em> — an <strong>ERC Consolidator Grant (2023–2028)</strong> running at the <strong><a href="https://sardine-lab.github.io">SARDINE Lab</a></strong> in Lisbon.</p>
 <p>Our research spans a wide range of topics, including:</p>
 <ul>
 <li>LLM contextualization and multimodal reasoning</li>

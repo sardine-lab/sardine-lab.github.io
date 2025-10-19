@@ -141,26 +141,6 @@ const teamData = {
 ],
   "phds": [
   {
-  "name": "Ant\u00f3nio Farinhas",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/antonio_farinhas.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2021,
-  "graduation_year": "current",
-  "research_interests": [
-  "Theory & Translation"
-],
-  "links": {
-  "website": "https://antonio-farinhas.github.io/",
-  "github": "https://github.com/antonio-farinhas",
-  "linkedin": "https://www.linkedin.com/in/ant%C3%B3nio-farinhas-4bb333102/",
-  "scholar": "https://scholar.google.com/citations?user=yK5wIPkAAAAJ&hl=en"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
   "name": "Beatriz Canaverde",
   "role": "phd",
   "position": "PhD Student at IST",
@@ -360,27 +340,6 @@ const teamData = {
   "city": "Braga"
 },
   {
-  "name": "Patrick Fernandes",
-  "role": "phd",
-  "position": "PhD Student at CMU/IST",
-  "image": "assets/figs/team/patrick_fernandes.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Graham Neubig",
-  "start_year": 2020,
-  "graduation_year": "current",
-  "research_interests": [
-  "Translation & LLMs"
-],
-  "links": {
-  "website": "https://patricksf.dev/",
-  "github": "https://github.com/coderpat",
-  "linkedin": "https://www.linkedin.com/in/patrick-fernandes-387266137/",
-  "scholar": "https://scholar.google.com/citations?user=YPPGQnEAAAAJ&hl=en"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
   "name": "Pavlo Vasylenko",
   "role": "phd",
   "position": "PhD Student at IST",
@@ -484,51 +443,28 @@ const teamData = {
   "city": "Thessaloniki"
 }
 ],
-  "researchers": [
+  "alumnis": [
   {
-  "name": "Anil Keshwani",
-  "role": "researcher",
-  "position": "Visiting Researcher at IT",
-  "image": "assets/figs/team/anil_keshwani.jpeg",
+  "name": "Ant\u00f3nio Farinhas",
+  "role": "alumni",
+  "position": "Research Scientist at Sword Health",
+  "image": "assets/figs/team/antonio_farinhas.jpeg",
   "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Ben Peters",
-  "start_year": 2024,
-  "graduation_year": "current",
+  "start_year": 2021,
+  "graduation_year": 2025,
   "research_interests": [
-  "Speech"
+  "Theory & Translation"
 ],
+  "previous_position": "PhD",
   "links": {
-  "website": "https://anilkeshwani.github.io/",
-  "github": "https://github.com/anilkeshwani",
-  "linkedin": "https://www.linkedin.com/in/anilkeshwani/",
-  "scholar": "https://scholar.google.com/citations?user=mwyhUQoAAAAJ&hl=en"
-},
-  "country": "United Kingdom",
-  "city": "London"
-},
-  {
-  "name": "Hugo Pitorro",
-  "role": "researcher",
-  "position": "Visiting Researcher at IT",
-  "image": "assets/figs/team/hugo_pitorro.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Marcos Treviso",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Efficiency & Interpretability"
-],
-  "links": {
-  "website": "https://pitorro.de/",
-  "github": "https://github.com/xtwigs",
-  "linkedin": "https://www.linkedin.com/in/hugo-henrique-pitorro/",
-  "scholar": "https://scholar.google.com/citations?user=P-cyHFkAAAAJ&hl=en"
+  "website": "https://antonio-farinhas.github.io/",
+  "github": "https://github.com/antonio-farinhas",
+  "linkedin": "https://www.linkedin.com/in/ant%C3%B3nio-farinhas-4bb333102/",
+  "scholar": "https://scholar.google.com/citations?user=yK5wIPkAAAAJ&hl=en"
 },
   "country": "Portugal",
   "city": "Lisbon"
-}
-],
-  "alumnis": [
+},
   {
   "name": "Chunchuan Lyu",
   "role": "alumni",
@@ -565,6 +501,7 @@ const teamData = {
   "position": "Post-doc at University of Amsterdam",
   "image": "assets/figs/team/dennis_ulmer.jpeg",
   "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Giuseppe Attanasio",
   "start_year": 2023,
   "graduation_year": 2024,
   "previous_position": "Visiting Researcher",
@@ -686,6 +623,27 @@ const teamData = {
   "city": "Lisbon"
 },
   {
+  "name": "Patrick Fernandes",
+  "role": "alumni",
+  "image": "assets/figs/team/patrick_fernandes.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Graham Neubig",
+  "start_year": 2020,
+  "graduation_year": 2025,
+  "research_interests": [
+  "Translation & LLMs"
+],
+  "previous_position": "PhD (CMU-Portugal)",
+  "links": {
+  "website": "https://patricksf.dev/",
+  "github": "https://github.com/coderpat",
+  "linkedin": "https://www.linkedin.com/in/patrick-fernandes-387266137/",
+  "scholar": "https://scholar.google.com/citations?user=YPPGQnEAAAAJ&hl=en"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
   "name": "Pedro Martins",
   "role": "alumni",
   "position": "Research Scientist at Sword Health",
@@ -768,7 +726,7 @@ const teamData = {
   "role": "alumni",
   "position": "PhD at University of Amsterdam",
   "image": "assets/figs/team/wafaa_mohammed.jpeg",
-  "advisor": "Andr\u00e9 Martins",
+  "advisor": "Chryssa Zerva, Vlad Niculae",
   "start_year": 2025,
   "graduation_year": 2025,
   "previous_position": "Visiting Researcher",
@@ -790,6 +748,50 @@ const teamData = {
   "previous_position": "PhD",
   "links": {
   "website": "http://www.cs.cmu.edu/~zmarinho"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+}
+],
+  "researchers": [
+  {
+  "name": "Anil Keshwani",
+  "role": "researcher",
+  "position": "Visiting Researcher at IT",
+  "image": "assets/figs/team/anil_keshwani.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Ben Peters",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Speech"
+],
+  "links": {
+  "website": "https://anilkeshwani.github.io/",
+  "github": "https://github.com/anilkeshwani",
+  "linkedin": "https://www.linkedin.com/in/anilkeshwani/",
+  "scholar": "https://scholar.google.com/citations?user=mwyhUQoAAAAJ&hl=en"
+},
+  "country": "United Kingdom",
+  "city": "London"
+},
+  {
+  "name": "Hugo Pitorro",
+  "role": "researcher",
+  "position": "Visiting Researcher at IT",
+  "image": "assets/figs/team/hugo_pitorro.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Marcos Treviso",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Efficiency & Interpretability"
+],
+  "links": {
+  "website": "https://pitorro.de/",
+  "github": "https://github.com/xtwigs",
+  "linkedin": "https://www.linkedin.com/in/hugo-henrique-pitorro/",
+  "scholar": "https://scholar.google.com/citations?user=P-cyHFkAAAAJ&hl=en"
 },
   "country": "Portugal",
   "city": "Lisbon"
