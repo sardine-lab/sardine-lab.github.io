@@ -5,7 +5,7 @@ const publicationsData = [
   {
   "id": 152,
   "title": "Long-Context Generalization with Sparse Attention",
-  "authors": "Pavlo Vasylenko, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
+  "authors": "Pavlo Vasylenko, Hugo Pitorro, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
   "venue": "arXiv",
   "year": 2025,
   "type": "preprint",
