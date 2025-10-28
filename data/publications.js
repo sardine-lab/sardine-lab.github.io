@@ -15,6 +15,7 @@ const publicationsData = [
   "multilingual-translation"
 ],
   "links": {
+  "paper": "https://arxiv.org/abs/2510.21849",
   "code": "https://github.com/deep-spin/LLaVA-NeXT",
   "demo": "https://guilhermeviveiros.github.io/TowerVision.io/",
   "bibtex": `@misc{viveiros2025towervisionunderstandingimprovingmultilinguality,
