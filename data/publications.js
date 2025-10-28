@@ -4,6 +4,32 @@
 const publicationsData = [
   {
   "id": 152,
+  "title": "TowerVision: Understanding and Improving Multilinguality in Vision-Language Models",
+  "authors": "Andr\u00e9 G. Viveiros, Patrick Fernandes, Saul Santos, Sonal Sannigrahi, Emmanouil Zaranis, Nuno M. Guerreiro, Amin Farajian, Pierre Colombo, Graham Neubig, Andr\u00e9 F. T. Martins",
+  "venue": "arXiv",
+  "year": 2025,
+  "type": "preprint",
+  "abstract": `<p>Despite significant advances in vision-language models (VLMs), most existing work follows an English-centric design process, limiting their effectiveness in multilingual settings. In this work, we provide a comprehensive empirical study analyzing the impact of several multilingual design choices, such as training data composition, encoder selection, and text backbones. The result is TowerVision, a family of open multilingual VLMs for both image-text and video-text tasks, built upon the multilingual text-only model Tower+. TowerVision achieves competitive performance on multiple multimodal multilingual benchmarks and shows particular strength in culturally grounded tasks and multimodal translation. By incorporating visual and cultural context during fine-tuning, our models surpass existing approaches trained on substantially larger datasets, as demonstrated on ALM-Bench and Multi30K (image tasks) and ViMUL-Bench (video tasks). Alongside the models, we release VisionBlocks, a high-quality, curated vision-language dataset. Our findings highlight that multilingual vision-language training data substantially improves cross-lingual generalization -- both from high-resource to underrepresented languages and vice versa -- and that instruction-tuned LLMs are not always the optimal initialization point. To support further research, we publicly release all models, data, and training recipes.</p>`,
+  "streams": [
+  "multimodal",
+  "multilingual-translation"
+],
+  "links": {
+  "code": "https://github.com/deep-spin/LLaVA-NeXT",
+  "demo": "https://guilhermeviveiros.github.io/TowerVision.io/",
+  "bibtex": `@misc{viveiros2025towervisionunderstandingimprovingmultilinguality,
+      title={TowerVision: Understanding and Improving Multilinguality in Vision-Language Models}, 
+      author={André G. Viveiros and Patrick Fernandes and Saul Santos and Sonal Sannigrahi and Emmanouil Zaranis and Nuno M. Guerreiro and Amin Farajian and Pierre Colombo and Graham Neubig and André F. T. Martins},
+      year={2025},
+      eprint={2510.21849},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.21849}, 
+}`
+}
+},
+  {
+  "id": 152,
   "title": "Long-Context Generalization with Sparse Attention",
   "authors": "Pavlo Vasylenko, Hugo Pitorro, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
   "venue": "arXiv",
