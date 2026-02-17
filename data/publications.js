@@ -3,9 +3,9 @@
 
 const publicationsData = [
   {
-  "id": 152,
+  "id": 153,
   "title": "Long-Context Generalization with Sparse Attention",
-  "authors": "Pavlo Vasylenko, Hugo Pitorro, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
+  "authors": "Pavlo Vasylenko, Hugo Pitorro, Andr\u00e9 F. T. Martins, Marcos V. Treviso",
   "venue": "ICLR",
   "year": 2026,
   "type": "conference",
@@ -17,14 +17,44 @@ const publicationsData = [
 ],
   "links": {
   "paper": "https://arxiv.org/abs/2506.16640",
-  "bibtex": `@article{Vasylenko2025LongContextGW,
- author = {Pavlo Vasylenko and Marcos V. Treviso and Andr'e F. T. Martins},
- booktitle = {arXiv.org},
- journal = {ArXiv},
- title = {Long-Context Generalization with Sparse Attention},
- volume = {abs/2506.16640},
- year = {2025}
+  "code": "https://github.com/deep-spin/asentmax/",
+  "demo": "https://mtreviso.github.io/entmax-demo/pos_x_attn.html",
+  "bibtex": `@inproceedings{
+vasylenko2026longcontext,
+title={Long-Context Generalization with Sparse Attention},
+author={Pavlo Vasylenko and Hugo Pitorro and Andre Martins and Marcos Vinicius Treviso},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=PsB6Lynznk}
 }`
+}
+},
+  {
+  "id": 154,
+  "title": "AMUSED: A Multi-Modal Dataset for Usability Smell Identification",
+  "authors": "Flavia Santos, Marcos Treviso, Kamila Rodrigues, Renata Fortes, Sandra Gama",
+  "venue": "TAFFC",
+  "year": 2025,
+  "type": "journal",
+  "abstract": `<p>Understanding how users interact with systems and experience usability issues is vital in Human-Computer Interaction (HCI). Existing approaches often focus on isolated data types, such as interaction logs or subjective reports, providing only a partial view of the user experience. This work introduces AMUSED, a multimodal dataset that integrates user interaction logs, physiological signals, facial emotion features, and self-assessment reports. The dataset includes expert annotations of eleven types of usability smells, creating a rich resource for investigating relationships between usability problems, user behavior, and emotional states. We conducted experiments with 70 participants interacting with three social networks containing usability issues. We then evaluated various machine learning models to assess the feasibility of automatically detecting these issues. The dataset comprises 24 h of user recordings, with over 20,000 user events, such as clicks, scrolls, and input changes. Our analysis reveals that (i) usability smells frequently co-occur, (ii) negative emotions predominate when severe usability issues arise, and (iii) Gradient Boosting models achieve up to 92% accuracy in detecting usability smells, demonstrating the potential for computational methods in automated usability evaluation. Our findings emphasize the value of emotional metrics in HCI research and highlight promising uses of machine learning to automatically detect usability issues.</p>`,
+  "streams": [
+  "interpretability",
+  "multimodal",
+  "resources"
+],
+  "links": {
+  "paper": "https://ieeexplore.ieee.org/abstract/document/11248933",
+  "code": "https://github.com/flassantos/amused/",
+  "bibtex": `@ARTICLE{11248933,
+  author={Santos, Flávia de S. and Treviso, Marcos and Rodrigues, Kamila R. H. and Fortes, Renata P. M. and Gama, Sandra P.},
+  journal={IEEE Transactions on Affective Computing}, 
+  title={AMUSED: A Multi-Modal Dataset for Usability Smell Identification}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Usability;Electroencephalography;Videos;User experience;Social networking (online);Electrodes;Recording;Affective computing;Physiology;Functional near-infrared spectroscopy;BVP;dataset;EEG;emotion recognition;facial recognition;multimodal data;usability evaluation;usability smells;user experience},
+  doi={10.1109/TAFFC.2025.3632675}}`
 }
 },
   {

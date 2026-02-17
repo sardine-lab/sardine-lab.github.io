@@ -952,7 +952,7 @@ const teamData = {
   {
   "name": "Lili Mou",
   "role": "researcher",
-  "position": "Visiting Professor",
+  "position": "Visiting Professor from Univ. of Alberta",
   "image": "assets/figs/team/lili_mou.jpeg",
   "start_year": 2025,
   "graduation_year": "current",
