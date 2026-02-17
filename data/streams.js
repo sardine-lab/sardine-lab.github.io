@@ -24,10 +24,10 @@ const RESEARCH_STREAMS = {
 },
   "multimodal": {
   "keyword": "multimodal",
-  "name": "Multimodal (Speech/Vision)",
+  "name": "Multimodal",
   "color": "#dc2626",
   "icon": "fas fa-images",
-  "description": `Speech- and vision-language modeling: ASR/ST, V+L, audio-text, video understanding.`
+  "description": `Speech, vision, and other data modalities with or without text/language.`
 },
   "interpretability": {
   "keyword": "interpretability",

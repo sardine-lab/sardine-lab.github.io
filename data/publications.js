@@ -3,7 +3,31 @@
 
 const publicationsData = [
   {
-  "id": 153,
+  "id": 155,
+  "title": "Sparse Attention as Compact Kernel Regression",
+  "authors": "Saul Santos, Nuno Gon\u00e7alves, Daniel C. McNamee, Marcos Treviso, Andr\u00e9 F.T Martins",
+  "venue": "arXiv",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Recent work has revealed a link between self-attention mechanisms in transformers and test-time kernel regression via the Nadaraya-Watson estimator, with standard softmax attention corresponding to a Gaussian kernel. However, a kernel-theoretic understanding of sparse attention mechanisms is currently missing. In this paper, we establish a formal correspondence between sparse attention and compact (bounded support) kernels. We show that normalized ReLU and sparsemax attention arise from Epanechnikov kernel regression under fixed and adaptive normalizations, respectively. More generally, we demonstrate that widely used kernels in nonparametric density estimation -- including Epanechnikov, biweight, and triweight -- correspond to α-entmax attention with α=1+1n for n∈ℕ, while the softmax/Gaussian relationship emerges in the limit n→∞. This unified perspective explains how sparsity naturally emerges from kernel design and provides principled alternatives to heuristic top-k attention and other associative memory mechanisms. Experiments with a kernel-regression-based variant of transformers -- Memory Mosaics -- show that kernel-based sparse attention achieves competitive performance on language modeling, in-context learning, and length generalization tasks, offering a principled framework for designing attention mechanisms.</p>`,
+  "streams": [
+  "memory",
+  "attention",
+  "theory"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2601.22766",
+  "code": "https://github.com/deep-spin/sparse_kernel_regression",
+  "bibtex": `@article{santos2026sparse,
+  title={Sparse Attention as Compact Kernel Regression},
+  author={Santos, Saul and Gon{\\c{c}}alves, Nuno and McNamee, Daniel C and Treviso, Marcos and Martins, Andr{\\'e} FT},
+  journal={arXiv preprint arXiv:2601.22766},
+  year={2026}
+}`
+}
+},
+  {
+  "id": 154,
   "title": "Long-Context Generalization with Sparse Attention",
   "authors": "Pavlo Vasylenko, Hugo Pitorro, Andr\u00e9 F. T. Martins, Marcos V. Treviso",
   "venue": "ICLR",
@@ -30,7 +54,7 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
 }
 },
   {
-  "id": 154,
+  "id": 153,
   "title": "AMUSED: A Multi-Modal Dataset for Usability Smell Identification",
   "authors": "Flavia Santos, Marcos Treviso, Kamila Rodrigues, Renata Fortes, Sandra Gama",
   "venue": "TAFFC",
@@ -59,6 +83,32 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
 },
   {
   "id": 152,
+  "title": "AdaSplash: Adaptive Sparse Flash Attention",
+  "authors": "Nuno Gon\u00e7alves, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
+  "venue": "ICML",
+  "year": 2025,
+  "type": "conference",
+  "award": "Spotlight & Oral Presentation",
+  "abstract": `<p>The computational cost of softmax-based attention in transformers limits their applicability to long-context tasks. Adaptive sparsity, of which $\\alpha$-entmax attention is an example, offers a flexible data-dependent alternative, but existing implementations are inefficient and do not leverage the sparsity to obtain runtime and memory gains. In this work, we propose AdaSplash, which combines the efficiency of GPU-optimized algorithms with the sparsity benefits of $\\alpha$-entmax. We first introduce a hybrid Halley-bisection algorithm, resulting in a 7-fold reduction in the number of iterations needed to compute the $\\alpha$-entmax transformation. Then, we implement custom Triton kernels to efficiently handle adaptive sparsity. Experiments with RoBERTa and ModernBERT for text classification and single-vector retrieval, along with GPT-2 for language modeling, show that our method achieves substantial improvements in runtime and memory efficiency compared to existing $\\alpha$-entmax implementations. It approaches -- and in some cases surpasses -- the efficiency of highly optimized softmax implementations like FlashAttention-2, enabling long-context training while maintaining strong task performance.</p>`,
+  "streams": [
+  "attention",
+  "efficiency",
+  "theory"
+],
+  "links": {
+  "paper": "https://openreview.net/forum?id=OWIPDWhUcO",
+  "code": "https://github.com/deep-spin/adasplash",
+  "bibtex": `@inproceedings{GonalvesAdasplashAdaptiveSparseF,
+  title={ AdaSplash: Adaptive Sparse Flash Attention },
+  author={ Nuno Gonçalves and Marcos Treviso and Andre Martins },
+  booktitle={ International Conference on Machine Learning },
+  year={ 2025},
+  url={ https://openreview.net/forum?id=OWIPDWhUcO }
+}`
+}
+},
+  {
+  "id": 151,
   "title": "TowerVision: Understanding and Improving Multilinguality in Vision-Language Models",
   "authors": "Andr\u00e9 G. Viveiros, Patrick Fernandes, Saul Santos, Sonal Sannigrahi, Emmanouil Zaranis, Nuno M. Guerreiro, Amin Farajian, Pierre Colombo, Graham Neubig, Andr\u00e9 F. T. Martins",
   "venue": "arXiv",
@@ -85,7 +135,7 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
 }
 },
   {
-  "id": 151,
+  "id": 150,
   "title": "LaTIM: Measuring Latent Token-to-Token Interactions in Mamba Models",
   "authors": "Hugo Pitorro, Marcos V. Treviso",
   "venue": "ACL",
@@ -117,32 +167,6 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
     doi = "10.18653/v1/2025.acl-long.1194",
     pages = "24478--24493",
     ISBN = "979-8-89176-251-0"
-}`
-}
-},
-  {
-  "id": 150,
-  "title": "AdaSplash: Adaptive Sparse Flash Attention",
-  "authors": "Nuno Gon\u00e7alves, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
-  "venue": "ICML",
-  "year": 2025,
-  "type": "conference",
-  "award": "Spotlight & Oral Presentation",
-  "abstract": `<p>The computational cost of softmax-based attention in transformers limits their applicability to long-context tasks. Adaptive sparsity, of which $\\alpha$-entmax attention is an example, offers a flexible data-dependent alternative, but existing implementations are inefficient and do not leverage the sparsity to obtain runtime and memory gains. In this work, we propose AdaSplash, which combines the efficiency of GPU-optimized algorithms with the sparsity benefits of $\\alpha$-entmax. We first introduce a hybrid Halley-bisection algorithm, resulting in a 7-fold reduction in the number of iterations needed to compute the $\\alpha$-entmax transformation. Then, we implement custom Triton kernels to efficiently handle adaptive sparsity. Experiments with RoBERTa and ModernBERT for text classification and single-vector retrieval, along with GPT-2 for language modeling, show that our method achieves substantial improvements in runtime and memory efficiency compared to existing $\\alpha$-entmax implementations. It approaches -- and in some cases surpasses -- the efficiency of highly optimized softmax implementations like FlashAttention-2, enabling long-context training while maintaining strong task performance.</p>`,
-  "streams": [
-  "attention",
-  "efficiency",
-  "theory"
-],
-  "links": {
-  "paper": "https://openreview.net/forum?id=OWIPDWhUcO",
-  "code": "https://github.com/deep-spin/adasplash",
-  "bibtex": `@inproceedings{GonalvesAdasplashAdaptiveSparseF,
-  title={ AdaSplash: Adaptive Sparse Flash Attention },
-  author={ Nuno Gonçalves and Marcos Treviso and Andre Martins },
-  booktitle={ International Conference on Machine Learning },
-  year={ 2025},
-  url={ https://openreview.net/forum?id=OWIPDWhUcO }
 }`
 }
 },
