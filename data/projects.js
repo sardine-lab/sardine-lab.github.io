@@ -3,6 +3,60 @@
 const projectsData = {
   "current": [
   {
+  "name": "SMURF4EU",
+  "title": "A Suite of Multimodal Reasoning Foundation Models for Europe",
+  "status": "current",
+  "funding": "EuroHPC",
+  "pi": "Andr\u00e9 Martins",
+  "period": "2026-2027",
+  "team_members": [
+  "Matthias Lindemann",
+  "Beatriz Canaverde",
+  "Duarte Alves",
+  "Miguel Ramos",
+  "Saul Santos",
+  "Sophia Sklaviadis"
+],
+  "keywords": [
+  "multimodality",
+  "multilinguality",
+  "language generation",
+  "long-context modeling",
+  "reasoning",
+  "test-time scaling"
+],
+  "figure": "smurf4eu.jpeg",
+  "description": `<p><strong>SMURF4EU</strong> will develop and release a suite of fully open, high-performance <strong>multimodal reasoning foundation models</strong> for Europe, spanning <strong>text, code, speech, vision, and video</strong>. The project targets a major gap in today’s landscape: the lack of transparent, reproducible, and EU-language-capable alternatives to proprietary multimodal systems. SMURF4EU will deliver multiple model sizes (2.5B, 10B, 24B, and a <strong>134B MoE</strong> with 41B active parameters), designed to support <strong>all 24 official EU languages</strong> and to enable <strong>multimodal reasoning</strong> through reinforcement learning and verifier-style rewards.</p>
+<p>A core technical goal is a <strong>modular training recipe</strong> that makes it efficient to add modalities to strong text models via late fusion and shared token-like representations, while scaling to <strong>long multimodal contexts (up to 1M tokens)</strong> using efficient attention and memory-compression techniques. Beyond releasing model weights, the project commits to <strong>open science</strong> by publishing checkpoints, datasets (where licensing permits), code, and documentation, following best practices for safety and compliance (including GDPR-aware data handling and alignment practices) to foster European research, innovation, and industrial adoption.</p>`
+},
+  {
+  "name": "AMALIA",
+  "title": "European-Portugese LLM",
+  "status": "current",
+  "funding": "Portugal",
+  "pi": "Andr\u00e9 Martins, Jo\u00e3o Magalh\u00e3es",
+  "period": "2025-2026",
+  "team_members": [
+  "Marcos Treviso",
+  "Giuseppe Attanasio",
+  "Miguel Ramos",
+  "Duarte Alves"
+],
+  "collaborators": [
+  "UNL (Universidade Nova de Lisboa)"
+],
+  "keywords": [
+  "european portuguese llm",
+  "cultural representativeness",
+  "sovereignty AI",
+  "open model"
+],
+  "website": "https://amaliallm.pt/",
+  "figure": "amalia.jpeg",
+  "description": `<p><strong>AMALIA</strong> is an <strong>open large language model</strong> developed specifically for <strong>Portuguese as used in Portugal</strong> and for <strong>Portuguese cultural context</strong>, aiming to strengthen linguistic quality across Portuguese variants, preserve culturally grounded language use (idioms, references), and support <strong>data sovereignty</strong>—especially for use cases in the <strong>Public Administration</strong> where sensitive data should remain under national control. </p>
+<p>Technically, AMALIA’s first phase centers on a model of about <strong>9B parameters</strong>, pre-trained on roughly <strong>4 trillion words</strong>, and fine-tuned on curated Portuguese data (including material filtered from <strong>Arquivo.PT</strong>), leveraging prior Portuguese-focused models from the team (e.g., EuroLLM and GlorIA). The project is built by a national consortium (NOVA, IST, Coimbra, Porto, Minho, and FCT/Arquivo.PT), trained using <strong>large-scale supercomputing</strong> (including <strong>MareNostrum 5</strong> and <strong>Deucalion</strong>) and is being rolled out progressively via research and institutional access (e.g., through <strong>IAEdu</strong> via API), with a roadmap toward broader capability expansion (including multimodality) and a <strong>targeted final, robust release around June 2026</strong>. </p>`
+},
+  {
   "name": "DECOLLAGE",
   "title": "Deep Cognition Learning for Language Generation",
   "status": "current",
@@ -30,35 +84,6 @@ const projectsData = {
   "\u221e-Video: A Training-Free Approach to Long Video Understanding via Continuous-Time Memory Consolidation"
 ],
   "description": `<p>The DECOLLAGE project aims to overcome fundamental limitations of today’s large-scale language models by combining advances in machine learning, sparse modeling, information theory, and cognitive science. It pursues three core directions: developing mechanisms for self-assessment and contextualization, designing dynamic memory structures for continual learning, and creating mathematical models for sparse communication that bridge symbolic and continuous representations across modalities. By integrating these innovations, DECOLLAGE seeks to build modular, efficient, and cognitively inspired architectures, ultimately enabling more adaptive, context-aware, and intelligent systems for demanding language generation tasks such as machine translation and open-ended text generation.</p>`
-},
-  {
-  "name": "UTTER",
-  "title": "Unified Transcription and Translation",
-  "status": "current",
-  "funding": "EUROPE HORIZON",
-  "pi": "Andr\u00e9 Martins",
-  "period": "2022-2025",
-  "team_members": [
-  "Ben Peters",
-  "Marcos Treviso",
-  "Hugo Pitorro",
-  "Jos\u00e9 Pombal",
-  "Sonal Sannigrahi"
-],
-  "keywords": [
-  "multilinguality",
-  "meeting assistant",
-  "customer support",
-  "speech dialogue",
-  "chat dialogue",
-  "translation"
-],
-  "website": "https://he-utter.eu/",
-  "figure": "utter.jpg",
-  "publications": [
-  "Tower: An Open Multilingual Large Language Model for Translation-Related Tasks"
-],
-  "description": `<p>The UTTER project advances online and hybrid interaction by developing extended reality (XR) technologies that seamlessly integrate human and AI agents in conversation platforms. It focuses on creating intelligent assistants for meetings and customer support, capable of real-time multilingual translation, summarization, minuting, and multimodal dialogue support. Through innovations in XR model efficiency, usability, and adaptability across languages and domains, UTTER will deliver new resources such as multilingual datasets and pretrained models, alongside prototypes including a meeting assistant with live captioning and summaries, and a multilingual customer support assistant enhanced with quality estimates and emotion tracking.</p>`
 },
   {
   "name": "NextGenAI",
@@ -115,6 +140,35 @@ const projectsData = {
 }
 ],
   "past": [
+  {
+  "name": "UTTER",
+  "title": "Unified Transcription and Translation",
+  "status": "finished",
+  "funding": "EUROPE HORIZON",
+  "pi": "Andr\u00e9 Martins",
+  "period": "2022-2025",
+  "team_members": [
+  "Ben Peters",
+  "Marcos Treviso",
+  "Hugo Pitorro",
+  "Jos\u00e9 Pombal",
+  "Sonal Sannigrahi"
+],
+  "keywords": [
+  "multilinguality",
+  "meeting assistant",
+  "customer support",
+  "speech dialogue",
+  "chat dialogue",
+  "translation"
+],
+  "website": "https://he-utter.eu/",
+  "figure": "utter.jpg",
+  "publications": [
+  "Tower: An Open Multilingual Large Language Model for Translation-Related Tasks"
+],
+  "description": `<p>The UTTER project advances online and hybrid interaction by developing extended reality (XR) technologies that seamlessly integrate human and AI agents in conversation platforms. It focuses on creating intelligent assistants for meetings and customer support, capable of real-time multilingual translation, summarization, minuting, and multimodal dialogue support. Through innovations in XR model efficiency, usability, and adaptability across languages and domains, UTTER will deliver new resources such as multilingual datasets and pretrained models, alongside prototypes including a meeting assistant with live captioning and summaries, and a multilingual customer support assistant enhanced with quality estimates and emotion tracking.</p>`
+},
   {
   "name": "MAIA",
   "title": "Multilingual AI Agent Assistants for Customer Service",

@@ -2,447 +2,6 @@
 // Update this file to add/remove team members or update their information
 
 const teamData = {
-  "faculties": [
-  {
-  "name": "Andr\u00e9 Martins",
-  "role": "faculty",
-  "position": "Associate Professor at IST and Group Leader",
-  "image": "assets/figs/team/andre_martins.jpeg",
-  "start_year": 2018,
-  "graduation_year": "current",
-  "research_interests": [
-  "NLP & Machine Learning"
-],
-  "links": {
-  "website": "http://andre-martins.github.io",
-  "github": "https://github.com/andre-martins",
-  "linkedin": "https://www.linkedin.com/in/andre-martins-31476745/",
-  "scholar": "https://scholar.google.com/citations?user=mT7ppvwAAAAJ"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Chryssa Zerva",
-  "role": "faculty",
-  "position": "Assistant Professor at IST",
-  "image": "assets/figs/team/chryssa_zerva.jpeg",
-  "start_year": 2021,
-  "graduation_year": "current",
-  "research_interests": [
-  "Uncertainty Quantification"
-],
-  "links": {
-  "github": "https://github.com/chryssa-zrv",
-  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
-  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
-},
-  "country": "Greece",
-  "city": "Athens"
-},
-  {
-  "name": "Marcos Treviso",
-  "role": "faculty",
-  "position": "Assistant Professor at IST",
-  "image": "assets/figs/team/marcos_treviso.jpeg",
-  "start_year": 2019,
-  "graduation_year": "current",
-  "research_interests": [
-  "Efficiency & Interpretability"
-],
-  "links": {
-  "website": "http://mtreviso.github.io",
-  "github": "https://github.com/mtreviso",
-  "linkedin": "https://www.linkedin.com/in/mtreviso",
-  "scholar": "https://scholar.google.com/citations?hl=en&user=puR_FskAAAAJ"
-},
-  "country": "Brazil",
-  "city": "Guapor\u00e9"
-}
-],
-  "postdocs": [
-  {
-  "name": "Ben Peters",
-  "role": "postdoc",
-  "position": "Post-doc at IT",
-  "image": "assets/figs/team/ben_peters.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2022,
-  "graduation_year": "current",
-  "research_interests": [
-  "Speech & Morphology"
-],
-  "links": {
-  "github": "https://github.com/bpopeters",
-  "linkedin": "https://www.linkedin.com/in/ben-peters-b29128a0/",
-  "scholar": "https://scholar.google.com/citations?user=WFcYhToAAAAJ&hl=en"
-},
-  "country": "United States",
-  "city": "Seattle"
-},
-  {
-  "name": "Giuseppe Attanasio",
-  "role": "postdoc",
-  "position": "Post-doc at IT",
-  "image": "assets/figs/team/giuseppe_attanasio.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Interpretability & Ethics"
-],
-  "links": {
-  "website": "https://gattanasio.cc/",
-  "github": "https://github.com/g8a9",
-  "linkedin": "https://www.linkedin.com/in/giuseppe-attanasio/",
-  "scholar": "https://scholar.google.com/citations?user=IuhnRJQAAAAJ"
-},
-  "country": "Italy",
-  "city": "Castrovillari"
-},
-  {
-  "name": "Matthias Lindemann",
-  "role": "postdoc",
-  "position": "Post-doc at IT",
-  "image": "assets/figs/team/matthias_lindemann.png",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2025,
-  "graduation_year": "current",
-  "research_interests": [
-  "Structure & Causality"
-],
-  "links": {
-  "website": "https://namednil.github.io/",
-  "github": "https://github.com/namednil",
-  "scholar": "https://scholar.google.com/citations?user=TEVnGGsAAAAJ"
-},
-  "country": "Germany",
-  "city": "Saarland"
-},
-  {
-  "name": "Miguel Faria",
-  "role": "postdoc",
-  "position": "Post-doc at IT",
-  "image": "assets/figs/team/miguel_faria.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Reinforcement Learning"
-],
-  "links": {
-  "github": "https://github.com/miguel-faria",
-  "linkedin": "https://www.linkedin.com/in/miguel-faria-34048142/",
-  "scholar": "https://scholar.google.pt/citations?user=rDTQNOIAAAAJ"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-}
-],
-  "phds": [
-  {
-  "name": "Beatriz Canaverde",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/beatriz_canaverde.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2025,
-  "graduation_year": "current",
-  "research_interests": [
-  "LM Evaluation"
-],
-  "links": {
-  "github": "https://github.com/BeatrizCanaverde",
-  "linkedin": "https://www.linkedin.com/in/beatriz-canaverde-684aaa260/",
-  "scholar": "https://scholar.google.com/citations?user=8z017TkAAAAJ&hl=pt-PT"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Duarte Alves",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/duarte_alves.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2023,
-  "graduation_year": "current",
-  "research_interests": [
-  "Reasoning & LLMs"
-],
-  "links": {
-  "website": "https://duartemralves.github.io/",
-  "github": "https://github.com/DuarteMRAlves",
-  "linkedin": "https://www.linkedin.com/in/duarte-alves-0a1a01207/",
-  "scholar": "https://scholar.google.com/citations?user=5TC9LK8AAAAJ"
-},
-  "country": "Portugal",
-  "city": "Coimbra"
-},
-  {
-  "name": "Emmanouil Zaranis",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/emmanouil_zaranis.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2023,
-  "graduation_year": "current",
-  "research_interests": [
-  "Interpretability & Bias"
-],
-  "links": {
-  "website": "https://github.com/manzar96",
-  "github": "https://github.com/sonalsannigrahi/",
-  "linkedin": "https://www.linkedin.com/in/emmanouil-zaranis-a84924149/",
-  "scholar": "https://scholar.google.com/citations?user=9g9PyQsAAAAJ"
-},
-  "country": "Greece",
-  "city": "Marousi"
-},
-  {
-  "name": "Guilherme Viveiros",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/guilherme_viveiros.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2025,
-  "graduation_year": "current",
-  "research_interests": [
-  "Reasoning & LMMs"
-],
-  "links": {
-  "website": "https://www.gviveiros.com/",
-  "github": "https://github.com/GuilhermeViveiros",
-  "linkedin": "https://www.linkedin.com/in/guilherme-viveiros-28985418b/",
-  "scholar": "https://scholar.google.com/citations?user=5ZTx_RgAAAAJ&hl=pt-PT"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Haau-Sing Li",
-  "role": "phd",
-  "position": "ELLIS PhD at TU Darmstadt University",
-  "image": "assets/figs/team/haau_sing.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Iryna Gurevych",
-  "start_year": 2021,
-  "graduation_year": "current",
-  "research_interests": [
-  "Code Generation"
-],
-  "links": {
-  "website": "https://lhaausing.github.io/",
-  "github": "https://github.com/lhaausing/",
-  "linkedin": "https://www.linkedin.com/in/haau-sing-li-152177142/",
-  "scholar": "https://scholar.google.com/citations?user=ITrvoewAAAAJ&hl=en"
-},
-  "country": "Germany",
-  "city": "Darmstadt"
-},
-  {
-  "name": "Jos\u00e9 Pombal",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/jose_pombal.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Ricardo Rei",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Translation Evaluation"
-],
-  "links": {
-  "website": "https://zeppombal.github.io/",
-  "github": "https://github.com/zeppombal",
-  "linkedin": "https://www.linkedin.com/in/jos%C3%A9-maria-prc-pombal/",
-  "scholar": "https://scholar.google.com/citations?user=Tt_-ImgAAAAJ"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Lara Neves",
-  "role": "phd",
-  "position": "PhD Student at CMU/IST",
-  "image": "assets/figs/team/lara_neves.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Eric Xing",
-  "start_year": 2025,
-  "graduation_year": "current",
-  "research_interests": [
-  "BioNLP"
-],
-  "links": {
-  "website": "https://larasneves.github.io/",
-  "github": "https://github.com/larasneves",
-  "linkedin": "https://www.linkedin.com/in/lara-sa-neves/",
-  "scholar": "https://scholar.google.com/citations?user=x8L2-HkAAAAJ&hl=pt-PT"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Margarida Campos",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/margarida_campos.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "M\u00e1rio Figueiredo",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Uncertainty Quantification"
-],
-  "links": {
-  "github": "https://github.com/MargaridaMCampos",
-  "linkedin": "https://www.linkedin.com/in/margaridamcampos/",
-  "scholar": "https://scholar.google.com/citations?user=vORjPgMAAAAJ&hl=en"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Miguel Ramos",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/miguel_ramos.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Machine Translation"
-],
-  "links": {
-  "github": "https://github.com/MiguelMouraRamos",
-  "scholar": "https://scholar.google.com/citations?user=YOPFOaIAAAAJ"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Nuno Gon\u00e7alves",
-  "role": "phd",
-  "position": "PhD Student at CMU/IST",
-  "image": "assets/figs/team/nuno_goncalves.jpeg",
-  "advisor": "Andr\u00e9 Martins, Lei Li",
-  "co_advisor": "Marcos Treviso",
-  "start_year": 2025,
-  "graduation_year": "current",
-  "research_interests": [
-  "Efficiency"
-],
-  "links": {
-  "website": "https://nunomtg.github.io/",
-  "github": "https://github.com/nunomtg"
-},
-  "country": "Portugal",
-  "city": "Braga"
-},
-  {
-  "name": "Pavlo Vasylenko",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/pavlo_vasylenko.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Marcos Treviso",
-  "start_year": 2023,
-  "graduation_year": "current",
-  "research_interests": [
-  "Long-context Modeling"
-],
-  "links": {
-  "github": "https://github.com/vapavlo",
-  "linkedin": "https://www.linkedin.com/in/pavlo-vasylenko-b9223b29b/",
-  "scholar": "https://scholar.google.com/citations?user=dRySbtUAAAAJ&hl=en"
-},
-  "country": "Ukraine",
-  "city": "Kyiv"
-},
-  {
-  "name": "Peiqin Lin",
-  "role": "phd",
-  "position": "ELLIS PhD at LMU Munich",
-  "image": "assets/figs/team/peiqin_lin.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Hinrich Schutze",
-  "start_year": 2021,
-  "graduation_year": "current",
-  "research_interests": [
-  "Multilingual Resources"
-],
-  "links": {
-  "website": "https://lpq29743.github.io/",
-  "github": "https://github.com/lpq29743",
-  "linkedin": "https://www.linkedin.com/in/peiqin-lin-5422a2134/",
-  "scholar": "https://scholar.google.com/citations?user=ZUeyIxMAAAAJ"
-},
-  "country": "China",
-  "city": "Beijing"
-},
-  {
-  "name": "Saul Santos",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/saul_santos.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Daniel McNamee",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Associative Memories"
-],
-  "links": {
-  "website": "https://ssantos97.github.io/",
-  "github": "https://github.com/ssantos97",
-  "linkedin": "https://www.linkedin.com/in/saul-santos-63449b15b/",
-  "scholar": "https://scholar.google.com/citations?user=mq8rYZYAAAAJ"
-},
-  "country": "Portugal",
-  "city": "Lisbon"
-},
-  {
-  "name": "Sonal Sannigrahi",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/sonal_sannigrahi.jpg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Giuseppe Attanasio",
-  "start_year": 2023,
-  "graduation_year": "current",
-  "research_interests": [
-  "Speech"
-],
-  "links": {
-  "website": "https://sonalsannigrahi.github.io/",
-  "github": "https://github.com/sonalsannigrahi/",
-  "linkedin": "https://www.linkedin.com/in/sonal-08012001/",
-  "scholar": "https://scholar.google.com/citations?user=Z2TYorQAAAAJ&hl=en"
-},
-  "country": "India",
-  "city": "Mumbai"
-},
-  {
-  "name": "Sophia Sklaviadis",
-  "role": "phd",
-  "position": "PhD Student at IST",
-  "image": "assets/figs/team/sophia_sklaviadis.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2023,
-  "graduation_year": "current",
-  "research_interests": [
-  "Sparsity and Theory"
-],
-  "links": {
-  "website": "https://peithous.github.io/",
-  "github": "https://github.com/peithous",
-  "linkedin": "https://www.linkedin.com/in/sophia-sklaviadis-896776319/",
-  "scholar": "https://scholar.google.com/citations?user=wkFXjGAAAAAJ&hl=en"
-},
-  "country": "Greece",
-  "city": "Thessaloniki"
-}
-],
   "alumnis": [
   {
   "name": "Ant\u00f3nio Farinhas",
@@ -464,6 +23,25 @@ const teamData = {
 },
   "country": "Portugal",
   "city": "Lisbon"
+},
+  {
+  "name": "Ben Peters",
+  "role": "alumni",
+  "position": "Post-doc at INESC-ID",
+  "image": "assets/figs/team/ben_peters.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2022,
+  "graduation_year": "current",
+  "research_interests": [
+  "Speech & Morphology"
+],
+  "links": {
+  "github": "https://github.com/bpopeters",
+  "linkedin": "https://www.linkedin.com/in/ben-peters-b29128a0/",
+  "scholar": "https://scholar.google.com/citations?user=WFcYhToAAAAJ&hl=en"
+},
+  "country": "United States",
+  "city": "Seattle"
 },
   {
   "name": "Chunchuan Lyu",
@@ -625,6 +203,7 @@ const teamData = {
   {
   "name": "Patrick Fernandes",
   "role": "alumni",
+  "position": "Research Scientist at Reflection AI",
   "image": "assets/figs/team/patrick_fernandes.jpeg",
   "advisor": "Andr\u00e9 Martins",
   "co_advisor": "Graham Neubig",
@@ -658,6 +237,28 @@ const teamData = {
 },
   "country": "Portugal",
   "city": "Guimar\u00e3es"
+},
+  {
+  "name": "Peiqin Lin",
+  "role": "alumni",
+  "position": "Algorithm Engineer at Alibaba",
+  "image": "assets/figs/team/peiqin_lin.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Hinrich Schutze",
+  "start_year": 2021,
+  "graduation_year": "current",
+  "research_interests": [
+  "Multilingual Resources"
+],
+  "previous_position": "ELLIS PhD at LMU Munich",
+  "links": {
+  "website": "https://lpq29743.github.io/",
+  "github": "https://github.com/lpq29743",
+  "linkedin": "https://www.linkedin.com/in/peiqin-lin-5422a2134/",
+  "scholar": "https://scholar.google.com/citations?user=ZUeyIxMAAAAJ"
+},
+  "country": "China",
+  "city": "Beijing"
 },
   {
   "name": "Sweta Agrawal",
@@ -735,29 +336,513 @@ const teamData = {
 },
   "country": "Sudan",
   "city": "Khartoum"
-},
+}
+],
+  "faculties": [
   {
-  "name": "Zita Marinho",
-  "role": "alumni",
-  "position": "Research Scientist at Google Deepmind",
-  "image": "assets/figs/team/zita_marinho.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Geoff Gordon, Sidd Srinivasa",
-  "start_year": 2015,
-  "graduation_year": 2018,
-  "previous_position": "PhD",
+  "name": "Andr\u00e9 Martins",
+  "role": "faculty",
+  "position": "Associate Professor at IST and Group Leader",
+  "image": "assets/figs/team/andre_martins.jpeg",
+  "start_year": 2018,
+  "graduation_year": "current",
+  "research_interests": [
+  "NLP & Machine Learning"
+],
   "links": {
-  "website": "http://www.cs.cmu.edu/~zmarinho"
+  "website": "http://andre-martins.github.io",
+  "github": "https://github.com/andre-martins",
+  "linkedin": "https://www.linkedin.com/in/andre-martins-31476745/",
+  "scholar": "https://scholar.google.com/citations?user=mT7ppvwAAAAJ"
 },
   "country": "Portugal",
   "city": "Lisbon"
+},
+  {
+  "name": "Chryssa Zerva",
+  "role": "faculty",
+  "position": "Assistant Professor at IST",
+  "image": "assets/figs/team/chryssa_zerva.jpeg",
+  "start_year": 2021,
+  "graduation_year": "current",
+  "research_interests": [
+  "Uncertainty Quantification"
+],
+  "links": {
+  "github": "https://github.com/chryssa-zrv",
+  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
+  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
+},
+  "country": "Greece",
+  "city": "Athens"
+},
+  {
+  "name": "Marcos Treviso",
+  "role": "faculty",
+  "position": "Assistant Professor at IST",
+  "image": "assets/figs/team/marcos_treviso.jpeg",
+  "start_year": 2019,
+  "graduation_year": "current",
+  "research_interests": [
+  "Efficiency & Interpretability"
+],
+  "links": {
+  "website": "http://mtreviso.github.io",
+  "github": "https://github.com/mtreviso",
+  "linkedin": "https://www.linkedin.com/in/mtreviso",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=puR_FskAAAAJ"
+},
+  "country": "Brazil",
+  "city": "Guapor\u00e9"
+},
+  {
+  "name": "Zita Marinho",
+  "role": "faculty",
+  "position": "Assistant Professor at IST",
+  "image": "assets/figs/team/zita_marinho.jpeg",
+  "start_year": 2015,
+  "graduation_year": "current",
+  "research_interests": [
+  "Reinforcement Learning & Control"
+],
+  "previous_position": "Research Scientist at Google Deepmind",
+  "links": {
+  "website": "http://www.cs.cmu.edu/~zmarinho",
+  "github": "https://github.com/zmarinho",
+  "linkedin": "https://www.linkedin.com/in/zita-marinho-0126472a",
+  "scholar": "https://scholar.google.com/citations?user=JwiByPoAAAAJ&hl=en"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+}
+],
+  "phds": [
+  {
+  "name": "Afonso Baldo",
+  "role": "phd",
+  "position": "PhD Student at IST & Sword Health",
+  "image": "assets/figs/team/afonso_baldo.jpeg",
+  "advisor": "Marcos Treviso",
+  "co_advisor": "Nuno Guerreiro",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "Memory & Agents"
+],
+  "links": {
+  "linkedin": "https://pt.linkedin.com/in/afonsobaldo",
+  "scholar": "https://scholar.google.com/citations?user=P-cyHFkAAAAJ&hl=en"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Beatriz Canaverde",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/beatriz_canaverde.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2025,
+  "graduation_year": "current",
+  "research_interests": [
+  "LM Evaluation"
+],
+  "links": {
+  "github": "https://github.com/BeatrizCanaverde",
+  "linkedin": "https://www.linkedin.com/in/beatriz-canaverde-684aaa260/",
+  "scholar": "https://scholar.google.com/citations?user=8z017TkAAAAJ&hl=pt-PT"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Duarte Alves",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/duarte_alves.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2023,
+  "graduation_year": "current",
+  "research_interests": [
+  "Reasoning & LLMs"
+],
+  "links": {
+  "website": "https://duartemralves.github.io/",
+  "github": "https://github.com/DuarteMRAlves",
+  "linkedin": "https://www.linkedin.com/in/duarte-alves-0a1a01207/",
+  "scholar": "https://scholar.google.com/citations?user=5TC9LK8AAAAJ"
+},
+  "country": "Portugal",
+  "city": "Coimbra"
+},
+  {
+  "name": "Emmanouil Zaranis",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/emmanouil_zaranis.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2023,
+  "graduation_year": "current",
+  "research_interests": [
+  "Interpretability & Bias"
+],
+  "links": {
+  "website": "https://github.com/manzar96",
+  "github": "https://github.com/sonalsannigrahi/",
+  "linkedin": "https://www.linkedin.com/in/emmanouil-zaranis-a84924149/",
+  "scholar": "https://scholar.google.com/citations?user=9g9PyQsAAAAJ"
+},
+  "country": "Greece",
+  "city": "Marousi"
+},
+  {
+  "name": "Guilherme Viveiros",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/guilherme_viveiros.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2025,
+  "graduation_year": "current",
+  "research_interests": [
+  "Reasoning & LMMs"
+],
+  "links": {
+  "website": "https://www.gviveiros.com/",
+  "github": "https://github.com/GuilhermeViveiros",
+  "linkedin": "https://www.linkedin.com/in/guilherme-viveiros-28985418b/",
+  "scholar": "https://scholar.google.com/citations?user=5ZTx_RgAAAAJ&hl=pt-PT"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Haau-Sing Li",
+  "role": "phd",
+  "position": "ELLIS PhD at TU Darmstadt University",
+  "image": "assets/figs/team/haau_sing.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Iryna Gurevych",
+  "start_year": 2021,
+  "graduation_year": "current",
+  "research_interests": [
+  "Code Generation"
+],
+  "links": {
+  "website": "https://lhaausing.github.io/",
+  "github": "https://github.com/lhaausing/",
+  "linkedin": "https://www.linkedin.com/in/haau-sing-li-152177142/",
+  "scholar": "https://scholar.google.com/citations?user=ITrvoewAAAAJ&hl=en"
+},
+  "country": "Germany",
+  "city": "Darmstadt"
+},
+  {
+  "name": "Hugo Pitorro",
+  "role": "phd",
+  "position": "PhD Student at IST & Sword Health",
+  "image": "assets/figs/team/hugo_pitorro.jpeg",
+  "advisor": "Marcos Treviso",
+  "co_advisor": "Ricardo Rei",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "Long-Context Reasoning"
+],
+  "links": {
+  "website": "https://pitorro.de/",
+  "github": "https://github.com/xtwigs",
+  "linkedin": "https://www.linkedin.com/in/hugo-henrique-pitorro/",
+  "scholar": "https://scholar.google.com/citations?user=P-cyHFkAAAAJ&hl=en"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Jos\u00e9 Pombal",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/jose_pombal.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Ricardo Rei",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Translation Evaluation"
+],
+  "links": {
+  "website": "https://zeppombal.github.io/",
+  "github": "https://github.com/zeppombal",
+  "linkedin": "https://www.linkedin.com/in/jos%C3%A9-maria-prc-pombal/",
+  "scholar": "https://scholar.google.com/citations?user=Tt_-ImgAAAAJ"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Lara Neves",
+  "role": "phd",
+  "position": "PhD Student at CMU/IST",
+  "image": "assets/figs/team/lara_neves.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Eric Xing",
+  "start_year": 2025,
+  "graduation_year": "current",
+  "research_interests": [
+  "BioNLP"
+],
+  "links": {
+  "website": "https://larasneves.github.io/",
+  "github": "https://github.com/larasneves",
+  "linkedin": "https://www.linkedin.com/in/lara-sa-neves/",
+  "scholar": "https://scholar.google.com/citations?user=x8L2-HkAAAAJ&hl=pt-PT"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Margarida Campos",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/margarida_campos.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "M\u00e1rio Figueiredo",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Uncertainty Quantification"
+],
+  "links": {
+  "github": "https://github.com/MargaridaMCampos",
+  "linkedin": "https://www.linkedin.com/in/margaridamcampos/",
+  "scholar": "https://scholar.google.com/citations?user=vORjPgMAAAAJ&hl=en"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Miguel Ramos",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/miguel_ramos.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Machine Translation"
+],
+  "links": {
+  "github": "https://github.com/MiguelMouraRamos",
+  "scholar": "https://scholar.google.com/citations?user=YOPFOaIAAAAJ"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Nuno Gon\u00e7alves",
+  "role": "phd",
+  "position": "PhD Student at CMU/IST",
+  "image": "assets/figs/team/nuno_goncalves.jpeg",
+  "advisor": "Andr\u00e9 Martins, Lei Li",
+  "co_advisor": "Marcos Treviso",
+  "start_year": 2025,
+  "graduation_year": "current",
+  "research_interests": [
+  "Efficiency"
+],
+  "links": {
+  "website": "https://nunomtg.github.io/",
+  "github": "https://github.com/nunomtg"
+},
+  "country": "Portugal",
+  "city": "Braga"
+},
+  {
+  "name": "Pavlo Vasylenko",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/pavlo_vasylenko.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Marcos Treviso",
+  "start_year": 2023,
+  "graduation_year": "current",
+  "research_interests": [
+  "Long-context Modeling"
+],
+  "links": {
+  "github": "https://github.com/vapavlo",
+  "linkedin": "https://www.linkedin.com/in/pavlo-vasylenko-b9223b29b/",
+  "scholar": "https://scholar.google.com/citations?user=dRySbtUAAAAJ&hl=en"
+},
+  "country": "Ukraine",
+  "city": "Kyiv"
+},
+  {
+  "name": "Saul Santos",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/saul_santos.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Daniel McNamee",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Associative Memories"
+],
+  "links": {
+  "website": "https://ssantos97.github.io/",
+  "github": "https://github.com/ssantos97",
+  "linkedin": "https://www.linkedin.com/in/saul-santos-63449b15b/",
+  "scholar": "https://scholar.google.com/citations?user=mq8rYZYAAAAJ"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Sonal Sannigrahi",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/sonal_sannigrahi.jpg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Giuseppe Attanasio",
+  "start_year": 2023,
+  "graduation_year": "current",
+  "research_interests": [
+  "Speech"
+],
+  "links": {
+  "website": "https://sonalsannigrahi.github.io/",
+  "github": "https://github.com/sonalsannigrahi/",
+  "linkedin": "https://www.linkedin.com/in/sonal-08012001/",
+  "scholar": "https://scholar.google.com/citations?user=Z2TYorQAAAAJ&hl=en"
+},
+  "country": "India",
+  "city": "Mumbai"
+},
+  {
+  "name": "Sophia Sklaviadis",
+  "role": "phd",
+  "position": "PhD Student at IST",
+  "image": "assets/figs/team/sophia_sklaviadis.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2023,
+  "graduation_year": "current",
+  "research_interests": [
+  "Sparsity and Theory"
+],
+  "links": {
+  "website": "https://peithous.github.io/",
+  "github": "https://github.com/peithous",
+  "linkedin": "https://www.linkedin.com/in/sophia-sklaviadis-896776319/",
+  "scholar": "https://scholar.google.com/citations?user=wkFXjGAAAAAJ&hl=en"
+},
+  "country": "Greece",
+  "city": "Thessaloniki"
+}
+],
+  "postdocs": [
+  {
+  "name": "Giuseppe Attanasio",
+  "role": "postdoc",
+  "position": "Post-doc at IT",
+  "image": "assets/figs/team/giuseppe_attanasio.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Ethics & Speech"
+],
+  "links": {
+  "website": "https://gattanasio.cc/",
+  "github": "https://github.com/g8a9",
+  "linkedin": "https://www.linkedin.com/in/giuseppe-attanasio/",
+  "scholar": "https://scholar.google.com/citations?user=IuhnRJQAAAAJ"
+},
+  "country": "Italy",
+  "city": "Castrovillari"
+},
+  {
+  "name": "Margot Herin",
+  "role": "postdoc",
+  "position": "Post-doc at IT",
+  "image": "assets/figs/team/margot_herin.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "Preference Learning & Optimization"
+],
+  "links": {
+  "website": "https://sites.google.com/view/margotherin/",
+  "linkedin": "https://www.linkedin.com/in/margot-h%C3%A9rin/",
+  "scholar": "https://dblp.org/pid/331/1640.html"
+},
+  "country": "France",
+  "city": "Paris"
+},
+  {
+  "name": "Matthias Lindemann",
+  "role": "postdoc",
+  "position": "Post-doc at IT",
+  "image": "assets/figs/team/matthias_lindemann.png",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2025,
+  "graduation_year": "current",
+  "research_interests": [
+  "Structure & Causality"
+],
+  "links": {
+  "website": "https://namednil.github.io/",
+  "github": "https://github.com/namednil",
+  "scholar": "https://scholar.google.com/citations?user=TEVnGGsAAAAJ"
+},
+  "country": "Germany",
+  "city": "Saarland"
+},
+  {
+  "name": "Miguel Faria",
+  "role": "postdoc",
+  "position": "Post-doc at IT",
+  "image": "assets/figs/team/miguel_faria.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Reinforcement Learning"
+],
+  "links": {
+  "github": "https://github.com/miguel-faria",
+  "linkedin": "https://www.linkedin.com/in/miguel-faria-34048142/",
+  "scholar": "https://scholar.google.pt/citations?user=rDTQNOIAAAAJ"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Orfeas Menis",
+  "role": "postdoc",
+  "position": "Post-doc at IT",
+  "image": "assets/figs/team/orfeas_menis.jpg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "Safety & Fairness"
+],
+  "links": {
+  "website": "https://menisorfeas.com/",
+  "github": "https://github.com/orfeas-menis",
+  "linkedin": "https://www.linkedin.com/in/orfeasmenis/",
+  "scholar": "https://scholar.google.com/citations?user=lK6KF-kAAAAJ&hl=en"
+},
+  "country": "Greece",
+  "city": "Athens"
 }
 ],
   "researchers": [
   {
   "name": "Anil Keshwani",
   "role": "researcher",
-  "position": "Visiting Researcher at IT",
+  "position": "Visiting Researcher",
   "image": "assets/figs/team/anil_keshwani.jpeg",
   "advisor": "Andr\u00e9 Martins",
   "co_advisor": "Ben Peters",
@@ -776,25 +861,109 @@ const teamData = {
   "city": "London"
 },
   {
-  "name": "Hugo Pitorro",
+  "name": "Erik Jhones",
   "role": "researcher",
-  "position": "Visiting Researcher at IT",
-  "image": "assets/figs/team/hugo_pitorro.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Marcos Treviso",
-  "start_year": 2024,
+  "position": "External Collaborator",
+  "image": "assets/figs/team/erik_jhones.jpeg",
+  "advisor": "Marcos Treviso",
+  "start_year": 2026,
   "graduation_year": "current",
   "research_interests": [
-  "Efficiency & Interpretability"
+  "RAG"
 ],
   "links": {
-  "website": "https://pitorro.de/",
-  "github": "https://github.com/xtwigs",
-  "linkedin": "https://www.linkedin.com/in/hugo-henrique-pitorro/",
-  "scholar": "https://scholar.google.com/citations?user=P-cyHFkAAAAJ&hl=en"
+  "github": "https://scholar.google.com/citations?user=cg7qxqYAAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/erik-jhones"
+},
+  "country": "Brazil",
+  "city": "Cear\u00e1"
+},
+  {
+  "name": "Francisco Silva",
+  "role": "researcher",
+  "position": "Visiting Researcher",
+  "image": "assets/figs/team/francisco_silva.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "Hopfield Networks"
+],
+  "links": {
+  "linkedin": "https://www.linkedin.com/in/francisco-silva-949356209/?originalSubdomain=pt"
 },
   "country": "Portugal",
   "city": "Lisbon"
+},
+  {
+  "name": "Gon\u00e7alo Paulo",
+  "role": "researcher",
+  "position": "Visiting Researcher",
+  "image": "assets/figs/team/goncalo_paulo.jpeg",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "Interpretability"
+],
+  "links": {
+  "scholar": "https://scholar.google.com/citations?user=IA403qAAAAAJ&hl=pt-PT"
+},
+  "country": "Portugal",
+  "city": "Lisbon"
+},
+  {
+  "name": "Javier Gilabert",
+  "role": "researcher",
+  "position": "Visiting Researcher",
+  "image": "assets/figs/team/erik_gilabert.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "LLM Training and Evaluation"
+],
+  "links": {
+  "website": "https://javi897.github.io/",
+  "github": "https://github.com/JAVI897",
+  "linkedin": "https://www.linkedin.com/in/javigarciagilabert",
+  "scholar": "https://scholar.google.com/citations?user=ZGQWT3YAAAAJ&hl=en"
+},
+  "country": "Spain",
+  "city": "Madrid"
+},
+  {
+  "name": "Julio Galdino",
+  "role": "researcher",
+  "position": "Visiting PhD student",
+  "image": "assets/figs/team/julio_galdino.jpeg",
+  "advisor": "Marcos Treviso",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "Prosody & Speech"
+],
+  "links": {
+  "linkedin": "https://www.linkedin.com/in/julio-cesar-galdino-467b76199",
+  "scholar": "https://scholar.google.com/citations?user=HhVfSH4AAAAJ"
+},
+  "country": "Brazil",
+  "city": "Alagoas"
+},
+  {
+  "name": "Lili Mou",
+  "role": "researcher",
+  "position": "Visiting Professor",
+  "image": "assets/figs/team/lili_mou.jpeg",
+  "start_year": 2025,
+  "graduation_year": "current",
+  "research_interests": [
+  "NLP & Machine Learning"
+],
+  "links": {
+  "website": "https://lili-mou.github.io/"
+},
+  "country": "Canada",
+  "city": "Alberta"
 }
 ]
 };
