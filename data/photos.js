@@ -1,7 +1,7 @@
 const GROUP_PHOTOS = [
   {
-  "year": "2026",
-  "description": `Hiking in Sintra`,
+  "year": "2025",
+  "description": `End of year gathering`,
   "filename": "group10.jpg"
 },
   {
