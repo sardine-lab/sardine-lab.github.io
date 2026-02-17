@@ -864,7 +864,7 @@ const teamData = {
   "name": "Erik Jhones",
   "role": "researcher",
   "position": "External Collaborator",
-  "image": "assets/figs/team/erik_jhones.jpg",
+  "image": "assets/figs/team/erik_jhones.jpeg",
   "advisor": "Marcos Treviso",
   "start_year": 2026,
   "graduation_year": "current",
