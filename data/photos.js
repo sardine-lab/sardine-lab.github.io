@@ -1,6 +1,6 @@
 const GROUP_PHOTOS = [
   {
-  "year": "2025",
+  "year": "2026",
   "description": `End of year gathering`,
   "filename": "group10.jpg"
 },

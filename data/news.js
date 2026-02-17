@@ -3,6 +3,28 @@
 
 const newsData = [
   {
+  "date": "14/12/2025",
+  "type": "release",
+  "title": "EuroLLM-22B Released: Europe's largest fully open multilingual LLM",
+  "content": `<p>We’ve released <strong>EuroLLM-22B</strong>, the largest model in the EuroLLM series — a <strong>fully open</strong> multilingual LLM trained in Europe on EuroHPC infrastructure. 🌍🤖 </p>
+<p><strong>Highlights</strong>
+- <strong>22B parameters</strong>, pretrained on <strong>4T tokens</strong>
+- Covers <strong>all 24 EU official languages + 11 additional languages</strong>
+- <strong>Long context (32K tokens)</strong> and improved post-training</p>
+<p>Explore the release + benchmarks: https://huggingface.co/blog/eurollm-team/eurollm-22b<br />
+Models on Hugging Face: https://huggingface.co/utter-project/EuroLLM-22B-2512 and https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512<br />
+Technical report: https://arxiv.org/abs/2602.05879</p>`,
+  "tags": [
+  "eurollm",
+  "release",
+  "llm",
+  "multilingual",
+  "open-source",
+  "long-context",
+  "research"
+]
+},
+  {
   "date": "12/10/2025",
   "type": "team",
   "title": "We're Hiring: Post-doc, PhD, and Research Engineer Positions at SARDINE Lab!",

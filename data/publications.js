@@ -4,6 +4,31 @@
 const publicationsData = [
   {
   "id": 152,
+  "title": "Long-Context Generalization with Sparse Attention",
+  "authors": "Pavlo Vasylenko, Hugo Pitorro, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
+  "venue": "ICLR",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Transformer-based architectures traditionally employ softmax to compute attention weights, which produces dense distributions over all tokens in a sequence. While effective in many settings, this density has been shown to be detrimental for tasks that demand precise focus on fixed-size patterns: as sequence length increases, non-informative tokens accumulate attention probability mass, leading to dispersion and representational collapse. We show in this paper that sparse attention mechanisms using α-entmax can avoid these issues, due to their ability to assign exact zeros to irrelevant tokens. Furthermore, we introduce Adaptive-Scalable Entmax (ASEntmax), which endows α-entmax with a learnable temperature parameter, allowing the attention distribution to interpolate between sparse (pattern-focused) and dense (softmax-like) regimes. Finally, we show that the ability to locate and generalize fixed-size patterns can be further improved through a careful design of position encodings, which impacts both dense and sparse attention methods. By integrating ASEntmax into standard transformer layers alongside proper positional encodings, we show that our models greatly outperform softmax, scalable softmax, and fixed-temperature α-entmax baselines on long-context generalization.</p>`,
+  "streams": [
+  "attention",
+  "memory",
+  "theory"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2506.16640",
+  "bibtex": `@article{Vasylenko2025LongContextGW,
+ author = {Pavlo Vasylenko and Marcos V. Treviso and Andr'e F. T. Martins},
+ booktitle = {arXiv.org},
+ journal = {ArXiv},
+ title = {Long-Context Generalization with Sparse Attention},
+ volume = {abs/2506.16640},
+ year = {2025}
+}`
+}
+},
+  {
+  "id": 152,
   "title": "TowerVision: Understanding and Improving Multilinguality in Vision-Language Models",
   "authors": "Andr\u00e9 G. Viveiros, Patrick Fernandes, Saul Santos, Sonal Sannigrahi, Emmanouil Zaranis, Nuno M. Guerreiro, Amin Farajian, Pierre Colombo, Graham Neubig, Andr\u00e9 F. T. Martins",
   "venue": "arXiv",
@@ -26,31 +51,6 @@ const publicationsData = [
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2510.21849}, 
-}`
-}
-},
-  {
-  "id": 152,
-  "title": "Long-Context Generalization with Sparse Attention",
-  "authors": "Pavlo Vasylenko, Hugo Pitorro, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
-  "venue": "arXiv",
-  "year": 2025,
-  "type": "preprint",
-  "abstract": `<p>Transformer-based architectures traditionally employ softmax to compute attention weights, which produces dense distributions over all tokens in a sequence. While effective in many settings, this density has been shown to be detrimental for tasks that demand precise focus on fixed-size patterns: as sequence length increases, non-informative tokens accumulate attention probability mass, leading to dispersion and representational collapse. We show in this paper that sparse attention mechanisms using α-entmax can avoid these issues, due to their ability to assign exact zeros to irrelevant tokens. Furthermore, we introduce Adaptive-Scalable Entmax (ASEntmax), which endows α-entmax with a learnable temperature parameter, allowing the attention distribution to interpolate between sparse (pattern-focused) and dense (softmax-like) regimes. Finally, we show that the ability to locate and generalize fixed-size patterns can be further improved through a careful design of position encodings, which impacts both dense and sparse attention methods. By integrating ASEntmax into standard transformer layers alongside proper positional encodings, we show that our models greatly outperform softmax, scalable softmax, and fixed-temperature α-entmax baselines on long-context generalization.</p>`,
-  "streams": [
-  "attention",
-  "memory",
-  "theory"
-],
-  "links": {
-  "paper": "https://arxiv.org/abs/2506.16640",
-  "bibtex": `@article{Vasylenko2025LongContextGW,
- author = {Pavlo Vasylenko and Marcos V. Treviso and Andr'e F. T. Martins},
- booktitle = {arXiv.org},
- journal = {ArXiv},
- title = {Long-Context Generalization with Sparse Attention},
- volume = {abs/2506.16640},
- year = {2025}
 }`
 }
 },
