@@ -236,8 +236,8 @@ class IndexPage {
         
         projectsContainer.innerHTML = '';
 
-        currentProjects.forEach(project => {
-            const projectCard = projectsManager.createProjectCard(project);
+        currentProjects.forEach((project, i) => {
+            const projectCard = projectsManager.createProjectCard(project, i);
             projectsContainer.appendChild(projectCard);
         });
     }

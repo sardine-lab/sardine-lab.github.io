@@ -71,7 +71,26 @@ class ProjectsManager {
         }));
     }
 
-    createProjectCard(project) {
+    createProjectFigure(project) {
+      return `
+        <!-- Project Figure -->
+        <div class="mb-6">
+          <div class="w-full h-48 rounded-xl bg-gradient-to-br from-sardine-blue/10 to-sardine-light/20 flex items-center justify-center overflow-hidden">
+            ${
+              project.figure
+                ? `<img class="h-48 w-full rounded-xl" src="assets/figs/${project.figure}" alt="${project.name} figure" loading="lazy" />`
+                : `<div class="text-center text-sardine-blue/60">
+                     <i class="fas fa-image text-3xl mb-2"></i>
+                     <p class="text-sm font-medium">Project Visualization</p>
+                     <p class="text-xs">(Placeholder)</p>
+                   </div>`
+            }
+          </div>
+        </div>
+      `;
+    }
+
+    createProjectCard(project, index) {
         const projectCard = document.createElement('div');
         projectCard.className = 'bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-lg transition-shadow';
         
@@ -87,6 +106,8 @@ class ProjectsManager {
                 <i class="fas fa-external-link-alt text-xs"></i>
             </a>` : '';
 
+        const figureHtml = index === 0 ? this.createProjectFigure(project) : '';
+
         projectCard.innerHTML = `
             <div class="grid lg:grid-cols-3 gap-6">
                 <div class="lg:col-span-2">
@@ -96,6 +117,9 @@ class ProjectsManager {
                             <h4 class="text-lg text-slate-700 mb-3">${project.title}</h4>
                         </div>
                     </div>
+                    
+                    ${figureHtml}
+
                     <div class="prose text-slate-700 text-sm leading-relaxed mb-4">${project.description}</div>
                     ${website}
                 </div>
