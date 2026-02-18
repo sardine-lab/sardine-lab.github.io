@@ -31,11 +31,13 @@ const teamData = {
   "image": "assets/figs/team/ben_peters.jpeg",
   "advisor": "Andr\u00e9 Martins",
   "start_year": 2022,
-  "graduation_year": "current",
+  "graduation_year": 2025,
   "research_interests": [
   "Speech & Morphology"
 ],
+  "previous_position": "Postdoc",
   "links": {
+  "website": "https://github.com/bpopeters",
   "github": "https://github.com/bpopeters",
   "linkedin": "https://www.linkedin.com/in/ben-peters-b29128a0/",
   "scholar": "https://scholar.google.com/citations?user=WFcYhToAAAAJ&hl=en"
@@ -49,8 +51,8 @@ const teamData = {
   "position": "Assistant Professor at XJTLU",
   "image": "assets/figs/team/chunchuan_lyu.jpg",
   "advisor": "Andr\u00e9 Martins",
-  "start_year": 2022,
-  "graduation_year": 2022,
+  "start_year": 2021,
+  "graduation_year": 2021,
   "previous_position": "Postdoc",
   "links": {
   "website": "https://scholar.xjtlu.edu.cn/en/persons/ChunchuanLyu"
@@ -246,7 +248,7 @@ const teamData = {
   "advisor": "Andr\u00e9 Martins",
   "co_advisor": "Hinrich Schutze",
   "start_year": 2021,
-  "graduation_year": "current",
+  "graduation_year": 2025,
   "research_interests": [
   "Multilingual Resources"
 ],
