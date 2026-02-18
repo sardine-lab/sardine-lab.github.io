@@ -11,9 +11,11 @@ const newsData = [
 - <strong>22B parameters</strong>, pretrained on <strong>4T tokens</strong>
 - Covers <strong>all 24 EU official languages + 11 additional languages</strong>
 - <strong>Long context (32K tokens)</strong> and improved post-training</p>
-<p>Explore the release + benchmarks: <a href="https://huggingface.co/blog/eurollm-team/eurollm-22b">https://huggingface.co/blog/eurollm-team/eurollm-22b</a>
-Models on Hugging Face: <a href="https://huggingface.co/utter-project/EuroLLM-22B-2512">https://huggingface.co/utter-project/EuroLLM-22B-2512</a> and <a href="https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512">https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512</a>
-Technical report: <a href="https://arxiv.org/abs/2602.05879">https://arxiv.org/abs/2602.05879</a></p>`,
+<ul>
+<li>Explore the release + benchmarks: <a href="https://huggingface.co/blog/eurollm-team/eurollm-22b">https://huggingface.co/blog/eurollm-team/eurollm-22b</a></li>
+<li>Models on Hugging Face: <a href="https://huggingface.co/utter-project/EuroLLM-22B-2512">https://huggingface.co/utter-project/EuroLLM-22B-2512</a> and <a href="https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512">https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512</a></li>
+<li>Technical report: <a href="https://arxiv.org/abs/2602.05879">https://arxiv.org/abs/2602.05879</a></li>
+</ul>`,
   "tags": [
   "eurollm",
   "release",

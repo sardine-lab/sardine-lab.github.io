@@ -31,7 +31,7 @@ const publicationsData = [
   "authors": "Saul Santos, Nuno Gon\u00e7alves, Daniel C. McNamee, Marcos Treviso, Andr\u00e9 F.T Martins",
   "venue": "arXiv",
   "year": 2026,
-  "type": "conference",
+  "type": "preprint",
   "abstract": `<p>Recent work has revealed a link between self-attention mechanisms in transformers and test-time kernel regression via the Nadaraya-Watson estimator, with standard softmax attention corresponding to a Gaussian kernel. However, a kernel-theoretic understanding of sparse attention mechanisms is currently missing. In this paper, we establish a formal correspondence between sparse attention and compact (bounded support) kernels. We show that normalized ReLU and sparsemax attention arise from Epanechnikov kernel regression under fixed and adaptive normalizations, respectively. More generally, we demonstrate that widely used kernels in nonparametric density estimation -- including Epanechnikov, biweight, and triweight -- correspond to α-entmax attention with α=1+1n for n∈ℕ, while the softmax/Gaussian relationship emerges in the limit n→∞. This unified perspective explains how sparsity naturally emerges from kernel design and provides principled alternatives to heuristic top-k attention and other associative memory mechanisms. Experiments with a kernel-regression-based variant of transformers -- Memory Mosaics -- show that kernel-based sparse attention achieves competitive performance on language modeling, in-context learning, and length generalization tasks, offering a principled framework for designing attention mechanisms.</p>`,
   "streams": [
   "attention",
