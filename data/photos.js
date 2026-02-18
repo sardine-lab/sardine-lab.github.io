@@ -1,6 +1,6 @@
 const GROUP_PHOTOS = [
   {
-  "year": "2026",
+  "year": "2025",
   "description": `End of year gathering`,
   "filename": "group10.jpg"
 },
@@ -8,11 +8,6 @@ const GROUP_PHOTOS = [
   "year": "2025",
   "description": `Hiking in Sintra`,
   "filename": "group9.jpg"
-},
-  {
-  "year": "2025",
-  "description": `Welcoming new students at Zé da Mouraria`,
-  "filename": "group8.jpg"
 },
   {
   "year": "2024",
