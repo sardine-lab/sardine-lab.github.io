@@ -44,7 +44,7 @@ class TeamManager {
         teamContainer.innerHTML = '';
 
         // Render each team category
-        this.renderTeamCategory(teamContainer, 'Faculty Researchers', currentTeam.faculties, 'large');
+        this.renderTeamCategory(teamContainer, 'Faculty Researchers', currentTeam.faculties, 'medium');
         this.renderTeamCategory(teamContainer, 'Post-docs', currentTeam.postdocs, 'medium');
         this.renderTeamCategory(teamContainer, 'PhD Students', currentTeam.phds, 'small');
         this.renderTeamCategory(teamContainer, 'Research Collaborators', currentTeam.researchers, 'small');

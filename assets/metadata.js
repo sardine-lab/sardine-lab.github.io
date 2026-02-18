@@ -76,6 +76,10 @@ const SARDINE_METADATA = {
         {
             name: "Instituto Superior Técnico", 
             url: "https://tecnico.ulisboa.pt/"
+        },
+        {
+            name: "University of Lisbon", 
+            url: "https://www.ulisboa.pt/en"
         }
     ]
 };
@@ -139,9 +143,9 @@ class MetadataManager {
                     <p class="text-sm text-slate-400 mt-2">
                         ${this.metadata.affiliations.map(aff => 
                             `<a href="${aff.url}" target="_blank" class="hover:text-white transition-colors">${aff.name}</a>`
-                        ).join(' <br> ')} <br><br>
-                        ${this.metadata.contact.location}
+                        ).join(' <br> ')} 
                     </p>
+                    <p class="text-sm text-slate-400 mt-3">${this.metadata.contact.address}</p> 
                 </div>
                 <div>
                     <h3 class="text-sm font-semibold text-slate-100 mb-3">Research Streams</h3>
@@ -153,7 +157,7 @@ class MetadataManager {
                     <h3 class="text-sm font-semibold text-slate-100 mb-3">Contact & Links</h3>
                     <div class="space-y-2 text-sm text-slate-400">
                         <p>Email: <a class="underline hover:text-white transition-colors" href="mailto:${this.metadata.contact.email}">${this.metadata.contact.email}</a></p>
-                        <p>Address: ${this.metadata.contact.address}</p> 
+                        <p>Talks: <a class="underline hover:text-white transition-colors" target="_blank" href="https://sardine-lab.github.io/ellis-sardine-seminars/">ELLIS-SARDINE Seminars</a></p>
                         <div class="flex space-x-4 mt-4">
                             ${this.metadata.socialNetworks.map(social => 
                                 `<a href="${social.url}" class="text-slate-400 hover:text-white transition-colors" ${social.url.startsWith('http') ? 'target="_blank"' : ''}>
