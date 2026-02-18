@@ -30,7 +30,7 @@ const teamData = {
   "position": "Post-doc at INESC-ID",
   "image": "assets/figs/team/ben_peters.jpeg",
   "advisor": "Andr\u00e9 Martins",
-  "start_year": 2022,
+  "start_year": 2023,
   "graduation_year": 2025,
   "research_interests": [
   "Speech & Morphology"
