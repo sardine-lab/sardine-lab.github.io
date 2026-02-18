@@ -10,12 +10,36 @@ const projectsData = {
   "pi": "Andr\u00e9 Martins",
   "period": "2026-2027",
   "team_members": [
-  "Matthias Lindemann",
-  "Beatriz Canaverde",
   "Duarte Alves",
+  "Giuseppe Attanasio",
+  "Guilherme Viveiros",
+  "Javier Gilabert",
+  "Marcos Treviso",
+  "Manos Zaranis",
+  "Matthias Lindemann",
+  "Miguel Faria",
   "Miguel Ramos",
   "Saul Santos",
-  "Sophia Sklaviadis"
+  "Sonal Sannigrahi"
+],
+  "collaborators": [
+  "Alexandra Birch",
+  "Ben Kabongo",
+  "Barry Haddow",
+  "Dominik Machacek",
+  "Edoardo Ponti",
+  "Francois Yvon",
+  "Giulio Zhou",
+  "Laurent Bessacier",
+  "Luisa Bentivogli",
+  "Marco Gaido",
+  "Matteo Negri",
+  "Patrick Fernandes",
+  "Pierre Colombo",
+  "Sara Papi",
+  "Sherrie Shen",
+  "Syrielle Montariol",
+  "Tsz Kin Lam"
 ],
   "keywords": [
   "multimodality",
@@ -27,7 +51,8 @@ const projectsData = {
 ],
   "figure": "smurf4eu.jpeg",
   "description": `<p><strong>SMURF4EU</strong> will develop and release a suite of fully open, high-performance <strong>multimodal reasoning foundation models</strong> for Europe, spanning <strong>text, code, speech, vision, and video</strong>. The project targets a major gap in today’s landscape: the lack of transparent, reproducible, and EU-language-capable alternatives to proprietary multimodal systems. SMURF4EU will deliver multiple model sizes (2.5B, 10B, 24B, and a <strong>134B MoE</strong> with 41B active parameters), designed to support <strong>all 24 official EU languages</strong> and to enable <strong>multimodal reasoning</strong> through reinforcement learning and verifier-style rewards.</p>
-<hr />
+<p>\\
+\\</p>
 <p>A core technical goal is a <strong>modular training recipe</strong> that makes it efficient to add modalities to strong text models via late fusion and shared token-like representations, while scaling to <strong>long multimodal contexts (up to 1M tokens)</strong> using efficient attention and memory-compression techniques. Beyond releasing model weights, the project commits to <strong>open science</strong> by publishing checkpoints, datasets (where licensing permits), code, and documentation, following best practices for safety and compliance (including GDPR-aware data handling and alignment practices) to foster European research, innovation, and industrial adoption.</p>`
 },
   {
@@ -84,7 +109,8 @@ const projectsData = {
   "website": "https://amaliallm.pt/",
   "figure": "amalia.jpeg",
   "description": `<p><strong>AMALIA</strong> is an <strong>open large language model</strong> developed specifically for <strong>Portuguese as used in Portugal</strong> and for <strong>Portuguese cultural context</strong>, aiming to strengthen linguistic quality across Portuguese variants, preserve culturally grounded language use (idioms, references), and support <strong>data sovereignty</strong>—especially for use cases in the <strong>Public Administration</strong> where sensitive data should remain under national control. </p>
-<hr />
+<p>\\
+\\</p>
 <p>Technically, AMALIA’s first phase centers on a model of about <strong>9B parameters</strong>, pre-trained on roughly <strong>4 trillion words</strong>, and fine-tuned on curated Portuguese data (including material filtered from <strong>Arquivo.PT</strong>), leveraging prior Portuguese-focused models from the team (e.g., EuroLLM and GlorIA). The project is built by a national consortium (NOVA, IST, Coimbra, Porto, Minho, and FCT/Arquivo.PT), trained using <strong>large-scale supercomputing</strong> (including <strong>MareNostrum 5</strong> and <strong>Deucalion</strong>) and is being rolled out progressively via research and institutional access (e.g., through <strong>IAEdu</strong> via API), with a roadmap toward broader capability expansion (including multimodality) and a <strong>targeted final, robust release around June 2026</strong>. </p>`
 },
   {
