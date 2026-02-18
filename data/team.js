@@ -393,7 +393,7 @@ const teamData = {
   "scholar": "https://scholar.google.com/citations?hl=en&user=puR_FskAAAAJ"
 },
   "country": "Brazil",
-  "city": "Guapor\u00e9"
+  "city": "Rio Grande do Sul"
 },
   {
   "name": "Zita Marinho",
