@@ -15,7 +15,7 @@ const newsData = [
 <p>Explore:</p>
 <ul>
 <li>Blog post: <a href="https://huggingface.co/blog/eurollm-team/eurollm-22b">https://huggingface.co/blog/eurollm-team/eurollm-22b</a></li>
-<li>Models on Hugging Face: <a href="EuroLLM-22B">https://huggingface.co/utter-project/EuroLLM-22B-2512</a> and <a href="EuroLLM-22B-Instruct">https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512</a></li>
+<li>Models on Hugging Face: <a href="https://huggingface.co/utter-project/EuroLLM-22B-2512">EuroLLM-22B</a> and <a href="https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512">EuroLLM-22B-Instruct</a></li>
 <li>Technical report: <a href="https://arxiv.org/abs/2602.05879">https://arxiv.org/abs/2602.05879</a></li>
 </ul>`,
   "tags": [
