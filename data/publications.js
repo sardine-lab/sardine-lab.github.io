@@ -3,7 +3,30 @@
 
 const publicationsData = [
   {
-  "id": 155,
+  "id": 158,
+  "title": "EuroLLM-22B: Technical Report",
+  "authors": "Miguel Moura Ramos, Duarte M. Alves, Hippolyte Gisserot-Boukhlef, Jo\u00e3o Alves, Pedro Henrique Martins, Patrick Fernandes, Jos\u00e9 Pombal, Nuno M. Guerreiro, Ricardo Rei, Nicolas Boizard, Amin Farajian, Mateusz Klimaszewski, Jos\u00e9 G. C. de Souza, Barry Haddow, Fran\u00e7ois Yvon, Pierre Colombo, Alexandra Birch, Andr\u00e9 F. T. Martins",
+  "venue": "arXiv",
+  "year": 2026,
+  "type": "preprint",
+  "abstract": `<p>EuroLLM-22B: Technical Report</p>`,
+  "streams": [
+  "resources",
+  "multilingual-translation"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2602.05879",
+  "code": "https://huggingface.co/collections/utter-project/eurollm",
+  "bibtex": `@article{ramos2026eurollm,
+  title={EuroLLM-22B: Technical Report},
+  author={Ramos, Miguel Moura and Alves, Duarte M and Gisserot-Boukhlef, Hippolyte and Alves, Jo{\\~a}o and Martins, Pedro Henrique and Fernandes, Patrick and Pombal, Jos{\\'e} and Guerreiro, Nuno M and Rei, Ricardo and Boizard, Nicolas and others},
+  journal={arXiv preprint arXiv:2602.05879},
+  year={2026}
+}`
+}
+},
+  {
+  "id": 157,
   "title": "Sparse Attention as Compact Kernel Regression",
   "authors": "Saul Santos, Nuno Gon\u00e7alves, Daniel C. McNamee, Marcos Treviso, Andr\u00e9 F.T Martins",
   "venue": "arXiv",
@@ -11,8 +34,8 @@ const publicationsData = [
   "type": "conference",
   "abstract": `<p>Recent work has revealed a link between self-attention mechanisms in transformers and test-time kernel regression via the Nadaraya-Watson estimator, with standard softmax attention corresponding to a Gaussian kernel. However, a kernel-theoretic understanding of sparse attention mechanisms is currently missing. In this paper, we establish a formal correspondence between sparse attention and compact (bounded support) kernels. We show that normalized ReLU and sparsemax attention arise from Epanechnikov kernel regression under fixed and adaptive normalizations, respectively. More generally, we demonstrate that widely used kernels in nonparametric density estimation -- including Epanechnikov, biweight, and triweight -- correspond to α-entmax attention with α=1+1n for n∈ℕ, while the softmax/Gaussian relationship emerges in the limit n→∞. This unified perspective explains how sparsity naturally emerges from kernel design and provides principled alternatives to heuristic top-k attention and other associative memory mechanisms. Experiments with a kernel-regression-based variant of transformers -- Memory Mosaics -- show that kernel-based sparse attention achieves competitive performance on language modeling, in-context learning, and length generalization tasks, offering a principled framework for designing attention mechanisms.</p>`,
   "streams": [
-  "memory",
   "attention",
+  "memory",
   "theory"
 ],
   "links": {
@@ -27,7 +50,32 @@ const publicationsData = [
 }
 },
   {
-  "id": 154,
+  "id": 156,
+  "title": "Should We Still Pretrain Encoders with Masked Language Modeling?",
+  "authors": "Hippolyte Gisserot-Boukhlef, Nicolas Boizard, Manuel Faysse, Duarte M. Alves, Emmanuel Malherbe, Andr\u00e9 F. T. Martins, C\u00e9line Hudelot, Pierre Colombo",
+  "venue": "ICLR",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Learning high-quality text representations is fundamental to a wide range of NLP tasks. While encoder pretraining has traditionally relied on Masked Language Modeling (MLM), recent evidence suggests that decoder models pretrained with Causal Language Modeling (CLM) can be effectively repurposed as encoders, often surpassing traditional encoders on text representation benchmarks. However, it remains unclear whether these gains reflect an inherent advantage of the CLM objective or arise from confounding factors such as model and data scale. In this paper, we address this question through a series of large-scale, carefully controlled pretraining ablations, training a total of 38 models ranging from 210 million to 1 billion parameters, and conducting over 15,000 fine-tuning and evaluation runs. We find that while training with MLM generally yields better performance across text representation tasks, CLM-trained models are more data-efficient and demonstrate improved fine-tuning stability. Building on these findings, we experimentally show that a biphasic training strategy that sequentially applies CLM and then MLM, achieves optimal performance under a fixed computational training budget. Moreover, we demonstrate that this strategy becomes more appealing when initializing from readily available pretrained CLM models, reducing the computational burden needed to train best-in-class encoder models. We release all project artifacts at <a href="https://hf.co/MLMvsCLM">[https://hf.co/MLMvsCLM](https://hf.co/MLMvsCLM)</a> to foster further research.</p>`,
+  "streams": [
+  "resources",
+  "theory"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2507.00994",
+  "code": "https://huggingface.co/blog/Nicolas-BZRD/encoders-should-not-be-only-pre-trained-with-mlm",
+  "bibtex": `@inproceedings{
+gisserot-boukhlef2026should,
+title={Should We Still Pretrain Encoders with Masked Language Modeling?},
+author={Hippolyte Gisserot-Boukhlef and Nicolas Boizard and Manuel Faysse and Duarte Miguel Alves and Emmanuel Malherbe and Andre Martins and CELINE HUDELOT and Pierre Colombo},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=jpz7e3jhRq}
+}`
+}
+},
+  {
+  "id": 155,
   "title": "Long-Context Generalization with Sparse Attention",
   "authors": "Pavlo Vasylenko, Hugo Pitorro, Andr\u00e9 F. T. Martins, Marcos V. Treviso",
   "venue": "ICLR",
@@ -54,7 +102,95 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
 }
 },
   {
+  "id": 154,
+  "title": "AdaSplash: Adaptive Sparse Flash Attention",
+  "authors": "Nuno Gon\u00e7alves, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
+  "venue": "ICML",
+  "year": 2025,
+  "type": "conference",
+  "award": "Spotlight & Oral Presentation",
+  "abstract": `<p>The computational cost of softmax-based attention in transformers limits their applicability to long-context tasks. Adaptive sparsity, of which $\\alpha$-entmax attention is an example, offers a flexible data-dependent alternative, but existing implementations are inefficient and do not leverage the sparsity to obtain runtime and memory gains. In this work, we propose AdaSplash, which combines the efficiency of GPU-optimized algorithms with the sparsity benefits of $\\alpha$-entmax. We first introduce a hybrid Halley-bisection algorithm, resulting in a 7-fold reduction in the number of iterations needed to compute the $\\alpha$-entmax transformation. Then, we implement custom Triton kernels to efficiently handle adaptive sparsity. Experiments with RoBERTa and ModernBERT for text classification and single-vector retrieval, along with GPT-2 for language modeling, show that our method achieves substantial improvements in runtime and memory efficiency compared to existing $\\alpha$-entmax implementations. It approaches -- and in some cases surpasses -- the efficiency of highly optimized softmax implementations like FlashAttention-2, enabling long-context training while maintaining strong task performance.</p>`,
+  "streams": [
+  "attention",
+  "efficiency",
+  "theory"
+],
+  "links": {
+  "paper": "https://openreview.net/forum?id=OWIPDWhUcO",
+  "code": "https://github.com/deep-spin/adasplash",
+  "bibtex": `@inproceedings{GonalvesAdasplashAdaptiveSparseF,
+  title={ AdaSplash: Adaptive Sparse Flash Attention },
+  author={ Nuno Gonçalves and Marcos Treviso and Andre Martins },
+  booktitle={ International Conference on Machine Learning },
+  year={ 2025},
+  url={ https://openreview.net/forum?id=OWIPDWhUcO }
+}`
+}
+},
+  {
   "id": 153,
+  "title": "Sample-efficient Integration of New Modalities into Large Language Models",
+  "authors": "Osman Batur \u0130nce, Andr\u00e9 F. T. Martins, Oisin Mac Aodha, Edoardo M. Ponti",
+  "venue": "arXiv",
+  "year": 2025,
+  "type": "preprint",
+  "abstract": `<p>Multimodal foundation models can process several modalities. However, since the space of possible modalities is large and evolving over time, training a model from scratch to encompass all modalities is unfeasible. Moreover, integrating a modality into a pre-existing foundation model currently requires a significant amount of paired data, which is often not available for low-resource modalities. In this paper, we introduce a method for sample-efficient modality integration (SEMI) into Large Language Models (LLMs). To this end, we devise a hypernetwork that can adapt a shared projector -- placed between modality-specific encoders and an LLM -- to any modality. The hypernetwork, trained on high-resource modalities (i.e., text, speech, audio, video), is conditioned on a few samples from any arbitrary modality at inference time to generate a suitable adapter. To increase the diversity of training modalities, we artificially multiply the number of encoders through isometric transformations. We find that SEMI achieves a significant boost in sample efficiency during few-shot integration of new modalities (i.e., satellite images, astronomical images, inertial measurements, and molecules) with encoders of arbitrary embedding dimensionality. For instance, to reach the same accuracy as 32-shot SEMI, training the projector from scratch needs 64× more data. As a result, SEMI holds promise to extend the modality coverage of foundation models.</p>`,
+  "streams": [
+  "efficiency",
+  "multimodal"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2509.04606",
+  "bibtex": `@article{ince2025sample,
+  title={Sample-efficient Integration of New Modalities into Large Language Models},
+  author={{\\.I}nce, Osman Batur and Martins, Andr{\\'e} FT and Mac Aodha, Oisin and Ponti, Edoardo M},
+  journal={arXiv preprint arXiv:2509.04606},
+  year={2025}
+}`
+}
+},
+  {
+  "id": 152,
+  "title": "Formalizing Test-Time Compute for Function-Level Code Generation",
+  "authors": "Haau-Sing Li, Patrick Fernandes, Iryna Gurevych, Andr\u00e9 FT Martins",
+  "venue": "IJCNLP Findings",
+  "year": 2025,
+  "type": "conference",
+  "abstract": `<p>Test-time compute has emerged as a powerful paradigm in function-level code generation. However, previous proposed strategies have been viewed as disparate, thus lacking a fair apples-to-apples analysis enabling understanding of their operational mechanisms in execution-based benchmarks. Therefore, we present a mathematical framework that unifies generation and reranking with theoretical justifications through the lens of Minimum Bayes Risk (MBR) decoding. Our proposed framework leads to key research questions regarding the effectiveness of using parallel and/or iterative sampling, design choices of reranking signals and soft/hard MBR utility functions, and behaviors of the final selected program across different methods. Our empirical findings highlight the importance of the diversity of sampled candidates (over self-improvement), reranking with simple and high-quality signals, and the effectiveness of test-time compute to select programs that manifest general and edge test case robustness. We will open-source our analysis toolkit and implementation to enable reproducible research. We open-source our analysis toolkit and implementation to enable reproducible research.</p>`,
+  "streams": [
+  "code-generation"
+],
+  "links": {
+  "paper": "https://aclanthology.org/2025.findings-ijcnlp.70/",
+  "code": "https://github.com/deep-spin/doce",
+  "bibtex": `@inproceedings{li-etal-2025-formalizing,
+    title = "Formalizing Test-Time Compute for Function-Level Code Generation",
+    author = "Li, Haau-Sing  and
+      Fernandes, Patrick  and
+      Gurevych, Iryna  and
+      Martins, Andre",
+    editor = "Inui, Kentaro  and
+      Sakti, Sakriani  and
+      Wang, Haofen  and
+      Wong, Derek F.  and
+      Bhattacharyya, Pushpak  and
+      Banerjee, Biplab  and
+      Ekbal, Asif  and
+      Chakraborty, Tanmoy  and
+      Singh, Dhirendra Pratap",
+    booktitle = "Proceedings of the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+    month = dec,
+    year = "2025",
+    address = "Mumbai, India",
+    publisher = "The Asian Federation of Natural Language Processing and The Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-ijcnlp.70/",
+    pages = "1157--1170",
+    ISBN = "979-8-89176-303-6",
+}`
+}
+},
+  {
+  "id": 151,
   "title": "AMUSED: A Multi-Modal Dataset for Usability Smell Identification",
   "authors": "Flavia Santos, Marcos Treviso, Kamila Rodrigues, Renata Fortes, Sandra Gama",
   "venue": "TAFFC",
@@ -82,33 +218,7 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
 }
 },
   {
-  "id": 152,
-  "title": "AdaSplash: Adaptive Sparse Flash Attention",
-  "authors": "Nuno Gon\u00e7alves, Marcos V. Treviso, Andr\u00e9 F. T. Martins",
-  "venue": "ICML",
-  "year": 2025,
-  "type": "conference",
-  "award": "Spotlight & Oral Presentation",
-  "abstract": `<p>The computational cost of softmax-based attention in transformers limits their applicability to long-context tasks. Adaptive sparsity, of which $\\alpha$-entmax attention is an example, offers a flexible data-dependent alternative, but existing implementations are inefficient and do not leverage the sparsity to obtain runtime and memory gains. In this work, we propose AdaSplash, which combines the efficiency of GPU-optimized algorithms with the sparsity benefits of $\\alpha$-entmax. We first introduce a hybrid Halley-bisection algorithm, resulting in a 7-fold reduction in the number of iterations needed to compute the $\\alpha$-entmax transformation. Then, we implement custom Triton kernels to efficiently handle adaptive sparsity. Experiments with RoBERTa and ModernBERT for text classification and single-vector retrieval, along with GPT-2 for language modeling, show that our method achieves substantial improvements in runtime and memory efficiency compared to existing $\\alpha$-entmax implementations. It approaches -- and in some cases surpasses -- the efficiency of highly optimized softmax implementations like FlashAttention-2, enabling long-context training while maintaining strong task performance.</p>`,
-  "streams": [
-  "attention",
-  "efficiency",
-  "theory"
-],
-  "links": {
-  "paper": "https://openreview.net/forum?id=OWIPDWhUcO",
-  "code": "https://github.com/deep-spin/adasplash",
-  "bibtex": `@inproceedings{GonalvesAdasplashAdaptiveSparseF,
-  title={ AdaSplash: Adaptive Sparse Flash Attention },
-  author={ Nuno Gonçalves and Marcos Treviso and Andre Martins },
-  booktitle={ International Conference on Machine Learning },
-  year={ 2025},
-  url={ https://openreview.net/forum?id=OWIPDWhUcO }
-}`
-}
-},
-  {
-  "id": 151,
+  "id": 150,
   "title": "TowerVision: Understanding and Improving Multilinguality in Vision-Language Models",
   "authors": "Andr\u00e9 G. Viveiros, Patrick Fernandes, Saul Santos, Sonal Sannigrahi, Emmanouil Zaranis, Nuno M. Guerreiro, Amin Farajian, Pierre Colombo, Graham Neubig, Andr\u00e9 F. T. Martins",
   "venue": "arXiv",
@@ -135,7 +245,7 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
 }
 },
   {
-  "id": 150,
+  "id": 149,
   "title": "LaTIM: Measuring Latent Token-to-Token Interactions in Mamba Models",
   "authors": "Hugo Pitorro, Marcos V. Treviso",
   "venue": "ACL",
@@ -167,31 +277,6 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
     doi = "10.18653/v1/2025.acl-long.1194",
     pages = "24478--24493",
     ISBN = "979-8-89176-251-0"
-}`
-}
-},
-  {
-  "id": 149,
-  "title": "Should We Still Pretrain Encoders with Masked Language Modeling?",
-  "authors": "Hippolyte Gisserot-Boukhlef, Nicolas Boizard, Manuel Faysse, Duarte M. Alves, Emmanuel Malherbe, Andr\u00e9 F. T. Martins, C\u00e9line Hudelot, Pierre Colombo",
-  "venue": "arXiv",
-  "year": 2025,
-  "type": "preprint",
-  "abstract": `<p>Learning high-quality text representations is fundamental to a wide range of NLP tasks. While encoder pretraining has traditionally relied on Masked Language Modeling (MLM), recent evidence suggests that decoder models pretrained with Causal Language Modeling (CLM) can be effectively repurposed as encoders, often surpassing traditional encoders on text representation benchmarks. However, it remains unclear whether these gains reflect an inherent advantage of the CLM objective or arise from confounding factors such as model and data scale. In this paper, we address this question through a series of large-scale, carefully controlled pretraining ablations, training a total of 38 models ranging from 210 million to 1 billion parameters, and conducting over 15,000 fine-tuning and evaluation runs. We find that while training with MLM generally yields better performance across text representation tasks, CLM-trained models are more data-efficient and demonstrate improved fine-tuning stability. Building on these findings, we experimentally show that a biphasic training strategy that sequentially applies CLM and then MLM, achieves optimal performance under a fixed computational training budget. Moreover, we demonstrate that this strategy becomes more appealing when initializing from readily available pretrained CLM models, reducing the computational burden needed to train best-in-class encoder models. We release all project artifacts at <a href="https://hf.co/MLMvsCLM">[https://hf.co/MLMvsCLM](https://hf.co/MLMvsCLM)</a> to foster further research.</p>`,
-  "streams": [
-  "resources",
-  "theory"
-],
-  "links": {
-  "paper": "https://arxiv.org/abs/2507.00994",
-  "code": "https://huggingface.co/blog/Nicolas-BZRD/encoders-should-not-be-only-pre-trained-with-mlm",
-  "bibtex": `@article{Gisserot-Boukhlef2025ShouldWS,
- author = {Hippolyte Gisserot-Boukhlef and Nicolas Boizard and Manuel Faysse and Duarte M. Alves and Emmanuel Malherbe and André Martins and C'eline Hudelot and Pierre Colombo},
- booktitle = {arXiv.org},
- journal = {ArXiv},
- title = {Should We Still Pretrain Encoders with Masked Language Modeling?},
- volume = {abs/2507.00994},
- year = {2025}
 }`
 }
 },
