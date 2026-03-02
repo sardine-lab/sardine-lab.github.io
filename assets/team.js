@@ -64,7 +64,7 @@ class TeamManager {
     renderTeamCategory(container, title, members, size) {
         if (members && members.length > 0) {
             // Sort members (except faculties)
-            if (title !== 'Faculties') {
+            if (title !== 'Faculty Researchers') {
                 members = members.sort((a, b) => a.name.localeCompare(b.name));
             }
             const section = this.createTeamSection(title, members, size);
@@ -123,7 +123,11 @@ class TeamManager {
 
     createMemberCard(member, size) {
         const card = document.createElement('div');
-        card.className = 'team-card';
+
+        const isVisitingFaculty = member.position.toLowerCase().includes('visiting professor');
+        card.className = isVisitingFaculty
+        ? 'team-card border-2 border-sardine-blue/30 bg-blue-50/40'
+        : 'team-card';
 
         const sizeClasses = {
             large: { avatar: 'w-32 h-32', name: 'text-lg', spacing: 'p-6' },
@@ -151,6 +155,10 @@ class TeamManager {
         const advisorInfo = member.advisor ? 
             `<p class="text-xs text-slate-500 mb-2">${advisedByText} ${member.advisor} ${member.co_advisor ? `and ${member.co_advisor}` : ''}</p>` : `<p class="text-xs text-slate-500 mb-2">${member.position}</p>`;
 
+        const visitingBadge = isVisitingFaculty
+            ? `<span class="inline-block text-xs font-semibold px-2 py-1 rounded-full bg-sardine-blue text-white">Visiting Faculty</span>`
+            : '';
+
         card.innerHTML = `
             <div class="${classes.avatar} bg-slate-300 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-500">
                 <img class="rounded-full" src="${member.image}" alt="${member.name}">
@@ -159,8 +167,9 @@ class TeamManager {
             ${advisorInfo}
             ${member.research_interests ? `<p class="text-sm text-slate-600 mb-3">${member.research_interests[0]}</p>` : ''}
             ${member.current_position ? `<p class="text-sm text-slate-600 mb-3">${member.current_position}</p>` : ''}
+            
             <div class="flex justify-center space-x-2">
-                ${links}
+                ${visitingBadge} ${links}
             </div>
         `;
 
