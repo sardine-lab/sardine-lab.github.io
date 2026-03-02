@@ -156,7 +156,9 @@ class TeamManager {
             `<p class="text-xs text-slate-500 mb-2">${advisedByText} ${member.advisor} ${member.co_advisor ? `and ${member.co_advisor}` : ''}</p>` : `<p class="text-xs text-slate-500 mb-2">${member.position}</p>`;
 
         const visitingBadge = isVisitingFaculty
-            ? `<span class="inline-block text-xs font-semibold px-2 py-1 rounded-full bg-sardine-blue text-white">Visiting Faculty</span>`
+            ? `<span class="inline-block text-xs px-2 py-1 rounded-full border text-slate-400" title="Visiting Faculty">
+                <i class="fa-solid fa-user-tie"></i>
+                </span>`
             : '';
 
         card.innerHTML = `
