@@ -8,7 +8,7 @@ const newsData = [
   "title": "Margot Herin awarded the Gilles Kahn Prize",
   "content": `<p>Last January, our sardine Margot Herin was awarded the Gilles Kahn Prize, by the French Computer Science Society and sponsored by the French Academy of Sciences, as a recognition of the remarkable contributions to computer science of her PhD thesis “Learning Preference Models: A Marriage between Decision Theory and Machine Learning”.</p>
 <p>Margot's thesis provided tools for preference learning by enabling close collaboration between decision theory and machine learning. In particular, it provides novel algorithms to learn highly expressive preference models, capable of capturing complex decision-making behaviors while preserving transparency and rationality. </p>
-<p>You can read more about Margot's award here: https://www.socinfo.fr/palmares-du-prix-de-these-gilles-kahn-2025/ (link in French)</p>`,
+<p>You can read more about Margot's award here: <a href="https://www.socinfo.fr/palmares-du-prix-de-these-gilles-kahn-2025/">Margot's Gilles Kahn Prize</a> (link in French)</p>`,
   "tags": [
   "award",
   "research",
