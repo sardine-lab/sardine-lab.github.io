@@ -66,6 +66,7 @@ const teamData = {
   "position": "PhD at FBK, University of Trento",
   "image": "assets/figs/team/dennis_fucci.jpeg",
   "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Giuseppe Attanasio",
   "start_year": 2024,
   "graduation_year": 2025,
   "previous_position": "Visiting Researcher",
@@ -81,7 +82,6 @@ const teamData = {
   "position": "Post-doc at University of Amsterdam",
   "image": "assets/figs/team/dennis_ulmer.jpeg",
   "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Giuseppe Attanasio",
   "start_year": 2023,
   "graduation_year": 2024,
   "previous_position": "Visiting Researcher",
@@ -444,6 +444,7 @@ const teamData = {
   "position": "PhD Student at IST",
   "image": "assets/figs/team/beatriz_canaverde.jpeg",
   "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Giuseppe Attanasio",
   "start_year": 2025,
   "graduation_year": "current",
   "research_interests": [
@@ -809,7 +810,7 @@ const teamData = {
   "start_year": 2024,
   "graduation_year": "current",
   "research_interests": [
-  "Reinforcement Learning"
+  "Reinforcement Learning & Agents"
 ],
   "links": {
   "github": "https://github.com/miguel-faria",

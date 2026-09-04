@@ -624,9 +624,9 @@ url={https://openreview.net/forum?id=WARZwyDf17}
   "id": 136,
   "title": "From TOWER to SPIRE: Adding the Speech Modality to a Text-Only LLM",
   "authors": "Kshitij Ambilduke, Ben Peters, Sonal Sannigrahi, Anil Keshwani, Tsz Kin Lam, Bruno Martins, Marcely Zanon Boito, Andr\u00e9 F.T. Martins",
-  "venue": "arXiv",
+  "venue": "EMNLP Findings",
   "year": 2025,
-  "type": "preprint",
+  "type": "conference",
   "abstract": `<p>Large language models (LLMs) have shown remarkable performance and generalization capabilities across multiple languages and tasks, making them very attractive targets for multi-modality integration (e.g., images or speech). In this work, we extend an existing LLM to the speech modality via speech discretization and continued pre-training. In particular, we are interested in multilingual LLMs, such as TOWER, as their pre-training setting allows us to treat discretized speech input as an additional translation language. The resulting open-source model, SPIRE, is able to transcribe and translate English speech input while maintaining TOWER's original performance on translation-related tasks, showcasing that discretized speech input integration as an additional language is feasible during LLM adaptation. We make our code and models available to the community.</p>`,
   "streams": [
   "multilingual-translation",
@@ -634,13 +634,32 @@ url={https://openreview.net/forum?id=WARZwyDf17}
   "resources"
 ],
   "links": {
-  "paper": "https://arxiv.org/abs/2503.10620",
+  "paper": "https://aclanthology.org/2025.findings-emnlp.1071/",
   "code": "https://huggingface.co/papers/2503.10620",
-  "bibtex": `@article{ambilduke2025tower,
-  title={From tower to spire: Adding the speech modality to a text-only llm},
-  author={Ambilduke, Kshitij and Peters, Ben and Sannigrahi, Sonal and Keshwani, Anil and Lam, Tsz Kin and Martins, Bruno and Boito, Marcely Zanon and Martins, Andr{\\'e} FT},
-  journal={arXiv preprint arXiv:2503.10620},
-  year={2025}
+  "bibtex": `@inproceedings{ambilduke-etal-2025-tower,
+    title = "From Tower to Spire: Adding the Speech Modality to a Translation-Specialist {LLM}",
+    author = "Ambilduke, Kshitij  and
+      Peters, Ben  and
+      Sannigrahi, Sonal  and
+      Keshwani, Anil  and
+      Lam, Tsz Kin  and
+      Martins, Bruno  and
+      Martins, Andre  and
+      Zanon Boito, Marcely",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.1071/",
+    doi = "10.18653/v1/2025.findings-emnlp.1071",
+    pages = "19658--19673",
+    ISBN = "979-8-89176-335-7",
+    abstract = "We introduce Spire, a speech-augmented language model (LM) capable of both translating and transcribing speech input from English into 10 other languages as well as translating text input in both language directions. Spire integrates the speech modality into an existing multilingual LM via speech discretization and continued pre-training using only 42.5 K hours of speech. In particular, we adopt the pretraining framework of multilingual LMs and treat discretized speech input as an additional translation language. This approach not only equips the model with speech capabilities, but also preserves its strong text-based performance. We achieve this using significantly less data than existing speech LMs, demonstrating that discretized speech input integration as an additional language is feasible during LM adaptation. We make our code and models available to the community."
 }`
 }
 },
