@@ -67,24 +67,6 @@ const teamData = {
   "city": "Seattle"
 },
   {
-  "name": "Chryssa Zerva",
-  "role": "alumni",
-  "position": "Assistant Professor at NTU Athens",
-  "image": "assets/figs/team/chryssa_zerva.jpeg",
-  "start_year": 2021,
-  "graduation_year": "current",
-  "research_interests": [
-  "Uncertainty Quantification"
-],
-  "links": {
-  "github": "https://github.com/chryssa-zrv",
-  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
-  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
-},
-  "country": "Greece",
-  "city": "Athens"
-},
-  {
   "name": "Chunchuan Lyu",
   "role": "alumni",
   "position": "Assistant Professor at XJTLU",
@@ -434,6 +416,24 @@ const teamData = {
 },
   "country": "Portugal",
   "city": "Lisbon"
+},
+  {
+  "name": "Chryssa Zerva",
+  "role": "faculty",
+  "position": "Assistant Professor at NTU Athens",
+  "image": "assets/figs/team/chryssa_zerva.jpeg",
+  "start_year": 2021,
+  "graduation_year": "current",
+  "research_interests": [
+  "Uncertainty Quantification"
+],
+  "links": {
+  "github": "https://github.com/chryssa-zrv",
+  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
+  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
+},
+  "country": "Greece",
+  "city": "Athens"
 },
   {
   "name": "Marcos Treviso",
