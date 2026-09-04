@@ -4,6 +4,27 @@
 const teamData = {
   "alumnis": [
   {
+  "name": "Anil Keshwani",
+  "role": "alumni",
+  "position": "Visiting Researcher",
+  "image": "assets/figs/team/anil_keshwani.jpeg",
+  "advisor": "Andr\u00e9 Martins",
+  "co_advisor": "Ben Peters",
+  "start_year": 2024,
+  "graduation_year": "current",
+  "research_interests": [
+  "Speech"
+],
+  "links": {
+  "website": "https://anilkeshwani.github.io/",
+  "github": "https://github.com/anilkeshwani",
+  "linkedin": "https://www.linkedin.com/in/anilkeshwani/",
+  "scholar": "https://scholar.google.com/citations?user=mwyhUQoAAAAJ&hl=en"
+},
+  "country": "United Kingdom",
+  "city": "London"
+},
+  {
   "name": "Ant\u00f3nio Farinhas",
   "role": "alumni",
   "position": "Research Scientist at Sword Health",
@@ -44,6 +65,24 @@ const teamData = {
 },
   "country": "United States",
   "city": "Seattle"
+},
+  {
+  "name": "Chryssa Zerva",
+  "role": "alumni",
+  "position": "Assistant Professor at NTU Athens",
+  "image": "assets/figs/team/chryssa_zerva.jpeg",
+  "start_year": 2021,
+  "graduation_year": "current",
+  "research_interests": [
+  "Uncertainty Quantification"
+],
+  "links": {
+  "github": "https://github.com/chryssa-zrv",
+  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
+  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
+},
+  "country": "Greece",
+  "city": "Athens"
 },
   {
   "name": "Chunchuan Lyu",
@@ -153,6 +192,26 @@ const teamData = {
   "city": "Lisbon"
 },
   {
+  "name": "Javier Gilabert",
+  "role": "alumni",
+  "position": "Visiting Researcher",
+  "image": "assets/figs/team/javier_gilabert.jpg",
+  "advisor": "Andr\u00e9 Martins",
+  "start_year": 2026,
+  "graduation_year": "current",
+  "research_interests": [
+  "LLM Training and Evaluation"
+],
+  "links": {
+  "website": "https://javi897.github.io/",
+  "github": "https://github.com/JAVI897",
+  "linkedin": "https://www.linkedin.com/in/javigarciagilabert",
+  "scholar": "https://scholar.google.com/citations?user=ZGQWT3YAAAAJ&hl=en"
+},
+  "country": "Spain",
+  "city": "Madrid"
+},
+  {
   "name": "Kshitij Ambilduke",
   "role": "alumni",
   "position": "MSc at Universit\u00e9 Paris-Saclay",
@@ -170,6 +229,22 @@ const teamData = {
 },
   "country": "India",
   "city": "Nagpur"
+},
+  {
+  "name": "Lili Mou",
+  "role": "alumni",
+  "position": "Visiting Professor from Univ. of Alberta",
+  "image": "assets/figs/team/lili_mou.jpeg",
+  "start_year": 2025,
+  "graduation_year": "current",
+  "research_interests": [
+  "NLP & Machine Learning"
+],
+  "links": {
+  "website": "https://lili-mou.github.io/"
+},
+  "country": "Canada",
+  "city": "Alberta"
 },
   {
   "name": "Nikita Nangia",
@@ -359,24 +434,6 @@ const teamData = {
 },
   "country": "Portugal",
   "city": "Lisbon"
-},
-  {
-  "name": "Chryssa Zerva",
-  "role": "faculty",
-  "position": "Assistant Professor at IST",
-  "image": "assets/figs/team/chryssa_zerva.jpeg",
-  "start_year": 2021,
-  "graduation_year": "current",
-  "research_interests": [
-  "Uncertainty Quantification"
-],
-  "links": {
-  "github": "https://github.com/chryssa-zrv",
-  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
-  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
-},
-  "country": "Greece",
-  "city": "Athens"
 },
   {
   "name": "Marcos Treviso",
@@ -843,27 +900,6 @@ const teamData = {
 ],
   "researchers": [
   {
-  "name": "Anil Keshwani",
-  "role": "researcher",
-  "position": "Visiting Researcher",
-  "image": "assets/figs/team/anil_keshwani.jpeg",
-  "advisor": "Andr\u00e9 Martins",
-  "co_advisor": "Ben Peters",
-  "start_year": 2024,
-  "graduation_year": "current",
-  "research_interests": [
-  "Speech"
-],
-  "links": {
-  "website": "https://anilkeshwani.github.io/",
-  "github": "https://github.com/anilkeshwani",
-  "linkedin": "https://www.linkedin.com/in/anilkeshwani/",
-  "scholar": "https://scholar.google.com/citations?user=mwyhUQoAAAAJ&hl=en"
-},
-  "country": "United Kingdom",
-  "city": "London"
-},
-  {
   "name": "Erik Jhones",
   "role": "researcher",
   "position": "External Collaborator",
@@ -915,26 +951,6 @@ const teamData = {
   "city": "Lisbon"
 },
   {
-  "name": "Javier Gilabert",
-  "role": "researcher",
-  "position": "Visiting Researcher",
-  "image": "assets/figs/team/javier_gilabert.jpg",
-  "advisor": "Andr\u00e9 Martins",
-  "start_year": 2026,
-  "graduation_year": "current",
-  "research_interests": [
-  "LLM Training and Evaluation"
-],
-  "links": {
-  "website": "https://javi897.github.io/",
-  "github": "https://github.com/JAVI897",
-  "linkedin": "https://www.linkedin.com/in/javigarciagilabert",
-  "scholar": "https://scholar.google.com/citations?user=ZGQWT3YAAAAJ&hl=en"
-},
-  "country": "Spain",
-  "city": "Madrid"
-},
-  {
   "name": "Julio Galdino",
   "role": "researcher",
   "position": "Visiting PhD student",
@@ -951,22 +967,6 @@ const teamData = {
 },
   "country": "Brazil",
   "city": "Alagoas"
-},
-  {
-  "name": "Lili Mou",
-  "role": "researcher",
-  "position": "Visiting Professor from Univ. of Alberta",
-  "image": "assets/figs/team/lili_mou.jpeg",
-  "start_year": 2025,
-  "graduation_year": "current",
-  "research_interests": [
-  "NLP & Machine Learning"
-],
-  "links": {
-  "website": "https://lili-mou.github.io/"
-},
-  "country": "Canada",
-  "city": "Alberta"
 }
 ]
 };
