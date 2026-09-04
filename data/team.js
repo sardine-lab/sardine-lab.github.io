@@ -11,10 +11,11 @@ const teamData = {
   "advisor": "Andr\u00e9 Martins",
   "co_advisor": "Ben Peters",
   "start_year": 2024,
-  "graduation_year": "current",
+  "graduation_year": 2025,
   "research_interests": [
   "Speech"
 ],
+  "previous_position": "Visiting Researcher",
   "links": {
   "website": "https://anilkeshwani.github.io/",
   "github": "https://github.com/anilkeshwani",
@@ -65,6 +66,25 @@ const teamData = {
 },
   "country": "United States",
   "city": "Seattle"
+},
+  {
+  "name": "Chryssa Zerva",
+  "role": "alumni",
+  "position": "Assistant Professor at NTU Athens",
+  "image": "assets/figs/team/chryssa_zerva.jpeg",
+  "start_year": 2021,
+  "graduation_year": 2023,
+  "research_interests": [
+  "Uncertainty Quantification"
+],
+  "previous_position": "Assistant Professor at NTU Athens",
+  "links": {
+  "github": "https://github.com/chryssa-zrv",
+  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
+  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
+},
+  "country": "Greece",
+  "city": "Athens"
 },
   {
   "name": "Chunchuan Lyu",
@@ -218,10 +238,11 @@ const teamData = {
   "position": "Visiting Professor from Univ. of Alberta",
   "image": "assets/figs/team/lili_mou.jpeg",
   "start_year": 2025,
-  "graduation_year": "current",
+  "graduation_year": 2025,
   "research_interests": [
   "NLP & Machine Learning"
 ],
+  "previous_position": "Visiting Professor from Univ. of Alberta",
   "links": {
   "website": "https://lili-mou.github.io/"
 },
@@ -416,24 +437,6 @@ const teamData = {
 },
   "country": "Portugal",
   "city": "Lisbon"
-},
-  {
-  "name": "Chryssa Zerva",
-  "role": "faculty",
-  "position": "Assistant Professor at NTU Athens",
-  "image": "assets/figs/team/chryssa_zerva.jpeg",
-  "start_year": 2021,
-  "graduation_year": "current",
-  "research_interests": [
-  "Uncertainty Quantification"
-],
-  "links": {
-  "github": "https://github.com/chryssa-zrv",
-  "linkedin": "https://www.linkedin.com/in/chryssa-zerva-7bb4a966/",
-  "scholar": "https://scholar.google.com/citations?user=S5NGkFsAAAAJ&hl=en"
-},
-  "country": "Greece",
-  "city": "Athens"
 },
   {
   "name": "Marcos Treviso",
