@@ -511,6 +511,7 @@ const teamData = {
   "LM Evaluation"
 ],
   "links": {
+  "website": "https://beatrizcanaverde.github.io",
   "github": "https://github.com/BeatrizCanaverde",
   "linkedin": "https://www.linkedin.com/in/beatriz-canaverde-684aaa260/",
   "scholar": "https://scholar.google.com/citations?user=8z017TkAAAAJ&hl=pt-PT"
