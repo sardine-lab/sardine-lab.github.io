@@ -65,6 +65,9 @@ class FakeSheet:
         return ss.Tab(key, du.CONFIG[key]["worksheet"], self.gid[key], list(HEADERS[key]), records,
                       {h: f for h, f in formulas.items() if f})
 
+    def read_tabs(self):
+        return {key: self.read_tab(key) for key in du.CONFIG}
+
     def batch_update(self, requests):
         for req in requests:
             (kind, body), = req.items()

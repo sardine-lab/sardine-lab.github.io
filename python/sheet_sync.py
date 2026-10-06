@@ -452,23 +452,35 @@ class LiveSheet:
             sys.exit("Set --sa /path/to/service_account.json or env GOOGLE_APPLICATION_CREDENTIALS.")
         creds = Credentials.from_service_account_file(key_path, scopes=[scope])
         self.sh = gspread.authorize(creds).open_by_key(sheet_id)
+        self._gids: Optional[Dict[str, int]] = None
 
-    def read_tab(self, key: str) -> Tab:
-        ws = self.sh.worksheet(du.CONFIG[key]["worksheet"])
-        rows = ws.get_all_records()
-        top = self.sh.values_get(f"'{ws.title}'!1:2", params={"valueRenderOption": "FORMULA"}).get("values", [])
-        headers = [str(h) for h in (top[0] if top else [])]
-        first = top[1] if len(top) > 1 else []
-        formulas = {norm_header(h): v for h, v in zip(headers, first)
-                    if str(h).strip() and isinstance(v, str) and v.startswith("=")}
-        return Tab(key, ws.title, ws.id, headers, rows, formulas)
+    def gid(self, title: str) -> int:
+        if self._gids is None:
+            sheets = self.sh.fetch_sheet_metadata()["sheets"]
+            self._gids = {s["properties"]["title"]: s["properties"]["sheetId"] for s in sheets}
+        return self._gids[title]
+
+    def read_tabs(self) -> Dict[str, Tab]:
+        """Every tab in two requests. The Sheets API allows 60 reads a minute, and a
+        publish runs this several times, so reading tab by tab runs out of quota."""
+        titles = [cfg["worksheet"] for cfg in du.CONFIG.values()]
+        shown_values = self.sh.values_batch_get([f"'{t}'" for t in titles])["valueRanges"]
+        top_rows = self.sh.values_batch_get([f"'{t}'!1:2" for t in titles],
+                                            params={"valueRenderOption": "FORMULA"})["valueRanges"]
+        tabs = {}
+        for key, title, grid, top in zip(du.CONFIG, titles, shown_values, top_rows):
+            headers, rows = records(grid.get("values", []))
+            first = (top.get("values", []) + [[], []])[1]
+            formulas = {norm_header(h): v for h, v in zip(headers, first)
+                        if str(h).strip() and isinstance(v, str) and v.startswith("=")}
+            tabs[key] = Tab(key, title, self.gid(title), headers, rows, formulas)
+        return tabs
 
     def batch_update(self, requests: List[Dict[str, Any]]) -> None:
         self.sh.batch_update({"requests": requests})
 
     def write_badge(self, text: str, color: Dict[str, float]) -> None:
-        ws = self.sh.worksheet(README_TAB)
-        col_a = ws.col_values(1)[:40]
+        col_a = [r[0] if r else "" for r in self.sh.values_get(f"'{README_TAB}'!A1:A40").get("values", [])]
         row = next((i for i, v in enumerate(col_a) if str(v).startswith(BADGE_PREFIX)), None)
         if row is None:
             if len(col_a) > 1 and str(col_a[1]).strip():
@@ -476,11 +488,22 @@ class LiveSheet:
             row = 1
         cell = {"userEnteredValue": {"stringValue": text},
                 "userEnteredFormat": {"backgroundColor": color, "textFormat": {"bold": True}}}
-        self.sh.batch_update({"requests": [_update(ws.id, row, 0, [cell],
+        self.sh.batch_update({"requests": [_update(self.gid(README_TAB), row, 0, [cell],
             "userEnteredValue,userEnteredFormat.backgroundColor,userEnteredFormat.textFormat.bold")]})
 
+def records(values: List[List[Any]]) -> Tuple[List[str], List[Dict[str, Any]]]:
+    """Header list and row dicts from a tab's values, as gspread's get_all_records() builds them."""
+    if not values:
+        return [], []
+    headers = [str(h) for h in values[0]]
+    rows = []
+    for raw in values[1:]:
+        cells = list(raw) + [""] * (len(headers) - len(raw))
+        rows.append({h: numericise(v) for h, v in zip(headers, cells)})
+    return headers, rows
+
 def read_tabs(sheet) -> Dict[str, Tab]:
-    return {key: sheet.read_tab(key) for key in du.CONFIG}
+    return sheet.read_tabs()
 
 # ===============
 # State + status
