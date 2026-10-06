@@ -1,10 +1,10 @@
 {
   "_": "Written by sheet_sync.py: content hash per tab from the last time the sheet and data/*.js matched.",
-  "synced_at": "2026-10-06T21:53:16Z",
-  "direction": "sheet->github",
+  "synced_at": "2026-10-06T22:17:02Z",
+  "direction": "check",
   "tabs": {
-    "publications": "f2bf4b55f5eb7e2e",
-    "news": "7f53b222aa1baf24",
+    "publications": "0f1c0b49cc7216b8",
+    "news": "e199813b64ad77ac",
     "projects": "3a6d1030cfabd913",
     "team": "73282efa2874436e",
     "streams": "4d2d6698d1b8ba4b",
