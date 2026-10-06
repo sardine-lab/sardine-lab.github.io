@@ -1,0 +1,79 @@
+name: Sync sheet with GitHub
+
+# status: compare the Google Sheet with data/*.js and write the badge in the sheet's README tab.
+# pull:   copy edits made to data/*.js in code into the sheet, then do the above.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'status = refresh the badge only; pull = update the sheet from data/*.js'
+        type: choice
+        options: [status, pull]
+        default: status
+      force:
+        description: 'pull only: also overwrite tabs that have unpublished changes in the sheet'
+        type: boolean
+        default: false
+      sheet_id:
+        description: 'Google Sheet ID (optional; falls back to secret)'
+        required: false
+  push:
+    branches: [main]
+    paths: ['data/*.js']
+  schedule:
+    - cron: '23 * * * *'
+
+# One sheet <-> GitHub job at a time (shared with refresh-data.yml)
+concurrency:
+  group: sheet-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      SHEET_ID: ${{ inputs.sheet_id || secrets.SHEET_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          pip install gspread google-auth markdown
+
+      - name: Write service account key
+        run: |
+          echo "$GOOGLE_CREDENTIALS_JSON" > sa.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$PWD/sa.json" >> $GITHUB_ENV
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+
+      - name: Update the sheet from data/*.js
+        if: ${{ inputs.mode == 'pull' }}
+        run: |
+          cd python
+          python sheet_sync.py pull --apply ${{ inputs.force && '--force' || '' }}
+
+      - name: Refresh status and badge
+        if: ${{ always() }}
+        run: |
+          cd python
+          python sheet_sync.py status --badge --record
+
+      - name: Commit sync state
+        if: ${{ always() }}
+        run: |
+          git config user.name "sheet-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add python/sync_state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(sync): record sheet sync state"
+          git pull --rebase
+          git push
