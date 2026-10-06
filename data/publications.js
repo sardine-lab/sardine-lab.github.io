@@ -3,6 +3,216 @@
 
 const publicationsData = [
   {
+  "id": 167,
+  "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
+  "authors": "Yuxiang Huang, Nuno Gon\u00e7alves, Federico Alvetreti, Lei Li, Xu Han, Edoardo Ponti, Andr\u00e9 F. T. Martins, Marcos Treviso",
+  "venue": "NeurIPS",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Current hierarchical attention methods, such as NSA and InfLLMv2, select the top-k relevant key-value (KV) blocks based on coarse attention scores and subsequently apply fine-grained softmax attention on the selected tokens. However, the top-k operation assumes the number of relevant tokens for any query is fixed and it precludes the gradient flow between the sparse and dense stages. In this work, we propose DashAttention (Differentiable and Adaptive Sparse Hierarchical Attention), which leverages the adaptively sparse α-entmax transformation to select a variable number of blocks according to the current query in the first stage. This in turn provides a prior for the second-stage softmax attention, keeping the entire hierarchy fully differentiable. Contrary to other hierarchical attention methods, we show that DashAttention is non-dispersive, translating to better long-context modeling ability. Experiments with large language models (LLMs) show that DashAttention achieves comparable accuracy as full attention with 75% sparsity and a better Pareto frontier than NSA and InfLLMv2, especially in high-sparsity regimes. We also provide an efficient, GPU-aware implementation of DashAttention in Triton, which achieves a speedup of up to 3.3× over FlashAttention-3 at inference time. Overall, DashAttention offers a cost-effective strategy to model long contexts.</p>`,
+  "streams": [
+  "attention",
+  "theory",
+  "efficiency"
+],
+  "links": {
+  "paper": "https://arxiv.org/pdf/2605.18753",
+  "bibtex": `@inproceedings{
+anonymous2026dashattention,
+title={DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention},
+author={Anonymous},
+booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+year={2026},
+url={https://openreview.net/forum?id=axGCEGSg4a}
+}`
+}
+},
+  {
+  "id": 166,
+  "title": "What's Holding Back Latent Visual Reasoning?",
+  "authors": "Andr\u00e9 G. Viveiros, Nuno Gon\u00e7alves, Andr\u00e9 F. T. Martins, Matthias Lindemann",
+  "venue": "NeurIPS",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Humans can approach complex visual problems by mentally simulating intermediate visual steps, rather than reasoning through language alone. Inspired by this, several works on Vision-Language Models have recently explored chain-of-thought reasoning with continuous latent tokens as intermediate visual imagination steps. In this work, we investigate how recent models leverage such latent tokens. Surprisingly, we find that model accuracy is unaffected when latent tokens are replaced by uninformative dummy tokens. This indicates that latent tokens play a minimal causal role in the model's final prediction. To better understand this phenomenon, we analyze both the training signal provided by oracle latent representations and the quality of the latent tokens generated at inference time. Our experiments reveal two crucial issues holding back latent visual reasoning: First, in most existing datasets, oracle latent tokens provide limited additional information beyond the original image and do not substantially simplify the task, leading models to ignore them during training and effectively bypassing them at inference time. When fine-tuned on a diagnostic dataset, in which latent tokens provide sufficient support for the final prediction, we show that models can causally rely on them. Second, the latent tokens produced at inference time deviate from their corresponding oracle representations, collapsing to a narrow region and preventing benefits even when the model relies on them. Overall, our findings suggest that future progress in latent visual reasoning depends on two key pillars: high-quality datasets with informative intermediate steps and more precise latent token prediction.</p>`,
+  "streams": [
+  "multimodal",
+  "interpretability"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2605.18445",
+  "bibtex": `@inproceedings{viveiros2026whats,
+  title={What's Holding Back Latent Visual Reasoning?},
+  author={André G. Viveiros and Nuno Gonçalves and André F. T. Martins and Matthias Lindemann},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026},
+  url={https://arxiv.org/abs/2605.18445}
+}`
+}
+},
+  {
+  "id": 165,
+  "title": "The Grounding Gap: How LLMs Anchor the Meaning of Abstract Concepts Differently from Humans",
+  "authors": "Odysseas S. Chlapanis, Orfeas Menis Mastromichalakis, Christos H. Papadimitriou",
+  "venue": "NeurIPS",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Abstract concepts - justice, theory, availability - have no single perceivable referent; in the human brain, their meaning emerges from a web of experiences, affect, and social context. Do large language models (LLMs) ground abstract concepts in a similar way? We study this by replicating property-generation experiments from cognitive science on 21 frontier and open-weight LLMs. Across models and experiments, we find a consistent pattern: when compared to humans, models rely too heavily on word associations, and underproduce properties tied to emotion and internal states. This yields a large and consistent grounding gap: no model exceeds a Pearson correlation r=0.37 with human responses, compared to a human-to-human ceiling above r=0.9. To better interpret this gap, we also replicate a rating experiment on grounding categories and find that here LLMs align more closely with human judgment, and alignment improves as models get larger. We then use sparse autoencoders (SAEs) to inspect whether this information is also reflected in the models' internal features, and we do identify features connected to grounding dimensions such as "sensorimotor" and "social". These findings suggest that current LLMs can recover grounding dimensions when explicitly queried, but do not recruit them in a human-like way when words are generated freely.</p>`,
+  "streams": [
+  "interpretability"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2605.08837",
+  "bibtex": `@inproceedings{chlapanis2026grounding,
+  title={The Grounding Gap: How LLMs Anchor the Meaning of Abstract Concepts Differently from Humans},
+  author={Odysseas S. Chlapanis and Orfeas Menis Mastromichalakis and Christos H. Papadimitriou},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026},
+  url={https://arxiv.org/abs/2605.08837}
+}`
+}
+},
+  {
+  "id": 164,
+  "title": "Length Generalization Needs Proper Regularization",
+  "authors": "Pavlo Vasylenko, Matthias Lindemann, Andr\u00e9 F. T. Martins, Marcos Treviso",
+  "venue": "PriGM @ NeurIPS",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Length generalization is the ability of sequential models to perform well on context lengths unseen during training. In this work, we show that the challenge of achieving length generalization is related not only to architectural choices such as positional encoding and the attention mechanism but also to the training procedure itself. We study how regularization affects length generalization and find that weight decay can hinder extrapolation. In contrast, dropout improves extrapolation when its placement within the architecture is reconsidered. In that regard, we show that the standard placement of dropout before layer normalization introduces a systematic distributional mismatch, and that applying dropout just before the linear projection resolves this issue. For example, a modified SmolLM3 with sliding window attention, continually pre-trained with dropout, can extrapolate perfectly to 64× on Needle-in-a-Haystack and far beyond the pre-training context size on RULER and HELMET. Mamba2 also benefits from dropout, suggesting an architecture-agnostic nature of the problem. We further propose Variance-Preserving Affine Dropout (VPAD), a new dropout strategy that substantially reduces the resulting pre-activation variance mismatch, leading to further extrapolation improvements in transformers.</p>`,
+  "streams": [
+  "memory",
+  "theory"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2610.04518",
+  "code": "https://github.com/deep-spin/len-gen-regularization",
+  "bibtex": `@inproceedings{vasylenko2026length,
+  title={Length Generalization Needs Proper Regularization},
+  author={Pavlo Vasylenko and Matthias Lindemann and André F. T. Martins and Marcos Treviso},
+  booktitle={2nd Workshop on Principles of Generative Modeling (PriGM) at NeurIPS 2026},
+  year={2026},
+  url={https://arxiv.org/abs/2610.04518}
+}`
+}
+},
+  {
+  "id": 163,
+  "title": "EntmaxKV: Support-Aware Decoding for Entmax Attention",
+  "authors": "Gon\u00e7alo Duarte, Miguel Couceiro, Marcos V. Treviso",
+  "venue": "LCFM @ NeurIPS",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Long-context decoding is increasingly limited by KV-cache memory traffic as each generated token attends over a cache whose size grows linearly with context length. Existing sparse decoding methods reduce this cost by selecting subsets of tokens or pages, but are designed for softmax attention, whose dense tails make any truncation discard nonzero probability mass. In contrast, α-entmax produces exact zeros, turning sparse decoding from dense-tail approximation into support recovery: if the selected candidates contain the entmax support, sparse decoding remains exact. While recent entmax kernels enable efficient training, they do not address the autoregressive decoding bottleneck, where dense inference still streams the full KV cache before sparsity is known. In this work, we introduce EntmaxKV, an entmax-native sparse decoding framework that exploits sparsity before KV pages are loaded. EntmaxKV combines query-aware page scoring, support-aware candidate selection, and sparse entmax attention. We analyze truncation error through the dropped probability mass δ, showing that output error is controlled by δ and vanishes when the entmax support is recovered. We further introduce a Gaussian-aware entmax selector that estimates the entmax threshold from lightweight page statistics, adapting the selected budget to the score distribution. Empirically, EntmaxKV drops less probability mass, retains more support tokens, and achieves lower output error than softmax-based sparse decoding at matched KV budgets. On long-context and language modeling benchmarks, it closely matches full-cache entmax while using a small fraction of the KV cache, achieving up to 2.88× (softmax) and 5.5× (entmax) speedup over full attention baselines as well as over 2× speedup over softmax and entmax top-k at 1M context length.</p>`,
+  "streams": [
+  "attention",
+  "efficiency",
+  "memory"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2605.21649",
+  "code": "https://github.com/deep-spin/entmaxkv",
+  "bibtex": `@inproceedings{duarte2026entmaxkv,
+  title={EntmaxKV: Support-Aware Decoding for Entmax Attention},
+  author={Gonçalo Duarte and Miguel Couceiro and Marcos V. Treviso},
+  booktitle={The Third Workshop on Long-Context Foundation Models at NeurIPS 2026},
+  year={2026},
+  url={https://arxiv.org/abs/2605.21649}
+}`
+}
+},
+  {
+  "id": 162,
+  "title": "The Bayesian Learning Rule Beyond KL Geometry",
+  "authors": "Sophia Sklaviadis, Wu Lin, Andr\u00e9 F. T. Martins, M\u00e1rio A. T. Figueiredo, Thomas M\u00f6llenhoff, Mohammad Emtiyaz Khan",
+  "venue": "NeurIPS",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>The Bayesian Learning Rule Beyond KL Geometry</p>`,
+  "streams": [
+  "theory"
+],
+  "links": {
+  "bibtex": `@inproceedings{sklaviadis2026bayesian,
+  title={The Bayesian Learning Rule Beyond KL Geometry},
+  author={Sophia Sklaviadis and Wu Lin and André F. T. Martins and Mário A. T. Figueiredo and Thomas Möllenhoff and Mohammad Emtiyaz Khan},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026}
+}`
+}
+},
+  {
+  "id": 161,
+  "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
+  "authors": "Lin Shi, Haowei Lin, Zixuan Zhu, [...], Orfeas Menis Mastromichalakis, [...], Alex Shaw",
+  "venue": "NeurIPS E&D",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and agent integrations. We introduce Harbor Adapters, a unified evaluation infrastructure for agentic benchmarks. Our work makes three contributions. First, we develop benchmark adapters that port more than 80 benchmarks to evaluate arbitrary agents, and validate them through rigorous code review and parity experiments. Second, we conduct a large-scale evaluation of 8 models spanning capability tiers across 54 benchmarks; every model is run with Terminus-2 and with one of 3 native harnesses. This enables a broader analysis of agent capabilities and failure modes than was previously possible. Third, we introduce Harbor-Index, a curated set of 82 difficult, diverse, and high-quality tasks spanning 29 benchmarks, refined from the adapted suite through difficulty filtering, AI and human audit, and an audit-and-fix loop. Harbor-Index preserves the challenge and breadth of large-scale agentic evaluations while being affordable to run; no evaluated model-harness configuration exceeds 30% pass rate, and the strongest (GPT-5.5 with Codex) reaches 28.0%. We release the adapters, evaluation results, in-depth analysis, and Harbor-Index as open-source artifacts to support more reliable and comprehensive evaluation of language-model agents.</p>`,
+  "streams": [
+  "evaluation-metrics",
+  "resources"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2609.04298",
+  "bibtex": `@inproceedings{shi2026harbor,
+  title={Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation},
+  author={Lin Shi and Haowei Lin and Zixuan Zhu and others},
+  booktitle={Advances in Neural Information Processing Systems (Evaluations and Datasets Track)},
+  year={2026},
+  url={https://arxiv.org/abs/2609.04298}
+}`
+}
+},
+  {
+  "id": 160,
+  "title": "SEQUOR: A Multi-Turn Benchmark for Realistic Constraint Following",
+  "authors": "Beatriz Canaverde, Duarte M. Alves, Jos\u00e9 Pombal, Giuseppe Attanasio, Andr\u00e9 F. T. Martins",
+  "venue": "COLM",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>In a conversation, a helpful assistant must reliably follow user directives, even as they refine, modify, or contradict earlier requests. Yet most instruction-following benchmarks focus on single-turn or short multi-turn scenarios, leaving open how well models handle long-horizon instruction-following tasks. To bridge this gap, we present SEQUOR, an automatic benchmark for evaluating constraint adherence in long multi-turn conversations. SEQUOR consists of simulated persona-driven interactions built with constraints extracted from real-world conversations. Our results show that even when following a single constraint, instruction-following accuracy consistently decreases as the conversation grows longer, with drops exceeding 11%. This decline becomes larger when models have to follow multiple constraints simultaneously, reducing their accuracy by over 40%. In scenarios where constraints are added or replaced at arbitrary points of the conversation, model accuracy decreases by more than 9%. Taken together, our results reveal that current models still struggle to follow user instructions in multi-turn conversations, and provide a way for better measuring instruction-following capabilities in assistants.</p>`,
+  "streams": [
+  "evaluation-metrics",
+  "dialogue-context",
+  "resources"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2605.06353",
+  "code": "https://github.com/deep-spin/SEQUOR",
+  "bibtex": `@inproceedings{canaverde2026sequor,
+  title={SEQUOR: A Multi-Turn Benchmark for Realistic Constraint Following},
+  author={Beatriz Canaverde and Duarte M. Alves and José Pombal and Giuseppe Attanasio and André F. T. Martins},
+  booktitle={Third Conference on Language Modeling},
+  year={2026},
+  url={https://arxiv.org/abs/2605.06353}
+}`
+}
+},
+  {
+  "id": 159,
+  "title": "Self-Preference Bias in Rubric-Based Evaluation of Large Language Models",
+  "authors": "Jos\u00e9 Pombal, Ricardo Rei, Andr\u00e9 F. T. Martins",
+  "venue": "COLM",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>LLM-as-a-judge has become the de facto approach for evaluating LLM outputs. However, judges are known to exhibit self-preference bias (SPB): they tend to favor outputs produced by themselves or by models from their own family. This skews evaluations and, thus, hinders model development, especially in settings of recursive self-improvement. We present the first study of SPB in rubric-based evaluation, an increasingly popular benchmarking paradigm where judges issue binary verdicts on individual evaluation criteria, instead of assigning holistic scores or rankings. Using IFEval and LiveCodeBench, benchmarks with programmatically verifiable rubrics, we show that SPB persists even when evaluation criteria are entirely objective: among rubrics where generators fail, judges can be more than 50% more likely to incorrectly mark them as satisfied when the output is their own. We also find that, similarly to other evaluation paradigms, ensembling multiple judges helps mitigate SPB, but without fully eliminating it. On HealthBench, a medical chat benchmark with subjective rubrics, we observe that SPB skews model scores by up to 10 points, a potentially decisive margin when ranking frontier models. We analyze the factors that drive SPB in this setting, finding that negative rubrics and subjective topics like communication and emergency referrals are particularly susceptible.</p>`,
+  "streams": [
+  "evaluation-metrics",
+  "fairness"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2604.06996",
+  "bibtex": `@inproceedings{pombal2026selfpreference,
+  title={Self-Preference Bias in Rubric-Based Evaluation of Large Language Models},
+  author={José Pombal and Ricardo Rei and André F. T. Martins},
+  booktitle={Third Conference on Language Modeling},
+  year={2026},
+  url={https://arxiv.org/abs/2604.06996}
+}`
+}
+},
+  {
   "id": 158,
   "title": "EuroLLM-22B: Technical Report",
   "authors": "Miguel Moura Ramos, Duarte M. Alves, Hippolyte Gisserot-Boukhlef, Jo\u00e3o Alves, Pedro Henrique Martins, Patrick Fernandes, Jos\u00e9 Pombal, Nuno M. Guerreiro, Ricardo Rei, Nicolas Boizard, Amin Farajian, Mateusz Klimaszewski, Jos\u00e9 G. C. de Souza, Barry Haddow, Fran\u00e7ois Yvon, Pierre Colombo, Alexandra Birch, Andr\u00e9 F. T. Martins",
@@ -29,9 +239,9 @@ const publicationsData = [
   "id": 157,
   "title": "Sparse Attention as Compact Kernel Regression",
   "authors": "Saul Santos, Nuno Gon\u00e7alves, Daniel C. McNamee, Marcos Treviso, Andr\u00e9 F.T Martins",
-  "venue": "arXiv",
+  "venue": "NeurIPS",
   "year": 2026,
-  "type": "preprint",
+  "type": "conference",
   "abstract": `<p>Recent work has revealed a link between self-attention mechanisms in transformers and test-time kernel regression via the Nadaraya-Watson estimator, with standard softmax attention corresponding to a Gaussian kernel. However, a kernel-theoretic understanding of sparse attention mechanisms is currently missing. In this paper, we establish a formal correspondence between sparse attention and compact (bounded support) kernels. We show that normalized ReLU and sparsemax attention arise from Epanechnikov kernel regression under fixed and adaptive normalizations, respectively. More generally, we demonstrate that widely used kernels in nonparametric density estimation -- including Epanechnikov, biweight, and triweight -- correspond to α-entmax attention with α=1+1n for n∈ℕ, while the softmax/Gaussian relationship emerges in the limit n→∞. This unified perspective explains how sparsity naturally emerges from kernel design and provides principled alternatives to heuristic top-k attention and other associative memory mechanisms. Experiments with a kernel-regression-based variant of transformers -- Memory Mosaics -- show that kernel-based sparse attention achieves competitive performance on language modeling, in-context learning, and length generalization tasks, offering a principled framework for designing attention mechanisms.</p>`,
   "streams": [
   "attention",
@@ -41,11 +251,12 @@ const publicationsData = [
   "links": {
   "paper": "https://arxiv.org/abs/2601.22766",
   "code": "https://github.com/deep-spin/sparse_kernel_regression",
-  "bibtex": `@article{santos2026sparse,
+  "bibtex": `@inproceedings{santos2026sparse,
   title={Sparse Attention as Compact Kernel Regression},
-  author={Santos, Saul and Gon{\\c{c}}alves, Nuno and McNamee, Daniel C and Treviso, Marcos and Martins, Andr{\\'e} FT},
-  journal={arXiv preprint arXiv:2601.22766},
-  year={2026}
+  author={Saul Santos and Nuno Gonçalves and Daniel C. McNamee and Marcos Treviso and André F. T. Martins},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026},
+  url={https://arxiv.org/abs/2601.22766}
 }`
 }
 },
@@ -98,6 +309,31 @@ author={Pavlo Vasylenko and Hugo Pitorro and Andre Martins and Marcos Vinicius T
 booktitle={The Fourteenth International Conference on Learning Representations},
 year={2026},
 url={https://openreview.net/forum?id=PsB6Lynznk}
+}`
+}
+},
+  {
+  "id": 150,
+  "title": "TowerVision: Understanding and Improving Multilinguality in Vision-Language Models",
+  "authors": "Andr\u00e9 G. Viveiros, Patrick Fernandes, Saul Santos, Sonal Sannigrahi, Emmanouil Zaranis, Nuno M. Guerreiro, Amin Farajian, Pierre Colombo, Graham Neubig, Andr\u00e9 F. T. Martins",
+  "venue": "COLM",
+  "year": 2026,
+  "type": "conference",
+  "abstract": `<p>Despite significant advances in vision-language models (VLMs), most existing work follows an English-centric design process, limiting their effectiveness in multilingual settings. In this work, we provide a comprehensive empirical study analyzing the impact of several multilingual design choices, such as training data composition, encoder selection, and text backbones. The result is TowerVision, a family of open multilingual VLMs for both image-text and video-text tasks, built upon the multilingual text-only model Tower+. TowerVision achieves competitive performance on multiple multimodal multilingual benchmarks and shows particular strength in culturally grounded tasks and multimodal translation. By incorporating visual and cultural context during fine-tuning, our models surpass existing approaches trained on substantially larger datasets, as demonstrated on ALM-Bench and Multi30K (image tasks) and ViMUL-Bench (video tasks). Alongside the models, we release VisionBlocks, a high-quality, curated vision-language dataset. Our findings highlight that multilingual vision-language training data substantially improves cross-lingual generalization -- both from high-resource to underrepresented languages and vice versa -- and that instruction-tuned LLMs are not always the optimal initialization point. To support further research, we publicly release all models, data, and training recipes.</p>`,
+  "streams": [
+  "multimodal",
+  "multilingual-translation"
+],
+  "links": {
+  "paper": "https://arxiv.org/abs/2510.21849",
+  "code": "https://github.com/deep-spin/LLaVA-NeXT",
+  "demo": "https://guilhermeviveiros.github.io/TowerVision.io/",
+  "bibtex": `@inproceedings{viveiros2026towervision,
+  title={TowerVision: Understanding and Improving Multilinguality in Vision-Language Models},
+  author={André G. Viveiros and Patrick Fernandes and Saul Santos and Sonal Sannigrahi and Emmanouil Zaranis and Nuno M. Guerreiro and Amin Farajian and Pierre Colombo and Graham Neubig and André F. T. Martins},
+  booktitle={Third Conference on Language Modeling},
+  year={2026},
+  url={https://arxiv.org/abs/2510.21849}
 }`
 }
 },
@@ -215,33 +451,6 @@ url={https://openreview.net/forum?id=PsB6Lynznk}
   pages={1-12},
   keywords={Usability;Electroencephalography;Videos;User experience;Social networking (online);Electrodes;Recording;Affective computing;Physiology;Functional near-infrared spectroscopy;BVP;dataset;EEG;emotion recognition;facial recognition;multimodal data;usability evaluation;usability smells;user experience},
   doi={10.1109/TAFFC.2025.3632675}}`
-}
-},
-  {
-  "id": 150,
-  "title": "TowerVision: Understanding and Improving Multilinguality in Vision-Language Models",
-  "authors": "Andr\u00e9 G. Viveiros, Patrick Fernandes, Saul Santos, Sonal Sannigrahi, Emmanouil Zaranis, Nuno M. Guerreiro, Amin Farajian, Pierre Colombo, Graham Neubig, Andr\u00e9 F. T. Martins",
-  "venue": "arXiv",
-  "year": 2025,
-  "type": "preprint",
-  "abstract": `<p>Despite significant advances in vision-language models (VLMs), most existing work follows an English-centric design process, limiting their effectiveness in multilingual settings. In this work, we provide a comprehensive empirical study analyzing the impact of several multilingual design choices, such as training data composition, encoder selection, and text backbones. The result is TowerVision, a family of open multilingual VLMs for both image-text and video-text tasks, built upon the multilingual text-only model Tower+. TowerVision achieves competitive performance on multiple multimodal multilingual benchmarks and shows particular strength in culturally grounded tasks and multimodal translation. By incorporating visual and cultural context during fine-tuning, our models surpass existing approaches trained on substantially larger datasets, as demonstrated on ALM-Bench and Multi30K (image tasks) and ViMUL-Bench (video tasks). Alongside the models, we release VisionBlocks, a high-quality, curated vision-language dataset. Our findings highlight that multilingual vision-language training data substantially improves cross-lingual generalization -- both from high-resource to underrepresented languages and vice versa -- and that instruction-tuned LLMs are not always the optimal initialization point. To support further research, we publicly release all models, data, and training recipes.</p>`,
-  "streams": [
-  "multimodal",
-  "multilingual-translation"
-],
-  "links": {
-  "paper": "https://arxiv.org/abs/2510.21849",
-  "code": "https://github.com/deep-spin/LLaVA-NeXT",
-  "demo": "https://guilhermeviveiros.github.io/TowerVision.io/",
-  "bibtex": `@misc{viveiros2025towervisionunderstandingimprovingmultilinguality,
-      title={TowerVision: Understanding and Improving Multilinguality in Vision-Language Models}, 
-      author={André G. Viveiros and Patrick Fernandes and Saul Santos and Sonal Sannigrahi and Emmanouil Zaranis and Nuno M. Guerreiro and Amin Farajian and Pierre Colombo and Graham Neubig and André F. T. Martins},
-      year={2025},
-      eprint={2510.21849},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2510.21849}, 
-}`
 }
 },
   {

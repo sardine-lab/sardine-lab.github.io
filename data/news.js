@@ -3,6 +3,107 @@
 
 const newsData = [
   {
+  "date": "06/10/2026",
+  "type": "publication",
+  "title": "3 Papers at COLM 2026",
+  "content": `<p>If you're attending <strong>COLM 2026</strong> in San Francisco this week, come check out our work! 🐟</p>
+<ul>
+<li><a href="https://arxiv.org/abs/2605.06353">SEQUOR: A Multi-Turn Benchmark for Realistic Constraint Following</a> — Beatriz Canaverde, Duarte Alves, José Pombal, Giuseppe Attanasio, André Martins. 📍 Poster #95, Poster Session 4 · 📅 October 7, 4:30 PM</li>
+<li><a href="https://arxiv.org/abs/2510.21849">TowerVision: Understanding and Improving Multilinguality in Vision-Language Models</a> — Guilherme Viveiros, Patrick Fernandes, Saul Santos, Sonal Sannigrahi, Emmanouil Zaranis, Nuno Guerreiro, Amin Farajian, Graham Neubig, André Martins. 📍 Poster #25, Poster Session 5 · 📅 October 8, 11:00 AM</li>
+<li><a href="https://arxiv.org/abs/2604.06996">Self-Preference Bias in Rubric-Based Evaluation of Large Language Models</a> — José Pombal, Ricardo Rei, André Martins. 📍 Poster #39, Poster Session 5 · 📅 October 8, 11:00 AM</li>
+</ul>`,
+  "tags": [
+  "colm2026",
+  "publications",
+  "posters",
+  "research"
+]
+},
+  {
+  "date": "06/10/2026",
+  "type": "presentation",
+  "title": "Upcoming Talks: BRACIS 2026 Keynote and NVIDIA GTC Berlin",
+  "content": `<p>Two upcoming talks on our sparse attention work this month:</p>
+<ul>
+<li><strong>BRACIS 2026 keynote</strong>: <a href="http://mtreviso.github.io">Marcos Treviso</a> will give a keynote talk at <a href="https://bracis.sbc.org.br/2026/speakers/">BRACIS 2026</a>, the Brazilian Conference on Intelligent Systems, in Cuiabá, Brazil 🇧🇷, on October 20: <em>"Rethinking Long-Context Modeling with Efficient Sparse Attention"</em>.</li>
+<li><strong>NVIDIA GTC Berlin</strong> (October 20–22): check out our SARDINE × NVIDIA work on sparse attention and contextual efficiency, by Nuno Gonçalves and Marcos Treviso in collaboration with Marcelo Sanchez Ortega (NVIDIA), including the port of our <a href="https://github.com/deep-spin/adasplash">AdaSplash</a> kernels to cute-dsl and cuTile.</li>
+</ul>`,
+  "tags": [
+  "bracis",
+  "keynote",
+  "nvidia",
+  "gtc",
+  "sparse-attention",
+  "adasplash"
+]
+},
+  {
+  "date": "06/10/2026",
+  "type": "team",
+  "title": "We're Hiring: Post-doc, ELLIS PhD, and Research Engineer Positions at SARDINE Lab!",
+  "content": `<p>We have open positions for <strong>PhD students</strong> (including <a href="https://ellis.eu/phd-postdoc">ELLIS PhD</a> positions), <strong>postdoctoral researchers</strong>, and <strong>research engineers</strong> within the scope of the <a href="https://andre-martins.github.io/pages/decollage.html">ERC project DECOLLAGE</a> — <em>Deep Cognition Learning for Language Generation</em> — an <strong>ERC Consolidator Grant (2023–2028)</strong> running at the <strong><a href="https://sardine-lab.github.io">SARDINE Lab</a></strong> in Lisbon.</p>
+<p>Our research spans a wide range of topics, including:</p>
+<ul>
+<li>LLM contextualization and multimodal reasoning</li>
+<li>Uncertainty-aware world models</li>
+<li>Efficient long-context generalization for text and video</li>
+<li>Multilingual and multimodal LLM pre- and post-training</li>
+<li>Associative memories and sparse continuous representations</li>
+<li>New paradigms for automatic evaluation</li>
+</ul>
+<p>We have <strong>access to large-scale compute resources</strong>, including a <strong>2M GPU-hour grant</strong> on the <em>Jupiter exascale supercomputer</em>.</p>
+<p>Our team has contributed to the training and post-training of leading language models such as <a href="https://arxiv.org/abs/2402.17733">Tower</a> and <a href="https://eurollm.io/">EuroLLM</a>.</p>
+<p>Learn more about the <a href="https://sardine-lab.github.io">SARDINE Lab</a> and explore our <a href="https://sardine-lab.github.io/publications.html">recent publications</a>.</p>
+<p><strong>Interested?</strong>
+Contact us via e-mail! The specific roles within the project will be tailored to each member's research interests and background.</p>`,
+  "tags": [
+  "team",
+  "post-doc",
+  "phd",
+  "open-position"
+]
+},
+  {
+  "date": "25/09/2026",
+  "type": "publication",
+  "title": "6 Papers Accepted at NeurIPS 2026 (+ 2 Workshop Papers)",
+  "content": `<p>We got <strong>6 papers accepted at the NeurIPS 2026 main conference</strong>, plus <strong>2 workshop papers</strong>! 🚀 Congrats to everyone involved, and see you in Paris! 🇫🇷</p>
+<p><strong>Main Track</strong></p>
+<ul>
+<li><a href="https://arxiv.org/abs/2601.22766">Sparse Attention as Compact Kernel Regression</a> — Saul Santos, Nuno Gonçalves, Daniel McNamee, Marcos Treviso, André Martins</li>
+<li><a href="https://arxiv.org/abs/2605.18445">What's Holding Back Latent Visual Reasoning?</a> — Guilherme Viveiros, Nuno Gonçalves, André Martins, Matthias Lindemann</li>
+<li><a href="https://arxiv.org/abs/2605.18753">DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention</a> — Yuxiang Huang, Nuno Gonçalves, Federico Alvetreti, Lei Li, Xu Han, Edoardo Ponti, André Martins, Marcos Treviso</li>
+<li>The Bayesian Learning Rule Beyond KL Geometry — Sophia Sklaviadis, Wu Lin, André Martins, Mário Figueiredo, Thomas Möllenhoff, Mohammad Emtiyaz Khan</li>
+<li><a href="https://arxiv.org/abs/2605.08837">The Grounding Gap: How LLMs Anchor the Meaning of Abstract Concepts Differently from Humans</a> — Odysseas Chlapanis, Orfeas Menis Mastromichalakis, Christos Papadimitriou</li>
+</ul>
+<p><strong>Evaluations &amp; Datasets Track</strong></p>
+<ul>
+<li><a href="https://arxiv.org/abs/2609.04298">Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation</a> — Lin Shi et al.</li>
+</ul>
+<p><strong>Workshops</strong></p>
+<ul>
+<li><a href="https://arxiv.org/abs/2605.21649">EntmaxKV: Support-Aware Decoding for Entmax Attention</a> — Gonçalo Duarte, Miguel Couceiro, Marcos Treviso (Workshop on Long-Context Foundation Models)</li>
+<li><a href="https://arxiv.org/abs/2610.04518">Length Generalization Needs Proper Regularization</a> — Pavlo Vasylenko, Matthias Lindemann, André Martins, Marcos Treviso (Workshop on Principles of Generative Modeling, PriGM)</li>
+</ul>`,
+  "tags": [
+  "neurips2026",
+  "publications",
+  "research"
+]
+},
+  {
+  "date": "27/07/2026",
+  "type": "event",
+  "title": "ELLIS Doctoral Symposium 2026 in Lisbon",
+  "content": `<p>The <a href="https://ellis.eu/events/ellis-doctoral-symposium-2026">ELLIS Doctoral Symposium (EDS) 2026</a> took place in Lisbon 🇵🇹 on July 27–30, hosted by ELLIS Unit Lisbon at Instituto Superior Técnico under the theme <em>Trustworthy AI</em>. More than 100 ELLIS PhD students gathered for four days of research talks, industry panels, poster sessions, and networking. Congrats to Ana Saraiva Ayash (Coordinator) and Mário Figueiredo (Director) of ELLIS Unit Lisbon for organising an exceptional event, and to all the volunteers who made it run smoothly!</p>`,
+  "tags": [
+  "ellis",
+  "doctoral-symposium",
+  "lisbon",
+  "event"
+]
+},
+  {
   "date": "02/03/2026",
   "type": "award",
   "title": "Margot Herin awarded the Gilles Kahn Prize",
@@ -39,32 +140,6 @@ const newsData = [
   "open-source",
   "long-context",
   "research"
-]
-},
-  {
-  "date": "12/10/2025",
-  "type": "team",
-  "title": "We're Hiring: Post-doc, PhD, and Research Engineer Positions at SARDINE Lab!",
-  "content": `<p>We have open positions for <strong>PhD students</strong>, <strong>postdoctoral researchers</strong>, and <strong>research engineers</strong> within the scope of the <a href="https://andre-martins.github.io/pages/decollage.html">ERC project DECOLLAGE</a> — <em>Deep Cognition Learning for Language Generation</em> — an <strong>ERC Consolidator Grant (2023–2028)</strong> running at the <strong><a href="https://sardine-lab.github.io">SARDINE Lab</a></strong> in Lisbon.</p>
-<p>Our research spans a wide range of topics, including:</p>
-<ul>
-<li>LLM contextualization and multimodal reasoning</li>
-<li>Uncertainty-aware world models</li>
-<li>Efficient long-context generalization for text and video</li>
-<li>Multilingual and multimodal LLM pre- and post-training</li>
-<li>Associative memories and sparse continuous representations</li>
-<li>New paradigms for automatic evaluation</li>
-</ul>
-<p>We have <strong>access to large-scale compute resources</strong>, including a <strong>2M GPU-hour grant</strong> on the <em>Jupiter exascale supercomputer</em>.</p>
-<p>Our team has contributed to the training and post-training of leading language models such as <a href="https://arxiv.org/abs/2402.17733">Tower</a> and <a href="https://eurollm.io/">EuroLLM</a>.</p>
-<p>Learn more about the <a href="https://sardine-lab.github.io">SARDINE Lab</a> and explore our <a href="https://sardine-lab.github.io/publications.html">recent publications</a>.</p>
-<p><strong>Interested?</strong>
-Contact us via e-mail! The specific roles within the project will be tailored to each member's research interests and background.</p>`,
-  "tags": [
-  "team",
-  "post-doc",
-  "phd",
-  "open-position"
 ]
 },
   {
