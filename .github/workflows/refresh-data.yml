@@ -9,10 +9,21 @@ on:
       sheet_id:
         description: 'Google Sheet ID (optional; falls back to secret)'
         required: false
+      force:
+        description: 'Publish even if data/*.js has edits the sheet lacks (they are overwritten)'
+        required: false
+        default: 'false'
+
+# One sheet <-> GitHub job at a time (shared with sheet-sync.yml)
+concurrency:
+  group: sheet-sync
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      SHEET_ID: ${{ inputs.sheet_id || secrets.SHEET_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -31,19 +42,24 @@ jobs:
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
 
+      # Stops here if data/*.js was edited in code and the sheet does not have those edits yet.
+      - name: Check the sheet is not behind GitHub
+        if: ${{ inputs.force != 'true' }}
+        run: |
+          cd python
+          python sheet_sync.py status --guard-publish --badge
+
       - name: Run updater
-        env:
-          SHEET_ID: ${{ inputs.sheet_id || secrets.SHEET_ID }}
         run: |
           cd python
           python data_update.py --sheet "${SHEET_ID}"
-          
+          python sheet_sync.py published
 
       - name: Commit updated data files
         run: |
           git config user.name "sheet-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/*.js
+          git add data/*.js python/sync_state.json
           git diff --cached --quiet || git commit -m "${{ inputs.commit_message || 'chore(data): refresh from Google Sheets' }}"
           git push
 
@@ -61,3 +77,9 @@ jobs:
             echo "Failed to request Pages build (HTTP $code)"; exit 1
           fi
           echo "Requested Pages rebuild (201 Created)."
+
+      - name: Update the sync badge in the sheet
+        if: ${{ success() }}
+        run: |
+          cd python
+          python sheet_sync.py status --badge

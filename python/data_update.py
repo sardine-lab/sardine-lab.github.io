@@ -391,35 +391,34 @@ def inject_literal(path: str, var_name: str, literal: str):
 # =====
 # Main
 # =====
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--sheet", required=True, help="Google Sheet ID")
-    ap.add_argument("--sa", help="Path to service_account.json (optional if env set)")
-    args = ap.parse_args()
+def build_data(read_rows) -> Dict[str, Any]:
+    """Map sheet rows to the objects written to data/*.js, keyed like CONFIG.
+
+    read_rows(worksheet_name) returns that tab's rows as dicts (header -> value).
+    """
+    data: Dict[str, Any] = {}
 
     # Publications (array) — convert abstract to HTML, emit with backticks
-    rows = read_sheet(args.sheet, CONFIG["publications"]["worksheet"], args.sa)
+    rows = read_rows(CONFIG["publications"]["worksheet"])
     pubs = [x for x in (map_publication_row(r) for r in rows) if x]
     for p in pubs:
         if "abstract" in p:
             p["abstract"] = as_html(p["abstract"])
     pubs.sort(key=lambda d: (d.get("year") or 0, d.get("id") or 0), reverse=True)
-    inject_literal(CONFIG["publications"]["file_path"], CONFIG["publications"]["var_name"],
-                   js_dump(pubs, indent=2))
+    data["publications"] = pubs
 
     # News (array) — convert content to HTML, keep original date string for display
-    rows = read_sheet(args.sheet, CONFIG["news"]["worksheet"], args.sa)
+    rows = read_rows(CONFIG["news"]["worksheet"])
     news = [x for x in (map_news_row(r) for r in rows) if x]
     for n in news:
         if "content" in n:
             n["content"] = as_html(n["content"])
     news.sort(key=lambda d: d.get("_sort_key",""), reverse=True)
     for n in news: n.pop("_sort_key", None)
-    inject_literal(CONFIG["news"]["file_path"], CONFIG["news"]["var_name"],
-                   js_dump(news, indent=2))
+    data["news"] = news
 
     # Projects (grouped object) — convert description to HTML, group by status
-    rows = read_sheet(args.sheet, CONFIG["projects"]["worksheet"], args.sa)
+    rows = read_rows(CONFIG["projects"]["worksheet"])
     projs = [x for x in (map_project_row(r) for r in rows) if x]
     for p in projs:
         if "description" in p:
@@ -431,11 +430,10 @@ def main():
         bucket = "current" if status == "current" else "past"  # treat 'completed' as past
         grouped[bucket].append(p)
 
-    inject_literal(CONFIG["projects"]["file_path"], CONFIG["projects"]["var_name"],
-                   js_dump(grouped, indent=2))
+    data["projects"] = grouped
 
     # Team (grouped object)
-    rows = read_sheet(args.sheet, CONFIG["team"]["worksheet"], args.sa)
+    rows = read_rows(CONFIG["team"]["worksheet"])
     grouped_team: Dict[str, List[Dict[str, Any]]] = {}
     for m in (map_team_row(r) for r in rows):
         if not m: continue
@@ -443,28 +441,37 @@ def main():
         grouped_team.setdefault(key, []).append(member)
     for k in list(grouped_team.keys()):
         grouped_team[k] = sorted(grouped_team[k], key=lambda m: m.get("name",""))
-    inject_literal(CONFIG["team"]["file_path"], CONFIG["team"]["var_name"],
-                   js_dump(grouped_team, indent=2))
+    data["team"] = grouped_team
 
     # Streams (object keyed by keyword)
-    rows = read_sheet(args.sheet, CONFIG["streams"]["worksheet"], args.sa)
+    rows = read_rows(CONFIG["streams"]["worksheet"])
     streams: Dict[str, Dict[str, Any]] = {}
     for m in (map_stream_row(r) for r in rows):
         if not m: continue
         key, obj = m
         streams[key] = obj
-    inject_literal(CONFIG["streams"]["file_path"], CONFIG["streams"]["var_name"],
-                   js_dump(streams, indent=2))
+    data["streams"] = streams
 
     # Group Photos (array) — newest year first
-    rows = read_sheet(args.sheet, CONFIG["photos"]["worksheet"], args.sa)
+    rows = read_rows(CONFIG["photos"]["worksheet"])
     photos = [x for x in (map_photo_row(r) for r in rows) if x]
     def year_key(p):
         try: return int(p.get("year") or 0)
         except: return 0
     photos.sort(key=year_key, reverse=True)
-    inject_literal(CONFIG["photos"]["file_path"], CONFIG["photos"]["var_name"],
-                   js_dump(photos, indent=2))
+    data["photos"] = photos
+
+    return data
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--sheet", required=True, help="Google Sheet ID")
+    ap.add_argument("--sa", help="Path to service_account.json (optional if env set)")
+    args = ap.parse_args()
+
+    data = build_data(lambda worksheet: read_sheet(args.sheet, worksheet, args.sa))
+    for key, value in data.items():
+        inject_literal(CONFIG[key]["file_path"], CONFIG[key]["var_name"], js_dump(value, indent=2))
 
 if __name__ == "__main__":
     main()
